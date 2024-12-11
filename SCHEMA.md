@@ -1,1 +1,2 @@
-# Schema\n\n(This file will detail nodes, edges, and attributes later.)
+#Description
+This schema will describe a graph database which aims to capture the relationships between different entities in the semi-conductor industry.
