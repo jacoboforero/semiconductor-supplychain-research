@@ -1,0 +1,16 @@
+# Ignore virtual environment
+venv/
+
+# Ignore generated files
+main.cypher
+
+# Ignore datasets (if applicable)
+Companies/
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
