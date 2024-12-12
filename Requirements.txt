@@ -1,0 +1,5 @@
+pandas>=1.4.0       # For data cleaning and manipulation
+requests>=2.26.0    # For fetching data from APIs if needed
+py2neo>=4.3.0       # For interacting with Neo4j from Python
+fuzzywuzzy>=0.18.0  # Optional: For entity resolution and cleaning (remove if not needed)
+
