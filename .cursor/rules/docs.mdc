@@ -1,0 +1,10 @@
+---
+description: Guidance for editing research, product, and architecture docs
+globs: "docs/**/*.md,README.md,deep-research-report-*.md"
+alwaysApply: false
+---
+
+- Keep planning documents crisp and decision-oriented.
+- Preserve the distinction between product docs, architecture docs, source strategy docs, and execution plans.
+- Link to the canonical file instead of repeating the same decision in multiple places.
+- If a document changes repo structure or workflow expectations, update `docs/REPO_STRUCTURE_PLAN.md` or `docs/README.md`.

@@ -1,0 +1,21 @@
+{
+  "data": [
+    {
+      "epa_frs_id": "110000000001",
+      "epa_echo_id": "VA0001234567",
+      "facility_name": "Manassas Fab",
+      "facility_type_code": "FAC.FAB",
+      "facility_status": "operating",
+      "operator_name": "Micron Technology, Inc.",
+      "operator_registry_number": "EPA-OP-0001",
+      "country_code": "US",
+      "address_line_1": "9600 Godwin Drive",
+      "city": "Manassas",
+      "state_code": "VA",
+      "jurisdiction_code": "US-VA",
+      "latitude": 38.7598,
+      "longitude": -77.4753,
+      "stage_codes": ["STAGE.WAFER_FAB"]
+    }
+  ]
+}

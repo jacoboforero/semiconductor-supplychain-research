@@ -1,0 +1,118 @@
+{
+  "data": [
+    {
+      "lei": "HWUPKR0MPOU8FGXBT394",
+      "entity": {
+        "legalName": {
+          "name": "Apple Inc."
+        },
+        "legalAddress": {
+          "country": "US"
+        },
+        "otherEntityNames": [
+          {
+            "name": "Apple Computer, Inc."
+          }
+        ]
+      },
+      "registration": {
+        "initialRegistrationDate": "2011-09-20T00:00:00Z"
+      }
+    },
+    {
+      "lei": "3538009TQWQZ8X9YGD68",
+      "entity": {
+        "legalName": {
+          "name": "Taiwan Semiconductor Manufacturing Company Limited"
+        },
+        "legalAddress": {
+          "country": "TW"
+        },
+        "otherEntityNames": [
+          {
+            "name": "TSMC"
+          }
+        ]
+      },
+      "registration": {
+        "initialRegistrationDate": "2014-03-15T00:00:00Z"
+      }
+    },
+    {
+      "lei": "213800HKJZJ5QX74WZ16",
+      "entity": {
+        "legalName": {
+          "name": "ASE Technology Holding Co., Ltd."
+        },
+        "legalAddress": {
+          "country": "TW"
+        },
+        "otherEntityNames": [
+          {
+            "name": "ASE"
+          }
+        ]
+      },
+      "registration": {
+        "initialRegistrationDate": "2018-04-30T00:00:00Z"
+      }
+    },
+    {
+      "lei": "7245008Q0FM3TIREYU19",
+      "entity": {
+        "legalName": {
+          "name": "ASML Holding N.V."
+        },
+        "legalAddress": {
+          "country": "NL"
+        },
+        "otherEntityNames": [
+          {
+            "name": "ASML"
+          }
+        ]
+      },
+      "registration": {
+        "initialRegistrationDate": "2012-06-12T00:00:00Z"
+      }
+    },
+    {
+      "lei": "549300K1Y6TU5JQFX123",
+      "entity": {
+        "legalName": {
+          "name": "Shin-Etsu Chemical Co., Ltd."
+        },
+        "legalAddress": {
+          "country": "JP"
+        },
+        "otherEntityNames": [
+          {
+            "name": "Shin-Etsu Chemical"
+          }
+        ]
+      },
+      "registration": {
+        "initialRegistrationDate": "2013-11-01T00:00:00Z"
+      }
+    },
+    {
+      "lei": "5299002U5Y4KQXK6AB46",
+      "entity": {
+        "legalName": {
+          "name": "GlobalWafers Co., Ltd."
+        },
+        "legalAddress": {
+          "country": "TW"
+        },
+        "otherEntityNames": [
+          {
+            "name": "GlobalWafers"
+          }
+        ]
+      },
+      "registration": {
+        "initialRegistrationDate": "2015-09-09T00:00:00Z"
+      }
+    }
+  ]
+}

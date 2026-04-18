@@ -1,0 +1,19 @@
+version: p0
+status: active
+contracts:
+  - id: company
+    status: implemented
+  - id: facility
+    status: planned
+  - id: evidence
+    status: implemented
+  - id: observation
+    status: implemented
+  - id: claim
+    status: implemented
+  - id: company_crosswalk
+    status: implemented
+  - id: run_manifest
+    status: implemented
+  - id: graph_projection_manifest
+    status: implemented

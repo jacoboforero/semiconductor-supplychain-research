@@ -1,0 +1,16 @@
+.git/
+venv/
+node_modules/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+artifacts/
+data/raw/
+data/normalized/
+data/graph/
+build/
+dist/
+coverage/
+tmp/
+temp/

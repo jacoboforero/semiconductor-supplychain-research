@@ -1,0 +1,490 @@
+{
+  "contract_version": "v1",
+  "created_at": "2026-04-17",
+  "bucket_defaults": {
+    "eda_ip": {
+      "role_codes": [
+        "ROLE.IP_VENDOR"
+      ],
+      "segment_codes": [
+        "SEG.DESIGN_SOFTWARE"
+      ]
+    },
+    "fabless": {
+      "role_codes": [
+        "ROLE.FABLESS"
+      ],
+      "segment_codes": [
+        "SEG.DESIGN_SOFTWARE"
+      ]
+    },
+    "idm": {
+      "role_codes": [
+        "ROLE.IDM"
+      ],
+      "segment_codes": [
+        "SEG.FRONTEND_MANUFACTURING"
+      ]
+    },
+    "foundry": {
+      "role_codes": [
+        "ROLE.FOUNDRY"
+      ],
+      "segment_codes": [
+        "SEG.FRONTEND_MANUFACTURING"
+      ]
+    },
+    "osat_packaging": {
+      "role_codes": [
+        "ROLE.OSAT",
+        "ROLE.PACKAGING_SPECIALIST",
+        "ROLE.TEST_SERVICE"
+      ],
+      "segment_codes": [
+        "SEG.BACKEND_MANUFACTURING"
+      ]
+    },
+    "equipment": {
+      "role_codes": [
+        "ROLE.EQUIPMENT_SUPPLIER"
+      ],
+      "segment_codes": [
+        "SEG.MANUFACTURING_EQUIPMENT"
+      ]
+    },
+    "materials_wafers_chemicals_gases": {
+      "role_codes": [
+        "ROLE.CHEMICALS_SUPPLIER"
+      ],
+      "segment_codes": [
+        "SEG.MATERIALS"
+      ]
+    },
+    "test_metrology_photomask_substrate": {
+      "role_codes": [
+        "ROLE.EQUIPMENT_SUPPLIER"
+      ],
+      "segment_codes": [
+        "SEG.MANUFACTURING_EQUIPMENT"
+      ]
+    }
+  },
+  "company_overrides": [
+    {
+      "company_slug": "synopsys",
+      "role_codes": [
+        "ROLE.EDA_VENDOR"
+      ],
+      "match_names": [
+        "Synopsys, Inc."
+      ]
+    },
+    {
+      "company_slug": "cadence-design-systems",
+      "role_codes": [
+        "ROLE.EDA_VENDOR"
+      ],
+      "match_names": [
+        "Cadence Design Systems, Inc.",
+        "Cadence"
+      ]
+    },
+    {
+      "company_slug": "siemens-eda",
+      "role_codes": [
+        "ROLE.EDA_VENDOR"
+      ],
+      "match_names": [
+        "Mentor Graphics Corporation",
+        "Mentor Graphics"
+      ]
+    },
+    {
+      "company_slug": "empyrean-technology",
+      "role_codes": [
+        "ROLE.EDA_VENDOR"
+      ]
+    },
+    {
+      "company_slug": "silvaco-group",
+      "role_codes": [
+        "ROLE.EDA_VENDOR"
+      ]
+    },
+    {
+      "company_slug": "arm-holdings",
+      "match_names": [
+        "Arm Holdings plc",
+        "Arm Limited",
+        "ARM"
+      ],
+      "chip_codes": [
+        "CHIP.LOGIC"
+      ]
+    },
+    {
+      "company_slug": "apple",
+      "match_names": [
+        "Apple Inc.",
+        "APPLE, INC.",
+        "Apple Computer, Inc."
+      ],
+      "chip_codes": [
+        "CHIP.LOGIC"
+      ]
+    },
+    {
+      "company_slug": "micron-technology",
+      "match_names": [
+        "Micron Technology, Inc."
+      ]
+    },
+    {
+      "company_slug": "samsung-electronics",
+      "match_names": [
+        "Samsung Electronics Co., Ltd."
+      ],
+      "role_codes": [
+        "ROLE.IDM",
+        "ROLE.MEMORY_MANUFACTURER"
+      ],
+      "chip_codes": [
+        "CHIP.LOGIC",
+        "CHIP.MEMORY"
+      ]
+    },
+    {
+      "company_slug": "sk-hynix",
+      "match_names": [
+        "SK hynix Inc.",
+        "SK Hynix"
+      ],
+      "role_codes": [
+        "ROLE.IDM",
+        "ROLE.MEMORY_MANUFACTURER"
+      ],
+      "chip_codes": [
+        "CHIP.MEMORY"
+      ]
+    },
+    {
+      "company_slug": "taiwan-semiconductor-manufacturing-company",
+      "match_names": [
+        "Taiwan Semiconductor Manufacturing Company Limited",
+        "TSMC"
+      ],
+      "chip_codes": [
+        "CHIP.LOGIC",
+        "CHIP.OTHER"
+      ]
+    },
+    {
+      "company_slug": "ase-technology-holding",
+      "match_names": [
+        "ASE Technology Holding Co., Ltd.",
+        "ASE"
+      ]
+    },
+    {
+      "company_slug": "amkor-technology",
+      "match_names": [
+        "Amkor Technology, Inc."
+      ]
+    },
+    {
+      "company_slug": "asml",
+      "match_names": [
+        "ASML Holding N.V."
+      ]
+    },
+    {
+      "company_slug": "applied-materials",
+      "match_names": [
+        "Applied Materials, Inc."
+      ]
+    },
+    {
+      "company_slug": "lam-research",
+      "match_names": [
+        "Lam Research Corporation"
+      ]
+    },
+    {
+      "company_slug": "tokyo-electron",
+      "match_names": [
+        "Tokyo Electron Limited"
+      ]
+    },
+    {
+      "company_slug": "shin-etsu-chemical",
+      "match_names": [
+        "Shin-Etsu Chemical Co., Ltd."
+      ],
+      "role_codes": [
+        "ROLE.WAFER_MANUFACTURER"
+      ],
+      "segment_codes": [
+        "SEG.WAFERS_SUBSTRATES"
+      ]
+    },
+    {
+      "company_slug": "sumco",
+      "match_names": [
+        "SUMCO Corporation"
+      ],
+      "role_codes": [
+        "ROLE.WAFER_MANUFACTURER"
+      ],
+      "segment_codes": [
+        "SEG.WAFERS_SUBSTRATES"
+      ]
+    },
+    {
+      "company_slug": "globalwafers",
+      "match_names": [
+        "GlobalWafers Co., Ltd."
+      ],
+      "role_codes": [
+        "ROLE.WAFER_MANUFACTURER"
+      ],
+      "segment_codes": [
+        "SEG.WAFERS_SUBSTRATES"
+      ]
+    },
+    {
+      "company_slug": "siltronic",
+      "role_codes": [
+        "ROLE.WAFER_MANUFACTURER"
+      ],
+      "segment_codes": [
+        "SEG.WAFERS_SUBSTRATES"
+      ]
+    },
+    {
+      "company_slug": "soitec",
+      "role_codes": [
+        "ROLE.WAFER_MANUFACTURER"
+      ],
+      "segment_codes": [
+        "SEG.WAFERS_SUBSTRATES"
+      ]
+    },
+    {
+      "company_slug": "sk-siltron",
+      "role_codes": [
+        "ROLE.WAFER_MANUFACTURER"
+      ],
+      "segment_codes": [
+        "SEG.WAFERS_SUBSTRATES"
+      ]
+    },
+    {
+      "company_slug": "wafer-works",
+      "role_codes": [
+        "ROLE.WAFER_MANUFACTURER"
+      ],
+      "segment_codes": [
+        "SEG.WAFERS_SUBSTRATES"
+      ]
+    },
+    {
+      "company_slug": "air-liquide",
+      "role_codes": [
+        "ROLE.SPECIALTY_GASES_SUPPLIER"
+      ],
+      "segment_codes": [
+        "SEG.MATERIALS"
+      ]
+    },
+    {
+      "company_slug": "linde",
+      "role_codes": [
+        "ROLE.SPECIALTY_GASES_SUPPLIER"
+      ],
+      "segment_codes": [
+        "SEG.MATERIALS"
+      ]
+    },
+    {
+      "company_slug": "taiyo-nippon-sanso",
+      "role_codes": [
+        "ROLE.SPECIALTY_GASES_SUPPLIER"
+      ],
+      "segment_codes": [
+        "SEG.MATERIALS"
+      ]
+    },
+    {
+      "company_slug": "sk-materials",
+      "role_codes": [
+        "ROLE.CHEMICALS_SUPPLIER",
+        "ROLE.SPECIALTY_GASES_SUPPLIER"
+      ],
+      "segment_codes": [
+        "SEG.MATERIALS"
+      ]
+    },
+    {
+      "company_slug": "air-products-and-chemicals",
+      "role_codes": [
+        "ROLE.SPECIALTY_GASES_SUPPLIER"
+      ],
+      "segment_codes": [
+        "SEG.MATERIALS"
+      ]
+    },
+    {
+      "company_slug": "toppan",
+      "role_codes": [
+        "ROLE.PHOTOMASK_SUPPLIER"
+      ],
+      "segment_codes": [
+        "SEG.MASKS_RETICLES"
+      ]
+    },
+    {
+      "company_slug": "dai-nippon-printing",
+      "role_codes": [
+        "ROLE.PHOTOMASK_SUPPLIER"
+      ],
+      "segment_codes": [
+        "SEG.MASKS_RETICLES"
+      ]
+    },
+    {
+      "company_slug": "hoya",
+      "role_codes": [
+        "ROLE.PHOTOMASK_SUPPLIER"
+      ],
+      "segment_codes": [
+        "SEG.MASKS_RETICLES"
+      ]
+    },
+    {
+      "company_slug": "photronics",
+      "role_codes": [
+        "ROLE.PHOTOMASK_SUPPLIER"
+      ],
+      "segment_codes": [
+        "SEG.MASKS_RETICLES"
+      ]
+    },
+    {
+      "company_slug": "taiwan-mask-corporation",
+      "role_codes": [
+        "ROLE.PHOTOMASK_SUPPLIER"
+      ],
+      "segment_codes": [
+        "SEG.MASKS_RETICLES"
+      ]
+    },
+    {
+      "company_slug": "sk-electronics",
+      "role_codes": [
+        "ROLE.PHOTOMASK_SUPPLIER"
+      ],
+      "segment_codes": [
+        "SEG.MASKS_RETICLES"
+      ]
+    },
+    {
+      "company_slug": "ibiden",
+      "role_codes": [
+        "ROLE.SUBSTRATE_MANUFACTURER"
+      ],
+      "segment_codes": [
+        "SEG.WAFERS_SUBSTRATES"
+      ]
+    },
+    {
+      "company_slug": "shinko-electric-industries",
+      "role_codes": [
+        "ROLE.SUBSTRATE_MANUFACTURER"
+      ],
+      "segment_codes": [
+        "SEG.WAFERS_SUBSTRATES"
+      ]
+    },
+    {
+      "company_slug": "unimicron-technology",
+      "role_codes": [
+        "ROLE.SUBSTRATE_MANUFACTURER"
+      ],
+      "segment_codes": [
+        "SEG.WAFERS_SUBSTRATES"
+      ]
+    },
+    {
+      "company_slug": "nan-ya-printed-circuit-board",
+      "role_codes": [
+        "ROLE.SUBSTRATE_MANUFACTURER"
+      ],
+      "segment_codes": [
+        "SEG.WAFERS_SUBSTRATES"
+      ]
+    },
+    {
+      "company_slug": "kinsus-interconnect-technology",
+      "role_codes": [
+        "ROLE.SUBSTRATE_MANUFACTURER"
+      ],
+      "segment_codes": [
+        "SEG.WAFERS_SUBSTRATES"
+      ]
+    },
+    {
+      "company_slug": "at-and-s",
+      "role_codes": [
+        "ROLE.SUBSTRATE_MANUFACTURER"
+      ],
+      "segment_codes": [
+        "SEG.WAFERS_SUBSTRATES"
+      ]
+    },
+    {
+      "company_slug": "ttm-technologies",
+      "role_codes": [
+        "ROLE.SUBSTRATE_MANUFACTURER"
+      ],
+      "segment_codes": [
+        "SEG.WAFERS_SUBSTRATES"
+      ]
+    },
+    {
+      "company_slug": "compeq-manufacturing",
+      "role_codes": [
+        "ROLE.SUBSTRATE_MANUFACTURER"
+      ],
+      "segment_codes": [
+        "SEG.WAFERS_SUBSTRATES"
+      ]
+    },
+    {
+      "company_slug": "simmtech",
+      "role_codes": [
+        "ROLE.SUBSTRATE_MANUFACTURER"
+      ],
+      "segment_codes": [
+        "SEG.WAFERS_SUBSTRATES"
+      ]
+    },
+    {
+      "company_slug": "daeduck-electronics",
+      "role_codes": [
+        "ROLE.SUBSTRATE_MANUFACTURER"
+      ],
+      "segment_codes": [
+        "SEG.WAFERS_SUBSTRATES"
+      ]
+    },
+    {
+      "company_slug": "samsung-electro-mechanics",
+      "role_codes": [
+        "ROLE.SUBSTRATE_MANUFACTURER"
+      ],
+      "segment_codes": [
+        "SEG.WAFERS_SUBSTRATES"
+      ]
+    }
+  ]
+}

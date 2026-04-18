@@ -1,0 +1,11 @@
+---
+description: Repo-wide guidance for this documentation-first semiconductor supply chain project
+alwaysApply: true
+---
+
+- Treat `docs/` as the planning system of record and keep `AGENTS.md` short.
+- Do not create new top-level directories unless they are defined in `docs/REPO_STRUCTURE_PLAN.md` or explicitly approved.
+- Preserve the split between the durable data pipeline foundation and the replaceable prototype UI.
+- Prefer small, composable changes and update nearby docs when structure or workflow changes.
+- Keep large raw data, caches, local databases, and rebuildable artifacts out of git and out of agent context by default.
+- Reference canonical files instead of duplicating long instructions in rules or prompts.

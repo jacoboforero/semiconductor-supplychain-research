@@ -1,16 +1,24 @@
-# Ignore virtual environment
 venv/
-
-# Ignore generated files
-main.cypher
-
-# Ignore datasets (if applicable)
-Companies/
-
-# Ignore Jupyter notebook checkpoints
+.venv/
 .ipynb_checkpoints/
-
-# Ignore system files
+__pycache__/
+*.pyc
+.env
 .DS_Store
 Thumbs.db
-
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.idea/
+node_modules/
+build/
+dist/
+coverage/
+tmp/
+temp/
+artifacts/
+data/raw/
+data/normalized/
+data/graph/
+*.sqlite
+*.sqlite3

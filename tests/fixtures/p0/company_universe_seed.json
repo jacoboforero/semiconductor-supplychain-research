@@ -1,0 +1,1451 @@
+{
+  "contract_version": "v1",
+  "created_at": "2026-04-17",
+  "source_key": "curated_seed",
+  "data": [
+    {
+      "company_slug": "synopsys",
+      "name": "Synopsys, Inc.",
+      "country_code": "US",
+      "primary_bucket": "eda_ip",
+      "aliases": [
+        "Synopsys"
+      ]
+    },
+    {
+      "company_slug": "cadence-design-systems",
+      "name": "Cadence Design Systems, Inc.",
+      "country_code": "US",
+      "primary_bucket": "eda_ip",
+      "aliases": [
+        "Cadence Design Systems",
+        "Cadence"
+      ]
+    },
+    {
+      "company_slug": "siemens-eda",
+      "name": "Mentor Graphics Corporation",
+      "country_code": "US",
+      "primary_bucket": "eda_ip",
+      "aliases": [
+        "Siemens EDA",
+        "Mentor Graphics"
+      ]
+    },
+    {
+      "company_slug": "arm-holdings",
+      "name": "Arm Holdings plc",
+      "country_code": "GB",
+      "primary_bucket": "eda_ip",
+      "aliases": [
+        "Arm Holdings",
+        "Arm Limited",
+        "ARM"
+      ]
+    },
+    {
+      "company_slug": "rambus",
+      "name": "Rambus",
+      "country_code": "US",
+      "primary_bucket": "eda_ip",
+      "aliases": []
+    },
+    {
+      "company_slug": "ceva",
+      "name": "CEVA",
+      "country_code": "US",
+      "primary_bucket": "eda_ip",
+      "aliases": []
+    },
+    {
+      "company_slug": "imagination-technologies",
+      "name": "Imagination Technologies",
+      "country_code": "GB",
+      "primary_bucket": "eda_ip",
+      "aliases": []
+    },
+    {
+      "company_slug": "alphawave-ip-group",
+      "name": "Alphawave IP Group",
+      "country_code": "GB",
+      "primary_bucket": "eda_ip",
+      "aliases": []
+    },
+    {
+      "company_slug": "verisilicon",
+      "name": "VeriSilicon",
+      "country_code": "CN",
+      "primary_bucket": "eda_ip",
+      "aliases": []
+    },
+    {
+      "company_slug": "ememory-technology",
+      "name": "eMemory Technology",
+      "country_code": "TW",
+      "primary_bucket": "eda_ip",
+      "aliases": []
+    },
+    {
+      "company_slug": "faraday-technology",
+      "name": "Faraday Technology",
+      "country_code": "TW",
+      "primary_bucket": "eda_ip",
+      "aliases": []
+    },
+    {
+      "company_slug": "m31-technology",
+      "name": "M31 Technology",
+      "country_code": "TW",
+      "primary_bucket": "eda_ip",
+      "aliases": []
+    },
+    {
+      "company_slug": "empyrean-technology",
+      "name": "Empyrean Technology",
+      "country_code": "CN",
+      "primary_bucket": "eda_ip",
+      "aliases": []
+    },
+    {
+      "company_slug": "silvaco-group",
+      "name": "Silvaco Group",
+      "country_code": "US",
+      "primary_bucket": "eda_ip",
+      "aliases": []
+    },
+    {
+      "company_slug": "arteris",
+      "name": "Arteris",
+      "country_code": "US",
+      "primary_bucket": "eda_ip",
+      "aliases": []
+    },
+    {
+      "company_slug": "apple",
+      "name": "Apple Inc.",
+      "country_code": "US",
+      "primary_bucket": "fabless",
+      "aliases": [
+        "Apple",
+        "APPLE, INC.",
+        "Apple Computer, Inc."
+      ]
+    },
+    {
+      "company_slug": "nvidia",
+      "name": "NVIDIA",
+      "country_code": "US",
+      "primary_bucket": "fabless",
+      "aliases": []
+    },
+    {
+      "company_slug": "amd",
+      "name": "AMD",
+      "country_code": "US",
+      "primary_bucket": "fabless",
+      "aliases": []
+    },
+    {
+      "company_slug": "qualcomm",
+      "name": "Qualcomm",
+      "country_code": "US",
+      "primary_bucket": "fabless",
+      "aliases": []
+    },
+    {
+      "company_slug": "broadcom",
+      "name": "Broadcom",
+      "country_code": "US",
+      "primary_bucket": "fabless",
+      "aliases": []
+    },
+    {
+      "company_slug": "mediatek",
+      "name": "MediaTek",
+      "country_code": "TW",
+      "primary_bucket": "fabless",
+      "aliases": []
+    },
+    {
+      "company_slug": "marvell-technology",
+      "name": "Marvell Technology",
+      "country_code": "US",
+      "primary_bucket": "fabless",
+      "aliases": []
+    },
+    {
+      "company_slug": "novatek-microelectronics",
+      "name": "Novatek Microelectronics",
+      "country_code": "TW",
+      "primary_bucket": "fabless",
+      "aliases": []
+    },
+    {
+      "company_slug": "realtek-semiconductor",
+      "name": "Realtek Semiconductor",
+      "country_code": "TW",
+      "primary_bucket": "fabless",
+      "aliases": []
+    },
+    {
+      "company_slug": "unisoc",
+      "name": "UNISOC",
+      "country_code": "CN",
+      "primary_bucket": "fabless",
+      "aliases": []
+    },
+    {
+      "company_slug": "monolithic-power-systems",
+      "name": "Monolithic Power Systems",
+      "country_code": "US",
+      "primary_bucket": "fabless",
+      "aliases": []
+    },
+    {
+      "company_slug": "cirrus-logic",
+      "name": "Cirrus Logic",
+      "country_code": "US",
+      "primary_bucket": "fabless",
+      "aliases": []
+    },
+    {
+      "company_slug": "lattice-semiconductor",
+      "name": "Lattice Semiconductor",
+      "country_code": "US",
+      "primary_bucket": "fabless",
+      "aliases": []
+    },
+    {
+      "company_slug": "ambarella",
+      "name": "Ambarella",
+      "country_code": "US",
+      "primary_bucket": "fabless",
+      "aliases": []
+    },
+    {
+      "company_slug": "silicon-motion",
+      "name": "Silicon Motion",
+      "country_code": "TW",
+      "primary_bucket": "fabless",
+      "aliases": []
+    },
+    {
+      "company_slug": "phison-electronics",
+      "name": "Phison Electronics",
+      "country_code": "TW",
+      "primary_bucket": "fabless",
+      "aliases": []
+    },
+    {
+      "company_slug": "himax-technologies",
+      "name": "Himax Technologies",
+      "country_code": "TW",
+      "primary_bucket": "fabless",
+      "aliases": []
+    },
+    {
+      "company_slug": "focaltech-systems",
+      "name": "FocalTech Systems",
+      "country_code": "CN",
+      "primary_bucket": "fabless",
+      "aliases": []
+    },
+    {
+      "company_slug": "elan-microelectronics",
+      "name": "Elan Microelectronics",
+      "country_code": "TW",
+      "primary_bucket": "fabless",
+      "aliases": []
+    },
+    {
+      "company_slug": "parade-technologies",
+      "name": "Parade Technologies",
+      "country_code": "US",
+      "primary_bucket": "fabless",
+      "aliases": []
+    },
+    {
+      "company_slug": "espressif-systems",
+      "name": "Espressif Systems",
+      "country_code": "CN",
+      "primary_bucket": "fabless",
+      "aliases": []
+    },
+    {
+      "company_slug": "maxlinear",
+      "name": "MaxLinear",
+      "country_code": "US",
+      "primary_bucket": "fabless",
+      "aliases": []
+    },
+    {
+      "company_slug": "credo-technology-group",
+      "name": "Credo Technology Group",
+      "country_code": "US",
+      "primary_bucket": "fabless",
+      "aliases": []
+    },
+    {
+      "company_slug": "astera-labs",
+      "name": "Astera Labs",
+      "country_code": "US",
+      "primary_bucket": "fabless",
+      "aliases": []
+    },
+    {
+      "company_slug": "raydium-semiconductor",
+      "name": "Raydium Semiconductor",
+      "country_code": "TW",
+      "primary_bucket": "fabless",
+      "aliases": []
+    },
+    {
+      "company_slug": "galaxycore",
+      "name": "GalaxyCore",
+      "country_code": "CN",
+      "primary_bucket": "fabless",
+      "aliases": []
+    },
+    {
+      "company_slug": "goodix-technology",
+      "name": "Goodix Technology",
+      "country_code": "CN",
+      "primary_bucket": "fabless",
+      "aliases": []
+    },
+    {
+      "company_slug": "gigadevice-semiconductor",
+      "name": "GigaDevice Semiconductor",
+      "country_code": "CN",
+      "primary_bucket": "fabless",
+      "aliases": []
+    },
+    {
+      "company_slug": "airoha-technology",
+      "name": "Airoha Technology",
+      "country_code": "TW",
+      "primary_bucket": "fabless",
+      "aliases": []
+    },
+    {
+      "company_slug": "sanechips-technology",
+      "name": "Sanechips Technology",
+      "country_code": "CN",
+      "primary_bucket": "fabless",
+      "aliases": []
+    },
+    {
+      "company_slug": "intel",
+      "name": "Intel",
+      "country_code": "US",
+      "primary_bucket": "idm",
+      "aliases": []
+    },
+    {
+      "company_slug": "samsung-electronics",
+      "name": "Samsung Electronics Co., Ltd.",
+      "country_code": "KR",
+      "primary_bucket": "idm",
+      "aliases": [
+        "Samsung Electronics"
+      ]
+    },
+    {
+      "company_slug": "sk-hynix",
+      "name": "SK hynix Inc.",
+      "country_code": "KR",
+      "primary_bucket": "idm",
+      "aliases": [
+        "SK hynix"
+      ]
+    },
+    {
+      "company_slug": "micron-technology",
+      "name": "Micron Technology, Inc.",
+      "country_code": "US",
+      "primary_bucket": "idm",
+      "aliases": [
+        "Micron Technology"
+      ]
+    },
+    {
+      "company_slug": "texas-instruments",
+      "name": "Texas Instruments",
+      "country_code": "US",
+      "primary_bucket": "idm",
+      "aliases": []
+    },
+    {
+      "company_slug": "infineon-technologies",
+      "name": "Infineon Technologies",
+      "country_code": "DE",
+      "primary_bucket": "idm",
+      "aliases": []
+    },
+    {
+      "company_slug": "stmicroelectronics",
+      "name": "STMicroelectronics",
+      "country_code": "CH",
+      "primary_bucket": "idm",
+      "aliases": []
+    },
+    {
+      "company_slug": "nxp-semiconductors",
+      "name": "NXP Semiconductors",
+      "country_code": "NL",
+      "primary_bucket": "idm",
+      "aliases": []
+    },
+    {
+      "company_slug": "renesas-electronics",
+      "name": "Renesas Electronics",
+      "country_code": "JP",
+      "primary_bucket": "idm",
+      "aliases": []
+    },
+    {
+      "company_slug": "onsemi",
+      "name": "onsemi",
+      "country_code": "US",
+      "primary_bucket": "idm",
+      "aliases": []
+    },
+    {
+      "company_slug": "analog-devices",
+      "name": "Analog Devices",
+      "country_code": "US",
+      "primary_bucket": "idm",
+      "aliases": []
+    },
+    {
+      "company_slug": "microchip-technology",
+      "name": "Microchip Technology",
+      "country_code": "US",
+      "primary_bucket": "idm",
+      "aliases": []
+    },
+    {
+      "company_slug": "rohm",
+      "name": "Rohm",
+      "country_code": "JP",
+      "primary_bucket": "idm",
+      "aliases": []
+    },
+    {
+      "company_slug": "kioxia-holdings",
+      "name": "Kioxia Holdings",
+      "country_code": "JP",
+      "primary_bucket": "idm",
+      "aliases": []
+    },
+    {
+      "company_slug": "winbond-electronics",
+      "name": "Winbond Electronics",
+      "country_code": "TW",
+      "primary_bucket": "idm",
+      "aliases": []
+    },
+    {
+      "company_slug": "nanya-technology",
+      "name": "Nanya Technology",
+      "country_code": "TW",
+      "primary_bucket": "idm",
+      "aliases": []
+    },
+    {
+      "company_slug": "macronix-international",
+      "name": "Macronix International",
+      "country_code": "TW",
+      "primary_bucket": "idm",
+      "aliases": []
+    },
+    {
+      "company_slug": "yangtze-memory-technologies",
+      "name": "Yangtze Memory Technologies",
+      "country_code": "CN",
+      "primary_bucket": "idm",
+      "aliases": []
+    },
+    {
+      "company_slug": "changxin-memory-technologies",
+      "name": "ChangXin Memory Technologies",
+      "country_code": "CN",
+      "primary_bucket": "idm",
+      "aliases": []
+    },
+    {
+      "company_slug": "vishay-intertechnology",
+      "name": "Vishay Intertechnology",
+      "country_code": "US",
+      "primary_bucket": "idm",
+      "aliases": []
+    },
+    {
+      "company_slug": "diodes-incorporated",
+      "name": "Diodes Incorporated",
+      "country_code": "US",
+      "primary_bucket": "idm",
+      "aliases": []
+    },
+    {
+      "company_slug": "toshiba-electronic-devices-and-storage",
+      "name": "Toshiba Electronic Devices & Storage",
+      "country_code": "JP",
+      "primary_bucket": "idm",
+      "aliases": []
+    },
+    {
+      "company_slug": "bosch",
+      "name": "Bosch",
+      "country_code": "DE",
+      "primary_bucket": "idm",
+      "aliases": []
+    },
+    {
+      "company_slug": "mitsubishi-electric",
+      "name": "Mitsubishi Electric",
+      "country_code": "JP",
+      "primary_bucket": "idm",
+      "aliases": []
+    },
+    {
+      "company_slug": "fuji-electric",
+      "name": "Fuji Electric",
+      "country_code": "JP",
+      "primary_bucket": "idm",
+      "aliases": []
+    },
+    {
+      "company_slug": "taiwan-semiconductor-manufacturing-company",
+      "name": "Taiwan Semiconductor Manufacturing Company Limited",
+      "country_code": "TW",
+      "primary_bucket": "foundry",
+      "aliases": [
+        "Taiwan Semiconductor Manufacturing Company",
+        "TSMC"
+      ]
+    },
+    {
+      "company_slug": "globalfoundries",
+      "name": "GlobalFoundries",
+      "country_code": "US",
+      "primary_bucket": "foundry",
+      "aliases": []
+    },
+    {
+      "company_slug": "united-microelectronics-corporation",
+      "name": "United Microelectronics Corporation",
+      "country_code": "TW",
+      "primary_bucket": "foundry",
+      "aliases": []
+    },
+    {
+      "company_slug": "semiconductor-manufacturing-international-corporation",
+      "name": "Semiconductor Manufacturing International Corporation",
+      "country_code": "CN",
+      "primary_bucket": "foundry",
+      "aliases": []
+    },
+    {
+      "company_slug": "hua-hong-semiconductor",
+      "name": "Hua Hong Semiconductor",
+      "country_code": "CN",
+      "primary_bucket": "foundry",
+      "aliases": []
+    },
+    {
+      "company_slug": "tower-semiconductor",
+      "name": "Tower Semiconductor",
+      "country_code": "IL",
+      "primary_bucket": "foundry",
+      "aliases": []
+    },
+    {
+      "company_slug": "vanguard-international-semiconductor",
+      "name": "Vanguard International Semiconductor",
+      "country_code": "TW",
+      "primary_bucket": "foundry",
+      "aliases": []
+    },
+    {
+      "company_slug": "powerchip-semiconductor-manufacturing-corporation",
+      "name": "Powerchip Semiconductor Manufacturing Corporation",
+      "country_code": "TW",
+      "primary_bucket": "foundry",
+      "aliases": []
+    },
+    {
+      "company_slug": "db-hitek",
+      "name": "DB HiTek",
+      "country_code": "KR",
+      "primary_bucket": "foundry",
+      "aliases": []
+    },
+    {
+      "company_slug": "x-fab-silicon-foundries",
+      "name": "X-FAB Silicon Foundries",
+      "country_code": "LU",
+      "primary_bucket": "foundry",
+      "aliases": []
+    },
+    {
+      "company_slug": "nexchip-semiconductor",
+      "name": "Nexchip Semiconductor",
+      "country_code": "CN",
+      "primary_bucket": "foundry",
+      "aliases": []
+    },
+    {
+      "company_slug": "silterra-malaysia",
+      "name": "Silterra Malaysia",
+      "country_code": "MY",
+      "primary_bucket": "foundry",
+      "aliases": []
+    },
+    {
+      "company_slug": "win-semiconductors",
+      "name": "WIN Semiconductors",
+      "country_code": "TW",
+      "primary_bucket": "foundry",
+      "aliases": []
+    },
+    {
+      "company_slug": "advanced-wireless-semiconductor-company",
+      "name": "Advanced Wireless Semiconductor Company",
+      "country_code": "TW",
+      "primary_bucket": "foundry",
+      "aliases": []
+    },
+    {
+      "company_slug": "sanan-semiconductor",
+      "name": "Sanan Semiconductor",
+      "country_code": "CN",
+      "primary_bucket": "foundry",
+      "aliases": []
+    },
+    {
+      "company_slug": "ase-technology-holding",
+      "name": "ASE Technology Holding Co., Ltd.",
+      "country_code": "TW",
+      "primary_bucket": "osat_packaging",
+      "aliases": [
+        "ASE Technology Holding",
+        "ASE"
+      ]
+    },
+    {
+      "company_slug": "amkor-technology",
+      "name": "Amkor Technology, Inc.",
+      "country_code": "US",
+      "primary_bucket": "osat_packaging",
+      "aliases": [
+        "Amkor Technology"
+      ]
+    },
+    {
+      "company_slug": "jcet-group",
+      "name": "JCET Group",
+      "country_code": "CN",
+      "primary_bucket": "osat_packaging",
+      "aliases": []
+    },
+    {
+      "company_slug": "tongfu-microelectronics",
+      "name": "Tongfu Microelectronics",
+      "country_code": "CN",
+      "primary_bucket": "osat_packaging",
+      "aliases": []
+    },
+    {
+      "company_slug": "powertech-technology",
+      "name": "Powertech Technology",
+      "country_code": "TW",
+      "primary_bucket": "osat_packaging",
+      "aliases": []
+    },
+    {
+      "company_slug": "chipmos-technologies",
+      "name": "ChipMOS Technologies",
+      "country_code": "TW",
+      "primary_bucket": "osat_packaging",
+      "aliases": []
+    },
+    {
+      "company_slug": "king-yuan-electronics",
+      "name": "King Yuan Electronics",
+      "country_code": "TW",
+      "primary_bucket": "osat_packaging",
+      "aliases": []
+    },
+    {
+      "company_slug": "huatian-technology",
+      "name": "Huatian Technology",
+      "country_code": "CN",
+      "primary_bucket": "osat_packaging",
+      "aliases": []
+    },
+    {
+      "company_slug": "unisem",
+      "name": "Unisem",
+      "country_code": "MY",
+      "primary_bucket": "osat_packaging",
+      "aliases": []
+    },
+    {
+      "company_slug": "utac-holdings",
+      "name": "UTAC Holdings",
+      "country_code": "SG",
+      "primary_bucket": "osat_packaging",
+      "aliases": []
+    },
+    {
+      "company_slug": "carsem",
+      "name": "Carsem",
+      "country_code": "MY",
+      "primary_bucket": "osat_packaging",
+      "aliases": []
+    },
+    {
+      "company_slug": "nepes",
+      "name": "Nepes",
+      "country_code": "KR",
+      "primary_bucket": "osat_packaging",
+      "aliases": []
+    },
+    {
+      "company_slug": "lingsen-precision-industries",
+      "name": "Lingsen Precision Industries",
+      "country_code": "TW",
+      "primary_bucket": "osat_packaging",
+      "aliases": []
+    },
+    {
+      "company_slug": "chipbond-technology",
+      "name": "Chipbond Technology",
+      "country_code": "TW",
+      "primary_bucket": "osat_packaging",
+      "aliases": []
+    },
+    {
+      "company_slug": "formosa-advanced-technologies",
+      "name": "Formosa Advanced Technologies",
+      "country_code": "TW",
+      "primary_bucket": "osat_packaging",
+      "aliases": []
+    },
+    {
+      "company_slug": "wuxi-chipown-micro-electronics",
+      "name": "Wuxi Chipown Micro-electronics",
+      "country_code": "CN",
+      "primary_bucket": "osat_packaging",
+      "aliases": []
+    },
+    {
+      "company_slug": "walton-advanced-engineering",
+      "name": "Walton Advanced Engineering",
+      "country_code": "TW",
+      "primary_bucket": "osat_packaging",
+      "aliases": []
+    },
+    {
+      "company_slug": "hana-micron",
+      "name": "Hana Micron",
+      "country_code": "KR",
+      "primary_bucket": "osat_packaging",
+      "aliases": []
+    },
+    {
+      "company_slug": "sfa-semicon",
+      "name": "SFA Semicon",
+      "country_code": "KR",
+      "primary_bucket": "osat_packaging",
+      "aliases": []
+    },
+    {
+      "company_slug": "lb-semicon",
+      "name": "LB Semicon",
+      "country_code": "KR",
+      "primary_bucket": "osat_packaging",
+      "aliases": []
+    },
+    {
+      "company_slug": "asml",
+      "name": "ASML Holding N.V.",
+      "country_code": "NL",
+      "primary_bucket": "equipment",
+      "aliases": [
+        "ASML"
+      ]
+    },
+    {
+      "company_slug": "applied-materials",
+      "name": "Applied Materials, Inc.",
+      "country_code": "US",
+      "primary_bucket": "equipment",
+      "aliases": [
+        "Applied Materials"
+      ]
+    },
+    {
+      "company_slug": "lam-research",
+      "name": "Lam Research Corporation",
+      "country_code": "US",
+      "primary_bucket": "equipment",
+      "aliases": [
+        "Lam Research"
+      ]
+    },
+    {
+      "company_slug": "kla",
+      "name": "KLA",
+      "country_code": "US",
+      "primary_bucket": "equipment",
+      "aliases": []
+    },
+    {
+      "company_slug": "tokyo-electron",
+      "name": "Tokyo Electron Limited",
+      "country_code": "JP",
+      "primary_bucket": "equipment",
+      "aliases": [
+        "Tokyo Electron"
+      ]
+    },
+    {
+      "company_slug": "screen-holdings",
+      "name": "Screen Holdings",
+      "country_code": "JP",
+      "primary_bucket": "equipment",
+      "aliases": []
+    },
+    {
+      "company_slug": "asm-international",
+      "name": "ASM International",
+      "country_code": "NL",
+      "primary_bucket": "equipment",
+      "aliases": []
+    },
+    {
+      "company_slug": "asmpt",
+      "name": "ASMPT",
+      "country_code": "HK",
+      "primary_bucket": "equipment",
+      "aliases": []
+    },
+    {
+      "company_slug": "hitachi-high-tech",
+      "name": "Hitachi High-Tech",
+      "country_code": "JP",
+      "primary_bucket": "equipment",
+      "aliases": []
+    },
+    {
+      "company_slug": "disco",
+      "name": "Disco",
+      "country_code": "JP",
+      "primary_bucket": "equipment",
+      "aliases": []
+    },
+    {
+      "company_slug": "canon",
+      "name": "Canon",
+      "country_code": "JP",
+      "primary_bucket": "equipment",
+      "aliases": []
+    },
+    {
+      "company_slug": "nikon",
+      "name": "Nikon",
+      "country_code": "JP",
+      "primary_bucket": "equipment",
+      "aliases": []
+    },
+    {
+      "company_slug": "veeco-instruments",
+      "name": "Veeco Instruments",
+      "country_code": "US",
+      "primary_bucket": "equipment",
+      "aliases": []
+    },
+    {
+      "company_slug": "onto-innovation",
+      "name": "Onto Innovation",
+      "country_code": "US",
+      "primary_bucket": "equipment",
+      "aliases": []
+    },
+    {
+      "company_slug": "kulicke-and-soffa-industries",
+      "name": "Kulicke and Soffa Industries",
+      "country_code": "SG",
+      "primary_bucket": "equipment",
+      "aliases": []
+    },
+    {
+      "company_slug": "be-semiconductor-industries",
+      "name": "BE Semiconductor Industries",
+      "country_code": "NL",
+      "primary_bucket": "equipment",
+      "aliases": []
+    },
+    {
+      "company_slug": "nordson",
+      "name": "Nordson",
+      "country_code": "US",
+      "primary_bucket": "equipment",
+      "aliases": []
+    },
+    {
+      "company_slug": "acm-research",
+      "name": "ACM Research",
+      "country_code": "US",
+      "primary_bucket": "equipment",
+      "aliases": []
+    },
+    {
+      "company_slug": "naura-technology-group",
+      "name": "NAURA Technology Group",
+      "country_code": "CN",
+      "primary_bucket": "equipment",
+      "aliases": []
+    },
+    {
+      "company_slug": "advanced-micro-fabrication-equipment-china",
+      "name": "Advanced Micro-Fabrication Equipment China",
+      "country_code": "CN",
+      "primary_bucket": "equipment",
+      "aliases": []
+    },
+    {
+      "company_slug": "piotech",
+      "name": "Piotech",
+      "country_code": "CN",
+      "primary_bucket": "equipment",
+      "aliases": []
+    },
+    {
+      "company_slug": "tokyo-seimitsu",
+      "name": "Tokyo Seimitsu",
+      "country_code": "JP",
+      "primary_bucket": "equipment",
+      "aliases": []
+    },
+    {
+      "company_slug": "shibaura-mechatronics",
+      "name": "Shibaura Mechatronics",
+      "country_code": "JP",
+      "primary_bucket": "equipment",
+      "aliases": []
+    },
+    {
+      "company_slug": "eugene-technology",
+      "name": "Eugene Technology",
+      "country_code": "KR",
+      "primary_bucket": "equipment",
+      "aliases": []
+    },
+    {
+      "company_slug": "jusung-engineering",
+      "name": "Jusung Engineering",
+      "country_code": "KR",
+      "primary_bucket": "equipment",
+      "aliases": []
+    },
+    {
+      "company_slug": "wonik-ips",
+      "name": "Wonik IPS",
+      "country_code": "KR",
+      "primary_bucket": "equipment",
+      "aliases": []
+    },
+    {
+      "company_slug": "semes",
+      "name": "SEMES",
+      "country_code": "KR",
+      "primary_bucket": "equipment",
+      "aliases": []
+    },
+    {
+      "company_slug": "suss-microtec",
+      "name": "SUSS MicroTec",
+      "country_code": "DE",
+      "primary_bucket": "equipment",
+      "aliases": []
+    },
+    {
+      "company_slug": "ev-group",
+      "name": "EV Group",
+      "country_code": "AT",
+      "primary_bucket": "equipment",
+      "aliases": []
+    },
+    {
+      "company_slug": "kokusai-electric",
+      "name": "Kokusai Electric",
+      "country_code": "JP",
+      "primary_bucket": "equipment",
+      "aliases": []
+    },
+    {
+      "company_slug": "ulvac",
+      "name": "ULVAC",
+      "country_code": "JP",
+      "primary_bucket": "equipment",
+      "aliases": []
+    },
+    {
+      "company_slug": "mks-instruments",
+      "name": "MKS Instruments",
+      "country_code": "US",
+      "primary_bucket": "equipment",
+      "aliases": []
+    },
+    {
+      "company_slug": "ultra-clean-holdings",
+      "name": "Ultra Clean Holdings",
+      "country_code": "US",
+      "primary_bucket": "equipment",
+      "aliases": []
+    },
+    {
+      "company_slug": "ichor-holdings",
+      "name": "Ichor Holdings",
+      "country_code": "US",
+      "primary_bucket": "equipment",
+      "aliases": []
+    },
+    {
+      "company_slug": "vat-group",
+      "name": "VAT Group",
+      "country_code": "CH",
+      "primary_bucket": "equipment",
+      "aliases": []
+    },
+    {
+      "company_slug": "shin-etsu-chemical",
+      "name": "Shin-Etsu Chemical Co., Ltd.",
+      "country_code": "JP",
+      "primary_bucket": "materials_wafers_chemicals_gases",
+      "aliases": [
+        "Shin-Etsu Chemical"
+      ]
+    },
+    {
+      "company_slug": "sumco",
+      "name": "SUMCO Corporation",
+      "country_code": "JP",
+      "primary_bucket": "materials_wafers_chemicals_gases",
+      "aliases": [
+        "SUMCO"
+      ]
+    },
+    {
+      "company_slug": "globalwafers",
+      "name": "GlobalWafers Co., Ltd.",
+      "country_code": "TW",
+      "primary_bucket": "materials_wafers_chemicals_gases",
+      "aliases": [
+        "GlobalWafers"
+      ]
+    },
+    {
+      "company_slug": "siltronic",
+      "name": "Siltronic",
+      "country_code": "DE",
+      "primary_bucket": "materials_wafers_chemicals_gases",
+      "aliases": []
+    },
+    {
+      "company_slug": "soitec",
+      "name": "Soitec",
+      "country_code": "FR",
+      "primary_bucket": "materials_wafers_chemicals_gases",
+      "aliases": []
+    },
+    {
+      "company_slug": "sk-siltron",
+      "name": "SK Siltron",
+      "country_code": "KR",
+      "primary_bucket": "materials_wafers_chemicals_gases",
+      "aliases": []
+    },
+    {
+      "company_slug": "wafer-works",
+      "name": "Wafer Works",
+      "country_code": "TW",
+      "primary_bucket": "materials_wafers_chemicals_gases",
+      "aliases": []
+    },
+    {
+      "company_slug": "resonac-holdings",
+      "name": "Resonac Holdings",
+      "country_code": "JP",
+      "primary_bucket": "materials_wafers_chemicals_gases",
+      "aliases": []
+    },
+    {
+      "company_slug": "jsr",
+      "name": "JSR",
+      "country_code": "JP",
+      "primary_bucket": "materials_wafers_chemicals_gases",
+      "aliases": []
+    },
+    {
+      "company_slug": "tokyo-ohka-kogyo",
+      "name": "Tokyo Ohka Kogyo",
+      "country_code": "JP",
+      "primary_bucket": "materials_wafers_chemicals_gases",
+      "aliases": []
+    },
+    {
+      "company_slug": "merck-kgaa",
+      "name": "Merck KGaA",
+      "country_code": "DE",
+      "primary_bucket": "materials_wafers_chemicals_gases",
+      "aliases": []
+    },
+    {
+      "company_slug": "entegris",
+      "name": "Entegris",
+      "country_code": "US",
+      "primary_bucket": "materials_wafers_chemicals_gases",
+      "aliases": []
+    },
+    {
+      "company_slug": "dupont",
+      "name": "DuPont",
+      "country_code": "US",
+      "primary_bucket": "materials_wafers_chemicals_gases",
+      "aliases": []
+    },
+    {
+      "company_slug": "air-liquide",
+      "name": "Air Liquide",
+      "country_code": "FR",
+      "primary_bucket": "materials_wafers_chemicals_gases",
+      "aliases": []
+    },
+    {
+      "company_slug": "linde",
+      "name": "Linde",
+      "country_code": "IE",
+      "primary_bucket": "materials_wafers_chemicals_gases",
+      "aliases": []
+    },
+    {
+      "company_slug": "taiyo-nippon-sanso",
+      "name": "Taiyo Nippon Sanso",
+      "country_code": "JP",
+      "primary_bucket": "materials_wafers_chemicals_gases",
+      "aliases": []
+    },
+    {
+      "company_slug": "fujifilm-holdings",
+      "name": "Fujifilm Holdings",
+      "country_code": "JP",
+      "primary_bucket": "materials_wafers_chemicals_gases",
+      "aliases": []
+    },
+    {
+      "company_slug": "mitsubishi-gas-chemical",
+      "name": "Mitsubishi Gas Chemical",
+      "country_code": "JP",
+      "primary_bucket": "materials_wafers_chemicals_gases",
+      "aliases": []
+    },
+    {
+      "company_slug": "ube-corporation",
+      "name": "UBE Corporation",
+      "country_code": "JP",
+      "primary_bucket": "materials_wafers_chemicals_gases",
+      "aliases": []
+    },
+    {
+      "company_slug": "kanto-chemical",
+      "name": "Kanto Chemical",
+      "country_code": "JP",
+      "primary_bucket": "materials_wafers_chemicals_gases",
+      "aliases": []
+    },
+    {
+      "company_slug": "soulbrain",
+      "name": "Soulbrain",
+      "country_code": "KR",
+      "primary_bucket": "materials_wafers_chemicals_gases",
+      "aliases": []
+    },
+    {
+      "company_slug": "dongjin-semichem",
+      "name": "Dongjin Semichem",
+      "country_code": "KR",
+      "primary_bucket": "materials_wafers_chemicals_gases",
+      "aliases": []
+    },
+    {
+      "company_slug": "sk-materials",
+      "name": "SK Materials",
+      "country_code": "KR",
+      "primary_bucket": "materials_wafers_chemicals_gases",
+      "aliases": []
+    },
+    {
+      "company_slug": "up-chemical",
+      "name": "UP Chemical",
+      "country_code": "KR",
+      "primary_bucket": "materials_wafers_chemicals_gases",
+      "aliases": []
+    },
+    {
+      "company_slug": "dongwoo-fine-chem",
+      "name": "Dongwoo Fine-Chem",
+      "country_code": "KR",
+      "primary_bucket": "materials_wafers_chemicals_gases",
+      "aliases": []
+    },
+    {
+      "company_slug": "hansol-chemical",
+      "name": "Hansol Chemical",
+      "country_code": "KR",
+      "primary_bucket": "materials_wafers_chemicals_gases",
+      "aliases": []
+    },
+    {
+      "company_slug": "oci-holdings",
+      "name": "OCI Holdings",
+      "country_code": "KR",
+      "primary_bucket": "materials_wafers_chemicals_gases",
+      "aliases": []
+    },
+    {
+      "company_slug": "mitsui-chemicals",
+      "name": "Mitsui Chemicals",
+      "country_code": "JP",
+      "primary_bucket": "materials_wafers_chemicals_gases",
+      "aliases": []
+    },
+    {
+      "company_slug": "adeka",
+      "name": "Adeka",
+      "country_code": "JP",
+      "primary_bucket": "materials_wafers_chemicals_gases",
+      "aliases": []
+    },
+    {
+      "company_slug": "tokuyama-corporation",
+      "name": "Tokuyama Corporation",
+      "country_code": "JP",
+      "primary_bucket": "materials_wafers_chemicals_gases",
+      "aliases": []
+    },
+    {
+      "company_slug": "air-products-and-chemicals",
+      "name": "Air Products and Chemicals",
+      "country_code": "US",
+      "primary_bucket": "materials_wafers_chemicals_gases",
+      "aliases": []
+    },
+    {
+      "company_slug": "stella-chemifa",
+      "name": "Stella Chemifa",
+      "country_code": "JP",
+      "primary_bucket": "materials_wafers_chemicals_gases",
+      "aliases": []
+    },
+    {
+      "company_slug": "fujimi-incorporated",
+      "name": "Fujimi Incorporated",
+      "country_code": "JP",
+      "primary_bucket": "materials_wafers_chemicals_gases",
+      "aliases": []
+    },
+    {
+      "company_slug": "ferrotec-holdings",
+      "name": "Ferrotec Holdings",
+      "country_code": "JP",
+      "primary_bucket": "materials_wafers_chemicals_gases",
+      "aliases": []
+    },
+    {
+      "company_slug": "mitsubishi-chemical-group",
+      "name": "Mitsubishi Chemical Group",
+      "country_code": "JP",
+      "primary_bucket": "materials_wafers_chemicals_gases",
+      "aliases": []
+    },
+    {
+      "company_slug": "advantest",
+      "name": "Advantest",
+      "country_code": "JP",
+      "primary_bucket": "test_metrology_photomask_substrate",
+      "aliases": []
+    },
+    {
+      "company_slug": "teradyne",
+      "name": "Teradyne",
+      "country_code": "US",
+      "primary_bucket": "test_metrology_photomask_substrate",
+      "aliases": []
+    },
+    {
+      "company_slug": "formfactor",
+      "name": "FormFactor",
+      "country_code": "US",
+      "primary_bucket": "test_metrology_photomask_substrate",
+      "aliases": []
+    },
+    {
+      "company_slug": "cohu",
+      "name": "Cohu",
+      "country_code": "US",
+      "primary_bucket": "test_metrology_photomask_substrate",
+      "aliases": []
+    },
+    {
+      "company_slug": "aehr-test-systems",
+      "name": "Aehr Test Systems",
+      "country_code": "US",
+      "primary_bucket": "test_metrology_photomask_substrate",
+      "aliases": []
+    },
+    {
+      "company_slug": "nova-ltd",
+      "name": "Nova Ltd.",
+      "country_code": "IL",
+      "primary_bucket": "test_metrology_photomask_substrate",
+      "aliases": []
+    },
+    {
+      "company_slug": "camtek",
+      "name": "Camtek",
+      "country_code": "IL",
+      "primary_bucket": "test_metrology_photomask_substrate",
+      "aliases": []
+    },
+    {
+      "company_slug": "lasertec",
+      "name": "Lasertec",
+      "country_code": "JP",
+      "primary_bucket": "test_metrology_photomask_substrate",
+      "aliases": []
+    },
+    {
+      "company_slug": "toppan",
+      "name": "Toppan",
+      "country_code": "JP",
+      "primary_bucket": "test_metrology_photomask_substrate",
+      "aliases": []
+    },
+    {
+      "company_slug": "dai-nippon-printing",
+      "name": "Dai Nippon Printing",
+      "country_code": "JP",
+      "primary_bucket": "test_metrology_photomask_substrate",
+      "aliases": []
+    },
+    {
+      "company_slug": "hoya",
+      "name": "Hoya",
+      "country_code": "JP",
+      "primary_bucket": "test_metrology_photomask_substrate",
+      "aliases": []
+    },
+    {
+      "company_slug": "photronics",
+      "name": "Photronics",
+      "country_code": "US",
+      "primary_bucket": "test_metrology_photomask_substrate",
+      "aliases": []
+    },
+    {
+      "company_slug": "taiwan-mask-corporation",
+      "name": "Taiwan Mask Corporation",
+      "country_code": "TW",
+      "primary_bucket": "test_metrology_photomask_substrate",
+      "aliases": []
+    },
+    {
+      "company_slug": "sk-electronics",
+      "name": "SK-Electronics",
+      "country_code": "JP",
+      "primary_bucket": "test_metrology_photomask_substrate",
+      "aliases": []
+    },
+    {
+      "company_slug": "ibiden",
+      "name": "Ibiden",
+      "country_code": "JP",
+      "primary_bucket": "test_metrology_photomask_substrate",
+      "aliases": []
+    },
+    {
+      "company_slug": "shinko-electric-industries",
+      "name": "Shinko Electric Industries",
+      "country_code": "JP",
+      "primary_bucket": "test_metrology_photomask_substrate",
+      "aliases": []
+    },
+    {
+      "company_slug": "unimicron-technology",
+      "name": "Unimicron Technology",
+      "country_code": "TW",
+      "primary_bucket": "test_metrology_photomask_substrate",
+      "aliases": []
+    },
+    {
+      "company_slug": "nan-ya-printed-circuit-board",
+      "name": "Nan Ya Printed Circuit Board",
+      "country_code": "TW",
+      "primary_bucket": "test_metrology_photomask_substrate",
+      "aliases": []
+    },
+    {
+      "company_slug": "kinsus-interconnect-technology",
+      "name": "Kinsus Interconnect Technology",
+      "country_code": "TW",
+      "primary_bucket": "test_metrology_photomask_substrate",
+      "aliases": []
+    },
+    {
+      "company_slug": "at-and-s",
+      "name": "AT&S",
+      "country_code": "AT",
+      "primary_bucket": "test_metrology_photomask_substrate",
+      "aliases": []
+    },
+    {
+      "company_slug": "ttm-technologies",
+      "name": "TTM Technologies",
+      "country_code": "US",
+      "primary_bucket": "test_metrology_photomask_substrate",
+      "aliases": []
+    },
+    {
+      "company_slug": "compeq-manufacturing",
+      "name": "Compeq Manufacturing",
+      "country_code": "TW",
+      "primary_bucket": "test_metrology_photomask_substrate",
+      "aliases": []
+    },
+    {
+      "company_slug": "simmtech",
+      "name": "Simmtech",
+      "country_code": "KR",
+      "primary_bucket": "test_metrology_photomask_substrate",
+      "aliases": []
+    },
+    {
+      "company_slug": "daeduck-electronics",
+      "name": "Daeduck Electronics",
+      "country_code": "KR",
+      "primary_bucket": "test_metrology_photomask_substrate",
+      "aliases": []
+    },
+    {
+      "company_slug": "samsung-electro-mechanics",
+      "name": "Samsung Electro-Mechanics",
+      "country_code": "KR",
+      "primary_bucket": "test_metrology_photomask_substrate",
+      "aliases": []
+    }
+  ]
+}

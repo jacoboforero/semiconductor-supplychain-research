@@ -1,0 +1,15065 @@
+window.__SEMISUPPLY_DEMO_BUNDLE__ = {
+  "countries": [
+    {
+      "company_count": 50,
+      "country_code": "US",
+      "facility_count": 1
+    },
+    {
+      "company_count": 41,
+      "country_code": "JP",
+      "facility_count": 0
+    },
+    {
+      "company_count": 36,
+      "country_code": "TW",
+      "facility_count": 0
+    },
+    {
+      "company_count": 22,
+      "country_code": "KR",
+      "facility_count": 1
+    },
+    {
+      "company_count": 22,
+      "country_code": "CN",
+      "facility_count": 0
+    },
+    {
+      "company_count": 5,
+      "country_code": "DE",
+      "facility_count": 0
+    },
+    {
+      "company_count": 4,
+      "country_code": "NL",
+      "facility_count": 0
+    },
+    {
+      "company_count": 3,
+      "country_code": "GB",
+      "facility_count": 0
+    },
+    {
+      "company_count": 3,
+      "country_code": "IL",
+      "facility_count": 0
+    },
+    {
+      "company_count": 3,
+      "country_code": "MY",
+      "facility_count": 0
+    },
+    {
+      "company_count": 2,
+      "country_code": "AT",
+      "facility_count": 0
+    },
+    {
+      "company_count": 2,
+      "country_code": "CH",
+      "facility_count": 0
+    },
+    {
+      "company_count": 2,
+      "country_code": "FR",
+      "facility_count": 0
+    },
+    {
+      "company_count": 2,
+      "country_code": "SG",
+      "facility_count": 0
+    },
+    {
+      "company_count": 1,
+      "country_code": "HK",
+      "facility_count": 0
+    },
+    {
+      "company_count": 1,
+      "country_code": "IE",
+      "facility_count": 0
+    },
+    {
+      "company_count": 1,
+      "country_code": "LU",
+      "facility_count": 0
+    }
+  ],
+  "edges": [
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:009ee8f4-0bf7-52d0-a6e7-7fbdac81077f:role:ROLE.EQUIPMENT_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:009ee8f4-0bf7-52d0-a6e7-7fbdac81077f",
+      "target_node_id": "role:ROLE.EQUIPMENT_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:00d631d5-04ed-515c-a885-ff414ae9bb1a:role:ROLE.FABLESS",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:00d631d5-04ed-515c-a885-ff414ae9bb1a",
+      "target_node_id": "role:ROLE.FABLESS"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:020f3142-5a5a-5eba-8af3-a4a767114bd2:role:ROLE.FABLESS",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:020f3142-5a5a-5eba-8af3-a4a767114bd2",
+      "target_node_id": "role:ROLE.FABLESS"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:0330ece7-f941-5dcf-939e-65f8ca1efddf:role:ROLE.FOUNDRY",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:0330ece7-f941-5dcf-939e-65f8ca1efddf",
+      "target_node_id": "role:ROLE.FOUNDRY"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:03e7f057-b8d3-576d-ba97-9f9228c02c97:role:ROLE.FOUNDRY",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:03e7f057-b8d3-576d-ba97-9f9228c02c97",
+      "target_node_id": "role:ROLE.FOUNDRY"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:0479a265-a8de-5bd9-8613-91e82cc90856:role:ROLE.OSAT",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:0479a265-a8de-5bd9-8613-91e82cc90856",
+      "target_node_id": "role:ROLE.OSAT"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:0479a265-a8de-5bd9-8613-91e82cc90856:role:ROLE.PACKAGING_SPECIALIST",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:0479a265-a8de-5bd9-8613-91e82cc90856",
+      "target_node_id": "role:ROLE.PACKAGING_SPECIALIST"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:0479a265-a8de-5bd9-8613-91e82cc90856:role:ROLE.TEST_SERVICE",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:0479a265-a8de-5bd9-8613-91e82cc90856",
+      "target_node_id": "role:ROLE.TEST_SERVICE"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:04a34bd2-0cc9-5664-8579-958c2547f5bf:role:ROLE.IDM",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:04a34bd2-0cc9-5664-8579-958c2547f5bf",
+      "target_node_id": "role:ROLE.IDM"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:07e5e505-7563-5b31-bd2d-78b561964a9a:role:ROLE.EDA_VENDOR",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:07e5e505-7563-5b31-bd2d-78b561964a9a",
+      "target_node_id": "role:ROLE.EDA_VENDOR"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:0830d709-7c29-5ebf-8210-ad5de594a4f0:role:ROLE.FOUNDRY",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:0830d709-7c29-5ebf-8210-ad5de594a4f0",
+      "target_node_id": "role:ROLE.FOUNDRY"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:095718d2-84dc-5a41-88dc-efe8787daa07:role:ROLE.OSAT",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:095718d2-84dc-5a41-88dc-efe8787daa07",
+      "target_node_id": "role:ROLE.OSAT"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:095718d2-84dc-5a41-88dc-efe8787daa07:role:ROLE.PACKAGING_SPECIALIST",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:095718d2-84dc-5a41-88dc-efe8787daa07",
+      "target_node_id": "role:ROLE.PACKAGING_SPECIALIST"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:095718d2-84dc-5a41-88dc-efe8787daa07:role:ROLE.TEST_SERVICE",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:095718d2-84dc-5a41-88dc-efe8787daa07",
+      "target_node_id": "role:ROLE.TEST_SERVICE"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:0b5976bc-6bc5-59f9-8eb7-675e019dfc75:role:ROLE.EQUIPMENT_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:0b5976bc-6bc5-59f9-8eb7-675e019dfc75",
+      "target_node_id": "role:ROLE.EQUIPMENT_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:0b5d68f5-99b7-5104-ab55-4d21734f32b1:role:ROLE.FABLESS",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:0b5d68f5-99b7-5104-ab55-4d21734f32b1",
+      "target_node_id": "role:ROLE.FABLESS"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:0b7c27d3-e2bc-5357-87f5-430f84a7a795:role:ROLE.EQUIPMENT_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:0b7c27d3-e2bc-5357-87f5-430f84a7a795",
+      "target_node_id": "role:ROLE.EQUIPMENT_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:0c70efe4-d723-59ea-91e7-a3ed1dd1e1a5:role:ROLE.OSAT",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:0c70efe4-d723-59ea-91e7-a3ed1dd1e1a5",
+      "target_node_id": "role:ROLE.OSAT"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:0c70efe4-d723-59ea-91e7-a3ed1dd1e1a5:role:ROLE.PACKAGING_SPECIALIST",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:0c70efe4-d723-59ea-91e7-a3ed1dd1e1a5",
+      "target_node_id": "role:ROLE.PACKAGING_SPECIALIST"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:0c70efe4-d723-59ea-91e7-a3ed1dd1e1a5:role:ROLE.TEST_SERVICE",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:0c70efe4-d723-59ea-91e7-a3ed1dd1e1a5",
+      "target_node_id": "role:ROLE.TEST_SERVICE"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:0d96f815-5d42-5582-8639-bb5d39164c63:role:ROLE.OSAT",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:0d96f815-5d42-5582-8639-bb5d39164c63",
+      "target_node_id": "role:ROLE.OSAT"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:0d96f815-5d42-5582-8639-bb5d39164c63:role:ROLE.PACKAGING_SPECIALIST",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:0d96f815-5d42-5582-8639-bb5d39164c63",
+      "target_node_id": "role:ROLE.PACKAGING_SPECIALIST"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:0d96f815-5d42-5582-8639-bb5d39164c63:role:ROLE.TEST_SERVICE",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:0d96f815-5d42-5582-8639-bb5d39164c63",
+      "target_node_id": "role:ROLE.TEST_SERVICE"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:0e3feb41-a920-5282-b897-f9f0e4f7b9e6:role:ROLE.CHEMICALS_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:0e3feb41-a920-5282-b897-f9f0e4f7b9e6",
+      "target_node_id": "role:ROLE.CHEMICALS_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:0e7fbd46-4bae-5a01-af9a-1bca26eb6f82:role:ROLE.CHEMICALS_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:0e7fbd46-4bae-5a01-af9a-1bca26eb6f82",
+      "target_node_id": "role:ROLE.CHEMICALS_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:0fb094f9-dde9-5e09-8dba-d1d987c69dbb:role:ROLE.OSAT",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:0fb094f9-dde9-5e09-8dba-d1d987c69dbb",
+      "target_node_id": "role:ROLE.OSAT"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:0fb094f9-dde9-5e09-8dba-d1d987c69dbb:role:ROLE.PACKAGING_SPECIALIST",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:0fb094f9-dde9-5e09-8dba-d1d987c69dbb",
+      "target_node_id": "role:ROLE.PACKAGING_SPECIALIST"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:0fb094f9-dde9-5e09-8dba-d1d987c69dbb:role:ROLE.TEST_SERVICE",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:0fb094f9-dde9-5e09-8dba-d1d987c69dbb",
+      "target_node_id": "role:ROLE.TEST_SERVICE"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:110c6396-4e28-5609-8860-114f6cf03bc2:role:ROLE.IDM",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:110c6396-4e28-5609-8860-114f6cf03bc2",
+      "target_node_id": "role:ROLE.IDM"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:110c6396-4e28-5609-8860-114f6cf03bc2:role:ROLE.MEMORY_MANUFACTURER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:110c6396-4e28-5609-8860-114f6cf03bc2",
+      "target_node_id": "role:ROLE.MEMORY_MANUFACTURER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:150f3de5-75f6-552c-8739-c7b227d1d69f:role:ROLE.IDM",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:150f3de5-75f6-552c-8739-c7b227d1d69f",
+      "target_node_id": "role:ROLE.IDM"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:17615950-fb28-5aa3-be58-04b152b29663:role:ROLE.CHEMICALS_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:17615950-fb28-5aa3-be58-04b152b29663",
+      "target_node_id": "role:ROLE.CHEMICALS_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:18bbf86f-337a-5eba-b594-c081736ec5f1:role:ROLE.IP_VENDOR",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:18bbf86f-337a-5eba-b594-c081736ec5f1",
+      "target_node_id": "role:ROLE.IP_VENDOR"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:18c0292d-3e77-55cd-8ba9-ac416077f08a:role:ROLE.FABLESS",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:18c0292d-3e77-55cd-8ba9-ac416077f08a",
+      "target_node_id": "role:ROLE.FABLESS"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:1bf27e8b-5fd1-51ad-b5e5-97d86f6c91e2:role:ROLE.EQUIPMENT_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:1bf27e8b-5fd1-51ad-b5e5-97d86f6c91e2",
+      "target_node_id": "role:ROLE.EQUIPMENT_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:1d4148fb-3cb5-5c1b-8e32-0fe9bb1b02bb:role:ROLE.IDM",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:1d4148fb-3cb5-5c1b-8e32-0fe9bb1b02bb",
+      "target_node_id": "role:ROLE.IDM"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:1d96aeec-90fc-51d6-b170-402fa2c1f398:role:ROLE.PHOTOMASK_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:1d96aeec-90fc-51d6-b170-402fa2c1f398",
+      "target_node_id": "role:ROLE.PHOTOMASK_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:1db8a203-4404-5174-8b41-f71a9bd09f8a:role:ROLE.WAFER_MANUFACTURER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:1db8a203-4404-5174-8b41-f71a9bd09f8a",
+      "target_node_id": "role:ROLE.WAFER_MANUFACTURER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:1f88a976-e07c-5bae-bd9f-86fe33f3678e:role:ROLE.IP_VENDOR",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:1f88a976-e07c-5bae-bd9f-86fe33f3678e",
+      "target_node_id": "role:ROLE.IP_VENDOR"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:1fadb267-31ca-58a0-b81a-f46bf46bb1ff:role:ROLE.FABLESS",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:1fadb267-31ca-58a0-b81a-f46bf46bb1ff",
+      "target_node_id": "role:ROLE.FABLESS"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:22346e71-cac4-50a2-8813-19f4008d4085:role:ROLE.CHEMICALS_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:22346e71-cac4-50a2-8813-19f4008d4085",
+      "target_node_id": "role:ROLE.CHEMICALS_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:2242e8ef-12de-5f1e-b8f3-37660f7b7596:role:ROLE.EQUIPMENT_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:2242e8ef-12de-5f1e-b8f3-37660f7b7596",
+      "target_node_id": "role:ROLE.EQUIPMENT_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:22d6a98d-7f47-5a3b-94a9-dd68eb843e2e:role:ROLE.IDM",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:22d6a98d-7f47-5a3b-94a9-dd68eb843e2e",
+      "target_node_id": "role:ROLE.IDM"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:2336e218-8b99-51c7-8b54-038fdcd995b8:role:ROLE.OSAT",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:2336e218-8b99-51c7-8b54-038fdcd995b8",
+      "target_node_id": "role:ROLE.OSAT"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:2336e218-8b99-51c7-8b54-038fdcd995b8:role:ROLE.PACKAGING_SPECIALIST",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:2336e218-8b99-51c7-8b54-038fdcd995b8",
+      "target_node_id": "role:ROLE.PACKAGING_SPECIALIST"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:2336e218-8b99-51c7-8b54-038fdcd995b8:role:ROLE.TEST_SERVICE",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:2336e218-8b99-51c7-8b54-038fdcd995b8",
+      "target_node_id": "role:ROLE.TEST_SERVICE"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:2443d407-def4-5bbb-b358-b9b7d45e0397:role:ROLE.CHEMICALS_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:2443d407-def4-5bbb-b358-b9b7d45e0397",
+      "target_node_id": "role:ROLE.CHEMICALS_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:253e06fa-38e9-5050-9296-faab5ba97438:role:ROLE.EQUIPMENT_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:253e06fa-38e9-5050-9296-faab5ba97438",
+      "target_node_id": "role:ROLE.EQUIPMENT_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:25590643-290a-5834-bdee-e48dfd525fb1:role:ROLE.SPECIALTY_GASES_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:25590643-290a-5834-bdee-e48dfd525fb1",
+      "target_node_id": "role:ROLE.SPECIALTY_GASES_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:27ffe1e5-4629-5e40-a6e0-b763d2b3d6ba:role:ROLE.FABLESS",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:27ffe1e5-4629-5e40-a6e0-b763d2b3d6ba",
+      "target_node_id": "role:ROLE.FABLESS"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:2974f408-63ce-5033-855a-f214a8af319a:role:ROLE.SUBSTRATE_MANUFACTURER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:2974f408-63ce-5033-855a-f214a8af319a",
+      "target_node_id": "role:ROLE.SUBSTRATE_MANUFACTURER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:2cd0442e-cf7d-5dc5-9479-978f33c57f44:role:ROLE.IDM",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:2cd0442e-cf7d-5dc5-9479-978f33c57f44",
+      "target_node_id": "role:ROLE.IDM"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:2d44daee-1643-50e6-b0a6-0cbd912df5e7:role:ROLE.WAFER_MANUFACTURER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:2d44daee-1643-50e6-b0a6-0cbd912df5e7",
+      "target_node_id": "role:ROLE.WAFER_MANUFACTURER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:2dc1dbec-ff0a-59ad-91f8-d7b39ad3ee7c:role:ROLE.EQUIPMENT_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:2dc1dbec-ff0a-59ad-91f8-d7b39ad3ee7c",
+      "target_node_id": "role:ROLE.EQUIPMENT_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:2e7c0bc2-b93f-55e2-bbe8-aa3aba16846d:role:ROLE.CHEMICALS_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:2e7c0bc2-b93f-55e2-bbe8-aa3aba16846d",
+      "target_node_id": "role:ROLE.CHEMICALS_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:2f392d76-f5ff-5b8e-9f3b-c334f076fe00:role:ROLE.SPECIALTY_GASES_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:2f392d76-f5ff-5b8e-9f3b-c334f076fe00",
+      "target_node_id": "role:ROLE.SPECIALTY_GASES_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:2f6ada85-43d7-5b25-86c5-34ae18c7c3a4:role:ROLE.IDM",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:2f6ada85-43d7-5b25-86c5-34ae18c7c3a4",
+      "target_node_id": "role:ROLE.IDM"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:308989f7-4586-540e-b0f1-037a62c2ae0e:role:ROLE.WAFER_MANUFACTURER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:308989f7-4586-540e-b0f1-037a62c2ae0e",
+      "target_node_id": "role:ROLE.WAFER_MANUFACTURER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:30b21a92-a823-533e-888b-4ec741ff0dd9:role:ROLE.FOUNDRY",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:30b21a92-a823-533e-888b-4ec741ff0dd9",
+      "target_node_id": "role:ROLE.FOUNDRY"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:30f845db-d235-58d7-8086-8de36003da21:role:ROLE.FOUNDRY",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:30f845db-d235-58d7-8086-8de36003da21",
+      "target_node_id": "role:ROLE.FOUNDRY"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:353242ee-9221-5f09-8f53-4cc20d1dd71b:role:ROLE.EQUIPMENT_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:353242ee-9221-5f09-8f53-4cc20d1dd71b",
+      "target_node_id": "role:ROLE.EQUIPMENT_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:35b412d1-ff65-5130-a991-6080f3d7b4b0:role:ROLE.IDM",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:35b412d1-ff65-5130-a991-6080f3d7b4b0",
+      "target_node_id": "role:ROLE.IDM"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:35f7ed45-fe70-5bbb-950d-04c7360e07a7:role:ROLE.EQUIPMENT_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:35f7ed45-fe70-5bbb-950d-04c7360e07a7",
+      "target_node_id": "role:ROLE.EQUIPMENT_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:3a04510d-278c-539c-b457-9802145574e6:role:ROLE.WAFER_MANUFACTURER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:3a04510d-278c-539c-b457-9802145574e6",
+      "target_node_id": "role:ROLE.WAFER_MANUFACTURER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:3aa7152e-4109-54c7-bd6c-eb1cd288e1a3:role:ROLE.WAFER_MANUFACTURER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:3aa7152e-4109-54c7-bd6c-eb1cd288e1a3",
+      "target_node_id": "role:ROLE.WAFER_MANUFACTURER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:3ab30dea-b319-506e-a679-3b93754895e8:role:ROLE.EQUIPMENT_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:3ab30dea-b319-506e-a679-3b93754895e8",
+      "target_node_id": "role:ROLE.EQUIPMENT_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:3c1df58c-3fe1-5e31-b4cb-348ecbe806e9:role:ROLE.OSAT",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:3c1df58c-3fe1-5e31-b4cb-348ecbe806e9",
+      "target_node_id": "role:ROLE.OSAT"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:3c1df58c-3fe1-5e31-b4cb-348ecbe806e9:role:ROLE.PACKAGING_SPECIALIST",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:3c1df58c-3fe1-5e31-b4cb-348ecbe806e9",
+      "target_node_id": "role:ROLE.PACKAGING_SPECIALIST"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:3c1df58c-3fe1-5e31-b4cb-348ecbe806e9:role:ROLE.TEST_SERVICE",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:3c1df58c-3fe1-5e31-b4cb-348ecbe806e9",
+      "target_node_id": "role:ROLE.TEST_SERVICE"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:3ea874ab-e72a-5e70-b4f0-ef92b86fa36e:role:ROLE.IP_VENDOR",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:3ea874ab-e72a-5e70-b4f0-ef92b86fa36e",
+      "target_node_id": "role:ROLE.IP_VENDOR"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:3eb72132-2422-5248-9a1d-72078215f5e2:role:ROLE.OSAT",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:3eb72132-2422-5248-9a1d-72078215f5e2",
+      "target_node_id": "role:ROLE.OSAT"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:3eb72132-2422-5248-9a1d-72078215f5e2:role:ROLE.PACKAGING_SPECIALIST",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:3eb72132-2422-5248-9a1d-72078215f5e2",
+      "target_node_id": "role:ROLE.PACKAGING_SPECIALIST"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:3eb72132-2422-5248-9a1d-72078215f5e2:role:ROLE.TEST_SERVICE",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:3eb72132-2422-5248-9a1d-72078215f5e2",
+      "target_node_id": "role:ROLE.TEST_SERVICE"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:42a7782a-ba4c-5f6e-bc01-07d987cee619:role:ROLE.FOUNDRY",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:42a7782a-ba4c-5f6e-bc01-07d987cee619",
+      "target_node_id": "role:ROLE.FOUNDRY"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:46f0880a-11ac-505d-b6e3-b0d3196945a8:role:ROLE.FABLESS",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:46f0880a-11ac-505d-b6e3-b0d3196945a8",
+      "target_node_id": "role:ROLE.FABLESS"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:4713357c-d73d-5c3b-b804-e5842eeff8c9:role:ROLE.FABLESS",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:4713357c-d73d-5c3b-b804-e5842eeff8c9",
+      "target_node_id": "role:ROLE.FABLESS"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:497a1a02-e6bd-5367-81da-f05e318acaa9:role:ROLE.EQUIPMENT_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:497a1a02-e6bd-5367-81da-f05e318acaa9",
+      "target_node_id": "role:ROLE.EQUIPMENT_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:4c26690e-f706-5e21-a38e-9b97d6b9c381:role:ROLE.FABLESS",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:4c26690e-f706-5e21-a38e-9b97d6b9c381",
+      "target_node_id": "role:ROLE.FABLESS"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:4ec1a13a-a4df-51c6-9937-9959ed87b377:role:ROLE.EQUIPMENT_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:4ec1a13a-a4df-51c6-9937-9959ed87b377",
+      "target_node_id": "role:ROLE.EQUIPMENT_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:5013155d-f90b-531c-bc50-1afce1fb29d1:role:ROLE.CHEMICALS_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:5013155d-f90b-531c-bc50-1afce1fb29d1",
+      "target_node_id": "role:ROLE.CHEMICALS_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:509f8d0f-a859-5939-bda2-06412e1e3f05:role:ROLE.FABLESS",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:509f8d0f-a859-5939-bda2-06412e1e3f05",
+      "target_node_id": "role:ROLE.FABLESS"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:52ddd9ad-18ec-5632-ae69-9393ce9681fc:role:ROLE.IDM",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:52ddd9ad-18ec-5632-ae69-9393ce9681fc",
+      "target_node_id": "role:ROLE.IDM"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:53807272-37c1-538b-85f5-01c6592d90e9:role:ROLE.FOUNDRY",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:53807272-37c1-538b-85f5-01c6592d90e9",
+      "target_node_id": "role:ROLE.FOUNDRY"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:54192773-68c9-562f-837b-23f29270f18b:role:ROLE.OSAT",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:54192773-68c9-562f-837b-23f29270f18b",
+      "target_node_id": "role:ROLE.OSAT"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:54192773-68c9-562f-837b-23f29270f18b:role:ROLE.PACKAGING_SPECIALIST",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:54192773-68c9-562f-837b-23f29270f18b",
+      "target_node_id": "role:ROLE.PACKAGING_SPECIALIST"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:54192773-68c9-562f-837b-23f29270f18b:role:ROLE.TEST_SERVICE",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:54192773-68c9-562f-837b-23f29270f18b",
+      "target_node_id": "role:ROLE.TEST_SERVICE"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:5564d02f-920c-522a-8035-d0437b80b7a9:role:ROLE.OSAT",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:5564d02f-920c-522a-8035-d0437b80b7a9",
+      "target_node_id": "role:ROLE.OSAT"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:5564d02f-920c-522a-8035-d0437b80b7a9:role:ROLE.PACKAGING_SPECIALIST",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:5564d02f-920c-522a-8035-d0437b80b7a9",
+      "target_node_id": "role:ROLE.PACKAGING_SPECIALIST"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:5564d02f-920c-522a-8035-d0437b80b7a9:role:ROLE.TEST_SERVICE",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:5564d02f-920c-522a-8035-d0437b80b7a9",
+      "target_node_id": "role:ROLE.TEST_SERVICE"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:55761791-d2f1-5457-89a7-faab2f9d3f76:role:ROLE.EQUIPMENT_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:55761791-d2f1-5457-89a7-faab2f9d3f76",
+      "target_node_id": "role:ROLE.EQUIPMENT_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:567512d2-76da-5862-8804-439d12d9c653:role:ROLE.FABLESS",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:567512d2-76da-5862-8804-439d12d9c653",
+      "target_node_id": "role:ROLE.FABLESS"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:5726151c-0cd2-5b54-b49c-d81e55aa9cf2:role:ROLE.IP_VENDOR",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:5726151c-0cd2-5b54-b49c-d81e55aa9cf2",
+      "target_node_id": "role:ROLE.IP_VENDOR"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:577d839e-b1d8-5b04-b689-d8421f0b2291:role:ROLE.FABLESS",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:577d839e-b1d8-5b04-b689-d8421f0b2291",
+      "target_node_id": "role:ROLE.FABLESS"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:5f5fd606-041f-512c-b43a-6c3758994263:role:ROLE.FABLESS",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:5f5fd606-041f-512c-b43a-6c3758994263",
+      "target_node_id": "role:ROLE.FABLESS"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:5f8684ab-3a82-557d-bd24-27b3acc25143:role:ROLE.EQUIPMENT_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:5f8684ab-3a82-557d-bd24-27b3acc25143",
+      "target_node_id": "role:ROLE.EQUIPMENT_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:61dc96ec-fb53-5bf7-bbbd-6e2ee3b98d39:role:ROLE.EQUIPMENT_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:61dc96ec-fb53-5bf7-bbbd-6e2ee3b98d39",
+      "target_node_id": "role:ROLE.EQUIPMENT_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:61e17284-db4f-5d0a-8a79-c70b1def37a4:role:ROLE.FOUNDRY",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:61e17284-db4f-5d0a-8a79-c70b1def37a4",
+      "target_node_id": "role:ROLE.FOUNDRY"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:63bdfe81-ae5c-5329-9bad-2d2430b8117e:role:ROLE.WAFER_MANUFACTURER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:63bdfe81-ae5c-5329-9bad-2d2430b8117e",
+      "target_node_id": "role:ROLE.WAFER_MANUFACTURER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:6527e7f0-2463-5f4f-a019-cdd4df1fedd0:role:ROLE.OSAT",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:6527e7f0-2463-5f4f-a019-cdd4df1fedd0",
+      "target_node_id": "role:ROLE.OSAT"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:6527e7f0-2463-5f4f-a019-cdd4df1fedd0:role:ROLE.PACKAGING_SPECIALIST",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:6527e7f0-2463-5f4f-a019-cdd4df1fedd0",
+      "target_node_id": "role:ROLE.PACKAGING_SPECIALIST"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:6527e7f0-2463-5f4f-a019-cdd4df1fedd0:role:ROLE.TEST_SERVICE",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:6527e7f0-2463-5f4f-a019-cdd4df1fedd0",
+      "target_node_id": "role:ROLE.TEST_SERVICE"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:658b525f-9618-5b7e-bf00-9be7dbb3bacf:role:ROLE.IDM",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:658b525f-9618-5b7e-bf00-9be7dbb3bacf",
+      "target_node_id": "role:ROLE.IDM"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:658b525f-9618-5b7e-bf00-9be7dbb3bacf:role:ROLE.MEMORY_MANUFACTURER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:658b525f-9618-5b7e-bf00-9be7dbb3bacf",
+      "target_node_id": "role:ROLE.MEMORY_MANUFACTURER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:65a59194-f99a-540e-9d49-97d85fefe323:role:ROLE.IP_VENDOR",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:65a59194-f99a-540e-9d49-97d85fefe323",
+      "target_node_id": "role:ROLE.IP_VENDOR"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:68040404-f162-5bed-ba31-252b2318e6a1:role:ROLE.IDM",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:68040404-f162-5bed-ba31-252b2318e6a1",
+      "target_node_id": "role:ROLE.IDM"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:6a03a1d6-97be-5424-b92c-2f8b9c7fae9a:role:ROLE.SUBSTRATE_MANUFACTURER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:6a03a1d6-97be-5424-b92c-2f8b9c7fae9a",
+      "target_node_id": "role:ROLE.SUBSTRATE_MANUFACTURER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:6c1d014f-f81f-529c-b480-35781fd8420a:role:ROLE.IP_VENDOR",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:6c1d014f-f81f-529c-b480-35781fd8420a",
+      "target_node_id": "role:ROLE.IP_VENDOR"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:6d7ff317-e100-5b63-86b1-660f39962d3a:role:ROLE.CHEMICALS_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:6d7ff317-e100-5b63-86b1-660f39962d3a",
+      "target_node_id": "role:ROLE.CHEMICALS_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:6f084523-2ffb-5a0c-8a1f-908578788d07:role:ROLE.EQUIPMENT_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:6f084523-2ffb-5a0c-8a1f-908578788d07",
+      "target_node_id": "role:ROLE.EQUIPMENT_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:6f89262a-c4d1-5489-9258-880d69ba00ce:role:ROLE.IDM",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:6f89262a-c4d1-5489-9258-880d69ba00ce",
+      "target_node_id": "role:ROLE.IDM"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:70c6f91a-7b80-53e0-8206-ccce7112ff2d:role:ROLE.PHOTOMASK_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:70c6f91a-7b80-53e0-8206-ccce7112ff2d",
+      "target_node_id": "role:ROLE.PHOTOMASK_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:7225d89c-2a0c-5314-aa24-a7df7f67481d:role:ROLE.IP_VENDOR",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:7225d89c-2a0c-5314-aa24-a7df7f67481d",
+      "target_node_id": "role:ROLE.IP_VENDOR"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:725c610d-e041-553c-9e12-0d15d36305e7:role:ROLE.IDM",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:725c610d-e041-553c-9e12-0d15d36305e7",
+      "target_node_id": "role:ROLE.IDM"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:770eb411-ccdf-522b-a6d4-bd4ec87383c1:role:ROLE.FABLESS",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:770eb411-ccdf-522b-a6d4-bd4ec87383c1",
+      "target_node_id": "role:ROLE.FABLESS"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:7832808e-8191-55ab-ba62-eb4e7983c3f4:role:ROLE.EQUIPMENT_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:7832808e-8191-55ab-ba62-eb4e7983c3f4",
+      "target_node_id": "role:ROLE.EQUIPMENT_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:7a5ffa5d-8986-5869-8bfe-25655c5964f5:role:ROLE.EQUIPMENT_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:7a5ffa5d-8986-5869-8bfe-25655c5964f5",
+      "target_node_id": "role:ROLE.EQUIPMENT_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:7aa1b456-2935-5acc-b135-ba72b6f9ddc9:role:ROLE.CHEMICALS_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:7aa1b456-2935-5acc-b135-ba72b6f9ddc9",
+      "target_node_id": "role:ROLE.CHEMICALS_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:7c04a735-d428-5df2-a9dd-dc1460257c30:role:ROLE.FABLESS",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:7c04a735-d428-5df2-a9dd-dc1460257c30",
+      "target_node_id": "role:ROLE.FABLESS"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:7cc578d3-c5ba-57dd-951e-15c0fd8a92bc:role:ROLE.IP_VENDOR",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:7cc578d3-c5ba-57dd-951e-15c0fd8a92bc",
+      "target_node_id": "role:ROLE.IP_VENDOR"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:8205fc3b-a6d5-54d3-824b-c883457879d8:role:ROLE.CHEMICALS_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:8205fc3b-a6d5-54d3-824b-c883457879d8",
+      "target_node_id": "role:ROLE.CHEMICALS_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:823a08d9-ded3-5602-8aaf-d37230332d4c:role:ROLE.FABLESS",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:823a08d9-ded3-5602-8aaf-d37230332d4c",
+      "target_node_id": "role:ROLE.FABLESS"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:852692f6-d2d6-521c-90a5-f5086408d2bd:role:ROLE.IDM",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:852692f6-d2d6-521c-90a5-f5086408d2bd",
+      "target_node_id": "role:ROLE.IDM"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:853c6562-5ac7-524a-9f03-396342c9938c:role:ROLE.EQUIPMENT_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:853c6562-5ac7-524a-9f03-396342c9938c",
+      "target_node_id": "role:ROLE.EQUIPMENT_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:86ae69ad-d33b-5451-8af3-ed56ac1babe3:role:ROLE.FABLESS",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:86ae69ad-d33b-5451-8af3-ed56ac1babe3",
+      "target_node_id": "role:ROLE.FABLESS"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:8746323b-4a13-54e9-88f3-0ee95beb9bc4:role:ROLE.SUBSTRATE_MANUFACTURER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:8746323b-4a13-54e9-88f3-0ee95beb9bc4",
+      "target_node_id": "role:ROLE.SUBSTRATE_MANUFACTURER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:8794e04b-601c-501a-a1a2-33cce950686d:role:ROLE.FABLESS",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:8794e04b-601c-501a-a1a2-33cce950686d",
+      "target_node_id": "role:ROLE.FABLESS"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:882649fd-2075-5454-8a74-f74b2434ebd7:role:ROLE.IDM",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:882649fd-2075-5454-8a74-f74b2434ebd7",
+      "target_node_id": "role:ROLE.IDM"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:8872d220-0359-58ff-95c4-e5e4540fdb51:role:ROLE.EQUIPMENT_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:8872d220-0359-58ff-95c4-e5e4540fdb51",
+      "target_node_id": "role:ROLE.EQUIPMENT_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:88ee1862-10a6-5f3e-ae8d-f9ffa2f94a93:role:ROLE.CHEMICALS_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:88ee1862-10a6-5f3e-ae8d-f9ffa2f94a93",
+      "target_node_id": "role:ROLE.CHEMICALS_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:88ee1862-10a6-5f3e-ae8d-f9ffa2f94a93:role:ROLE.SPECIALTY_GASES_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:88ee1862-10a6-5f3e-ae8d-f9ffa2f94a93",
+      "target_node_id": "role:ROLE.SPECIALTY_GASES_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:89e313df-6322-5537-82ca-40573d40afe7:role:ROLE.OSAT",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:89e313df-6322-5537-82ca-40573d40afe7",
+      "target_node_id": "role:ROLE.OSAT"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:89e313df-6322-5537-82ca-40573d40afe7:role:ROLE.PACKAGING_SPECIALIST",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:89e313df-6322-5537-82ca-40573d40afe7",
+      "target_node_id": "role:ROLE.PACKAGING_SPECIALIST"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:89e313df-6322-5537-82ca-40573d40afe7:role:ROLE.TEST_SERVICE",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:89e313df-6322-5537-82ca-40573d40afe7",
+      "target_node_id": "role:ROLE.TEST_SERVICE"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:8b0df095-06b9-5cd7-8dc0-d2461f5b76bf:role:ROLE.PHOTOMASK_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:8b0df095-06b9-5cd7-8dc0-d2461f5b76bf",
+      "target_node_id": "role:ROLE.PHOTOMASK_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:8dc89ca9-b072-584c-a12e-c238b5e00bf5:role:ROLE.SUBSTRATE_MANUFACTURER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:8dc89ca9-b072-584c-a12e-c238b5e00bf5",
+      "target_node_id": "role:ROLE.SUBSTRATE_MANUFACTURER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:8de3a6cb-9e81-5eb2-af26-699140e58870:role:ROLE.EDA_VENDOR",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:8de3a6cb-9e81-5eb2-af26-699140e58870",
+      "target_node_id": "role:ROLE.EDA_VENDOR"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:8f7a9171-5dd3-5dcf-a953-6836c2dff068:role:ROLE.IDM",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:8f7a9171-5dd3-5dcf-a953-6836c2dff068",
+      "target_node_id": "role:ROLE.IDM"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:8fc5e3c4-d461-5f16-b700-9b9784b70c14:role:ROLE.FABLESS",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:8fc5e3c4-d461-5f16-b700-9b9784b70c14",
+      "target_node_id": "role:ROLE.FABLESS"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:90679d65-9be3-51c7-85e0-58d6746e2f7c:role:ROLE.EQUIPMENT_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:90679d65-9be3-51c7-85e0-58d6746e2f7c",
+      "target_node_id": "role:ROLE.EQUIPMENT_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:906eb4de-4eb2-5cc8-ab75-ebb77a1744c5:role:ROLE.CHEMICALS_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:906eb4de-4eb2-5cc8-ab75-ebb77a1744c5",
+      "target_node_id": "role:ROLE.CHEMICALS_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:909bfe30-c42d-56c9-af75-3415541792a1:role:ROLE.CHEMICALS_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:909bfe30-c42d-56c9-af75-3415541792a1",
+      "target_node_id": "role:ROLE.CHEMICALS_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:926da4e0-01d8-57c1-8667-aeba7555c755:role:ROLE.SUBSTRATE_MANUFACTURER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:926da4e0-01d8-57c1-8667-aeba7555c755",
+      "target_node_id": "role:ROLE.SUBSTRATE_MANUFACTURER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:93085617-9c64-59e7-85c7-c15ec20e8eb9:role:ROLE.EQUIPMENT_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:93085617-9c64-59e7-85c7-c15ec20e8eb9",
+      "target_node_id": "role:ROLE.EQUIPMENT_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:9319c36a-e19f-5837-92f5-e2372fd8dbc3:role:ROLE.OSAT",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:9319c36a-e19f-5837-92f5-e2372fd8dbc3",
+      "target_node_id": "role:ROLE.OSAT"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:9319c36a-e19f-5837-92f5-e2372fd8dbc3:role:ROLE.PACKAGING_SPECIALIST",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:9319c36a-e19f-5837-92f5-e2372fd8dbc3",
+      "target_node_id": "role:ROLE.PACKAGING_SPECIALIST"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:9319c36a-e19f-5837-92f5-e2372fd8dbc3:role:ROLE.TEST_SERVICE",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:9319c36a-e19f-5837-92f5-e2372fd8dbc3",
+      "target_node_id": "role:ROLE.TEST_SERVICE"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:941a1181-ac94-5581-b07b-5b7f03951759:role:ROLE.EQUIPMENT_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:941a1181-ac94-5581-b07b-5b7f03951759",
+      "target_node_id": "role:ROLE.EQUIPMENT_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:94fdefa3-4198-5379-8d22-4d9c0f5746af:role:ROLE.EDA_VENDOR",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:94fdefa3-4198-5379-8d22-4d9c0f5746af",
+      "target_node_id": "role:ROLE.EDA_VENDOR"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:98c07def-0244-52f2-b0c6-c35e2896b513:role:ROLE.FABLESS",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:98c07def-0244-52f2-b0c6-c35e2896b513",
+      "target_node_id": "role:ROLE.FABLESS"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:996f7bbc-fb28-50c9-b82a-8abf2e32a06f:role:ROLE.IP_VENDOR",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:996f7bbc-fb28-50c9-b82a-8abf2e32a06f",
+      "target_node_id": "role:ROLE.IP_VENDOR"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:9aaac545-fe4d-503e-a143-5d75ad96b43d:role:ROLE.EQUIPMENT_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:9aaac545-fe4d-503e-a143-5d75ad96b43d",
+      "target_node_id": "role:ROLE.EQUIPMENT_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:9d481faa-8582-55d5-8e67-c6faa9be68ab:role:ROLE.EQUIPMENT_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:9d481faa-8582-55d5-8e67-c6faa9be68ab",
+      "target_node_id": "role:ROLE.EQUIPMENT_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:9e1fb522-b8e0-562c-9cb7-9ff820f687bd:role:ROLE.OSAT",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:9e1fb522-b8e0-562c-9cb7-9ff820f687bd",
+      "target_node_id": "role:ROLE.OSAT"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:9e1fb522-b8e0-562c-9cb7-9ff820f687bd:role:ROLE.PACKAGING_SPECIALIST",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:9e1fb522-b8e0-562c-9cb7-9ff820f687bd",
+      "target_node_id": "role:ROLE.PACKAGING_SPECIALIST"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:9e1fb522-b8e0-562c-9cb7-9ff820f687bd:role:ROLE.TEST_SERVICE",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:9e1fb522-b8e0-562c-9cb7-9ff820f687bd",
+      "target_node_id": "role:ROLE.TEST_SERVICE"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:9f84c84c-b8db-5033-ae6b-2225fe062981:role:ROLE.IDM",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:9f84c84c-b8db-5033-ae6b-2225fe062981",
+      "target_node_id": "role:ROLE.IDM"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:a05c37c9-a1ee-5d2d-9582-ce0e8828219c:role:ROLE.FOUNDRY",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:a05c37c9-a1ee-5d2d-9582-ce0e8828219c",
+      "target_node_id": "role:ROLE.FOUNDRY"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:a1b4985c-05ad-532b-9f55-18e538f7c70a:role:ROLE.EQUIPMENT_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:a1b4985c-05ad-532b-9f55-18e538f7c70a",
+      "target_node_id": "role:ROLE.EQUIPMENT_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:a339a383-fafc-5a42-b6e9-02a98f790099:role:ROLE.EQUIPMENT_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:a339a383-fafc-5a42-b6e9-02a98f790099",
+      "target_node_id": "role:ROLE.EQUIPMENT_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:a38ac7a5-c80f-58d6-9604-54a912762efd:role:ROLE.CHEMICALS_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:a38ac7a5-c80f-58d6-9604-54a912762efd",
+      "target_node_id": "role:ROLE.CHEMICALS_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:a39faba3-d4e4-5880-bd27-a145ea42abac:role:ROLE.FABLESS",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:a39faba3-d4e4-5880-bd27-a145ea42abac",
+      "target_node_id": "role:ROLE.FABLESS"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:a4048d10-1467-5d5d-9aad-3645d23c3ddf:role:ROLE.WAFER_MANUFACTURER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:a4048d10-1467-5d5d-9aad-3645d23c3ddf",
+      "target_node_id": "role:ROLE.WAFER_MANUFACTURER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:a6dd9801-c278-5866-8c76-9181547fbf9c:role:ROLE.SUBSTRATE_MANUFACTURER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:a6dd9801-c278-5866-8c76-9181547fbf9c",
+      "target_node_id": "role:ROLE.SUBSTRATE_MANUFACTURER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:a703f724-f5ec-50ee-85fb-a6e5697f27dd:role:ROLE.OSAT",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:a703f724-f5ec-50ee-85fb-a6e5697f27dd",
+      "target_node_id": "role:ROLE.OSAT"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:a703f724-f5ec-50ee-85fb-a6e5697f27dd:role:ROLE.PACKAGING_SPECIALIST",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:a703f724-f5ec-50ee-85fb-a6e5697f27dd",
+      "target_node_id": "role:ROLE.PACKAGING_SPECIALIST"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:a703f724-f5ec-50ee-85fb-a6e5697f27dd:role:ROLE.TEST_SERVICE",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:a703f724-f5ec-50ee-85fb-a6e5697f27dd",
+      "target_node_id": "role:ROLE.TEST_SERVICE"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:a74c7d0d-513d-52c9-8dac-ec98df7051e9:role:ROLE.EDA_VENDOR",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:a74c7d0d-513d-52c9-8dac-ec98df7051e9",
+      "target_node_id": "role:ROLE.EDA_VENDOR"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:a78989bc-8bb0-5121-ab68-827b2885d82a:role:ROLE.FABLESS",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:a78989bc-8bb0-5121-ab68-827b2885d82a",
+      "target_node_id": "role:ROLE.FABLESS"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:a8d98cfa-2f20-5a69-85d8-7f6329e36785:role:ROLE.CHEMICALS_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:a8d98cfa-2f20-5a69-85d8-7f6329e36785",
+      "target_node_id": "role:ROLE.CHEMICALS_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:a9da4cd3-9203-5807-9f4f-b8427c9d4946:role:ROLE.EQUIPMENT_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:a9da4cd3-9203-5807-9f4f-b8427c9d4946",
+      "target_node_id": "role:ROLE.EQUIPMENT_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:ad3642a9-d3e2-55bb-9db2-03fbbe499cfb:role:ROLE.OSAT",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:ad3642a9-d3e2-55bb-9db2-03fbbe499cfb",
+      "target_node_id": "role:ROLE.OSAT"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:ad3642a9-d3e2-55bb-9db2-03fbbe499cfb:role:ROLE.PACKAGING_SPECIALIST",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:ad3642a9-d3e2-55bb-9db2-03fbbe499cfb",
+      "target_node_id": "role:ROLE.PACKAGING_SPECIALIST"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:ad3642a9-d3e2-55bb-9db2-03fbbe499cfb:role:ROLE.TEST_SERVICE",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:ad3642a9-d3e2-55bb-9db2-03fbbe499cfb",
+      "target_node_id": "role:ROLE.TEST_SERVICE"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:ad575f8f-09c0-5e26-b0ad-acc299efb886:role:ROLE.EQUIPMENT_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:ad575f8f-09c0-5e26-b0ad-acc299efb886",
+      "target_node_id": "role:ROLE.EQUIPMENT_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:ae972f92-1e07-51ce-b4a5-a3b7acc1d90e:role:ROLE.FOUNDRY",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:ae972f92-1e07-51ce-b4a5-a3b7acc1d90e",
+      "target_node_id": "role:ROLE.FOUNDRY"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:aeb3a987-0c2b-5633-8b06-5696dae8172d:role:ROLE.EQUIPMENT_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:aeb3a987-0c2b-5633-8b06-5696dae8172d",
+      "target_node_id": "role:ROLE.EQUIPMENT_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:af3abd85-0149-5b11-a8aa-5615f32c379d:role:ROLE.EQUIPMENT_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:af3abd85-0149-5b11-a8aa-5615f32c379d",
+      "target_node_id": "role:ROLE.EQUIPMENT_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:b24d45c8-c565-5069-b847-95f80494dea4:role:ROLE.SUBSTRATE_MANUFACTURER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:b24d45c8-c565-5069-b847-95f80494dea4",
+      "target_node_id": "role:ROLE.SUBSTRATE_MANUFACTURER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:b29ec5f0-e740-525a-a1aa-b6aeb2f7c916:role:ROLE.FABLESS",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:b29ec5f0-e740-525a-a1aa-b6aeb2f7c916",
+      "target_node_id": "role:ROLE.FABLESS"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:b2e5e76f-7beb-561c-a53d-038d7427d3de:role:ROLE.EQUIPMENT_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:b2e5e76f-7beb-561c-a53d-038d7427d3de",
+      "target_node_id": "role:ROLE.EQUIPMENT_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:b43d2ce7-3a6a-5f2f-886b-f999d4dd693b:role:ROLE.CHEMICALS_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:b43d2ce7-3a6a-5f2f-886b-f999d4dd693b",
+      "target_node_id": "role:ROLE.CHEMICALS_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:b50e37e1-429a-5697-858c-29f68e787014:role:ROLE.IDM",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:b50e37e1-429a-5697-858c-29f68e787014",
+      "target_node_id": "role:ROLE.IDM"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:b985896c-c00d-53a7-a5fe-74728a6e594e:role:ROLE.FABLESS",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:b985896c-c00d-53a7-a5fe-74728a6e594e",
+      "target_node_id": "role:ROLE.FABLESS"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:bac20fc9-f452-5eef-8ec1-47d0671006a6:role:ROLE.IDM",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:bac20fc9-f452-5eef-8ec1-47d0671006a6",
+      "target_node_id": "role:ROLE.IDM"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:bd33fc07-b814-5900-9fad-8b3da80bd663:role:ROLE.CHEMICALS_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:bd33fc07-b814-5900-9fad-8b3da80bd663",
+      "target_node_id": "role:ROLE.CHEMICALS_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:bda400a1-c296-5c8c-a272-9c91d3c10381:role:ROLE.IDM",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:bda400a1-c296-5c8c-a272-9c91d3c10381",
+      "target_node_id": "role:ROLE.IDM"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:be1d6bcd-a4df-5123-b6fb-689025134a9b:role:ROLE.EQUIPMENT_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:be1d6bcd-a4df-5123-b6fb-689025134a9b",
+      "target_node_id": "role:ROLE.EQUIPMENT_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:bf1442d2-1407-5a95-8f9a-74f5a875bc39:role:ROLE.IDM",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:bf1442d2-1407-5a95-8f9a-74f5a875bc39",
+      "target_node_id": "role:ROLE.IDM"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:c5115bca-a75d-500d-bf5f-a0c9000bcc44:role:ROLE.EQUIPMENT_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:c5115bca-a75d-500d-bf5f-a0c9000bcc44",
+      "target_node_id": "role:ROLE.EQUIPMENT_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:c58d3bbf-a097-5f8d-bbfe-9860135b87cb:role:ROLE.EQUIPMENT_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:c58d3bbf-a097-5f8d-bbfe-9860135b87cb",
+      "target_node_id": "role:ROLE.EQUIPMENT_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:c86faabb-1482-5d0d-a6f3-660f17955473:role:ROLE.FABLESS",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:c86faabb-1482-5d0d-a6f3-660f17955473",
+      "target_node_id": "role:ROLE.FABLESS"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:cb4e8c7f-c184-5ff2-ae3a-631494e550bf:role:ROLE.FOUNDRY",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:cb4e8c7f-c184-5ff2-ae3a-631494e550bf",
+      "target_node_id": "role:ROLE.FOUNDRY"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:cd1f2f23-fd53-5e61-b8fe-5836fd5bb2f7:role:ROLE.SUBSTRATE_MANUFACTURER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:cd1f2f23-fd53-5e61-b8fe-5836fd5bb2f7",
+      "target_node_id": "role:ROLE.SUBSTRATE_MANUFACTURER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:cde245a7-4e7b-5635-bb07-b377055e39d7:role:ROLE.EQUIPMENT_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:cde245a7-4e7b-5635-bb07-b377055e39d7",
+      "target_node_id": "role:ROLE.EQUIPMENT_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:ce2890f3-4887-5ef6-996f-081f132aa89c:role:ROLE.SUBSTRATE_MANUFACTURER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:ce2890f3-4887-5ef6-996f-081f132aa89c",
+      "target_node_id": "role:ROLE.SUBSTRATE_MANUFACTURER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:ce37fb1f-4900-57ab-84f6-e8c96c6ac3bb:role:ROLE.FABLESS",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:ce37fb1f-4900-57ab-84f6-e8c96c6ac3bb",
+      "target_node_id": "role:ROLE.FABLESS"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:ce6f9e20-80d8-540d-a230-c618c475724b:role:ROLE.IDM",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:ce6f9e20-80d8-540d-a230-c618c475724b",
+      "target_node_id": "role:ROLE.IDM"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:cec410e3-8846-5d94-a819-9fe681ef7a59:role:ROLE.PHOTOMASK_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:cec410e3-8846-5d94-a819-9fe681ef7a59",
+      "target_node_id": "role:ROLE.PHOTOMASK_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:ced546bb-1b9a-59f7-8bf4-fdb30a2cab36:role:ROLE.SPECIALTY_GASES_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:ced546bb-1b9a-59f7-8bf4-fdb30a2cab36",
+      "target_node_id": "role:ROLE.SPECIALTY_GASES_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:cf2f688f-271a-5d91-a5fd-b7165bc2f6f0:role:ROLE.CHEMICALS_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:cf2f688f-271a-5d91-a5fd-b7165bc2f6f0",
+      "target_node_id": "role:ROLE.CHEMICALS_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:d28259a4-8ab6-5f3f-be26-aa7e7dc569a7:role:ROLE.IDM",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:d28259a4-8ab6-5f3f-be26-aa7e7dc569a7",
+      "target_node_id": "role:ROLE.IDM"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:d55dea36-3e45-54ab-b1ea-20e5376bb4b4:role:ROLE.FABLESS",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:d55dea36-3e45-54ab-b1ea-20e5376bb4b4",
+      "target_node_id": "role:ROLE.FABLESS"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:d5c16117-f347-5097-b7ee-cebf292f8887:role:ROLE.EQUIPMENT_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:d5c16117-f347-5097-b7ee-cebf292f8887",
+      "target_node_id": "role:ROLE.EQUIPMENT_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:d6839de6-3aaf-53e6-a97a-b7ab8f189e3f:role:ROLE.EQUIPMENT_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:d6839de6-3aaf-53e6-a97a-b7ab8f189e3f",
+      "target_node_id": "role:ROLE.EQUIPMENT_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:d7172387-e463-5849-976f-d003174ac601:role:ROLE.OSAT",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:d7172387-e463-5849-976f-d003174ac601",
+      "target_node_id": "role:ROLE.OSAT"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:d7172387-e463-5849-976f-d003174ac601:role:ROLE.PACKAGING_SPECIALIST",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:d7172387-e463-5849-976f-d003174ac601",
+      "target_node_id": "role:ROLE.PACKAGING_SPECIALIST"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:d7172387-e463-5849-976f-d003174ac601:role:ROLE.TEST_SERVICE",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:d7172387-e463-5849-976f-d003174ac601",
+      "target_node_id": "role:ROLE.TEST_SERVICE"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:d8127e81-e6bf-579e-8fac-80525b5e7269:role:ROLE.FOUNDRY",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:d8127e81-e6bf-579e-8fac-80525b5e7269",
+      "target_node_id": "role:ROLE.FOUNDRY"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:d89c614d-2ce2-5797-8237-1f2753b7dd0e:role:ROLE.SUBSTRATE_MANUFACTURER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:d89c614d-2ce2-5797-8237-1f2753b7dd0e",
+      "target_node_id": "role:ROLE.SUBSTRATE_MANUFACTURER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:d9891bf1-b276-53f7-9066-e2045fc6970c:role:ROLE.FOUNDRY",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:d9891bf1-b276-53f7-9066-e2045fc6970c",
+      "target_node_id": "role:ROLE.FOUNDRY"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:de0a8d48-7c73-58e8-83f1-fd37e049dc30:role:ROLE.FABLESS",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:de0a8d48-7c73-58e8-83f1-fd37e049dc30",
+      "target_node_id": "role:ROLE.FABLESS"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:de69a354-3e12-5b97-980d-d6de1b9240a9:role:ROLE.EQUIPMENT_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:de69a354-3e12-5b97-980d-d6de1b9240a9",
+      "target_node_id": "role:ROLE.EQUIPMENT_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:df38c337-855a-5d89-8d1f-5593990a3316:role:ROLE.CHEMICALS_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:df38c337-855a-5d89-8d1f-5593990a3316",
+      "target_node_id": "role:ROLE.CHEMICALS_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:e35eca47-acc1-54e6-bd8e-c9c1529d8568:role:ROLE.OSAT",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:e35eca47-acc1-54e6-bd8e-c9c1529d8568",
+      "target_node_id": "role:ROLE.OSAT"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:e35eca47-acc1-54e6-bd8e-c9c1529d8568:role:ROLE.PACKAGING_SPECIALIST",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:e35eca47-acc1-54e6-bd8e-c9c1529d8568",
+      "target_node_id": "role:ROLE.PACKAGING_SPECIALIST"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:e35eca47-acc1-54e6-bd8e-c9c1529d8568:role:ROLE.TEST_SERVICE",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:e35eca47-acc1-54e6-bd8e-c9c1529d8568",
+      "target_node_id": "role:ROLE.TEST_SERVICE"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:e42d1c7e-b370-5cce-92da-29054fabfd82:role:ROLE.CHEMICALS_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:e42d1c7e-b370-5cce-92da-29054fabfd82",
+      "target_node_id": "role:ROLE.CHEMICALS_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:e8093cfa-91ae-5592-80c1-56de23185b00:role:ROLE.OSAT",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:e8093cfa-91ae-5592-80c1-56de23185b00",
+      "target_node_id": "role:ROLE.OSAT"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:e8093cfa-91ae-5592-80c1-56de23185b00:role:ROLE.PACKAGING_SPECIALIST",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:e8093cfa-91ae-5592-80c1-56de23185b00",
+      "target_node_id": "role:ROLE.PACKAGING_SPECIALIST"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:e8093cfa-91ae-5592-80c1-56de23185b00:role:ROLE.TEST_SERVICE",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:e8093cfa-91ae-5592-80c1-56de23185b00",
+      "target_node_id": "role:ROLE.TEST_SERVICE"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:e857aaf6-5560-5d3a-931e-947ec3775713:role:ROLE.FOUNDRY",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:e857aaf6-5560-5d3a-931e-947ec3775713",
+      "target_node_id": "role:ROLE.FOUNDRY"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:ea966ea8-74a6-5a46-a2fe-01240bff5134:role:ROLE.SUBSTRATE_MANUFACTURER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:ea966ea8-74a6-5a46-a2fe-01240bff5134",
+      "target_node_id": "role:ROLE.SUBSTRATE_MANUFACTURER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:eb4effdf-d07b-5643-8f45-d2f2873ac07d:role:ROLE.CHEMICALS_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:eb4effdf-d07b-5643-8f45-d2f2873ac07d",
+      "target_node_id": "role:ROLE.CHEMICALS_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:ebf9863c-c3c1-5b64-8225-0fe26b9f2de9:role:ROLE.IDM",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:ebf9863c-c3c1-5b64-8225-0fe26b9f2de9",
+      "target_node_id": "role:ROLE.IDM"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:ec03edf0-693b-58a7-84f4-6a65d898d9be:role:ROLE.OSAT",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:ec03edf0-693b-58a7-84f4-6a65d898d9be",
+      "target_node_id": "role:ROLE.OSAT"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:ec03edf0-693b-58a7-84f4-6a65d898d9be:role:ROLE.PACKAGING_SPECIALIST",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:ec03edf0-693b-58a7-84f4-6a65d898d9be",
+      "target_node_id": "role:ROLE.PACKAGING_SPECIALIST"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:ec03edf0-693b-58a7-84f4-6a65d898d9be:role:ROLE.TEST_SERVICE",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:ec03edf0-693b-58a7-84f4-6a65d898d9be",
+      "target_node_id": "role:ROLE.TEST_SERVICE"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:ec070821-134b-5659-9778-93647adadc2d:role:ROLE.FABLESS",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:ec070821-134b-5659-9778-93647adadc2d",
+      "target_node_id": "role:ROLE.FABLESS"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:ed4cc4c8-2f11-5e7b-adb3-4c5a94258bd5:role:ROLE.EDA_VENDOR",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:ed4cc4c8-2f11-5e7b-adb3-4c5a94258bd5",
+      "target_node_id": "role:ROLE.EDA_VENDOR"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:ee97dc10-6710-583a-93ba-e791be5fa7f4:role:ROLE.CHEMICALS_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:ee97dc10-6710-583a-93ba-e791be5fa7f4",
+      "target_node_id": "role:ROLE.CHEMICALS_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:ee99be8f-51b7-5337-9596-e7954e4d1d35:role:ROLE.EQUIPMENT_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:ee99be8f-51b7-5337-9596-e7954e4d1d35",
+      "target_node_id": "role:ROLE.EQUIPMENT_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:ef63e820-1662-5a61-a28c-771ed21f2ef0:role:ROLE.CHEMICALS_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:ef63e820-1662-5a61-a28c-771ed21f2ef0",
+      "target_node_id": "role:ROLE.CHEMICALS_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:ef9f0e61-7d1a-53e6-979c-8b0e5b80d9e3:role:ROLE.EQUIPMENT_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:ef9f0e61-7d1a-53e6-979c-8b0e5b80d9e3",
+      "target_node_id": "role:ROLE.EQUIPMENT_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:f0021b9e-f394-52f8-844e-23e846286466:role:ROLE.IP_VENDOR",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:f0021b9e-f394-52f8-844e-23e846286466",
+      "target_node_id": "role:ROLE.IP_VENDOR"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:f1ed4413-e152-52f9-82e5-163f23d09967:role:ROLE.SPECIALTY_GASES_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:f1ed4413-e152-52f9-82e5-163f23d09967",
+      "target_node_id": "role:ROLE.SPECIALTY_GASES_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:f52df2db-cd5e-552e-84d9-8b6e111516ce:role:ROLE.IDM",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:f52df2db-cd5e-552e-84d9-8b6e111516ce",
+      "target_node_id": "role:ROLE.IDM"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:f6816e46-6aea-5949-8625-0003f67956e1:role:ROLE.FABLESS",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:f6816e46-6aea-5949-8625-0003f67956e1",
+      "target_node_id": "role:ROLE.FABLESS"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:f6fd0491-0b9a-5dd3-98fb-4125b6169962:role:ROLE.EQUIPMENT_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:f6fd0491-0b9a-5dd3-98fb-4125b6169962",
+      "target_node_id": "role:ROLE.EQUIPMENT_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:f7835267-88fa-52c6-8f29-109ae5ed7c36:role:ROLE.FOUNDRY",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:f7835267-88fa-52c6-8f29-109ae5ed7c36",
+      "target_node_id": "role:ROLE.FOUNDRY"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:f80b98d8-ebab-5bcb-b12c-bbd495d40768:role:ROLE.PHOTOMASK_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:f80b98d8-ebab-5bcb-b12c-bbd495d40768",
+      "target_node_id": "role:ROLE.PHOTOMASK_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:faf1bb6d-d09c-5929-ac04-6cc4b374205e:role:ROLE.EQUIPMENT_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:faf1bb6d-d09c-5929-ac04-6cc4b374205e",
+      "target_node_id": "role:ROLE.EQUIPMENT_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:fb1a0d2f-79e2-5555-8121-1d12a1480960:role:ROLE.PHOTOMASK_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:fb1a0d2f-79e2-5555-8121-1d12a1480960",
+      "target_node_id": "role:ROLE.PHOTOMASK_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "HAS_ROLE:company:ff763e49-8b64-549b-b30b-bf676d8dd312:role:ROLE.CHEMICALS_SUPPLIER",
+      "edge_type": "HAS_ROLE",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:ff763e49-8b64-549b-b30b-bf676d8dd312",
+      "target_node_id": "role:ROLE.CHEMICALS_SUPPLIER"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:009ee8f4-0bf7-52d0-a6e7-7fbdac81077f:segment:SEG.MANUFACTURING_EQUIPMENT",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:009ee8f4-0bf7-52d0-a6e7-7fbdac81077f",
+      "target_node_id": "segment:SEG.MANUFACTURING_EQUIPMENT"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:00d631d5-04ed-515c-a885-ff414ae9bb1a:segment:SEG.DESIGN_SOFTWARE",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:00d631d5-04ed-515c-a885-ff414ae9bb1a",
+      "target_node_id": "segment:SEG.DESIGN_SOFTWARE"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:020f3142-5a5a-5eba-8af3-a4a767114bd2:segment:SEG.DESIGN_SOFTWARE",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:020f3142-5a5a-5eba-8af3-a4a767114bd2",
+      "target_node_id": "segment:SEG.DESIGN_SOFTWARE"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:0330ece7-f941-5dcf-939e-65f8ca1efddf:segment:SEG.FRONTEND_MANUFACTURING",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:0330ece7-f941-5dcf-939e-65f8ca1efddf",
+      "target_node_id": "segment:SEG.FRONTEND_MANUFACTURING"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:03e7f057-b8d3-576d-ba97-9f9228c02c97:segment:SEG.FRONTEND_MANUFACTURING",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:03e7f057-b8d3-576d-ba97-9f9228c02c97",
+      "target_node_id": "segment:SEG.FRONTEND_MANUFACTURING"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:0479a265-a8de-5bd9-8613-91e82cc90856:segment:SEG.BACKEND_MANUFACTURING",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:0479a265-a8de-5bd9-8613-91e82cc90856",
+      "target_node_id": "segment:SEG.BACKEND_MANUFACTURING"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:04a34bd2-0cc9-5664-8579-958c2547f5bf:segment:SEG.FRONTEND_MANUFACTURING",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:04a34bd2-0cc9-5664-8579-958c2547f5bf",
+      "target_node_id": "segment:SEG.FRONTEND_MANUFACTURING"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:07e5e505-7563-5b31-bd2d-78b561964a9a:segment:SEG.DESIGN_SOFTWARE",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:07e5e505-7563-5b31-bd2d-78b561964a9a",
+      "target_node_id": "segment:SEG.DESIGN_SOFTWARE"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:0830d709-7c29-5ebf-8210-ad5de594a4f0:segment:SEG.FRONTEND_MANUFACTURING",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:0830d709-7c29-5ebf-8210-ad5de594a4f0",
+      "target_node_id": "segment:SEG.FRONTEND_MANUFACTURING"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:095718d2-84dc-5a41-88dc-efe8787daa07:segment:SEG.BACKEND_MANUFACTURING",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:095718d2-84dc-5a41-88dc-efe8787daa07",
+      "target_node_id": "segment:SEG.BACKEND_MANUFACTURING"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:0b5976bc-6bc5-59f9-8eb7-675e019dfc75:segment:SEG.MANUFACTURING_EQUIPMENT",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:0b5976bc-6bc5-59f9-8eb7-675e019dfc75",
+      "target_node_id": "segment:SEG.MANUFACTURING_EQUIPMENT"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:0b5d68f5-99b7-5104-ab55-4d21734f32b1:segment:SEG.DESIGN_SOFTWARE",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:0b5d68f5-99b7-5104-ab55-4d21734f32b1",
+      "target_node_id": "segment:SEG.DESIGN_SOFTWARE"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:0b7c27d3-e2bc-5357-87f5-430f84a7a795:segment:SEG.MANUFACTURING_EQUIPMENT",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:0b7c27d3-e2bc-5357-87f5-430f84a7a795",
+      "target_node_id": "segment:SEG.MANUFACTURING_EQUIPMENT"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:0c70efe4-d723-59ea-91e7-a3ed1dd1e1a5:segment:SEG.BACKEND_MANUFACTURING",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:0c70efe4-d723-59ea-91e7-a3ed1dd1e1a5",
+      "target_node_id": "segment:SEG.BACKEND_MANUFACTURING"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:0d96f815-5d42-5582-8639-bb5d39164c63:segment:SEG.BACKEND_MANUFACTURING",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:0d96f815-5d42-5582-8639-bb5d39164c63",
+      "target_node_id": "segment:SEG.BACKEND_MANUFACTURING"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:0e3feb41-a920-5282-b897-f9f0e4f7b9e6:segment:SEG.MATERIALS",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:0e3feb41-a920-5282-b897-f9f0e4f7b9e6",
+      "target_node_id": "segment:SEG.MATERIALS"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:0e7fbd46-4bae-5a01-af9a-1bca26eb6f82:segment:SEG.MATERIALS",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:0e7fbd46-4bae-5a01-af9a-1bca26eb6f82",
+      "target_node_id": "segment:SEG.MATERIALS"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:0fb094f9-dde9-5e09-8dba-d1d987c69dbb:segment:SEG.BACKEND_MANUFACTURING",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:0fb094f9-dde9-5e09-8dba-d1d987c69dbb",
+      "target_node_id": "segment:SEG.BACKEND_MANUFACTURING"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:110c6396-4e28-5609-8860-114f6cf03bc2:segment:SEG.FRONTEND_MANUFACTURING",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:110c6396-4e28-5609-8860-114f6cf03bc2",
+      "target_node_id": "segment:SEG.FRONTEND_MANUFACTURING"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:150f3de5-75f6-552c-8739-c7b227d1d69f:segment:SEG.FRONTEND_MANUFACTURING",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:150f3de5-75f6-552c-8739-c7b227d1d69f",
+      "target_node_id": "segment:SEG.FRONTEND_MANUFACTURING"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:17615950-fb28-5aa3-be58-04b152b29663:segment:SEG.MATERIALS",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:17615950-fb28-5aa3-be58-04b152b29663",
+      "target_node_id": "segment:SEG.MATERIALS"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:18bbf86f-337a-5eba-b594-c081736ec5f1:segment:SEG.DESIGN_SOFTWARE",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:18bbf86f-337a-5eba-b594-c081736ec5f1",
+      "target_node_id": "segment:SEG.DESIGN_SOFTWARE"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:18c0292d-3e77-55cd-8ba9-ac416077f08a:segment:SEG.DESIGN_SOFTWARE",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:18c0292d-3e77-55cd-8ba9-ac416077f08a",
+      "target_node_id": "segment:SEG.DESIGN_SOFTWARE"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:1bf27e8b-5fd1-51ad-b5e5-97d86f6c91e2:segment:SEG.MANUFACTURING_EQUIPMENT",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:1bf27e8b-5fd1-51ad-b5e5-97d86f6c91e2",
+      "target_node_id": "segment:SEG.MANUFACTURING_EQUIPMENT"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:1d4148fb-3cb5-5c1b-8e32-0fe9bb1b02bb:segment:SEG.FRONTEND_MANUFACTURING",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:1d4148fb-3cb5-5c1b-8e32-0fe9bb1b02bb",
+      "target_node_id": "segment:SEG.FRONTEND_MANUFACTURING"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:1d96aeec-90fc-51d6-b170-402fa2c1f398:segment:SEG.MASKS_RETICLES",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:1d96aeec-90fc-51d6-b170-402fa2c1f398",
+      "target_node_id": "segment:SEG.MASKS_RETICLES"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:1db8a203-4404-5174-8b41-f71a9bd09f8a:segment:SEG.WAFERS_SUBSTRATES",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:1db8a203-4404-5174-8b41-f71a9bd09f8a",
+      "target_node_id": "segment:SEG.WAFERS_SUBSTRATES"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:1f88a976-e07c-5bae-bd9f-86fe33f3678e:segment:SEG.DESIGN_SOFTWARE",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:1f88a976-e07c-5bae-bd9f-86fe33f3678e",
+      "target_node_id": "segment:SEG.DESIGN_SOFTWARE"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:1fadb267-31ca-58a0-b81a-f46bf46bb1ff:segment:SEG.DESIGN_SOFTWARE",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:1fadb267-31ca-58a0-b81a-f46bf46bb1ff",
+      "target_node_id": "segment:SEG.DESIGN_SOFTWARE"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:22346e71-cac4-50a2-8813-19f4008d4085:segment:SEG.MATERIALS",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:22346e71-cac4-50a2-8813-19f4008d4085",
+      "target_node_id": "segment:SEG.MATERIALS"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:2242e8ef-12de-5f1e-b8f3-37660f7b7596:segment:SEG.MANUFACTURING_EQUIPMENT",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:2242e8ef-12de-5f1e-b8f3-37660f7b7596",
+      "target_node_id": "segment:SEG.MANUFACTURING_EQUIPMENT"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:22d6a98d-7f47-5a3b-94a9-dd68eb843e2e:segment:SEG.FRONTEND_MANUFACTURING",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:22d6a98d-7f47-5a3b-94a9-dd68eb843e2e",
+      "target_node_id": "segment:SEG.FRONTEND_MANUFACTURING"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:2336e218-8b99-51c7-8b54-038fdcd995b8:segment:SEG.BACKEND_MANUFACTURING",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:2336e218-8b99-51c7-8b54-038fdcd995b8",
+      "target_node_id": "segment:SEG.BACKEND_MANUFACTURING"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:2443d407-def4-5bbb-b358-b9b7d45e0397:segment:SEG.MATERIALS",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:2443d407-def4-5bbb-b358-b9b7d45e0397",
+      "target_node_id": "segment:SEG.MATERIALS"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:253e06fa-38e9-5050-9296-faab5ba97438:segment:SEG.MANUFACTURING_EQUIPMENT",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:253e06fa-38e9-5050-9296-faab5ba97438",
+      "target_node_id": "segment:SEG.MANUFACTURING_EQUIPMENT"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:25590643-290a-5834-bdee-e48dfd525fb1:segment:SEG.MATERIALS",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:25590643-290a-5834-bdee-e48dfd525fb1",
+      "target_node_id": "segment:SEG.MATERIALS"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:27ffe1e5-4629-5e40-a6e0-b763d2b3d6ba:segment:SEG.DESIGN_SOFTWARE",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:27ffe1e5-4629-5e40-a6e0-b763d2b3d6ba",
+      "target_node_id": "segment:SEG.DESIGN_SOFTWARE"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:2974f408-63ce-5033-855a-f214a8af319a:segment:SEG.WAFERS_SUBSTRATES",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:2974f408-63ce-5033-855a-f214a8af319a",
+      "target_node_id": "segment:SEG.WAFERS_SUBSTRATES"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:2cd0442e-cf7d-5dc5-9479-978f33c57f44:segment:SEG.FRONTEND_MANUFACTURING",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:2cd0442e-cf7d-5dc5-9479-978f33c57f44",
+      "target_node_id": "segment:SEG.FRONTEND_MANUFACTURING"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:2d44daee-1643-50e6-b0a6-0cbd912df5e7:segment:SEG.WAFERS_SUBSTRATES",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:2d44daee-1643-50e6-b0a6-0cbd912df5e7",
+      "target_node_id": "segment:SEG.WAFERS_SUBSTRATES"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:2dc1dbec-ff0a-59ad-91f8-d7b39ad3ee7c:segment:SEG.MANUFACTURING_EQUIPMENT",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:2dc1dbec-ff0a-59ad-91f8-d7b39ad3ee7c",
+      "target_node_id": "segment:SEG.MANUFACTURING_EQUIPMENT"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:2e7c0bc2-b93f-55e2-bbe8-aa3aba16846d:segment:SEG.MATERIALS",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:2e7c0bc2-b93f-55e2-bbe8-aa3aba16846d",
+      "target_node_id": "segment:SEG.MATERIALS"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:2f392d76-f5ff-5b8e-9f3b-c334f076fe00:segment:SEG.MATERIALS",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:2f392d76-f5ff-5b8e-9f3b-c334f076fe00",
+      "target_node_id": "segment:SEG.MATERIALS"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:2f6ada85-43d7-5b25-86c5-34ae18c7c3a4:segment:SEG.FRONTEND_MANUFACTURING",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:2f6ada85-43d7-5b25-86c5-34ae18c7c3a4",
+      "target_node_id": "segment:SEG.FRONTEND_MANUFACTURING"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:308989f7-4586-540e-b0f1-037a62c2ae0e:segment:SEG.WAFERS_SUBSTRATES",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:308989f7-4586-540e-b0f1-037a62c2ae0e",
+      "target_node_id": "segment:SEG.WAFERS_SUBSTRATES"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:30b21a92-a823-533e-888b-4ec741ff0dd9:segment:SEG.FRONTEND_MANUFACTURING",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:30b21a92-a823-533e-888b-4ec741ff0dd9",
+      "target_node_id": "segment:SEG.FRONTEND_MANUFACTURING"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:30f845db-d235-58d7-8086-8de36003da21:segment:SEG.FRONTEND_MANUFACTURING",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:30f845db-d235-58d7-8086-8de36003da21",
+      "target_node_id": "segment:SEG.FRONTEND_MANUFACTURING"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:353242ee-9221-5f09-8f53-4cc20d1dd71b:segment:SEG.MANUFACTURING_EQUIPMENT",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:353242ee-9221-5f09-8f53-4cc20d1dd71b",
+      "target_node_id": "segment:SEG.MANUFACTURING_EQUIPMENT"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:35b412d1-ff65-5130-a991-6080f3d7b4b0:segment:SEG.FRONTEND_MANUFACTURING",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:35b412d1-ff65-5130-a991-6080f3d7b4b0",
+      "target_node_id": "segment:SEG.FRONTEND_MANUFACTURING"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:35f7ed45-fe70-5bbb-950d-04c7360e07a7:segment:SEG.MANUFACTURING_EQUIPMENT",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:35f7ed45-fe70-5bbb-950d-04c7360e07a7",
+      "target_node_id": "segment:SEG.MANUFACTURING_EQUIPMENT"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:3a04510d-278c-539c-b457-9802145574e6:segment:SEG.WAFERS_SUBSTRATES",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:3a04510d-278c-539c-b457-9802145574e6",
+      "target_node_id": "segment:SEG.WAFERS_SUBSTRATES"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:3aa7152e-4109-54c7-bd6c-eb1cd288e1a3:segment:SEG.WAFERS_SUBSTRATES",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:3aa7152e-4109-54c7-bd6c-eb1cd288e1a3",
+      "target_node_id": "segment:SEG.WAFERS_SUBSTRATES"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:3ab30dea-b319-506e-a679-3b93754895e8:segment:SEG.MANUFACTURING_EQUIPMENT",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:3ab30dea-b319-506e-a679-3b93754895e8",
+      "target_node_id": "segment:SEG.MANUFACTURING_EQUIPMENT"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:3c1df58c-3fe1-5e31-b4cb-348ecbe806e9:segment:SEG.BACKEND_MANUFACTURING",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:3c1df58c-3fe1-5e31-b4cb-348ecbe806e9",
+      "target_node_id": "segment:SEG.BACKEND_MANUFACTURING"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:3ea874ab-e72a-5e70-b4f0-ef92b86fa36e:segment:SEG.DESIGN_SOFTWARE",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:3ea874ab-e72a-5e70-b4f0-ef92b86fa36e",
+      "target_node_id": "segment:SEG.DESIGN_SOFTWARE"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:3eb72132-2422-5248-9a1d-72078215f5e2:segment:SEG.BACKEND_MANUFACTURING",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:3eb72132-2422-5248-9a1d-72078215f5e2",
+      "target_node_id": "segment:SEG.BACKEND_MANUFACTURING"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:42a7782a-ba4c-5f6e-bc01-07d987cee619:segment:SEG.FRONTEND_MANUFACTURING",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:42a7782a-ba4c-5f6e-bc01-07d987cee619",
+      "target_node_id": "segment:SEG.FRONTEND_MANUFACTURING"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:46f0880a-11ac-505d-b6e3-b0d3196945a8:segment:SEG.DESIGN_SOFTWARE",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:46f0880a-11ac-505d-b6e3-b0d3196945a8",
+      "target_node_id": "segment:SEG.DESIGN_SOFTWARE"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:4713357c-d73d-5c3b-b804-e5842eeff8c9:segment:SEG.DESIGN_SOFTWARE",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:4713357c-d73d-5c3b-b804-e5842eeff8c9",
+      "target_node_id": "segment:SEG.DESIGN_SOFTWARE"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:497a1a02-e6bd-5367-81da-f05e318acaa9:segment:SEG.MANUFACTURING_EQUIPMENT",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:497a1a02-e6bd-5367-81da-f05e318acaa9",
+      "target_node_id": "segment:SEG.MANUFACTURING_EQUIPMENT"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:4c26690e-f706-5e21-a38e-9b97d6b9c381:segment:SEG.DESIGN_SOFTWARE",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:4c26690e-f706-5e21-a38e-9b97d6b9c381",
+      "target_node_id": "segment:SEG.DESIGN_SOFTWARE"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:4ec1a13a-a4df-51c6-9937-9959ed87b377:segment:SEG.MANUFACTURING_EQUIPMENT",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:4ec1a13a-a4df-51c6-9937-9959ed87b377",
+      "target_node_id": "segment:SEG.MANUFACTURING_EQUIPMENT"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:5013155d-f90b-531c-bc50-1afce1fb29d1:segment:SEG.MATERIALS",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:5013155d-f90b-531c-bc50-1afce1fb29d1",
+      "target_node_id": "segment:SEG.MATERIALS"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:509f8d0f-a859-5939-bda2-06412e1e3f05:segment:SEG.DESIGN_SOFTWARE",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:509f8d0f-a859-5939-bda2-06412e1e3f05",
+      "target_node_id": "segment:SEG.DESIGN_SOFTWARE"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:52ddd9ad-18ec-5632-ae69-9393ce9681fc:segment:SEG.FRONTEND_MANUFACTURING",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:52ddd9ad-18ec-5632-ae69-9393ce9681fc",
+      "target_node_id": "segment:SEG.FRONTEND_MANUFACTURING"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:53807272-37c1-538b-85f5-01c6592d90e9:segment:SEG.FRONTEND_MANUFACTURING",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:53807272-37c1-538b-85f5-01c6592d90e9",
+      "target_node_id": "segment:SEG.FRONTEND_MANUFACTURING"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:54192773-68c9-562f-837b-23f29270f18b:segment:SEG.BACKEND_MANUFACTURING",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:54192773-68c9-562f-837b-23f29270f18b",
+      "target_node_id": "segment:SEG.BACKEND_MANUFACTURING"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:5564d02f-920c-522a-8035-d0437b80b7a9:segment:SEG.BACKEND_MANUFACTURING",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:5564d02f-920c-522a-8035-d0437b80b7a9",
+      "target_node_id": "segment:SEG.BACKEND_MANUFACTURING"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:55761791-d2f1-5457-89a7-faab2f9d3f76:segment:SEG.MANUFACTURING_EQUIPMENT",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:55761791-d2f1-5457-89a7-faab2f9d3f76",
+      "target_node_id": "segment:SEG.MANUFACTURING_EQUIPMENT"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:567512d2-76da-5862-8804-439d12d9c653:segment:SEG.DESIGN_SOFTWARE",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:567512d2-76da-5862-8804-439d12d9c653",
+      "target_node_id": "segment:SEG.DESIGN_SOFTWARE"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:5726151c-0cd2-5b54-b49c-d81e55aa9cf2:segment:SEG.DESIGN_SOFTWARE",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:5726151c-0cd2-5b54-b49c-d81e55aa9cf2",
+      "target_node_id": "segment:SEG.DESIGN_SOFTWARE"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:577d839e-b1d8-5b04-b689-d8421f0b2291:segment:SEG.DESIGN_SOFTWARE",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:577d839e-b1d8-5b04-b689-d8421f0b2291",
+      "target_node_id": "segment:SEG.DESIGN_SOFTWARE"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:5f5fd606-041f-512c-b43a-6c3758994263:segment:SEG.DESIGN_SOFTWARE",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:5f5fd606-041f-512c-b43a-6c3758994263",
+      "target_node_id": "segment:SEG.DESIGN_SOFTWARE"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:5f8684ab-3a82-557d-bd24-27b3acc25143:segment:SEG.MANUFACTURING_EQUIPMENT",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:5f8684ab-3a82-557d-bd24-27b3acc25143",
+      "target_node_id": "segment:SEG.MANUFACTURING_EQUIPMENT"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:61dc96ec-fb53-5bf7-bbbd-6e2ee3b98d39:segment:SEG.MANUFACTURING_EQUIPMENT",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:61dc96ec-fb53-5bf7-bbbd-6e2ee3b98d39",
+      "target_node_id": "segment:SEG.MANUFACTURING_EQUIPMENT"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:61e17284-db4f-5d0a-8a79-c70b1def37a4:segment:SEG.FRONTEND_MANUFACTURING",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:61e17284-db4f-5d0a-8a79-c70b1def37a4",
+      "target_node_id": "segment:SEG.FRONTEND_MANUFACTURING"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:63bdfe81-ae5c-5329-9bad-2d2430b8117e:segment:SEG.WAFERS_SUBSTRATES",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:63bdfe81-ae5c-5329-9bad-2d2430b8117e",
+      "target_node_id": "segment:SEG.WAFERS_SUBSTRATES"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:6527e7f0-2463-5f4f-a019-cdd4df1fedd0:segment:SEG.BACKEND_MANUFACTURING",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:6527e7f0-2463-5f4f-a019-cdd4df1fedd0",
+      "target_node_id": "segment:SEG.BACKEND_MANUFACTURING"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:658b525f-9618-5b7e-bf00-9be7dbb3bacf:segment:SEG.FRONTEND_MANUFACTURING",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:658b525f-9618-5b7e-bf00-9be7dbb3bacf",
+      "target_node_id": "segment:SEG.FRONTEND_MANUFACTURING"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:65a59194-f99a-540e-9d49-97d85fefe323:segment:SEG.DESIGN_SOFTWARE",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:65a59194-f99a-540e-9d49-97d85fefe323",
+      "target_node_id": "segment:SEG.DESIGN_SOFTWARE"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:68040404-f162-5bed-ba31-252b2318e6a1:segment:SEG.FRONTEND_MANUFACTURING",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:68040404-f162-5bed-ba31-252b2318e6a1",
+      "target_node_id": "segment:SEG.FRONTEND_MANUFACTURING"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:6a03a1d6-97be-5424-b92c-2f8b9c7fae9a:segment:SEG.WAFERS_SUBSTRATES",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:6a03a1d6-97be-5424-b92c-2f8b9c7fae9a",
+      "target_node_id": "segment:SEG.WAFERS_SUBSTRATES"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:6c1d014f-f81f-529c-b480-35781fd8420a:segment:SEG.DESIGN_SOFTWARE",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:6c1d014f-f81f-529c-b480-35781fd8420a",
+      "target_node_id": "segment:SEG.DESIGN_SOFTWARE"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:6d7ff317-e100-5b63-86b1-660f39962d3a:segment:SEG.MATERIALS",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:6d7ff317-e100-5b63-86b1-660f39962d3a",
+      "target_node_id": "segment:SEG.MATERIALS"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:6f084523-2ffb-5a0c-8a1f-908578788d07:segment:SEG.MANUFACTURING_EQUIPMENT",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:6f084523-2ffb-5a0c-8a1f-908578788d07",
+      "target_node_id": "segment:SEG.MANUFACTURING_EQUIPMENT"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:6f89262a-c4d1-5489-9258-880d69ba00ce:segment:SEG.FRONTEND_MANUFACTURING",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:6f89262a-c4d1-5489-9258-880d69ba00ce",
+      "target_node_id": "segment:SEG.FRONTEND_MANUFACTURING"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:70c6f91a-7b80-53e0-8206-ccce7112ff2d:segment:SEG.MASKS_RETICLES",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:70c6f91a-7b80-53e0-8206-ccce7112ff2d",
+      "target_node_id": "segment:SEG.MASKS_RETICLES"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:7225d89c-2a0c-5314-aa24-a7df7f67481d:segment:SEG.DESIGN_SOFTWARE",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:7225d89c-2a0c-5314-aa24-a7df7f67481d",
+      "target_node_id": "segment:SEG.DESIGN_SOFTWARE"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:725c610d-e041-553c-9e12-0d15d36305e7:segment:SEG.FRONTEND_MANUFACTURING",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:725c610d-e041-553c-9e12-0d15d36305e7",
+      "target_node_id": "segment:SEG.FRONTEND_MANUFACTURING"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:770eb411-ccdf-522b-a6d4-bd4ec87383c1:segment:SEG.DESIGN_SOFTWARE",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:770eb411-ccdf-522b-a6d4-bd4ec87383c1",
+      "target_node_id": "segment:SEG.DESIGN_SOFTWARE"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:7832808e-8191-55ab-ba62-eb4e7983c3f4:segment:SEG.MANUFACTURING_EQUIPMENT",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:7832808e-8191-55ab-ba62-eb4e7983c3f4",
+      "target_node_id": "segment:SEG.MANUFACTURING_EQUIPMENT"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:7a5ffa5d-8986-5869-8bfe-25655c5964f5:segment:SEG.MANUFACTURING_EQUIPMENT",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:7a5ffa5d-8986-5869-8bfe-25655c5964f5",
+      "target_node_id": "segment:SEG.MANUFACTURING_EQUIPMENT"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:7aa1b456-2935-5acc-b135-ba72b6f9ddc9:segment:SEG.MATERIALS",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:7aa1b456-2935-5acc-b135-ba72b6f9ddc9",
+      "target_node_id": "segment:SEG.MATERIALS"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:7c04a735-d428-5df2-a9dd-dc1460257c30:segment:SEG.DESIGN_SOFTWARE",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:7c04a735-d428-5df2-a9dd-dc1460257c30",
+      "target_node_id": "segment:SEG.DESIGN_SOFTWARE"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:7cc578d3-c5ba-57dd-951e-15c0fd8a92bc:segment:SEG.DESIGN_SOFTWARE",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:7cc578d3-c5ba-57dd-951e-15c0fd8a92bc",
+      "target_node_id": "segment:SEG.DESIGN_SOFTWARE"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:8205fc3b-a6d5-54d3-824b-c883457879d8:segment:SEG.MATERIALS",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:8205fc3b-a6d5-54d3-824b-c883457879d8",
+      "target_node_id": "segment:SEG.MATERIALS"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:823a08d9-ded3-5602-8aaf-d37230332d4c:segment:SEG.DESIGN_SOFTWARE",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:823a08d9-ded3-5602-8aaf-d37230332d4c",
+      "target_node_id": "segment:SEG.DESIGN_SOFTWARE"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:852692f6-d2d6-521c-90a5-f5086408d2bd:segment:SEG.FRONTEND_MANUFACTURING",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:852692f6-d2d6-521c-90a5-f5086408d2bd",
+      "target_node_id": "segment:SEG.FRONTEND_MANUFACTURING"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:853c6562-5ac7-524a-9f03-396342c9938c:segment:SEG.MANUFACTURING_EQUIPMENT",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:853c6562-5ac7-524a-9f03-396342c9938c",
+      "target_node_id": "segment:SEG.MANUFACTURING_EQUIPMENT"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:86ae69ad-d33b-5451-8af3-ed56ac1babe3:segment:SEG.DESIGN_SOFTWARE",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:86ae69ad-d33b-5451-8af3-ed56ac1babe3",
+      "target_node_id": "segment:SEG.DESIGN_SOFTWARE"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:8746323b-4a13-54e9-88f3-0ee95beb9bc4:segment:SEG.WAFERS_SUBSTRATES",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:8746323b-4a13-54e9-88f3-0ee95beb9bc4",
+      "target_node_id": "segment:SEG.WAFERS_SUBSTRATES"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:8794e04b-601c-501a-a1a2-33cce950686d:segment:SEG.DESIGN_SOFTWARE",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:8794e04b-601c-501a-a1a2-33cce950686d",
+      "target_node_id": "segment:SEG.DESIGN_SOFTWARE"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:882649fd-2075-5454-8a74-f74b2434ebd7:segment:SEG.FRONTEND_MANUFACTURING",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:882649fd-2075-5454-8a74-f74b2434ebd7",
+      "target_node_id": "segment:SEG.FRONTEND_MANUFACTURING"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:8872d220-0359-58ff-95c4-e5e4540fdb51:segment:SEG.MANUFACTURING_EQUIPMENT",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:8872d220-0359-58ff-95c4-e5e4540fdb51",
+      "target_node_id": "segment:SEG.MANUFACTURING_EQUIPMENT"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:88ee1862-10a6-5f3e-ae8d-f9ffa2f94a93:segment:SEG.MATERIALS",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:88ee1862-10a6-5f3e-ae8d-f9ffa2f94a93",
+      "target_node_id": "segment:SEG.MATERIALS"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:89e313df-6322-5537-82ca-40573d40afe7:segment:SEG.BACKEND_MANUFACTURING",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:89e313df-6322-5537-82ca-40573d40afe7",
+      "target_node_id": "segment:SEG.BACKEND_MANUFACTURING"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:8b0df095-06b9-5cd7-8dc0-d2461f5b76bf:segment:SEG.MASKS_RETICLES",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:8b0df095-06b9-5cd7-8dc0-d2461f5b76bf",
+      "target_node_id": "segment:SEG.MASKS_RETICLES"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:8dc89ca9-b072-584c-a12e-c238b5e00bf5:segment:SEG.WAFERS_SUBSTRATES",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:8dc89ca9-b072-584c-a12e-c238b5e00bf5",
+      "target_node_id": "segment:SEG.WAFERS_SUBSTRATES"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:8de3a6cb-9e81-5eb2-af26-699140e58870:segment:SEG.DESIGN_SOFTWARE",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:8de3a6cb-9e81-5eb2-af26-699140e58870",
+      "target_node_id": "segment:SEG.DESIGN_SOFTWARE"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:8f7a9171-5dd3-5dcf-a953-6836c2dff068:segment:SEG.FRONTEND_MANUFACTURING",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:8f7a9171-5dd3-5dcf-a953-6836c2dff068",
+      "target_node_id": "segment:SEG.FRONTEND_MANUFACTURING"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:8fc5e3c4-d461-5f16-b700-9b9784b70c14:segment:SEG.DESIGN_SOFTWARE",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:8fc5e3c4-d461-5f16-b700-9b9784b70c14",
+      "target_node_id": "segment:SEG.DESIGN_SOFTWARE"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:90679d65-9be3-51c7-85e0-58d6746e2f7c:segment:SEG.MANUFACTURING_EQUIPMENT",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:90679d65-9be3-51c7-85e0-58d6746e2f7c",
+      "target_node_id": "segment:SEG.MANUFACTURING_EQUIPMENT"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:906eb4de-4eb2-5cc8-ab75-ebb77a1744c5:segment:SEG.MATERIALS",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:906eb4de-4eb2-5cc8-ab75-ebb77a1744c5",
+      "target_node_id": "segment:SEG.MATERIALS"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:909bfe30-c42d-56c9-af75-3415541792a1:segment:SEG.MATERIALS",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:909bfe30-c42d-56c9-af75-3415541792a1",
+      "target_node_id": "segment:SEG.MATERIALS"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:926da4e0-01d8-57c1-8667-aeba7555c755:segment:SEG.WAFERS_SUBSTRATES",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:926da4e0-01d8-57c1-8667-aeba7555c755",
+      "target_node_id": "segment:SEG.WAFERS_SUBSTRATES"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:93085617-9c64-59e7-85c7-c15ec20e8eb9:segment:SEG.MANUFACTURING_EQUIPMENT",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:93085617-9c64-59e7-85c7-c15ec20e8eb9",
+      "target_node_id": "segment:SEG.MANUFACTURING_EQUIPMENT"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:9319c36a-e19f-5837-92f5-e2372fd8dbc3:segment:SEG.BACKEND_MANUFACTURING",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:9319c36a-e19f-5837-92f5-e2372fd8dbc3",
+      "target_node_id": "segment:SEG.BACKEND_MANUFACTURING"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:941a1181-ac94-5581-b07b-5b7f03951759:segment:SEG.MANUFACTURING_EQUIPMENT",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:941a1181-ac94-5581-b07b-5b7f03951759",
+      "target_node_id": "segment:SEG.MANUFACTURING_EQUIPMENT"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:94fdefa3-4198-5379-8d22-4d9c0f5746af:segment:SEG.DESIGN_SOFTWARE",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:94fdefa3-4198-5379-8d22-4d9c0f5746af",
+      "target_node_id": "segment:SEG.DESIGN_SOFTWARE"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:98c07def-0244-52f2-b0c6-c35e2896b513:segment:SEG.DESIGN_SOFTWARE",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:98c07def-0244-52f2-b0c6-c35e2896b513",
+      "target_node_id": "segment:SEG.DESIGN_SOFTWARE"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:996f7bbc-fb28-50c9-b82a-8abf2e32a06f:segment:SEG.DESIGN_SOFTWARE",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:996f7bbc-fb28-50c9-b82a-8abf2e32a06f",
+      "target_node_id": "segment:SEG.DESIGN_SOFTWARE"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:9aaac545-fe4d-503e-a143-5d75ad96b43d:segment:SEG.MANUFACTURING_EQUIPMENT",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:9aaac545-fe4d-503e-a143-5d75ad96b43d",
+      "target_node_id": "segment:SEG.MANUFACTURING_EQUIPMENT"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:9d481faa-8582-55d5-8e67-c6faa9be68ab:segment:SEG.MANUFACTURING_EQUIPMENT",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:9d481faa-8582-55d5-8e67-c6faa9be68ab",
+      "target_node_id": "segment:SEG.MANUFACTURING_EQUIPMENT"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:9e1fb522-b8e0-562c-9cb7-9ff820f687bd:segment:SEG.BACKEND_MANUFACTURING",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:9e1fb522-b8e0-562c-9cb7-9ff820f687bd",
+      "target_node_id": "segment:SEG.BACKEND_MANUFACTURING"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:9f84c84c-b8db-5033-ae6b-2225fe062981:segment:SEG.FRONTEND_MANUFACTURING",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:9f84c84c-b8db-5033-ae6b-2225fe062981",
+      "target_node_id": "segment:SEG.FRONTEND_MANUFACTURING"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:a05c37c9-a1ee-5d2d-9582-ce0e8828219c:segment:SEG.FRONTEND_MANUFACTURING",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:a05c37c9-a1ee-5d2d-9582-ce0e8828219c",
+      "target_node_id": "segment:SEG.FRONTEND_MANUFACTURING"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:a1b4985c-05ad-532b-9f55-18e538f7c70a:segment:SEG.MANUFACTURING_EQUIPMENT",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:a1b4985c-05ad-532b-9f55-18e538f7c70a",
+      "target_node_id": "segment:SEG.MANUFACTURING_EQUIPMENT"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:a339a383-fafc-5a42-b6e9-02a98f790099:segment:SEG.MANUFACTURING_EQUIPMENT",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:a339a383-fafc-5a42-b6e9-02a98f790099",
+      "target_node_id": "segment:SEG.MANUFACTURING_EQUIPMENT"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:a38ac7a5-c80f-58d6-9604-54a912762efd:segment:SEG.MATERIALS",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:a38ac7a5-c80f-58d6-9604-54a912762efd",
+      "target_node_id": "segment:SEG.MATERIALS"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:a39faba3-d4e4-5880-bd27-a145ea42abac:segment:SEG.DESIGN_SOFTWARE",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:a39faba3-d4e4-5880-bd27-a145ea42abac",
+      "target_node_id": "segment:SEG.DESIGN_SOFTWARE"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:a4048d10-1467-5d5d-9aad-3645d23c3ddf:segment:SEG.WAFERS_SUBSTRATES",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:a4048d10-1467-5d5d-9aad-3645d23c3ddf",
+      "target_node_id": "segment:SEG.WAFERS_SUBSTRATES"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:a6dd9801-c278-5866-8c76-9181547fbf9c:segment:SEG.WAFERS_SUBSTRATES",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:a6dd9801-c278-5866-8c76-9181547fbf9c",
+      "target_node_id": "segment:SEG.WAFERS_SUBSTRATES"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:a703f724-f5ec-50ee-85fb-a6e5697f27dd:segment:SEG.BACKEND_MANUFACTURING",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:a703f724-f5ec-50ee-85fb-a6e5697f27dd",
+      "target_node_id": "segment:SEG.BACKEND_MANUFACTURING"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:a74c7d0d-513d-52c9-8dac-ec98df7051e9:segment:SEG.DESIGN_SOFTWARE",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:a74c7d0d-513d-52c9-8dac-ec98df7051e9",
+      "target_node_id": "segment:SEG.DESIGN_SOFTWARE"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:a78989bc-8bb0-5121-ab68-827b2885d82a:segment:SEG.DESIGN_SOFTWARE",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:a78989bc-8bb0-5121-ab68-827b2885d82a",
+      "target_node_id": "segment:SEG.DESIGN_SOFTWARE"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:a8d98cfa-2f20-5a69-85d8-7f6329e36785:segment:SEG.MATERIALS",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:a8d98cfa-2f20-5a69-85d8-7f6329e36785",
+      "target_node_id": "segment:SEG.MATERIALS"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:a9da4cd3-9203-5807-9f4f-b8427c9d4946:segment:SEG.MANUFACTURING_EQUIPMENT",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:a9da4cd3-9203-5807-9f4f-b8427c9d4946",
+      "target_node_id": "segment:SEG.MANUFACTURING_EQUIPMENT"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:ad3642a9-d3e2-55bb-9db2-03fbbe499cfb:segment:SEG.BACKEND_MANUFACTURING",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:ad3642a9-d3e2-55bb-9db2-03fbbe499cfb",
+      "target_node_id": "segment:SEG.BACKEND_MANUFACTURING"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:ad575f8f-09c0-5e26-b0ad-acc299efb886:segment:SEG.MANUFACTURING_EQUIPMENT",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:ad575f8f-09c0-5e26-b0ad-acc299efb886",
+      "target_node_id": "segment:SEG.MANUFACTURING_EQUIPMENT"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:ae972f92-1e07-51ce-b4a5-a3b7acc1d90e:segment:SEG.FRONTEND_MANUFACTURING",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:ae972f92-1e07-51ce-b4a5-a3b7acc1d90e",
+      "target_node_id": "segment:SEG.FRONTEND_MANUFACTURING"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:aeb3a987-0c2b-5633-8b06-5696dae8172d:segment:SEG.MANUFACTURING_EQUIPMENT",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:aeb3a987-0c2b-5633-8b06-5696dae8172d",
+      "target_node_id": "segment:SEG.MANUFACTURING_EQUIPMENT"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:af3abd85-0149-5b11-a8aa-5615f32c379d:segment:SEG.MANUFACTURING_EQUIPMENT",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:af3abd85-0149-5b11-a8aa-5615f32c379d",
+      "target_node_id": "segment:SEG.MANUFACTURING_EQUIPMENT"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:b24d45c8-c565-5069-b847-95f80494dea4:segment:SEG.WAFERS_SUBSTRATES",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:b24d45c8-c565-5069-b847-95f80494dea4",
+      "target_node_id": "segment:SEG.WAFERS_SUBSTRATES"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:b29ec5f0-e740-525a-a1aa-b6aeb2f7c916:segment:SEG.DESIGN_SOFTWARE",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:b29ec5f0-e740-525a-a1aa-b6aeb2f7c916",
+      "target_node_id": "segment:SEG.DESIGN_SOFTWARE"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:b2e5e76f-7beb-561c-a53d-038d7427d3de:segment:SEG.MANUFACTURING_EQUIPMENT",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:b2e5e76f-7beb-561c-a53d-038d7427d3de",
+      "target_node_id": "segment:SEG.MANUFACTURING_EQUIPMENT"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:b43d2ce7-3a6a-5f2f-886b-f999d4dd693b:segment:SEG.MATERIALS",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:b43d2ce7-3a6a-5f2f-886b-f999d4dd693b",
+      "target_node_id": "segment:SEG.MATERIALS"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:b50e37e1-429a-5697-858c-29f68e787014:segment:SEG.FRONTEND_MANUFACTURING",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:b50e37e1-429a-5697-858c-29f68e787014",
+      "target_node_id": "segment:SEG.FRONTEND_MANUFACTURING"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:b985896c-c00d-53a7-a5fe-74728a6e594e:segment:SEG.DESIGN_SOFTWARE",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:b985896c-c00d-53a7-a5fe-74728a6e594e",
+      "target_node_id": "segment:SEG.DESIGN_SOFTWARE"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:bac20fc9-f452-5eef-8ec1-47d0671006a6:segment:SEG.FRONTEND_MANUFACTURING",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:bac20fc9-f452-5eef-8ec1-47d0671006a6",
+      "target_node_id": "segment:SEG.FRONTEND_MANUFACTURING"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:bd33fc07-b814-5900-9fad-8b3da80bd663:segment:SEG.MATERIALS",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:bd33fc07-b814-5900-9fad-8b3da80bd663",
+      "target_node_id": "segment:SEG.MATERIALS"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:bda400a1-c296-5c8c-a272-9c91d3c10381:segment:SEG.FRONTEND_MANUFACTURING",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:bda400a1-c296-5c8c-a272-9c91d3c10381",
+      "target_node_id": "segment:SEG.FRONTEND_MANUFACTURING"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:be1d6bcd-a4df-5123-b6fb-689025134a9b:segment:SEG.MANUFACTURING_EQUIPMENT",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:be1d6bcd-a4df-5123-b6fb-689025134a9b",
+      "target_node_id": "segment:SEG.MANUFACTURING_EQUIPMENT"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:bf1442d2-1407-5a95-8f9a-74f5a875bc39:segment:SEG.FRONTEND_MANUFACTURING",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:bf1442d2-1407-5a95-8f9a-74f5a875bc39",
+      "target_node_id": "segment:SEG.FRONTEND_MANUFACTURING"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:c5115bca-a75d-500d-bf5f-a0c9000bcc44:segment:SEG.MANUFACTURING_EQUIPMENT",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:c5115bca-a75d-500d-bf5f-a0c9000bcc44",
+      "target_node_id": "segment:SEG.MANUFACTURING_EQUIPMENT"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:c58d3bbf-a097-5f8d-bbfe-9860135b87cb:segment:SEG.MANUFACTURING_EQUIPMENT",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:c58d3bbf-a097-5f8d-bbfe-9860135b87cb",
+      "target_node_id": "segment:SEG.MANUFACTURING_EQUIPMENT"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:c86faabb-1482-5d0d-a6f3-660f17955473:segment:SEG.DESIGN_SOFTWARE",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:c86faabb-1482-5d0d-a6f3-660f17955473",
+      "target_node_id": "segment:SEG.DESIGN_SOFTWARE"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:cb4e8c7f-c184-5ff2-ae3a-631494e550bf:segment:SEG.FRONTEND_MANUFACTURING",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:cb4e8c7f-c184-5ff2-ae3a-631494e550bf",
+      "target_node_id": "segment:SEG.FRONTEND_MANUFACTURING"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:cd1f2f23-fd53-5e61-b8fe-5836fd5bb2f7:segment:SEG.WAFERS_SUBSTRATES",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:cd1f2f23-fd53-5e61-b8fe-5836fd5bb2f7",
+      "target_node_id": "segment:SEG.WAFERS_SUBSTRATES"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:cde245a7-4e7b-5635-bb07-b377055e39d7:segment:SEG.MANUFACTURING_EQUIPMENT",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:cde245a7-4e7b-5635-bb07-b377055e39d7",
+      "target_node_id": "segment:SEG.MANUFACTURING_EQUIPMENT"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:ce2890f3-4887-5ef6-996f-081f132aa89c:segment:SEG.WAFERS_SUBSTRATES",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:ce2890f3-4887-5ef6-996f-081f132aa89c",
+      "target_node_id": "segment:SEG.WAFERS_SUBSTRATES"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:ce37fb1f-4900-57ab-84f6-e8c96c6ac3bb:segment:SEG.DESIGN_SOFTWARE",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:ce37fb1f-4900-57ab-84f6-e8c96c6ac3bb",
+      "target_node_id": "segment:SEG.DESIGN_SOFTWARE"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:ce6f9e20-80d8-540d-a230-c618c475724b:segment:SEG.FRONTEND_MANUFACTURING",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:ce6f9e20-80d8-540d-a230-c618c475724b",
+      "target_node_id": "segment:SEG.FRONTEND_MANUFACTURING"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:cec410e3-8846-5d94-a819-9fe681ef7a59:segment:SEG.MASKS_RETICLES",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:cec410e3-8846-5d94-a819-9fe681ef7a59",
+      "target_node_id": "segment:SEG.MASKS_RETICLES"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:ced546bb-1b9a-59f7-8bf4-fdb30a2cab36:segment:SEG.MATERIALS",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:ced546bb-1b9a-59f7-8bf4-fdb30a2cab36",
+      "target_node_id": "segment:SEG.MATERIALS"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:cf2f688f-271a-5d91-a5fd-b7165bc2f6f0:segment:SEG.MATERIALS",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:cf2f688f-271a-5d91-a5fd-b7165bc2f6f0",
+      "target_node_id": "segment:SEG.MATERIALS"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:d28259a4-8ab6-5f3f-be26-aa7e7dc569a7:segment:SEG.FRONTEND_MANUFACTURING",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:d28259a4-8ab6-5f3f-be26-aa7e7dc569a7",
+      "target_node_id": "segment:SEG.FRONTEND_MANUFACTURING"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:d55dea36-3e45-54ab-b1ea-20e5376bb4b4:segment:SEG.DESIGN_SOFTWARE",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:d55dea36-3e45-54ab-b1ea-20e5376bb4b4",
+      "target_node_id": "segment:SEG.DESIGN_SOFTWARE"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:d5c16117-f347-5097-b7ee-cebf292f8887:segment:SEG.MANUFACTURING_EQUIPMENT",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:d5c16117-f347-5097-b7ee-cebf292f8887",
+      "target_node_id": "segment:SEG.MANUFACTURING_EQUIPMENT"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:d6839de6-3aaf-53e6-a97a-b7ab8f189e3f:segment:SEG.MANUFACTURING_EQUIPMENT",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:d6839de6-3aaf-53e6-a97a-b7ab8f189e3f",
+      "target_node_id": "segment:SEG.MANUFACTURING_EQUIPMENT"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:d7172387-e463-5849-976f-d003174ac601:segment:SEG.BACKEND_MANUFACTURING",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:d7172387-e463-5849-976f-d003174ac601",
+      "target_node_id": "segment:SEG.BACKEND_MANUFACTURING"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:d8127e81-e6bf-579e-8fac-80525b5e7269:segment:SEG.FRONTEND_MANUFACTURING",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:d8127e81-e6bf-579e-8fac-80525b5e7269",
+      "target_node_id": "segment:SEG.FRONTEND_MANUFACTURING"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:d89c614d-2ce2-5797-8237-1f2753b7dd0e:segment:SEG.WAFERS_SUBSTRATES",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:d89c614d-2ce2-5797-8237-1f2753b7dd0e",
+      "target_node_id": "segment:SEG.WAFERS_SUBSTRATES"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:d9891bf1-b276-53f7-9066-e2045fc6970c:segment:SEG.FRONTEND_MANUFACTURING",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:d9891bf1-b276-53f7-9066-e2045fc6970c",
+      "target_node_id": "segment:SEG.FRONTEND_MANUFACTURING"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:de0a8d48-7c73-58e8-83f1-fd37e049dc30:segment:SEG.DESIGN_SOFTWARE",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:de0a8d48-7c73-58e8-83f1-fd37e049dc30",
+      "target_node_id": "segment:SEG.DESIGN_SOFTWARE"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:de69a354-3e12-5b97-980d-d6de1b9240a9:segment:SEG.MANUFACTURING_EQUIPMENT",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:de69a354-3e12-5b97-980d-d6de1b9240a9",
+      "target_node_id": "segment:SEG.MANUFACTURING_EQUIPMENT"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:df38c337-855a-5d89-8d1f-5593990a3316:segment:SEG.MATERIALS",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:df38c337-855a-5d89-8d1f-5593990a3316",
+      "target_node_id": "segment:SEG.MATERIALS"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:e35eca47-acc1-54e6-bd8e-c9c1529d8568:segment:SEG.BACKEND_MANUFACTURING",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:e35eca47-acc1-54e6-bd8e-c9c1529d8568",
+      "target_node_id": "segment:SEG.BACKEND_MANUFACTURING"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:e42d1c7e-b370-5cce-92da-29054fabfd82:segment:SEG.MATERIALS",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:e42d1c7e-b370-5cce-92da-29054fabfd82",
+      "target_node_id": "segment:SEG.MATERIALS"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:e8093cfa-91ae-5592-80c1-56de23185b00:segment:SEG.BACKEND_MANUFACTURING",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:e8093cfa-91ae-5592-80c1-56de23185b00",
+      "target_node_id": "segment:SEG.BACKEND_MANUFACTURING"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:e857aaf6-5560-5d3a-931e-947ec3775713:segment:SEG.FRONTEND_MANUFACTURING",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:e857aaf6-5560-5d3a-931e-947ec3775713",
+      "target_node_id": "segment:SEG.FRONTEND_MANUFACTURING"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:ea966ea8-74a6-5a46-a2fe-01240bff5134:segment:SEG.WAFERS_SUBSTRATES",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:ea966ea8-74a6-5a46-a2fe-01240bff5134",
+      "target_node_id": "segment:SEG.WAFERS_SUBSTRATES"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:eb4effdf-d07b-5643-8f45-d2f2873ac07d:segment:SEG.MATERIALS",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:eb4effdf-d07b-5643-8f45-d2f2873ac07d",
+      "target_node_id": "segment:SEG.MATERIALS"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:ebf9863c-c3c1-5b64-8225-0fe26b9f2de9:segment:SEG.FRONTEND_MANUFACTURING",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:ebf9863c-c3c1-5b64-8225-0fe26b9f2de9",
+      "target_node_id": "segment:SEG.FRONTEND_MANUFACTURING"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:ec03edf0-693b-58a7-84f4-6a65d898d9be:segment:SEG.BACKEND_MANUFACTURING",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:ec03edf0-693b-58a7-84f4-6a65d898d9be",
+      "target_node_id": "segment:SEG.BACKEND_MANUFACTURING"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:ec070821-134b-5659-9778-93647adadc2d:segment:SEG.DESIGN_SOFTWARE",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:ec070821-134b-5659-9778-93647adadc2d",
+      "target_node_id": "segment:SEG.DESIGN_SOFTWARE"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:ed4cc4c8-2f11-5e7b-adb3-4c5a94258bd5:segment:SEG.DESIGN_SOFTWARE",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:ed4cc4c8-2f11-5e7b-adb3-4c5a94258bd5",
+      "target_node_id": "segment:SEG.DESIGN_SOFTWARE"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:ee97dc10-6710-583a-93ba-e791be5fa7f4:segment:SEG.MATERIALS",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:ee97dc10-6710-583a-93ba-e791be5fa7f4",
+      "target_node_id": "segment:SEG.MATERIALS"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:ee99be8f-51b7-5337-9596-e7954e4d1d35:segment:SEG.MANUFACTURING_EQUIPMENT",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:ee99be8f-51b7-5337-9596-e7954e4d1d35",
+      "target_node_id": "segment:SEG.MANUFACTURING_EQUIPMENT"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:ef63e820-1662-5a61-a28c-771ed21f2ef0:segment:SEG.MATERIALS",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:ef63e820-1662-5a61-a28c-771ed21f2ef0",
+      "target_node_id": "segment:SEG.MATERIALS"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:ef9f0e61-7d1a-53e6-979c-8b0e5b80d9e3:segment:SEG.MANUFACTURING_EQUIPMENT",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:ef9f0e61-7d1a-53e6-979c-8b0e5b80d9e3",
+      "target_node_id": "segment:SEG.MANUFACTURING_EQUIPMENT"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:f0021b9e-f394-52f8-844e-23e846286466:segment:SEG.DESIGN_SOFTWARE",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:f0021b9e-f394-52f8-844e-23e846286466",
+      "target_node_id": "segment:SEG.DESIGN_SOFTWARE"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:f1ed4413-e152-52f9-82e5-163f23d09967:segment:SEG.MATERIALS",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:f1ed4413-e152-52f9-82e5-163f23d09967",
+      "target_node_id": "segment:SEG.MATERIALS"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:f52df2db-cd5e-552e-84d9-8b6e111516ce:segment:SEG.FRONTEND_MANUFACTURING",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:f52df2db-cd5e-552e-84d9-8b6e111516ce",
+      "target_node_id": "segment:SEG.FRONTEND_MANUFACTURING"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:f6816e46-6aea-5949-8625-0003f67956e1:segment:SEG.DESIGN_SOFTWARE",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:f6816e46-6aea-5949-8625-0003f67956e1",
+      "target_node_id": "segment:SEG.DESIGN_SOFTWARE"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:f6fd0491-0b9a-5dd3-98fb-4125b6169962:segment:SEG.MANUFACTURING_EQUIPMENT",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:f6fd0491-0b9a-5dd3-98fb-4125b6169962",
+      "target_node_id": "segment:SEG.MANUFACTURING_EQUIPMENT"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:f7835267-88fa-52c6-8f29-109ae5ed7c36:segment:SEG.FRONTEND_MANUFACTURING",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:f7835267-88fa-52c6-8f29-109ae5ed7c36",
+      "target_node_id": "segment:SEG.FRONTEND_MANUFACTURING"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:f80b98d8-ebab-5bcb-b12c-bbd495d40768:segment:SEG.MASKS_RETICLES",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:f80b98d8-ebab-5bcb-b12c-bbd495d40768",
+      "target_node_id": "segment:SEG.MASKS_RETICLES"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:faf1bb6d-d09c-5929-ac04-6cc4b374205e:segment:SEG.MANUFACTURING_EQUIPMENT",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:faf1bb6d-d09c-5929-ac04-6cc4b374205e",
+      "target_node_id": "segment:SEG.MANUFACTURING_EQUIPMENT"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:fb1a0d2f-79e2-5555-8121-1d12a1480960:segment:SEG.MASKS_RETICLES",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:fb1a0d2f-79e2-5555-8121-1d12a1480960",
+      "target_node_id": "segment:SEG.MASKS_RETICLES"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": 1.0,
+      "edge_id": "IN_SEGMENT:company:ff763e49-8b64-549b-b30b-bf676d8dd312:segment:SEG.MATERIALS",
+      "edge_type": "IN_SEGMENT",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:ff763e49-8b64-549b-b30b-bf676d8dd312",
+      "target_node_id": "segment:SEG.MATERIALS"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "651d8030-0795-53b6-b8d1-139a29519273"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:009ee8f4-0bf7-52d0-a6e7-7fbdac81077f:country:US",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:009ee8f4-0bf7-52d0-a6e7-7fbdac81077f",
+      "target_node_id": "country:US"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "25de75fb-d162-5a25-835c-5a63108104ba"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:00d631d5-04ed-515c-a885-ff414ae9bb1a:country:US",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:00d631d5-04ed-515c-a885-ff414ae9bb1a",
+      "target_node_id": "country:US"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "055124bf-9ae5-564a-968d-63de78e3cffa"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:020f3142-5a5a-5eba-8af3-a4a767114bd2:country:US",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:020f3142-5a5a-5eba-8af3-a4a767114bd2",
+      "target_node_id": "country:US"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "8335cdf4-0f3c-5ef3-a7dd-85f128c85509"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:0330ece7-f941-5dcf-939e-65f8ca1efddf:country:TW",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:0330ece7-f941-5dcf-939e-65f8ca1efddf",
+      "target_node_id": "country:TW"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "4d5f2af9-6397-52d9-a20c-52fe09ac2b51"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:03e7f057-b8d3-576d-ba97-9f9228c02c97:country:TW",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:03e7f057-b8d3-576d-ba97-9f9228c02c97",
+      "target_node_id": "country:TW"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "0dfecb8a-beb0-5cb3-a58c-d73f7737faa7"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:0479a265-a8de-5bd9-8613-91e82cc90856:country:TW",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:0479a265-a8de-5bd9-8613-91e82cc90856",
+      "target_node_id": "country:TW"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "d1ab72b8-1c06-5d91-b0a6-90a5c5bc0f58"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:04a34bd2-0cc9-5664-8579-958c2547f5bf:country:CH",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:04a34bd2-0cc9-5664-8579-958c2547f5bf",
+      "target_node_id": "country:CH"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "18082578-d8f8-501f-ab0f-605768a71800"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:07e5e505-7563-5b31-bd2d-78b561964a9a:country:US",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:07e5e505-7563-5b31-bd2d-78b561964a9a",
+      "target_node_id": "country:US"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "70d1189f-6c3c-5f54-a026-60b63c0a9624"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:0830d709-7c29-5ebf-8210-ad5de594a4f0:country:MY",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:0830d709-7c29-5ebf-8210-ad5de594a4f0",
+      "target_node_id": "country:MY"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "b72af182-f3a2-56e5-a6f9-1b1f429e1f35"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:095718d2-84dc-5a41-88dc-efe8787daa07:country:TW",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:095718d2-84dc-5a41-88dc-efe8787daa07",
+      "target_node_id": "country:TW"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "bdaa3a6f-2aba-5403-9e5b-f91792a00142"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:0b5976bc-6bc5-59f9-8eb7-675e019dfc75:country:KR",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:0b5976bc-6bc5-59f9-8eb7-675e019dfc75",
+      "target_node_id": "country:KR"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "ecd93358-eae3-5a62-964c-11a46d34922f"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:0b5d68f5-99b7-5104-ab55-4d21734f32b1:country:US",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:0b5d68f5-99b7-5104-ab55-4d21734f32b1",
+      "target_node_id": "country:US"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "cb82954f-cae5-5572-8b45-44d637fa1b6d"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:0b7c27d3-e2bc-5357-87f5-430f84a7a795:country:JP",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:0b7c27d3-e2bc-5357-87f5-430f84a7a795",
+      "target_node_id": "country:JP"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "680f9209-5577-50ea-8e57-7afc4d5995f3"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:0c70efe4-d723-59ea-91e7-a3ed1dd1e1a5:country:MY",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:0c70efe4-d723-59ea-91e7-a3ed1dd1e1a5",
+      "target_node_id": "country:MY"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "1e275405-189c-5ed6-b7ec-8433b3a892e8"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:0d96f815-5d42-5582-8639-bb5d39164c63:country:KR",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:0d96f815-5d42-5582-8639-bb5d39164c63",
+      "target_node_id": "country:KR"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "f6b68a13-1ff3-540d-b2c4-e655879b34ce"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:0e3feb41-a920-5282-b897-f9f0e4f7b9e6:country:JP",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:0e3feb41-a920-5282-b897-f9f0e4f7b9e6",
+      "target_node_id": "country:JP"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "d0b97b2f-d75a-5350-a657-4d270be726e0"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:0e7fbd46-4bae-5a01-af9a-1bca26eb6f82:country:JP",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:0e7fbd46-4bae-5a01-af9a-1bca26eb6f82",
+      "target_node_id": "country:JP"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "4cabcba3-b798-5805-9a24-622bec81f1b2"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:0fb094f9-dde9-5e09-8dba-d1d987c69dbb:country:CN",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:0fb094f9-dde9-5e09-8dba-d1d987c69dbb",
+      "target_node_id": "country:CN"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "6892e520-fe6e-506d-ae94-a621f101afb5"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:110c6396-4e28-5609-8860-114f6cf03bc2:country:KR",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:110c6396-4e28-5609-8860-114f6cf03bc2",
+      "target_node_id": "country:KR"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "d4de63ba-7a74-5526-8a06-ea418c7d5e48"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:150f3de5-75f6-552c-8739-c7b227d1d69f:country:US",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:150f3de5-75f6-552c-8739-c7b227d1d69f",
+      "target_node_id": "country:US"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "cdd0984a-b602-527b-85ae-fe5ff536dfae"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:17615950-fb28-5aa3-be58-04b152b29663:country:JP",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:17615950-fb28-5aa3-be58-04b152b29663",
+      "target_node_id": "country:JP"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "47415160-571c-5223-ac3e-fae4d8963b7e"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:18bbf86f-337a-5eba-b594-c081736ec5f1:country:TW",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:18bbf86f-337a-5eba-b594-c081736ec5f1",
+      "target_node_id": "country:TW"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "35f24fa6-b3e9-508d-a401-5faf37bfc7f0"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:18c0292d-3e77-55cd-8ba9-ac416077f08a:country:CN",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:18c0292d-3e77-55cd-8ba9-ac416077f08a",
+      "target_node_id": "country:CN"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "2b615cc5-755b-533e-9d16-19592f1a59c1"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:1bf27e8b-5fd1-51ad-b5e5-97d86f6c91e2:country:JP",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:1bf27e8b-5fd1-51ad-b5e5-97d86f6c91e2",
+      "target_node_id": "country:JP"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "6bc6ab16-9ab7-5b19-9cbe-e4fd611c2e8e"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:1d4148fb-3cb5-5c1b-8e32-0fe9bb1b02bb:country:US",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:1d4148fb-3cb5-5c1b-8e32-0fe9bb1b02bb",
+      "target_node_id": "country:US"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "84fff014-1f26-546b-b479-913adae05906"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:1d96aeec-90fc-51d6-b170-402fa2c1f398:country:JP",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:1d96aeec-90fc-51d6-b170-402fa2c1f398",
+      "target_node_id": "country:JP"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "d0ea693b-8007-5f7e-b512-ce60f81b68cd"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:1db8a203-4404-5174-8b41-f71a9bd09f8a:country:JP",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:1db8a203-4404-5174-8b41-f71a9bd09f8a",
+      "target_node_id": "country:JP"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "667c9b9b-e1cb-56c2-8ec6-fb6eb76e1635"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:1f88a976-e07c-5bae-bd9f-86fe33f3678e:country:GB",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:1f88a976-e07c-5bae-bd9f-86fe33f3678e",
+      "target_node_id": "country:GB"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "92c00988-c903-5307-8def-fa38bfa9b61a"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:1fadb267-31ca-58a0-b81a-f46bf46bb1ff:country:TW",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:1fadb267-31ca-58a0-b81a-f46bf46bb1ff",
+      "target_node_id": "country:TW"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "bf4ff6d0-7e13-55e8-9357-399dfdc79c3e"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:22346e71-cac4-50a2-8813-19f4008d4085:country:JP",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:22346e71-cac4-50a2-8813-19f4008d4085",
+      "target_node_id": "country:JP"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "3e6354a9-0d4d-513e-b8ec-f6e0dc76cc5f"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:2242e8ef-12de-5f1e-b8f3-37660f7b7596:country:US",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:2242e8ef-12de-5f1e-b8f3-37660f7b7596",
+      "target_node_id": "country:US"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "831480cd-f007-5589-8e24-d37e59239c88"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:22d6a98d-7f47-5a3b-94a9-dd68eb843e2e:country:JP",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:22d6a98d-7f47-5a3b-94a9-dd68eb843e2e",
+      "target_node_id": "country:JP"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "40ac895a-fbfd-5e98-bf84-07f8ef61cac5"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:2336e218-8b99-51c7-8b54-038fdcd995b8:country:KR",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:2336e218-8b99-51c7-8b54-038fdcd995b8",
+      "target_node_id": "country:KR"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "6c402877-1c99-50e6-91f7-2f164c9566ad"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:2443d407-def4-5bbb-b358-b9b7d45e0397:country:JP",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:2443d407-def4-5bbb-b358-b9b7d45e0397",
+      "target_node_id": "country:JP"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "0ad1cc2a-b2e0-5ac7-b123-bfd71f145fb2"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:253e06fa-38e9-5050-9296-faab5ba97438:country:CN",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:253e06fa-38e9-5050-9296-faab5ba97438",
+      "target_node_id": "country:CN"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "5fc630f7-5be6-5c94-b69a-73f87e6484c5"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:25590643-290a-5834-bdee-e48dfd525fb1:country:JP",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:25590643-290a-5834-bdee-e48dfd525fb1",
+      "target_node_id": "country:JP"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "e2a94615-7a46-528f-a44e-9ddb1a9e61b2"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:27ffe1e5-4629-5e40-a6e0-b763d2b3d6ba:country:TW",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:27ffe1e5-4629-5e40-a6e0-b763d2b3d6ba",
+      "target_node_id": "country:TW"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "9d86cc0e-508d-584d-a5f8-1ecc78dd9687"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:2974f408-63ce-5033-855a-f214a8af319a:country:KR",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:2974f408-63ce-5033-855a-f214a8af319a",
+      "target_node_id": "country:KR"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "026990a5-1deb-5901-ac35-02f4ca63e3ed"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:2cd0442e-cf7d-5dc5-9479-978f33c57f44:country:CN",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:2cd0442e-cf7d-5dc5-9479-978f33c57f44",
+      "target_node_id": "country:CN"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "0c82bb41-3431-5dcf-9cc5-c31335589e5c"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:2d44daee-1643-50e6-b0a6-0cbd912df5e7:country:KR",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:2d44daee-1643-50e6-b0a6-0cbd912df5e7",
+      "target_node_id": "country:KR"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "aa1430d8-41a0-55ff-9fc4-d2f12d206e7f"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:2dc1dbec-ff0a-59ad-91f8-d7b39ad3ee7c:country:US",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:2dc1dbec-ff0a-59ad-91f8-d7b39ad3ee7c",
+      "target_node_id": "country:US"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "1e3dedbc-64a9-5ccd-b6ab-33ecb71a93db"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:2e7c0bc2-b93f-55e2-bbe8-aa3aba16846d:country:KR",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:2e7c0bc2-b93f-55e2-bbe8-aa3aba16846d",
+      "target_node_id": "country:KR"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "88eb9fc8-0485-5806-8d09-66c2388f1b19"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:2f392d76-f5ff-5b8e-9f3b-c334f076fe00:country:FR",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:2f392d76-f5ff-5b8e-9f3b-c334f076fe00",
+      "target_node_id": "country:FR"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "8dd50930-3869-5d1e-8a97-a0ee25c14a3d"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:2f6ada85-43d7-5b25-86c5-34ae18c7c3a4:country:JP",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:2f6ada85-43d7-5b25-86c5-34ae18c7c3a4",
+      "target_node_id": "country:JP"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "a9ed2029-fff5-563e-b672-5c5c828913c2"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:308989f7-4586-540e-b0f1-037a62c2ae0e:country:TW",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:308989f7-4586-540e-b0f1-037a62c2ae0e",
+      "target_node_id": "country:TW"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "c48acc02-59b5-554f-a6ff-7a16eb0da285"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:30b21a92-a823-533e-888b-4ec741ff0dd9:country:CN",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:30b21a92-a823-533e-888b-4ec741ff0dd9",
+      "target_node_id": "country:CN"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "a5cb9401-d26b-5e48-bf55-32ebd023ad9b"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:30f845db-d235-58d7-8086-8de36003da21:country:TW",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:30f845db-d235-58d7-8086-8de36003da21",
+      "target_node_id": "country:TW"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "042b5f1b-d368-531e-aa49-6a381d1f9b4b"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:353242ee-9221-5f09-8f53-4cc20d1dd71b:country:US",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:353242ee-9221-5f09-8f53-4cc20d1dd71b",
+      "target_node_id": "country:US"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "bc7fb78f-dcab-523a-abba-6af172a9efde"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:35b412d1-ff65-5130-a991-6080f3d7b4b0:country:DE",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:35b412d1-ff65-5130-a991-6080f3d7b4b0",
+      "target_node_id": "country:DE"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "319517c6-18e6-5bb5-92ee-02e3f0be1c81"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:35f7ed45-fe70-5bbb-950d-04c7360e07a7:country:HK",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:35f7ed45-fe70-5bbb-950d-04c7360e07a7",
+      "target_node_id": "country:HK"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "54ea2f8d-a06f-54fd-8345-644665a65102"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:3a04510d-278c-539c-b457-9802145574e6:country:DE",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:3a04510d-278c-539c-b457-9802145574e6",
+      "target_node_id": "country:DE"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "d7dbcadf-2290-5a32-8482-08a6f4deb35c"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:3aa7152e-4109-54c7-bd6c-eb1cd288e1a3:country:TW",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:3aa7152e-4109-54c7-bd6c-eb1cd288e1a3",
+      "target_node_id": "country:TW"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "96166dcb-9312-5551-9788-cfe7b7d2f0c8"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:3ab30dea-b319-506e-a679-3b93754895e8:country:US",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:3ab30dea-b319-506e-a679-3b93754895e8",
+      "target_node_id": "country:US"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "1394d6fb-b2dc-516e-873c-a7da8ab43c81"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:3c1df58c-3fe1-5e31-b4cb-348ecbe806e9:country:CN",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:3c1df58c-3fe1-5e31-b4cb-348ecbe806e9",
+      "target_node_id": "country:CN"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "f613daab-3860-57d2-aa15-26d51322afd0"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:3ea874ab-e72a-5e70-b4f0-ef92b86fa36e:country:GB",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:3ea874ab-e72a-5e70-b4f0-ef92b86fa36e",
+      "target_node_id": "country:GB"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "61b156a5-a260-5a1a-bb7c-df33bbde3639"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:3eb72132-2422-5248-9a1d-72078215f5e2:country:KR",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:3eb72132-2422-5248-9a1d-72078215f5e2",
+      "target_node_id": "country:KR"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "04c4abdc-4594-536a-b98a-ecf0a32f2377"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:42a7782a-ba4c-5f6e-bc01-07d987cee619:country:TW",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:42a7782a-ba4c-5f6e-bc01-07d987cee619",
+      "target_node_id": "country:TW"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "80e46858-22f6-5c71-98b1-f9078e7a5a41"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:46f0880a-11ac-505d-b6e3-b0d3196945a8:country:US",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:46f0880a-11ac-505d-b6e3-b0d3196945a8",
+      "target_node_id": "country:US"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "895a4652-f5a0-5a06-a72a-508759653e00"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:4713357c-d73d-5c3b-b804-e5842eeff8c9:country:US",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:4713357c-d73d-5c3b-b804-e5842eeff8c9",
+      "target_node_id": "country:US"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "91d64e32-c5aa-5354-a750-2ccc8ad5f438"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:497a1a02-e6bd-5367-81da-f05e318acaa9:country:JP",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:497a1a02-e6bd-5367-81da-f05e318acaa9",
+      "target_node_id": "country:JP"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "638eb526-5a3a-5794-bc4f-ba44a49852f6"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:4c26690e-f706-5e21-a38e-9b97d6b9c381:country:CN",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:4c26690e-f706-5e21-a38e-9b97d6b9c381",
+      "target_node_id": "country:CN"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "9fc10ff6-4adb-527a-95bb-d4ccb74f53d4"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:4ec1a13a-a4df-51c6-9937-9959ed87b377:country:JP",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:4ec1a13a-a4df-51c6-9937-9959ed87b377",
+      "target_node_id": "country:JP"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "66df99c6-0957-5adb-bbfa-db08c06ff10f"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:5013155d-f90b-531c-bc50-1afce1fb29d1:country:JP",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:5013155d-f90b-531c-bc50-1afce1fb29d1",
+      "target_node_id": "country:JP"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "76a627ee-a43d-53b9-87d6-9e4a0bf556bb"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:509f8d0f-a859-5939-bda2-06412e1e3f05:country:TW",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:509f8d0f-a859-5939-bda2-06412e1e3f05",
+      "target_node_id": "country:TW"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "0e5c049f-9c67-50ca-9271-a6f56b532162"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:52ddd9ad-18ec-5632-ae69-9393ce9681fc:country:US",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:52ddd9ad-18ec-5632-ae69-9393ce9681fc",
+      "target_node_id": "country:US"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "6d139180-d392-5fb9-b32c-a55fdb5e8d9b"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:53807272-37c1-538b-85f5-01c6592d90e9:country:CN",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:53807272-37c1-538b-85f5-01c6592d90e9",
+      "target_node_id": "country:CN"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "ffffc1e2-5895-58f8-9b7c-db504994fcbf"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:54192773-68c9-562f-837b-23f29270f18b:country:MY",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:54192773-68c9-562f-837b-23f29270f18b",
+      "target_node_id": "country:MY"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "b9d27e97-5f09-57aa-b248-8f13c8251d0a"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:5564d02f-920c-522a-8035-d0437b80b7a9:country:KR",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:5564d02f-920c-522a-8035-d0437b80b7a9",
+      "target_node_id": "country:KR"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "c2fab6eb-e59e-54ad-8530-c81a99b14b0d"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:55761791-d2f1-5457-89a7-faab2f9d3f76:country:JP",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:55761791-d2f1-5457-89a7-faab2f9d3f76",
+      "target_node_id": "country:JP"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "48dc8350-90f7-5667-8e46-dab481b31549"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:567512d2-76da-5862-8804-439d12d9c653:country:US",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:567512d2-76da-5862-8804-439d12d9c653",
+      "target_node_id": "country:US"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "07d561dc-601d-527d-ac93-a798e137b0c9"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:5726151c-0cd2-5b54-b49c-d81e55aa9cf2:country:CN",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:5726151c-0cd2-5b54-b49c-d81e55aa9cf2",
+      "target_node_id": "country:CN"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "09cf22d6-2d5c-5a35-84b8-9d2a4026f59d"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:577d839e-b1d8-5b04-b689-d8421f0b2291:country:US",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:577d839e-b1d8-5b04-b689-d8421f0b2291",
+      "target_node_id": "country:US"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "42a3d925-4611-57e6-a561-19ea010b56d6"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:5f5fd606-041f-512c-b43a-6c3758994263:country:TW",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:5f5fd606-041f-512c-b43a-6c3758994263",
+      "target_node_id": "country:TW"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "ff740be1-defb-5cad-ae5d-cb72a9d5f1c5"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:5f8684ab-3a82-557d-bd24-27b3acc25143:country:JP",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:5f8684ab-3a82-557d-bd24-27b3acc25143",
+      "target_node_id": "country:JP"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "25d330a8-60c2-5f26-93a8-35705e49bb00"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:61dc96ec-fb53-5bf7-bbbd-6e2ee3b98d39:country:US",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:61dc96ec-fb53-5bf7-bbbd-6e2ee3b98d39",
+      "target_node_id": "country:US"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "45dd5a3d-cb4c-5c7d-abea-8852e5130de5"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:61e17284-db4f-5d0a-8a79-c70b1def37a4:country:CN",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:61e17284-db4f-5d0a-8a79-c70b1def37a4",
+      "target_node_id": "country:CN"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "951cc55c-11bb-503b-9331-7c3472e4d605"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:63bdfe81-ae5c-5329-9bad-2d2430b8117e:country:FR",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:63bdfe81-ae5c-5329-9bad-2d2430b8117e",
+      "target_node_id": "country:FR"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "1169acbf-c98b-5e50-835f-3dffffb4ec58"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:6527e7f0-2463-5f4f-a019-cdd4df1fedd0:country:SG",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:6527e7f0-2463-5f4f-a019-cdd4df1fedd0",
+      "target_node_id": "country:SG"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "e8e91d20-0aff-5712-81c1-f226f0a537fe"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:658b525f-9618-5b7e-bf00-9be7dbb3bacf:country:KR",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:658b525f-9618-5b7e-bf00-9be7dbb3bacf",
+      "target_node_id": "country:KR"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "33e8a343-84ce-5d4f-b2d7-9492b6f87b06"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:65a59194-f99a-540e-9d49-97d85fefe323:country:US",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:65a59194-f99a-540e-9d49-97d85fefe323",
+      "target_node_id": "country:US"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "0cb43fc4-b58c-5004-8566-2c2ce97bd233"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:68040404-f162-5bed-ba31-252b2318e6a1:country:TW",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:68040404-f162-5bed-ba31-252b2318e6a1",
+      "target_node_id": "country:TW"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "4031f944-b27a-55c1-9bc5-d12ec26b07ee"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:6a03a1d6-97be-5424-b92c-2f8b9c7fae9a:country:KR",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:6a03a1d6-97be-5424-b92c-2f8b9c7fae9a",
+      "target_node_id": "country:KR"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "1e2b3176-a159-5499-9f49-37f620e49ca0"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:6c1d014f-f81f-529c-b480-35781fd8420a:country:TW",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:6c1d014f-f81f-529c-b480-35781fd8420a",
+      "target_node_id": "country:TW"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "178077ae-6acf-505e-94ef-181b465f7848"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:6d7ff317-e100-5b63-86b1-660f39962d3a:country:KR",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:6d7ff317-e100-5b63-86b1-660f39962d3a",
+      "target_node_id": "country:KR"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "eaafdd03-6dad-5ab0-86e7-aefd7415aa7f"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:6f084523-2ffb-5a0c-8a1f-908578788d07:country:CN",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:6f084523-2ffb-5a0c-8a1f-908578788d07",
+      "target_node_id": "country:CN"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "848c361e-33e5-5c90-8e3c-0aac78e46b1c"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:6f89262a-c4d1-5489-9258-880d69ba00ce:country:US",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:6f89262a-c4d1-5489-9258-880d69ba00ce",
+      "target_node_id": "country:US"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "1893f828-8bc4-5914-837b-d0a8223ecaf4"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:70c6f91a-7b80-53e0-8206-ccce7112ff2d:country:JP",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:70c6f91a-7b80-53e0-8206-ccce7112ff2d",
+      "target_node_id": "country:JP"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "8c630ede-778a-598a-bcc7-0e77f2da40d6"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:7225d89c-2a0c-5314-aa24-a7df7f67481d:country:GB",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:7225d89c-2a0c-5314-aa24-a7df7f67481d",
+      "target_node_id": "country:GB"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "45c2b353-10ed-5878-8a11-47810909ff59"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:725c610d-e041-553c-9e12-0d15d36305e7:country:NL",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:725c610d-e041-553c-9e12-0d15d36305e7",
+      "target_node_id": "country:NL"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "396e1a23-ea99-5e54-ab96-5b186f54179a"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:770eb411-ccdf-522b-a6d4-bd4ec87383c1:country:CN",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:770eb411-ccdf-522b-a6d4-bd4ec87383c1",
+      "target_node_id": "country:CN"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "43c44fd0-2607-5882-a446-09d13ccf89f3"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:7832808e-8191-55ab-ba62-eb4e7983c3f4:country:US",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:7832808e-8191-55ab-ba62-eb4e7983c3f4",
+      "target_node_id": "country:US"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "76564b16-1d85-5255-bb7b-3d4c93baba18"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:7a5ffa5d-8986-5869-8bfe-25655c5964f5:country:SG",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:7a5ffa5d-8986-5869-8bfe-25655c5964f5",
+      "target_node_id": "country:SG"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "70a7a8d1-c98f-5db8-8e34-b3dd3efb13de"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:7aa1b456-2935-5acc-b135-ba72b6f9ddc9:country:JP",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:7aa1b456-2935-5acc-b135-ba72b6f9ddc9",
+      "target_node_id": "country:JP"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "9a21be66-04a2-5863-9727-c679f52984db"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:7c04a735-d428-5df2-a9dd-dc1460257c30:country:CN",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:7c04a735-d428-5df2-a9dd-dc1460257c30",
+      "target_node_id": "country:CN"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "47049e99-8377-552c-b692-f700f54409fb"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:7cc578d3-c5ba-57dd-951e-15c0fd8a92bc:country:TW",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:7cc578d3-c5ba-57dd-951e-15c0fd8a92bc",
+      "target_node_id": "country:TW"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "ecb87247-d07b-5449-8e5b-7d3af86b1183"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:8205fc3b-a6d5-54d3-824b-c883457879d8:country:JP",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:8205fc3b-a6d5-54d3-824b-c883457879d8",
+      "target_node_id": "country:JP"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "8e8a9d48-d1e7-57c4-bad1-a76e7d10c567"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:823a08d9-ded3-5602-8aaf-d37230332d4c:country:TW",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:823a08d9-ded3-5602-8aaf-d37230332d4c",
+      "target_node_id": "country:TW"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "b3142eb1-beb5-5568-a6d9-d7f68aaf8ff6"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:852692f6-d2d6-521c-90a5-f5086408d2bd:country:US",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:852692f6-d2d6-521c-90a5-f5086408d2bd",
+      "target_node_id": "country:US"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "f9797fbb-9cb9-59f1-a3ea-aa38e6ae1c12"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:853c6562-5ac7-524a-9f03-396342c9938c:country:US",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:853c6562-5ac7-524a-9f03-396342c9938c",
+      "target_node_id": "country:US"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "ac86c043-5ece-53ed-92fb-50031c7d1e58"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:86ae69ad-d33b-5451-8af3-ed56ac1babe3:country:US",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:86ae69ad-d33b-5451-8af3-ed56ac1babe3",
+      "target_node_id": "country:US"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "ff0ec09c-85a6-53b6-b579-f895a94b6340"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:8746323b-4a13-54e9-88f3-0ee95beb9bc4:country:TW",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:8746323b-4a13-54e9-88f3-0ee95beb9bc4",
+      "target_node_id": "country:TW"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "9143564b-b0f8-56c9-b132-c32360d83119"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:8794e04b-601c-501a-a1a2-33cce950686d:country:TW",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:8794e04b-601c-501a-a1a2-33cce950686d",
+      "target_node_id": "country:TW"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "96a9a98c-94de-59b9-9cbf-a1f9abeaa166"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:882649fd-2075-5454-8a74-f74b2434ebd7:country:US",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:882649fd-2075-5454-8a74-f74b2434ebd7",
+      "target_node_id": "country:US"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "437fed03-37b4-50b4-9bf6-5569100fe646"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:8872d220-0359-58ff-95c4-e5e4540fdb51:country:KR",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:8872d220-0359-58ff-95c4-e5e4540fdb51",
+      "target_node_id": "country:KR"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "a6c469eb-2254-5c95-a9d3-e561c903b9fe"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:88ee1862-10a6-5f3e-ae8d-f9ffa2f94a93:country:KR",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:88ee1862-10a6-5f3e-ae8d-f9ffa2f94a93",
+      "target_node_id": "country:KR"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "7e0fc3b0-10dd-5624-a8ae-3c9974ce594b"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:89e313df-6322-5537-82ca-40573d40afe7:country:TW",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:89e313df-6322-5537-82ca-40573d40afe7",
+      "target_node_id": "country:TW"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "ed7987b1-bbc8-54cd-a41c-18ddcd198a42"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:8b0df095-06b9-5cd7-8dc0-d2461f5b76bf:country:JP",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:8b0df095-06b9-5cd7-8dc0-d2461f5b76bf",
+      "target_node_id": "country:JP"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "cb9629c2-fd53-5947-bec5-f0cf09763610"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:8dc89ca9-b072-584c-a12e-c238b5e00bf5:country:KR",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:8dc89ca9-b072-584c-a12e-c238b5e00bf5",
+      "target_node_id": "country:KR"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "2fdd5200-1775-5456-a071-b160ed497e0e"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:8de3a6cb-9e81-5eb2-af26-699140e58870:country:US",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:8de3a6cb-9e81-5eb2-af26-699140e58870",
+      "target_node_id": "country:US"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "64f3c15d-bd7f-5d48-b720-e66e4243c778"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:8f7a9171-5dd3-5dcf-a953-6836c2dff068:country:CN",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:8f7a9171-5dd3-5dcf-a953-6836c2dff068",
+      "target_node_id": "country:CN"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "22ec33b3-2d50-5269-8071-cb2fd78a83f8"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:8fc5e3c4-d461-5f16-b700-9b9784b70c14:country:TW",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:8fc5e3c4-d461-5f16-b700-9b9784b70c14",
+      "target_node_id": "country:TW"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "597175e1-d9fd-5b77-8aea-a507977e9474"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:90679d65-9be3-51c7-85e0-58d6746e2f7c:country:JP",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:90679d65-9be3-51c7-85e0-58d6746e2f7c",
+      "target_node_id": "country:JP"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "04c8affd-b574-59a7-9cea-1b1eb7a539e6"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:906eb4de-4eb2-5cc8-ab75-ebb77a1744c5:country:KR",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:906eb4de-4eb2-5cc8-ab75-ebb77a1744c5",
+      "target_node_id": "country:KR"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "ebed2e76-5c93-559b-9c76-8cc2c0c8867b"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:909bfe30-c42d-56c9-af75-3415541792a1:country:JP",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:909bfe30-c42d-56c9-af75-3415541792a1",
+      "target_node_id": "country:JP"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "061104d1-ed5f-5e42-a1dd-a9edc277f352"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:926da4e0-01d8-57c1-8667-aeba7555c755:country:US",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:926da4e0-01d8-57c1-8667-aeba7555c755",
+      "target_node_id": "country:US"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "19d38d2b-e927-5326-89c6-2b9380273ba8"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:93085617-9c64-59e7-85c7-c15ec20e8eb9:country:JP",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:93085617-9c64-59e7-85c7-c15ec20e8eb9",
+      "target_node_id": "country:JP"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "2a8e4b2a-5f84-5b76-902d-da2ef5ab7734"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:9319c36a-e19f-5837-92f5-e2372fd8dbc3:country:TW",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:9319c36a-e19f-5837-92f5-e2372fd8dbc3",
+      "target_node_id": "country:TW"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "c8a80df6-c8ff-5a44-b49a-619bd35f6c3a"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:941a1181-ac94-5581-b07b-5b7f03951759:country:KR",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:941a1181-ac94-5581-b07b-5b7f03951759",
+      "target_node_id": "country:KR"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "eabc7c7c-2c4f-54fa-942c-9e3867198278"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:94fdefa3-4198-5379-8d22-4d9c0f5746af:country:US",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:94fdefa3-4198-5379-8d22-4d9c0f5746af",
+      "target_node_id": "country:US"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "a4b38ae0-cdac-5e73-8f96-5afb365f80b9"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:98c07def-0244-52f2-b0c6-c35e2896b513:country:US",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:98c07def-0244-52f2-b0c6-c35e2896b513",
+      "target_node_id": "country:US"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "cc0a917f-c4ce-5f41-956d-8a01a8bc82a3"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:996f7bbc-fb28-50c9-b82a-8abf2e32a06f:country:US",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:996f7bbc-fb28-50c9-b82a-8abf2e32a06f",
+      "target_node_id": "country:US"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "78b0643e-8a1e-54e5-b16b-952cc3abf083"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:9aaac545-fe4d-503e-a143-5d75ad96b43d:country:US",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:9aaac545-fe4d-503e-a143-5d75ad96b43d",
+      "target_node_id": "country:US"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "25af192a-b80c-53aa-b709-e643042ba915"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:9d481faa-8582-55d5-8e67-c6faa9be68ab:country:JP",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:9d481faa-8582-55d5-8e67-c6faa9be68ab",
+      "target_node_id": "country:JP"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "59c14374-12db-557b-bb7d-079d7ad069bb"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:9e1fb522-b8e0-562c-9cb7-9ff820f687bd:country:TW",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:9e1fb522-b8e0-562c-9cb7-9ff820f687bd",
+      "target_node_id": "country:TW"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "e07466a4-feed-57a2-84be-0372e8e15be0"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:9f84c84c-b8db-5033-ae6b-2225fe062981:country:TW",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:9f84c84c-b8db-5033-ae6b-2225fe062981",
+      "target_node_id": "country:TW"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "9e1a3b9d-298f-5e90-a914-faa6ac5195e3"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:a05c37c9-a1ee-5d2d-9582-ce0e8828219c:country:US",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:a05c37c9-a1ee-5d2d-9582-ce0e8828219c",
+      "target_node_id": "country:US"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "68e64311-7de6-504f-8c9b-8c399b661e35"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:a1b4985c-05ad-532b-9f55-18e538f7c70a:country:DE",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:a1b4985c-05ad-532b-9f55-18e538f7c70a",
+      "target_node_id": "country:DE"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "bb07ddec-18b9-50f2-aa31-39c1c53c8ef4"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:a339a383-fafc-5a42-b6e9-02a98f790099:country:IL",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:a339a383-fafc-5a42-b6e9-02a98f790099",
+      "target_node_id": "country:IL"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "7da4ed60-a358-5b30-8db8-f1fd4fbf9fd5"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:a38ac7a5-c80f-58d6-9604-54a912762efd:country:JP",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:a38ac7a5-c80f-58d6-9604-54a912762efd",
+      "target_node_id": "country:JP"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "ea6ad17a-38b7-570b-b2f7-0ce3aa88c520"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:a39faba3-d4e4-5880-bd27-a145ea42abac:country:CN",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:a39faba3-d4e4-5880-bd27-a145ea42abac",
+      "target_node_id": "country:CN"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "426640a1-4455-58bd-b12e-dc826afbe6fb"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:a4048d10-1467-5d5d-9aad-3645d23c3ddf:country:JP",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:a4048d10-1467-5d5d-9aad-3645d23c3ddf",
+      "target_node_id": "country:JP"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "6908e4ba-b165-5bc6-b370-64e4018628a9"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:a6dd9801-c278-5866-8c76-9181547fbf9c:country:JP",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:a6dd9801-c278-5866-8c76-9181547fbf9c",
+      "target_node_id": "country:JP"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "786a1e06-90fe-59a2-a5a2-b2bc2b2b2d30"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:a703f724-f5ec-50ee-85fb-a6e5697f27dd:country:US",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:a703f724-f5ec-50ee-85fb-a6e5697f27dd",
+      "target_node_id": "country:US"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "a5f7bf38-0403-501b-9d69-95e914ddcd6c"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:a74c7d0d-513d-52c9-8dac-ec98df7051e9:country:US",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:a74c7d0d-513d-52c9-8dac-ec98df7051e9",
+      "target_node_id": "country:US"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "3cbd2429-8def-5f53-88e5-d83827ee7c24"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:a78989bc-8bb0-5121-ab68-827b2885d82a:country:US",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:a78989bc-8bb0-5121-ab68-827b2885d82a",
+      "target_node_id": "country:US"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "b1fef579-6533-5d6a-b6c9-daaec472f246"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:a8d98cfa-2f20-5a69-85d8-7f6329e36785:country:US",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:a8d98cfa-2f20-5a69-85d8-7f6329e36785",
+      "target_node_id": "country:US"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "2118356c-021a-5731-9346-51262f2a69bb"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:a9da4cd3-9203-5807-9f4f-b8427c9d4946:country:AT",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:a9da4cd3-9203-5807-9f4f-b8427c9d4946",
+      "target_node_id": "country:AT"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "48c46b24-fa43-547a-be04-afe408498c2c"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:ad3642a9-d3e2-55bb-9db2-03fbbe499cfb:country:CN",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:ad3642a9-d3e2-55bb-9db2-03fbbe499cfb",
+      "target_node_id": "country:CN"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "55b51684-7ba8-5900-b739-e1ee0822a891"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:ad575f8f-09c0-5e26-b0ad-acc299efb886:country:JP",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:ad575f8f-09c0-5e26-b0ad-acc299efb886",
+      "target_node_id": "country:JP"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "1c9ac91b-6e50-56c3-8b5a-eaf756d83221"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:ae972f92-1e07-51ce-b4a5-a3b7acc1d90e:country:LU",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:ae972f92-1e07-51ce-b4a5-a3b7acc1d90e",
+      "target_node_id": "country:LU"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "9d4e5065-780c-59ea-8031-fec4dd5a61e4"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:aeb3a987-0c2b-5633-8b06-5696dae8172d:country:US",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:aeb3a987-0c2b-5633-8b06-5696dae8172d",
+      "target_node_id": "country:US"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "134dc7e9-17f6-533b-aac2-b8fb1218f45f"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:af3abd85-0149-5b11-a8aa-5615f32c379d:country:US",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:af3abd85-0149-5b11-a8aa-5615f32c379d",
+      "target_node_id": "country:US"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "abe05f42-ed55-5ccc-a6d4-5dfa019e8898"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:b24d45c8-c565-5069-b847-95f80494dea4:country:TW",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:b24d45c8-c565-5069-b847-95f80494dea4",
+      "target_node_id": "country:TW"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "b937d076-0de1-5f69-a163-109e1da314ba"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:b29ec5f0-e740-525a-a1aa-b6aeb2f7c916:country:US",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:b29ec5f0-e740-525a-a1aa-b6aeb2f7c916",
+      "target_node_id": "country:US"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "393f92f8-ff51-5433-9357-6bc4097c8a6f"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:b2e5e76f-7beb-561c-a53d-038d7427d3de:country:NL",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:b2e5e76f-7beb-561c-a53d-038d7427d3de",
+      "target_node_id": "country:NL"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "43ae5866-f11f-503e-b5bf-ddf19d31cbbd"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:b43d2ce7-3a6a-5f2f-886b-f999d4dd693b:country:JP",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:b43d2ce7-3a6a-5f2f-886b-f999d4dd693b",
+      "target_node_id": "country:JP"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "7fcc2fcd-a45e-589c-afb3-968ad3da8e8b"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:b50e37e1-429a-5697-858c-29f68e787014:country:JP",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:b50e37e1-429a-5697-858c-29f68e787014",
+      "target_node_id": "country:JP"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "6f30d504-7669-5ec4-a395-f94bb4a4baef"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:b985896c-c00d-53a7-a5fe-74728a6e594e:country:US",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:b985896c-c00d-53a7-a5fe-74728a6e594e",
+      "target_node_id": "country:US"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "41956b65-7a5f-5606-81ae-81ec7b2e42ec"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:bac20fc9-f452-5eef-8ec1-47d0671006a6:country:TW",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:bac20fc9-f452-5eef-8ec1-47d0671006a6",
+      "target_node_id": "country:TW"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "24311fc6-a6a3-547f-84f8-f62251996278"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:bd33fc07-b814-5900-9fad-8b3da80bd663:country:JP",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:bd33fc07-b814-5900-9fad-8b3da80bd663",
+      "target_node_id": "country:JP"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "030d7b37-3a93-5972-aa42-30e5b72a0d79"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:bda400a1-c296-5c8c-a272-9c91d3c10381:country:JP",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:bda400a1-c296-5c8c-a272-9c91d3c10381",
+      "target_node_id": "country:JP"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "ddee951b-73c9-5734-842c-42c2a7825a33"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:be1d6bcd-a4df-5123-b6fb-689025134a9b:country:NL",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:be1d6bcd-a4df-5123-b6fb-689025134a9b",
+      "target_node_id": "country:NL"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "119ea358-d784-5b8d-8dac-7e8cbd01b965"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:bf1442d2-1407-5a95-8f9a-74f5a875bc39:country:US",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:bf1442d2-1407-5a95-8f9a-74f5a875bc39",
+      "target_node_id": "country:US"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "6738ca9f-8ce4-5825-a539-76b54ac559f5"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:c5115bca-a75d-500d-bf5f-a0c9000bcc44:country:JP",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:c5115bca-a75d-500d-bf5f-a0c9000bcc44",
+      "target_node_id": "country:JP"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "377f4fc2-c14b-57c9-9620-6249f87d2812"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:c58d3bbf-a097-5f8d-bbfe-9860135b87cb:country:KR",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:c58d3bbf-a097-5f8d-bbfe-9860135b87cb",
+      "target_node_id": "country:KR"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "5300cd77-837c-5051-ac6a-4fa3c086c258"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:c86faabb-1482-5d0d-a6f3-660f17955473:country:US",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:c86faabb-1482-5d0d-a6f3-660f17955473",
+      "target_node_id": "country:US"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "86dd9dfe-041c-56cc-839c-d1a727e9716c"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:cb4e8c7f-c184-5ff2-ae3a-631494e550bf:country:CN",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:cb4e8c7f-c184-5ff2-ae3a-631494e550bf",
+      "target_node_id": "country:CN"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "af8eef64-969e-5b44-8e40-2ce21f7f390e"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:cd1f2f23-fd53-5e61-b8fe-5836fd5bb2f7:country:TW",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:cd1f2f23-fd53-5e61-b8fe-5836fd5bb2f7",
+      "target_node_id": "country:TW"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "9d54ffde-62ac-5dd1-9389-5570e7657f7e"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:cde245a7-4e7b-5635-bb07-b377055e39d7:country:US",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:cde245a7-4e7b-5635-bb07-b377055e39d7",
+      "target_node_id": "country:US"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "746d34a8-d564-55d3-bc19-2233ec199d61"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:ce2890f3-4887-5ef6-996f-081f132aa89c:country:TW",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:ce2890f3-4887-5ef6-996f-081f132aa89c",
+      "target_node_id": "country:TW"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "ace3cb97-bef7-555b-af9b-f6931eed4c90"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:ce37fb1f-4900-57ab-84f6-e8c96c6ac3bb:country:TW",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:ce37fb1f-4900-57ab-84f6-e8c96c6ac3bb",
+      "target_node_id": "country:TW"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "70c2c47c-532d-5bf7-911e-d841e33b7529"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:ce6f9e20-80d8-540d-a230-c618c475724b:country:DE",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:ce6f9e20-80d8-540d-a230-c618c475724b",
+      "target_node_id": "country:DE"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "8ad189ad-3cac-5a4e-b414-dd626ee2fdc7"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:cec410e3-8846-5d94-a819-9fe681ef7a59:country:TW",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:cec410e3-8846-5d94-a819-9fe681ef7a59",
+      "target_node_id": "country:TW"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "ee76456c-49b2-50b3-92c3-c1f516d1a842"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:ced546bb-1b9a-59f7-8bf4-fdb30a2cab36:country:US",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:ced546bb-1b9a-59f7-8bf4-fdb30a2cab36",
+      "target_node_id": "country:US"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "68dda647-9447-5ca1-b056-8e31b461cc89"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:cf2f688f-271a-5d91-a5fd-b7165bc2f6f0:country:KR",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:cf2f688f-271a-5d91-a5fd-b7165bc2f6f0",
+      "target_node_id": "country:KR"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "5ec6725e-0962-55db-88fd-3c0b6b1f4b18"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:d28259a4-8ab6-5f3f-be26-aa7e7dc569a7:country:JP",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:d28259a4-8ab6-5f3f-be26-aa7e7dc569a7",
+      "target_node_id": "country:JP"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "57e2193a-c717-502d-8b6e-234d2178bc47"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:d55dea36-3e45-54ab-b1ea-20e5376bb4b4:country:CN",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:d55dea36-3e45-54ab-b1ea-20e5376bb4b4",
+      "target_node_id": "country:CN"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "52355988-d538-56c6-9d7a-929313c046d8"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:d5c16117-f347-5097-b7ee-cebf292f8887:country:US",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:d5c16117-f347-5097-b7ee-cebf292f8887",
+      "target_node_id": "country:US"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "65d2c516-d5d2-5090-b6f3-ac0979f18ec5"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:d6839de6-3aaf-53e6-a97a-b7ab8f189e3f:country:CN",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:d6839de6-3aaf-53e6-a97a-b7ab8f189e3f",
+      "target_node_id": "country:CN"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "b00b1533-727b-52fc-a975-62c0fa4faab6"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:d7172387-e463-5849-976f-d003174ac601:country:TW",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:d7172387-e463-5849-976f-d003174ac601",
+      "target_node_id": "country:TW"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "04a21081-e41c-5c66-8628-074de7a66839"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:d8127e81-e6bf-579e-8fac-80525b5e7269:country:IL",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:d8127e81-e6bf-579e-8fac-80525b5e7269",
+      "target_node_id": "country:IL"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "d78f42ad-e1f3-55ce-9555-e799a572e6c6"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:d89c614d-2ce2-5797-8237-1f2753b7dd0e:country:JP",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:d89c614d-2ce2-5797-8237-1f2753b7dd0e",
+      "target_node_id": "country:JP"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "e225fe40-7856-567d-bf71-717d277ff043"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:d9891bf1-b276-53f7-9066-e2045fc6970c:country:KR",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:d9891bf1-b276-53f7-9066-e2045fc6970c",
+      "target_node_id": "country:KR"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "f98a5f5b-1895-5c39-b0ba-b9b0646881ad"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:de0a8d48-7c73-58e8-83f1-fd37e049dc30:country:CN",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:de0a8d48-7c73-58e8-83f1-fd37e049dc30",
+      "target_node_id": "country:CN"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "33332495-44df-5cbb-b15f-cb5429e67e14"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:de69a354-3e12-5b97-980d-d6de1b9240a9:country:CH",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:de69a354-3e12-5b97-980d-d6de1b9240a9",
+      "target_node_id": "country:CH"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "7955485b-2d57-5e30-b6fa-e46067d02d7a"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:df38c337-855a-5d89-8d1f-5593990a3316:country:KR",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:df38c337-855a-5d89-8d1f-5593990a3316",
+      "target_node_id": "country:KR"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "b5c917b6-b6a8-557e-9eca-7cf775f83648"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:e35eca47-acc1-54e6-bd8e-c9c1529d8568:country:TW",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:e35eca47-acc1-54e6-bd8e-c9c1529d8568",
+      "target_node_id": "country:TW"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "643e7dba-6c31-540b-a0b0-4047ad5b5505"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:e42d1c7e-b370-5cce-92da-29054fabfd82:country:JP",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:e42d1c7e-b370-5cce-92da-29054fabfd82",
+      "target_node_id": "country:JP"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "4e9f2a98-957f-592c-85b2-2585a3b7c4d9"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:e8093cfa-91ae-5592-80c1-56de23185b00:country:CN",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:e8093cfa-91ae-5592-80c1-56de23185b00",
+      "target_node_id": "country:CN"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "97d523ec-0d10-599f-a2ff-21f37c8cccab"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:e857aaf6-5560-5d3a-931e-947ec3775713:country:TW",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:e857aaf6-5560-5d3a-931e-947ec3775713",
+      "target_node_id": "country:TW"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "6b1e0d40-2fe2-559b-bb3a-af8789f69512"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:ea966ea8-74a6-5a46-a2fe-01240bff5134:country:AT",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:ea966ea8-74a6-5a46-a2fe-01240bff5134",
+      "target_node_id": "country:AT"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "fd491d62-e88f-509b-a9e9-7ed1a389d8d9"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:eb4effdf-d07b-5643-8f45-d2f2873ac07d:country:DE",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:eb4effdf-d07b-5643-8f45-d2f2873ac07d",
+      "target_node_id": "country:DE"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "73d9ad72-968d-5efc-a26c-f31bfa9898f9"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:ebf9863c-c3c1-5b64-8225-0fe26b9f2de9:country:JP",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:ebf9863c-c3c1-5b64-8225-0fe26b9f2de9",
+      "target_node_id": "country:JP"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "cff8316c-9856-53e0-9a11-328369599234"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:ec03edf0-693b-58a7-84f4-6a65d898d9be:country:TW",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:ec03edf0-693b-58a7-84f4-6a65d898d9be",
+      "target_node_id": "country:TW"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "39fcaf1d-abc8-5353-84a7-8db293c74bda"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:ec070821-134b-5659-9778-93647adadc2d:country:TW",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:ec070821-134b-5659-9778-93647adadc2d",
+      "target_node_id": "country:TW"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "a9932781-9090-5b0a-a8f3-ab1db03b93f1"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:ed4cc4c8-2f11-5e7b-adb3-4c5a94258bd5:country:CN",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:ed4cc4c8-2f11-5e7b-adb3-4c5a94258bd5",
+      "target_node_id": "country:CN"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "8c7e23ed-3378-5271-aed5-99d15d1bfe00"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:ee97dc10-6710-583a-93ba-e791be5fa7f4:country:JP",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:ee97dc10-6710-583a-93ba-e791be5fa7f4",
+      "target_node_id": "country:JP"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "55b3012c-d279-55af-89ab-85afcbf479bf"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:ee99be8f-51b7-5337-9596-e7954e4d1d35:country:JP",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:ee99be8f-51b7-5337-9596-e7954e4d1d35",
+      "target_node_id": "country:JP"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "23ef571d-6066-5c58-b381-f2081bb55781"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:ef63e820-1662-5a61-a28c-771ed21f2ef0:country:US",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:ef63e820-1662-5a61-a28c-771ed21f2ef0",
+      "target_node_id": "country:US"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "937d187d-d2e2-58c5-b0f4-3bfbc2c7a750"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:ef9f0e61-7d1a-53e6-979c-8b0e5b80d9e3:country:NL",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:ef9f0e61-7d1a-53e6-979c-8b0e5b80d9e3",
+      "target_node_id": "country:NL"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "1daebd7d-8337-5e49-a5bc-b2c111f1b95e"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:f0021b9e-f394-52f8-844e-23e846286466:country:US",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:f0021b9e-f394-52f8-844e-23e846286466",
+      "target_node_id": "country:US"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "49b4dd15-200d-5226-be09-534b46171ab0"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:f1ed4413-e152-52f9-82e5-163f23d09967:country:IE",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:f1ed4413-e152-52f9-82e5-163f23d09967",
+      "target_node_id": "country:IE"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "610e186f-bd14-5daf-8da6-25a42a828f4c"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:f52df2db-cd5e-552e-84d9-8b6e111516ce:country:US",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:f52df2db-cd5e-552e-84d9-8b6e111516ce",
+      "target_node_id": "country:US"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "723993e4-083e-50c5-a0e6-8a4424b02469"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:f6816e46-6aea-5949-8625-0003f67956e1:country:US",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:f6816e46-6aea-5949-8625-0003f67956e1",
+      "target_node_id": "country:US"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "fed3c367-00ec-5cbc-93e4-8933ce9f0257"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:f6fd0491-0b9a-5dd3-98fb-4125b6169962:country:US",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:f6fd0491-0b9a-5dd3-98fb-4125b6169962",
+      "target_node_id": "country:US"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "f740acdf-12e2-5f5f-ba48-77792d56afa8"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:f7835267-88fa-52c6-8f29-109ae5ed7c36:country:TW",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:f7835267-88fa-52c6-8f29-109ae5ed7c36",
+      "target_node_id": "country:TW"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "f0182875-57a2-5775-be0f-f4c0c84b451a"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:f80b98d8-ebab-5bcb-b12c-bbd495d40768:country:JP",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:f80b98d8-ebab-5bcb-b12c-bbd495d40768",
+      "target_node_id": "country:JP"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "1592a847-53bc-5da0-b2c6-ff1d70df5840"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:faf1bb6d-d09c-5929-ac04-6cc4b374205e:country:IL",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:faf1bb6d-d09c-5929-ac04-6cc4b374205e",
+      "target_node_id": "country:IL"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "32afd899-53ba-5bc5-b075-7edfc4c98767"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:fb1a0d2f-79e2-5555-8121-1d12a1480960:country:US",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:fb1a0d2f-79e2-5555-8121-1d12a1480960",
+      "target_node_id": "country:US"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [
+        "f379e61c-a272-53ff-91bf-a140672fb5ef"
+      ],
+      "confidence": 1.0,
+      "edge_id": "LOCATED_IN:company:ff763e49-8b64-549b-b30b-bf676d8dd312:country:KR",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:ff763e49-8b64-549b-b30b-bf676d8dd312",
+      "target_node_id": "country:KR"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": null,
+      "edge_id": "LOCATED_IN:facility:3705fc12-2bf5-50ad-ab4f-33ae703a0605:country:KR",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "facility:3705fc12-2bf5-50ad-ab4f-33ae703a0605",
+      "target_node_id": "country:KR"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": null,
+      "edge_id": "LOCATED_IN:facility:cfbcdbbd-70c8-5738-b2b2-d33f2b74f4f2:country:US",
+      "edge_type": "LOCATED_IN",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "facility:cfbcdbbd-70c8-5738-b2b2-d33f2b74f4f2",
+      "target_node_id": "country:US"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": null,
+      "edge_id": "OPERATES_FACILITY:company:110c6396-4e28-5609-8860-114f6cf03bc2:facility:3705fc12-2bf5-50ad-ab4f-33ae703a0605",
+      "edge_type": "OPERATES_FACILITY",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:110c6396-4e28-5609-8860-114f6cf03bc2",
+      "target_node_id": "facility:3705fc12-2bf5-50ad-ab4f-33ae703a0605"
+    },
+    {
+      "claim_count": 1,
+      "claim_ids": [],
+      "confidence": null,
+      "edge_id": "OPERATES_FACILITY:company:882649fd-2075-5454-8a74-f74b2434ebd7:facility:cfbcdbbd-70c8-5738-b2b2-d33f2b74f4f2",
+      "edge_type": "OPERATES_FACILITY",
+      "properties": {
+        "raw_edge_count": 1,
+        "supporting_edge_count": 1
+      },
+      "source_node_id": "company:882649fd-2075-5454-8a74-f74b2434ebd7",
+      "target_node_id": "facility:cfbcdbbd-70c8-5738-b2b2-d33f2b74f4f2"
+    }
+  ],
+  "generated_at": "2026-04-18T03:31:30.454885+00:00",
+  "nodes": [
+    {
+      "degree": 3,
+      "display_name": "Applied Materials, Inc.",
+      "node_id": "company:009ee8f4-0bf7-52d0-a6e7-7fbdac81077f",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Applied Materials, Inc.",
+        "chip_codes": [],
+        "company_id": "009ee8f4-0bf7-52d0-a6e7-7fbdac81077f",
+        "hq_country_code": "US",
+        "identifiers": {
+          "other": [
+            "applied-materials"
+          ]
+        },
+        "known_names": [
+          "Applied Materials, Inc.",
+          "Applied Materials"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.EQUIPMENT_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MANUFACTURING_EQUIPMENT"
+        ],
+        "taxonomy_seed_id": "applied-materials"
+      }
+    },
+    {
+      "degree": 43,
+      "display_name": "Equipment Supplier",
+      "node_id": "role:ROLE.EQUIPMENT_SUPPLIER",
+      "node_type": "Role",
+      "properties": {
+        "description": "Supplies semiconductor manufacturing equipment.",
+        "taxonomy_code": "ROLE.EQUIPMENT_SUPPLIER",
+        "taxonomy_kind": "role"
+      }
+    },
+    {
+      "degree": 43,
+      "display_name": "Manufacturing Equipment",
+      "node_id": "segment:SEG.MANUFACTURING_EQUIPMENT",
+      "node_type": "Segment",
+      "properties": {
+        "description": "Semiconductor capital equipment and equipment service activities.",
+        "taxonomy_code": "SEG.MANUFACTURING_EQUIPMENT",
+        "taxonomy_kind": "segment"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Apple Inc.",
+      "node_id": "company:00d631d5-04ed-515c-a885-ff414ae9bb1a",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Apple Inc.",
+        "chip_codes": [
+          "CHIP.LOGIC"
+        ],
+        "company_id": "00d631d5-04ed-515c-a885-ff414ae9bb1a",
+        "hq_country_code": "US",
+        "identifiers": {
+          "other": [
+            "apple"
+          ]
+        },
+        "known_names": [
+          "Apple Inc.",
+          "Apple",
+          "APPLE, INC.",
+          "Apple Computer, Inc."
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.FABLESS"
+        ],
+        "segment_codes": [
+          "SEG.DESIGN_SOFTWARE"
+        ],
+        "taxonomy_seed_id": "apple"
+      }
+    },
+    {
+      "degree": 30,
+      "display_name": "Fabless",
+      "node_id": "role:ROLE.FABLESS",
+      "node_type": "Role",
+      "properties": {
+        "description": "Designs chips but outsources wafer fabrication.",
+        "taxonomy_code": "ROLE.FABLESS",
+        "taxonomy_kind": "role"
+      }
+    },
+    {
+      "degree": 45,
+      "display_name": "Design and Software",
+      "node_id": "segment:SEG.DESIGN_SOFTWARE",
+      "node_type": "Segment",
+      "properties": {
+        "description": "Chip design, EDA, and licensable semiconductor IP activities.",
+        "taxonomy_code": "SEG.DESIGN_SOFTWARE",
+        "taxonomy_kind": "segment"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Lattice Semiconductor",
+      "node_id": "company:020f3142-5a5a-5eba-8af3-a4a767114bd2",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Lattice Semiconductor",
+        "chip_codes": [],
+        "company_id": "020f3142-5a5a-5eba-8af3-a4a767114bd2",
+        "hq_country_code": "US",
+        "identifiers": {
+          "other": [
+            "lattice-semiconductor"
+          ]
+        },
+        "known_names": [
+          "Lattice Semiconductor"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.FABLESS"
+        ],
+        "segment_codes": [
+          "SEG.DESIGN_SOFTWARE"
+        ],
+        "taxonomy_seed_id": "lattice-semiconductor"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Advanced Wireless Semiconductor Company",
+      "node_id": "company:0330ece7-f941-5dcf-939e-65f8ca1efddf",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Advanced Wireless Semiconductor Company",
+        "chip_codes": [],
+        "company_id": "0330ece7-f941-5dcf-939e-65f8ca1efddf",
+        "hq_country_code": "TW",
+        "identifiers": {
+          "other": [
+            "advanced-wireless-semiconductor-company"
+          ]
+        },
+        "known_names": [
+          "Advanced Wireless Semiconductor Company"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.FOUNDRY"
+        ],
+        "segment_codes": [
+          "SEG.FRONTEND_MANUFACTURING"
+        ],
+        "taxonomy_seed_id": "advanced-wireless-semiconductor-company"
+      }
+    },
+    {
+      "degree": 15,
+      "display_name": "Foundry",
+      "node_id": "role:ROLE.FOUNDRY",
+      "node_type": "Role",
+      "properties": {
+        "description": "Manufactures wafers for external customers.",
+        "taxonomy_code": "ROLE.FOUNDRY",
+        "taxonomy_kind": "role"
+      }
+    },
+    {
+      "degree": 40,
+      "display_name": "Front-end Manufacturing",
+      "node_id": "segment:SEG.FRONTEND_MANUFACTURING",
+      "node_type": "Segment",
+      "properties": {
+        "description": "Wafer fabrication and front-end semiconductor manufacturing activities.",
+        "taxonomy_code": "SEG.FRONTEND_MANUFACTURING",
+        "taxonomy_kind": "segment"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "United Microelectronics Corporation",
+      "node_id": "company:03e7f057-b8d3-576d-ba97-9f9228c02c97",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "United Microelectronics Corporation",
+        "chip_codes": [],
+        "company_id": "03e7f057-b8d3-576d-ba97-9f9228c02c97",
+        "hq_country_code": "TW",
+        "identifiers": {
+          "other": [
+            "united-microelectronics-corporation"
+          ]
+        },
+        "known_names": [
+          "United Microelectronics Corporation"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.FOUNDRY"
+        ],
+        "segment_codes": [
+          "SEG.FRONTEND_MANUFACTURING"
+        ],
+        "taxonomy_seed_id": "united-microelectronics-corporation"
+      }
+    },
+    {
+      "degree": 5,
+      "display_name": "ChipMOS Technologies",
+      "node_id": "company:0479a265-a8de-5bd9-8613-91e82cc90856",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "ChipMOS Technologies",
+        "chip_codes": [],
+        "company_id": "0479a265-a8de-5bd9-8613-91e82cc90856",
+        "hq_country_code": "TW",
+        "identifiers": {
+          "other": [
+            "chipmos-technologies"
+          ]
+        },
+        "known_names": [
+          "ChipMOS Technologies"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.OSAT",
+          "ROLE.PACKAGING_SPECIALIST",
+          "ROLE.TEST_SERVICE"
+        ],
+        "segment_codes": [
+          "SEG.BACKEND_MANUFACTURING"
+        ],
+        "taxonomy_seed_id": "chipmos-technologies"
+      }
+    },
+    {
+      "degree": 20,
+      "display_name": "OSAT",
+      "node_id": "role:ROLE.OSAT",
+      "node_type": "Role",
+      "properties": {
+        "description": "Provides outsourced semiconductor assembly and test services.",
+        "taxonomy_code": "ROLE.OSAT",
+        "taxonomy_kind": "role"
+      }
+    },
+    {
+      "degree": 20,
+      "display_name": "Packaging Specialist",
+      "node_id": "role:ROLE.PACKAGING_SPECIALIST",
+      "node_type": "Role",
+      "properties": {
+        "description": "Provides semiconductor packaging or advanced packaging capability.",
+        "taxonomy_code": "ROLE.PACKAGING_SPECIALIST",
+        "taxonomy_kind": "role"
+      }
+    },
+    {
+      "degree": 20,
+      "display_name": "Test Service",
+      "node_id": "role:ROLE.TEST_SERVICE",
+      "node_type": "Role",
+      "properties": {
+        "description": "Provides outsourced semiconductor test services.",
+        "taxonomy_code": "ROLE.TEST_SERVICE",
+        "taxonomy_kind": "role"
+      }
+    },
+    {
+      "degree": 20,
+      "display_name": "Back-end Manufacturing",
+      "node_id": "segment:SEG.BACKEND_MANUFACTURING",
+      "node_type": "Segment",
+      "properties": {
+        "description": "Assembly, packaging, and test activities after wafer fabrication.",
+        "taxonomy_code": "SEG.BACKEND_MANUFACTURING",
+        "taxonomy_kind": "segment"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "STMicroelectronics",
+      "node_id": "company:04a34bd2-0cc9-5664-8579-958c2547f5bf",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "STMicroelectronics",
+        "chip_codes": [],
+        "company_id": "04a34bd2-0cc9-5664-8579-958c2547f5bf",
+        "hq_country_code": "CH",
+        "identifiers": {
+          "other": [
+            "stmicroelectronics"
+          ]
+        },
+        "known_names": [
+          "STMicroelectronics"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.IDM"
+        ],
+        "segment_codes": [
+          "SEG.FRONTEND_MANUFACTURING"
+        ],
+        "taxonomy_seed_id": "stmicroelectronics"
+      }
+    },
+    {
+      "degree": 25,
+      "display_name": "IDM",
+      "node_id": "role:ROLE.IDM",
+      "node_type": "Role",
+      "properties": {
+        "description": "Integrated device manufacturer with internal fabrication capability.",
+        "taxonomy_code": "ROLE.IDM",
+        "taxonomy_kind": "role"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Synopsys, Inc.",
+      "node_id": "company:07e5e505-7563-5b31-bd2d-78b561964a9a",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Synopsys, Inc.",
+        "chip_codes": [],
+        "company_id": "07e5e505-7563-5b31-bd2d-78b561964a9a",
+        "hq_country_code": "US",
+        "identifiers": {
+          "other": [
+            "synopsys"
+          ]
+        },
+        "known_names": [
+          "Synopsys, Inc.",
+          "Synopsys"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.EDA_VENDOR"
+        ],
+        "segment_codes": [
+          "SEG.DESIGN_SOFTWARE"
+        ],
+        "taxonomy_seed_id": "synopsys"
+      }
+    },
+    {
+      "degree": 5,
+      "display_name": "EDA Vendor",
+      "node_id": "role:ROLE.EDA_VENDOR",
+      "node_type": "Role",
+      "properties": {
+        "description": "Provides electronic design automation software.",
+        "taxonomy_code": "ROLE.EDA_VENDOR",
+        "taxonomy_kind": "role"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Silterra Malaysia",
+      "node_id": "company:0830d709-7c29-5ebf-8210-ad5de594a4f0",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Silterra Malaysia",
+        "chip_codes": [],
+        "company_id": "0830d709-7c29-5ebf-8210-ad5de594a4f0",
+        "hq_country_code": "MY",
+        "identifiers": {
+          "other": [
+            "silterra-malaysia"
+          ]
+        },
+        "known_names": [
+          "Silterra Malaysia"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.FOUNDRY"
+        ],
+        "segment_codes": [
+          "SEG.FRONTEND_MANUFACTURING"
+        ],
+        "taxonomy_seed_id": "silterra-malaysia"
+      }
+    },
+    {
+      "degree": 5,
+      "display_name": "Lingsen Precision Industries",
+      "node_id": "company:095718d2-84dc-5a41-88dc-efe8787daa07",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Lingsen Precision Industries",
+        "chip_codes": [],
+        "company_id": "095718d2-84dc-5a41-88dc-efe8787daa07",
+        "hq_country_code": "TW",
+        "identifiers": {
+          "other": [
+            "lingsen-precision-industries"
+          ]
+        },
+        "known_names": [
+          "Lingsen Precision Industries"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.OSAT",
+          "ROLE.PACKAGING_SPECIALIST",
+          "ROLE.TEST_SERVICE"
+        ],
+        "segment_codes": [
+          "SEG.BACKEND_MANUFACTURING"
+        ],
+        "taxonomy_seed_id": "lingsen-precision-industries"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Eugene Technology",
+      "node_id": "company:0b5976bc-6bc5-59f9-8eb7-675e019dfc75",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Eugene Technology",
+        "chip_codes": [],
+        "company_id": "0b5976bc-6bc5-59f9-8eb7-675e019dfc75",
+        "hq_country_code": "KR",
+        "identifiers": {
+          "other": [
+            "eugene-technology"
+          ]
+        },
+        "known_names": [
+          "Eugene Technology"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.EQUIPMENT_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MANUFACTURING_EQUIPMENT"
+        ],
+        "taxonomy_seed_id": "eugene-technology"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Ambarella",
+      "node_id": "company:0b5d68f5-99b7-5104-ab55-4d21734f32b1",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Ambarella",
+        "chip_codes": [],
+        "company_id": "0b5d68f5-99b7-5104-ab55-4d21734f32b1",
+        "hq_country_code": "US",
+        "identifiers": {
+          "other": [
+            "ambarella"
+          ]
+        },
+        "known_names": [
+          "Ambarella"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.FABLESS"
+        ],
+        "segment_codes": [
+          "SEG.DESIGN_SOFTWARE"
+        ],
+        "taxonomy_seed_id": "ambarella"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Hitachi High-Tech",
+      "node_id": "company:0b7c27d3-e2bc-5357-87f5-430f84a7a795",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Hitachi High-Tech",
+        "chip_codes": [],
+        "company_id": "0b7c27d3-e2bc-5357-87f5-430f84a7a795",
+        "hq_country_code": "JP",
+        "identifiers": {
+          "other": [
+            "hitachi-high-tech"
+          ]
+        },
+        "known_names": [
+          "Hitachi High-Tech"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.EQUIPMENT_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MANUFACTURING_EQUIPMENT"
+        ],
+        "taxonomy_seed_id": "hitachi-high-tech"
+      }
+    },
+    {
+      "degree": 5,
+      "display_name": "Carsem",
+      "node_id": "company:0c70efe4-d723-59ea-91e7-a3ed1dd1e1a5",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Carsem",
+        "chip_codes": [],
+        "company_id": "0c70efe4-d723-59ea-91e7-a3ed1dd1e1a5",
+        "hq_country_code": "MY",
+        "identifiers": {
+          "other": [
+            "carsem"
+          ]
+        },
+        "known_names": [
+          "Carsem"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.OSAT",
+          "ROLE.PACKAGING_SPECIALIST",
+          "ROLE.TEST_SERVICE"
+        ],
+        "segment_codes": [
+          "SEG.BACKEND_MANUFACTURING"
+        ],
+        "taxonomy_seed_id": "carsem"
+      }
+    },
+    {
+      "degree": 5,
+      "display_name": "Nepes",
+      "node_id": "company:0d96f815-5d42-5582-8639-bb5d39164c63",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Nepes",
+        "chip_codes": [],
+        "company_id": "0d96f815-5d42-5582-8639-bb5d39164c63",
+        "hq_country_code": "KR",
+        "identifiers": {
+          "other": [
+            "nepes"
+          ]
+        },
+        "known_names": [
+          "Nepes"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.OSAT",
+          "ROLE.PACKAGING_SPECIALIST",
+          "ROLE.TEST_SERVICE"
+        ],
+        "segment_codes": [
+          "SEG.BACKEND_MANUFACTURING"
+        ],
+        "taxonomy_seed_id": "nepes"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Fujifilm Holdings",
+      "node_id": "company:0e3feb41-a920-5282-b897-f9f0e4f7b9e6",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Fujifilm Holdings",
+        "chip_codes": [],
+        "company_id": "0e3feb41-a920-5282-b897-f9f0e4f7b9e6",
+        "hq_country_code": "JP",
+        "identifiers": {
+          "other": [
+            "fujifilm-holdings"
+          ]
+        },
+        "known_names": [
+          "Fujifilm Holdings"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.CHEMICALS_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MATERIALS"
+        ],
+        "taxonomy_seed_id": "fujifilm-holdings"
+      }
+    },
+    {
+      "degree": 24,
+      "display_name": "Chemicals Supplier",
+      "node_id": "role:ROLE.CHEMICALS_SUPPLIER",
+      "node_type": "Role",
+      "properties": {
+        "description": "Supplies process chemicals or wet chemicals used in semiconductor manufacturing.",
+        "taxonomy_code": "ROLE.CHEMICALS_SUPPLIER",
+        "taxonomy_kind": "role"
+      }
+    },
+    {
+      "degree": 28,
+      "display_name": "Materials",
+      "node_id": "segment:SEG.MATERIALS",
+      "node_type": "Segment",
+      "properties": {
+        "description": "Process chemicals, gases, targets, slurries, and related material inputs.",
+        "taxonomy_code": "SEG.MATERIALS",
+        "taxonomy_kind": "segment"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Adeka",
+      "node_id": "company:0e7fbd46-4bae-5a01-af9a-1bca26eb6f82",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Adeka",
+        "chip_codes": [],
+        "company_id": "0e7fbd46-4bae-5a01-af9a-1bca26eb6f82",
+        "hq_country_code": "JP",
+        "identifiers": {
+          "other": [
+            "adeka"
+          ]
+        },
+        "known_names": [
+          "Adeka"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.CHEMICALS_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MATERIALS"
+        ],
+        "taxonomy_seed_id": "adeka"
+      }
+    },
+    {
+      "degree": 5,
+      "display_name": "Tongfu Microelectronics",
+      "node_id": "company:0fb094f9-dde9-5e09-8dba-d1d987c69dbb",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Tongfu Microelectronics",
+        "chip_codes": [],
+        "company_id": "0fb094f9-dde9-5e09-8dba-d1d987c69dbb",
+        "hq_country_code": "CN",
+        "identifiers": {
+          "other": [
+            "tongfu-microelectronics"
+          ]
+        },
+        "known_names": [
+          "Tongfu Microelectronics"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.OSAT",
+          "ROLE.PACKAGING_SPECIALIST",
+          "ROLE.TEST_SERVICE"
+        ],
+        "segment_codes": [
+          "SEG.BACKEND_MANUFACTURING"
+        ],
+        "taxonomy_seed_id": "tongfu-microelectronics"
+      }
+    },
+    {
+      "degree": 5,
+      "display_name": "SK hynix Inc.",
+      "node_id": "company:110c6396-4e28-5609-8860-114f6cf03bc2",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "SK hynix Inc.",
+        "chip_codes": [
+          "CHIP.MEMORY"
+        ],
+        "company_id": "110c6396-4e28-5609-8860-114f6cf03bc2",
+        "hq_country_code": "KR",
+        "identifiers": {
+          "other": [
+            "sk-hynix"
+          ],
+          "registry_number": [
+            "KR-OP-0001"
+          ]
+        },
+        "known_names": [
+          "SK hynix Inc.",
+          "SK hynix"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.IDM",
+          "ROLE.MEMORY_MANUFACTURER"
+        ],
+        "segment_codes": [
+          "SEG.FRONTEND_MANUFACTURING"
+        ],
+        "taxonomy_seed_id": "sk-hynix"
+      }
+    },
+    {
+      "degree": 2,
+      "display_name": "Memory Manufacturer",
+      "node_id": "role:ROLE.MEMORY_MANUFACTURER",
+      "node_type": "Role",
+      "properties": {
+        "description": "Produces memory products such as DRAM or NAND.",
+        "taxonomy_code": "ROLE.MEMORY_MANUFACTURER",
+        "taxonomy_kind": "role"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Analog Devices",
+      "node_id": "company:150f3de5-75f6-552c-8739-c7b227d1d69f",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Analog Devices",
+        "chip_codes": [],
+        "company_id": "150f3de5-75f6-552c-8739-c7b227d1d69f",
+        "hq_country_code": "US",
+        "identifiers": {
+          "other": [
+            "analog-devices"
+          ]
+        },
+        "known_names": [
+          "Analog Devices"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.IDM"
+        ],
+        "segment_codes": [
+          "SEG.FRONTEND_MANUFACTURING"
+        ],
+        "taxonomy_seed_id": "analog-devices"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Mitsubishi Gas Chemical",
+      "node_id": "company:17615950-fb28-5aa3-be58-04b152b29663",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Mitsubishi Gas Chemical",
+        "chip_codes": [],
+        "company_id": "17615950-fb28-5aa3-be58-04b152b29663",
+        "hq_country_code": "JP",
+        "identifiers": {
+          "other": [
+            "mitsubishi-gas-chemical"
+          ]
+        },
+        "known_names": [
+          "Mitsubishi Gas Chemical"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.CHEMICALS_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MATERIALS"
+        ],
+        "taxonomy_seed_id": "mitsubishi-gas-chemical"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "eMemory Technology",
+      "node_id": "company:18bbf86f-337a-5eba-b594-c081736ec5f1",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "eMemory Technology",
+        "chip_codes": [],
+        "company_id": "18bbf86f-337a-5eba-b594-c081736ec5f1",
+        "hq_country_code": "TW",
+        "identifiers": {
+          "other": [
+            "ememory-technology"
+          ]
+        },
+        "known_names": [
+          "eMemory Technology"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.IP_VENDOR"
+        ],
+        "segment_codes": [
+          "SEG.DESIGN_SOFTWARE"
+        ],
+        "taxonomy_seed_id": "ememory-technology"
+      }
+    },
+    {
+      "degree": 10,
+      "display_name": "IP Vendor",
+      "node_id": "role:ROLE.IP_VENDOR",
+      "node_type": "Role",
+      "properties": {
+        "description": "Licenses semiconductor IP blocks or cores.",
+        "taxonomy_code": "ROLE.IP_VENDOR",
+        "taxonomy_kind": "role"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "GalaxyCore",
+      "node_id": "company:18c0292d-3e77-55cd-8ba9-ac416077f08a",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "GalaxyCore",
+        "chip_codes": [],
+        "company_id": "18c0292d-3e77-55cd-8ba9-ac416077f08a",
+        "hq_country_code": "CN",
+        "identifiers": {
+          "other": [
+            "galaxycore"
+          ]
+        },
+        "known_names": [
+          "GalaxyCore"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.FABLESS"
+        ],
+        "segment_codes": [
+          "SEG.DESIGN_SOFTWARE"
+        ],
+        "taxonomy_seed_id": "galaxycore"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "ULVAC",
+      "node_id": "company:1bf27e8b-5fd1-51ad-b5e5-97d86f6c91e2",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "ULVAC",
+        "chip_codes": [],
+        "company_id": "1bf27e8b-5fd1-51ad-b5e5-97d86f6c91e2",
+        "hq_country_code": "JP",
+        "identifiers": {
+          "other": [
+            "ulvac"
+          ]
+        },
+        "known_names": [
+          "ULVAC"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.EQUIPMENT_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MANUFACTURING_EQUIPMENT"
+        ],
+        "taxonomy_seed_id": "ulvac"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Diodes Incorporated",
+      "node_id": "company:1d4148fb-3cb5-5c1b-8e32-0fe9bb1b02bb",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Diodes Incorporated",
+        "chip_codes": [],
+        "company_id": "1d4148fb-3cb5-5c1b-8e32-0fe9bb1b02bb",
+        "hq_country_code": "US",
+        "identifiers": {
+          "other": [
+            "diodes-incorporated"
+          ]
+        },
+        "known_names": [
+          "Diodes Incorporated"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.IDM"
+        ],
+        "segment_codes": [
+          "SEG.FRONTEND_MANUFACTURING"
+        ],
+        "taxonomy_seed_id": "diodes-incorporated"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Dai Nippon Printing",
+      "node_id": "company:1d96aeec-90fc-51d6-b170-402fa2c1f398",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Dai Nippon Printing",
+        "chip_codes": [],
+        "company_id": "1d96aeec-90fc-51d6-b170-402fa2c1f398",
+        "hq_country_code": "JP",
+        "identifiers": {
+          "other": [
+            "dai-nippon-printing"
+          ]
+        },
+        "known_names": [
+          "Dai Nippon Printing"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.PHOTOMASK_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MASKS_RETICLES"
+        ],
+        "taxonomy_seed_id": "dai-nippon-printing"
+      }
+    },
+    {
+      "degree": 6,
+      "display_name": "Photomask Supplier",
+      "node_id": "role:ROLE.PHOTOMASK_SUPPLIER",
+      "node_type": "Role",
+      "properties": {
+        "description": "Produces photomasks, mask blanks, or related mask products.",
+        "taxonomy_code": "ROLE.PHOTOMASK_SUPPLIER",
+        "taxonomy_kind": "role"
+      }
+    },
+    {
+      "degree": 6,
+      "display_name": "Masks and Reticles",
+      "node_id": "segment:SEG.MASKS_RETICLES",
+      "node_type": "Segment",
+      "properties": {
+        "description": "Photomasks, mask blanks, and reticle-adjacent activities.",
+        "taxonomy_code": "SEG.MASKS_RETICLES",
+        "taxonomy_kind": "segment"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "SUMCO Corporation",
+      "node_id": "company:1db8a203-4404-5174-8b41-f71a9bd09f8a",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "SUMCO Corporation",
+        "chip_codes": [],
+        "company_id": "1db8a203-4404-5174-8b41-f71a9bd09f8a",
+        "hq_country_code": "JP",
+        "identifiers": {
+          "other": [
+            "sumco"
+          ]
+        },
+        "known_names": [
+          "SUMCO Corporation",
+          "SUMCO"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.WAFER_MANUFACTURER"
+        ],
+        "segment_codes": [
+          "SEG.WAFERS_SUBSTRATES"
+        ],
+        "taxonomy_seed_id": "sumco"
+      }
+    },
+    {
+      "degree": 7,
+      "display_name": "Wafer Manufacturer",
+      "node_id": "role:ROLE.WAFER_MANUFACTURER",
+      "node_type": "Role",
+      "properties": {
+        "description": "Produces base wafers or specialty wafers used in chip fabrication.",
+        "taxonomy_code": "ROLE.WAFER_MANUFACTURER",
+        "taxonomy_kind": "role"
+      }
+    },
+    {
+      "degree": 18,
+      "display_name": "Wafers and Substrates",
+      "node_id": "segment:SEG.WAFERS_SUBSTRATES",
+      "node_type": "Segment",
+      "properties": {
+        "description": "Silicon wafers, specialty wafers, and package substrate activities.",
+        "taxonomy_code": "SEG.WAFERS_SUBSTRATES",
+        "taxonomy_kind": "segment"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Imagination Technologies",
+      "node_id": "company:1f88a976-e07c-5bae-bd9f-86fe33f3678e",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Imagination Technologies",
+        "chip_codes": [],
+        "company_id": "1f88a976-e07c-5bae-bd9f-86fe33f3678e",
+        "hq_country_code": "GB",
+        "identifiers": {
+          "other": [
+            "imagination-technologies"
+          ]
+        },
+        "known_names": [
+          "Imagination Technologies"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.IP_VENDOR"
+        ],
+        "segment_codes": [
+          "SEG.DESIGN_SOFTWARE"
+        ],
+        "taxonomy_seed_id": "imagination-technologies"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "MediaTek",
+      "node_id": "company:1fadb267-31ca-58a0-b81a-f46bf46bb1ff",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "MediaTek",
+        "chip_codes": [],
+        "company_id": "1fadb267-31ca-58a0-b81a-f46bf46bb1ff",
+        "hq_country_code": "TW",
+        "identifiers": {
+          "other": [
+            "mediatek"
+          ]
+        },
+        "known_names": [
+          "MediaTek"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.FABLESS"
+        ],
+        "segment_codes": [
+          "SEG.DESIGN_SOFTWARE"
+        ],
+        "taxonomy_seed_id": "mediatek"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Fujimi Incorporated",
+      "node_id": "company:22346e71-cac4-50a2-8813-19f4008d4085",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Fujimi Incorporated",
+        "chip_codes": [],
+        "company_id": "22346e71-cac4-50a2-8813-19f4008d4085",
+        "hq_country_code": "JP",
+        "identifiers": {
+          "other": [
+            "fujimi-incorporated"
+          ]
+        },
+        "known_names": [
+          "Fujimi Incorporated"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.CHEMICALS_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MATERIALS"
+        ],
+        "taxonomy_seed_id": "fujimi-incorporated"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Ichor Holdings",
+      "node_id": "company:2242e8ef-12de-5f1e-b8f3-37660f7b7596",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Ichor Holdings",
+        "chip_codes": [],
+        "company_id": "2242e8ef-12de-5f1e-b8f3-37660f7b7596",
+        "hq_country_code": "US",
+        "identifiers": {
+          "other": [
+            "ichor-holdings"
+          ]
+        },
+        "known_names": [
+          "Ichor Holdings"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.EQUIPMENT_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MANUFACTURING_EQUIPMENT"
+        ],
+        "taxonomy_seed_id": "ichor-holdings"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Rohm",
+      "node_id": "company:22d6a98d-7f47-5a3b-94a9-dd68eb843e2e",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Rohm",
+        "chip_codes": [],
+        "company_id": "22d6a98d-7f47-5a3b-94a9-dd68eb843e2e",
+        "hq_country_code": "JP",
+        "identifiers": {
+          "other": [
+            "rohm"
+          ]
+        },
+        "known_names": [
+          "Rohm"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.IDM"
+        ],
+        "segment_codes": [
+          "SEG.FRONTEND_MANUFACTURING"
+        ],
+        "taxonomy_seed_id": "rohm"
+      }
+    },
+    {
+      "degree": 5,
+      "display_name": "SFA Semicon",
+      "node_id": "company:2336e218-8b99-51c7-8b54-038fdcd995b8",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "SFA Semicon",
+        "chip_codes": [],
+        "company_id": "2336e218-8b99-51c7-8b54-038fdcd995b8",
+        "hq_country_code": "KR",
+        "identifiers": {
+          "other": [
+            "sfa-semicon"
+          ]
+        },
+        "known_names": [
+          "SFA Semicon"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.OSAT",
+          "ROLE.PACKAGING_SPECIALIST",
+          "ROLE.TEST_SERVICE"
+        ],
+        "segment_codes": [
+          "SEG.BACKEND_MANUFACTURING"
+        ],
+        "taxonomy_seed_id": "sfa-semicon"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Tokuyama Corporation",
+      "node_id": "company:2443d407-def4-5bbb-b358-b9b7d45e0397",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Tokuyama Corporation",
+        "chip_codes": [],
+        "company_id": "2443d407-def4-5bbb-b358-b9b7d45e0397",
+        "hq_country_code": "JP",
+        "identifiers": {
+          "other": [
+            "tokuyama-corporation"
+          ]
+        },
+        "known_names": [
+          "Tokuyama Corporation"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.CHEMICALS_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MATERIALS"
+        ],
+        "taxonomy_seed_id": "tokuyama-corporation"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "NAURA Technology Group",
+      "node_id": "company:253e06fa-38e9-5050-9296-faab5ba97438",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "NAURA Technology Group",
+        "chip_codes": [],
+        "company_id": "253e06fa-38e9-5050-9296-faab5ba97438",
+        "hq_country_code": "CN",
+        "identifiers": {
+          "other": [
+            "naura-technology-group"
+          ]
+        },
+        "known_names": [
+          "NAURA Technology Group"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.EQUIPMENT_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MANUFACTURING_EQUIPMENT"
+        ],
+        "taxonomy_seed_id": "naura-technology-group"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Taiyo Nippon Sanso",
+      "node_id": "company:25590643-290a-5834-bdee-e48dfd525fb1",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Taiyo Nippon Sanso",
+        "chip_codes": [],
+        "company_id": "25590643-290a-5834-bdee-e48dfd525fb1",
+        "hq_country_code": "JP",
+        "identifiers": {
+          "other": [
+            "taiyo-nippon-sanso"
+          ]
+        },
+        "known_names": [
+          "Taiyo Nippon Sanso"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.SPECIALTY_GASES_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MATERIALS"
+        ],
+        "taxonomy_seed_id": "taiyo-nippon-sanso"
+      }
+    },
+    {
+      "degree": 5,
+      "display_name": "Specialty Gases Supplier",
+      "node_id": "role:ROLE.SPECIALTY_GASES_SUPPLIER",
+      "node_type": "Role",
+      "properties": {
+        "description": "Supplies specialty or industrial gases used in semiconductor manufacturing.",
+        "taxonomy_code": "ROLE.SPECIALTY_GASES_SUPPLIER",
+        "taxonomy_kind": "role"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Himax Technologies",
+      "node_id": "company:27ffe1e5-4629-5e40-a6e0-b763d2b3d6ba",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Himax Technologies",
+        "chip_codes": [],
+        "company_id": "27ffe1e5-4629-5e40-a6e0-b763d2b3d6ba",
+        "hq_country_code": "TW",
+        "identifiers": {
+          "other": [
+            "himax-technologies"
+          ]
+        },
+        "known_names": [
+          "Himax Technologies"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.FABLESS"
+        ],
+        "segment_codes": [
+          "SEG.DESIGN_SOFTWARE"
+        ],
+        "taxonomy_seed_id": "himax-technologies"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Samsung Electro-Mechanics",
+      "node_id": "company:2974f408-63ce-5033-855a-f214a8af319a",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Samsung Electro-Mechanics",
+        "chip_codes": [],
+        "company_id": "2974f408-63ce-5033-855a-f214a8af319a",
+        "hq_country_code": "KR",
+        "identifiers": {
+          "other": [
+            "samsung-electro-mechanics"
+          ]
+        },
+        "known_names": [
+          "Samsung Electro-Mechanics"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.SUBSTRATE_MANUFACTURER"
+        ],
+        "segment_codes": [
+          "SEG.WAFERS_SUBSTRATES"
+        ],
+        "taxonomy_seed_id": "samsung-electro-mechanics"
+      }
+    },
+    {
+      "degree": 11,
+      "display_name": "Substrate Manufacturer",
+      "node_id": "role:ROLE.SUBSTRATE_MANUFACTURER",
+      "node_type": "Role",
+      "properties": {
+        "description": "Produces package substrates or related substrate inputs.",
+        "taxonomy_code": "ROLE.SUBSTRATE_MANUFACTURER",
+        "taxonomy_kind": "role"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "ChangXin Memory Technologies",
+      "node_id": "company:2cd0442e-cf7d-5dc5-9479-978f33c57f44",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "ChangXin Memory Technologies",
+        "chip_codes": [],
+        "company_id": "2cd0442e-cf7d-5dc5-9479-978f33c57f44",
+        "hq_country_code": "CN",
+        "identifiers": {
+          "other": [
+            "changxin-memory-technologies"
+          ]
+        },
+        "known_names": [
+          "ChangXin Memory Technologies"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.IDM"
+        ],
+        "segment_codes": [
+          "SEG.FRONTEND_MANUFACTURING"
+        ],
+        "taxonomy_seed_id": "changxin-memory-technologies"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "SK Siltron",
+      "node_id": "company:2d44daee-1643-50e6-b0a6-0cbd912df5e7",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "SK Siltron",
+        "chip_codes": [],
+        "company_id": "2d44daee-1643-50e6-b0a6-0cbd912df5e7",
+        "hq_country_code": "KR",
+        "identifiers": {
+          "other": [
+            "sk-siltron"
+          ]
+        },
+        "known_names": [
+          "SK Siltron"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.WAFER_MANUFACTURER"
+        ],
+        "segment_codes": [
+          "SEG.WAFERS_SUBSTRATES"
+        ],
+        "taxonomy_seed_id": "sk-siltron"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Cohu",
+      "node_id": "company:2dc1dbec-ff0a-59ad-91f8-d7b39ad3ee7c",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Cohu",
+        "chip_codes": [],
+        "company_id": "2dc1dbec-ff0a-59ad-91f8-d7b39ad3ee7c",
+        "hq_country_code": "US",
+        "identifiers": {
+          "other": [
+            "cohu"
+          ]
+        },
+        "known_names": [
+          "Cohu"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.EQUIPMENT_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MANUFACTURING_EQUIPMENT"
+        ],
+        "taxonomy_seed_id": "cohu"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Hansol Chemical",
+      "node_id": "company:2e7c0bc2-b93f-55e2-bbe8-aa3aba16846d",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Hansol Chemical",
+        "chip_codes": [],
+        "company_id": "2e7c0bc2-b93f-55e2-bbe8-aa3aba16846d",
+        "hq_country_code": "KR",
+        "identifiers": {
+          "other": [
+            "hansol-chemical"
+          ]
+        },
+        "known_names": [
+          "Hansol Chemical"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.CHEMICALS_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MATERIALS"
+        ],
+        "taxonomy_seed_id": "hansol-chemical"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Air Liquide",
+      "node_id": "company:2f392d76-f5ff-5b8e-9f3b-c334f076fe00",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Air Liquide",
+        "chip_codes": [],
+        "company_id": "2f392d76-f5ff-5b8e-9f3b-c334f076fe00",
+        "hq_country_code": "FR",
+        "identifiers": {
+          "other": [
+            "air-liquide"
+          ]
+        },
+        "known_names": [
+          "Air Liquide"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.SPECIALTY_GASES_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MATERIALS"
+        ],
+        "taxonomy_seed_id": "air-liquide"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Toshiba Electronic Devices & Storage",
+      "node_id": "company:2f6ada85-43d7-5b25-86c5-34ae18c7c3a4",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Toshiba Electronic Devices & Storage",
+        "chip_codes": [],
+        "company_id": "2f6ada85-43d7-5b25-86c5-34ae18c7c3a4",
+        "hq_country_code": "JP",
+        "identifiers": {
+          "other": [
+            "toshiba-electronic-devices-and-storage"
+          ]
+        },
+        "known_names": [
+          "Toshiba Electronic Devices & Storage"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.IDM"
+        ],
+        "segment_codes": [
+          "SEG.FRONTEND_MANUFACTURING"
+        ],
+        "taxonomy_seed_id": "toshiba-electronic-devices-and-storage"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "GlobalWafers Co., Ltd.",
+      "node_id": "company:308989f7-4586-540e-b0f1-037a62c2ae0e",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "GlobalWafers Co., Ltd.",
+        "chip_codes": [],
+        "company_id": "308989f7-4586-540e-b0f1-037a62c2ae0e",
+        "hq_country_code": "TW",
+        "identifiers": {
+          "other": [
+            "globalwafers"
+          ]
+        },
+        "known_names": [
+          "GlobalWafers Co., Ltd.",
+          "GlobalWafers"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.WAFER_MANUFACTURER"
+        ],
+        "segment_codes": [
+          "SEG.WAFERS_SUBSTRATES"
+        ],
+        "taxonomy_seed_id": "globalwafers"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Nexchip Semiconductor",
+      "node_id": "company:30b21a92-a823-533e-888b-4ec741ff0dd9",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Nexchip Semiconductor",
+        "chip_codes": [],
+        "company_id": "30b21a92-a823-533e-888b-4ec741ff0dd9",
+        "hq_country_code": "CN",
+        "identifiers": {
+          "other": [
+            "nexchip-semiconductor"
+          ]
+        },
+        "known_names": [
+          "Nexchip Semiconductor"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.FOUNDRY"
+        ],
+        "segment_codes": [
+          "SEG.FRONTEND_MANUFACTURING"
+        ],
+        "taxonomy_seed_id": "nexchip-semiconductor"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "WIN Semiconductors",
+      "node_id": "company:30f845db-d235-58d7-8086-8de36003da21",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "WIN Semiconductors",
+        "chip_codes": [],
+        "company_id": "30f845db-d235-58d7-8086-8de36003da21",
+        "hq_country_code": "TW",
+        "identifiers": {
+          "other": [
+            "win-semiconductors"
+          ]
+        },
+        "known_names": [
+          "WIN Semiconductors"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.FOUNDRY"
+        ],
+        "segment_codes": [
+          "SEG.FRONTEND_MANUFACTURING"
+        ],
+        "taxonomy_seed_id": "win-semiconductors"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Aehr Test Systems",
+      "node_id": "company:353242ee-9221-5f09-8f53-4cc20d1dd71b",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Aehr Test Systems",
+        "chip_codes": [],
+        "company_id": "353242ee-9221-5f09-8f53-4cc20d1dd71b",
+        "hq_country_code": "US",
+        "identifiers": {
+          "other": [
+            "aehr-test-systems"
+          ]
+        },
+        "known_names": [
+          "Aehr Test Systems"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.EQUIPMENT_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MANUFACTURING_EQUIPMENT"
+        ],
+        "taxonomy_seed_id": "aehr-test-systems"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Infineon Technologies",
+      "node_id": "company:35b412d1-ff65-5130-a991-6080f3d7b4b0",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Infineon Technologies",
+        "chip_codes": [],
+        "company_id": "35b412d1-ff65-5130-a991-6080f3d7b4b0",
+        "hq_country_code": "DE",
+        "identifiers": {
+          "other": [
+            "infineon-technologies"
+          ]
+        },
+        "known_names": [
+          "Infineon Technologies"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.IDM"
+        ],
+        "segment_codes": [
+          "SEG.FRONTEND_MANUFACTURING"
+        ],
+        "taxonomy_seed_id": "infineon-technologies"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "ASMPT",
+      "node_id": "company:35f7ed45-fe70-5bbb-950d-04c7360e07a7",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "ASMPT",
+        "chip_codes": [],
+        "company_id": "35f7ed45-fe70-5bbb-950d-04c7360e07a7",
+        "hq_country_code": "HK",
+        "identifiers": {
+          "other": [
+            "asmpt"
+          ]
+        },
+        "known_names": [
+          "ASMPT"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.EQUIPMENT_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MANUFACTURING_EQUIPMENT"
+        ],
+        "taxonomy_seed_id": "asmpt"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Siltronic",
+      "node_id": "company:3a04510d-278c-539c-b457-9802145574e6",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Siltronic",
+        "chip_codes": [],
+        "company_id": "3a04510d-278c-539c-b457-9802145574e6",
+        "hq_country_code": "DE",
+        "identifiers": {
+          "other": [
+            "siltronic"
+          ]
+        },
+        "known_names": [
+          "Siltronic"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.WAFER_MANUFACTURER"
+        ],
+        "segment_codes": [
+          "SEG.WAFERS_SUBSTRATES"
+        ],
+        "taxonomy_seed_id": "siltronic"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Wafer Works",
+      "node_id": "company:3aa7152e-4109-54c7-bd6c-eb1cd288e1a3",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Wafer Works",
+        "chip_codes": [],
+        "company_id": "3aa7152e-4109-54c7-bd6c-eb1cd288e1a3",
+        "hq_country_code": "TW",
+        "identifiers": {
+          "other": [
+            "wafer-works"
+          ]
+        },
+        "known_names": [
+          "Wafer Works"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.WAFER_MANUFACTURER"
+        ],
+        "segment_codes": [
+          "SEG.WAFERS_SUBSTRATES"
+        ],
+        "taxonomy_seed_id": "wafer-works"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Ultra Clean Holdings",
+      "node_id": "company:3ab30dea-b319-506e-a679-3b93754895e8",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Ultra Clean Holdings",
+        "chip_codes": [],
+        "company_id": "3ab30dea-b319-506e-a679-3b93754895e8",
+        "hq_country_code": "US",
+        "identifiers": {
+          "other": [
+            "ultra-clean-holdings"
+          ]
+        },
+        "known_names": [
+          "Ultra Clean Holdings"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.EQUIPMENT_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MANUFACTURING_EQUIPMENT"
+        ],
+        "taxonomy_seed_id": "ultra-clean-holdings"
+      }
+    },
+    {
+      "degree": 5,
+      "display_name": "Huatian Technology",
+      "node_id": "company:3c1df58c-3fe1-5e31-b4cb-348ecbe806e9",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Huatian Technology",
+        "chip_codes": [],
+        "company_id": "3c1df58c-3fe1-5e31-b4cb-348ecbe806e9",
+        "hq_country_code": "CN",
+        "identifiers": {
+          "other": [
+            "huatian-technology"
+          ]
+        },
+        "known_names": [
+          "Huatian Technology"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.OSAT",
+          "ROLE.PACKAGING_SPECIALIST",
+          "ROLE.TEST_SERVICE"
+        ],
+        "segment_codes": [
+          "SEG.BACKEND_MANUFACTURING"
+        ],
+        "taxonomy_seed_id": "huatian-technology"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Alphawave IP Group",
+      "node_id": "company:3ea874ab-e72a-5e70-b4f0-ef92b86fa36e",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Alphawave IP Group",
+        "chip_codes": [],
+        "company_id": "3ea874ab-e72a-5e70-b4f0-ef92b86fa36e",
+        "hq_country_code": "GB",
+        "identifiers": {
+          "other": [
+            "alphawave-ip-group"
+          ]
+        },
+        "known_names": [
+          "Alphawave IP Group"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.IP_VENDOR"
+        ],
+        "segment_codes": [
+          "SEG.DESIGN_SOFTWARE"
+        ],
+        "taxonomy_seed_id": "alphawave-ip-group"
+      }
+    },
+    {
+      "degree": 5,
+      "display_name": "Hana Micron",
+      "node_id": "company:3eb72132-2422-5248-9a1d-72078215f5e2",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Hana Micron",
+        "chip_codes": [],
+        "company_id": "3eb72132-2422-5248-9a1d-72078215f5e2",
+        "hq_country_code": "KR",
+        "identifiers": {
+          "other": [
+            "hana-micron"
+          ]
+        },
+        "known_names": [
+          "Hana Micron"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.OSAT",
+          "ROLE.PACKAGING_SPECIALIST",
+          "ROLE.TEST_SERVICE"
+        ],
+        "segment_codes": [
+          "SEG.BACKEND_MANUFACTURING"
+        ],
+        "taxonomy_seed_id": "hana-micron"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Taiwan Semiconductor Manufacturing Company Limited",
+      "node_id": "company:42a7782a-ba4c-5f6e-bc01-07d987cee619",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Taiwan Semiconductor Manufacturing Company Limited",
+        "chip_codes": [
+          "CHIP.LOGIC",
+          "CHIP.OTHER"
+        ],
+        "company_id": "42a7782a-ba4c-5f6e-bc01-07d987cee619",
+        "hq_country_code": "TW",
+        "identifiers": {
+          "other": [
+            "taiwan-semiconductor-manufacturing-company"
+          ]
+        },
+        "known_names": [
+          "Taiwan Semiconductor Manufacturing Company Limited",
+          "Taiwan Semiconductor Manufacturing Company",
+          "TSMC"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.FOUNDRY"
+        ],
+        "segment_codes": [
+          "SEG.FRONTEND_MANUFACTURING"
+        ],
+        "taxonomy_seed_id": "taiwan-semiconductor-manufacturing-company"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Marvell Technology",
+      "node_id": "company:46f0880a-11ac-505d-b6e3-b0d3196945a8",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Marvell Technology",
+        "chip_codes": [],
+        "company_id": "46f0880a-11ac-505d-b6e3-b0d3196945a8",
+        "hq_country_code": "US",
+        "identifiers": {
+          "other": [
+            "marvell-technology"
+          ]
+        },
+        "known_names": [
+          "Marvell Technology"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.FABLESS"
+        ],
+        "segment_codes": [
+          "SEG.DESIGN_SOFTWARE"
+        ],
+        "taxonomy_seed_id": "marvell-technology"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Qualcomm",
+      "node_id": "company:4713357c-d73d-5c3b-b804-e5842eeff8c9",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Qualcomm",
+        "chip_codes": [],
+        "company_id": "4713357c-d73d-5c3b-b804-e5842eeff8c9",
+        "hq_country_code": "US",
+        "identifiers": {
+          "other": [
+            "qualcomm"
+          ]
+        },
+        "known_names": [
+          "Qualcomm"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.FABLESS"
+        ],
+        "segment_codes": [
+          "SEG.DESIGN_SOFTWARE"
+        ],
+        "taxonomy_seed_id": "qualcomm"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Tokyo Seimitsu",
+      "node_id": "company:497a1a02-e6bd-5367-81da-f05e318acaa9",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Tokyo Seimitsu",
+        "chip_codes": [],
+        "company_id": "497a1a02-e6bd-5367-81da-f05e318acaa9",
+        "hq_country_code": "JP",
+        "identifiers": {
+          "other": [
+            "tokyo-seimitsu"
+          ]
+        },
+        "known_names": [
+          "Tokyo Seimitsu"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.EQUIPMENT_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MANUFACTURING_EQUIPMENT"
+        ],
+        "taxonomy_seed_id": "tokyo-seimitsu"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Sanechips Technology",
+      "node_id": "company:4c26690e-f706-5e21-a38e-9b97d6b9c381",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Sanechips Technology",
+        "chip_codes": [],
+        "company_id": "4c26690e-f706-5e21-a38e-9b97d6b9c381",
+        "hq_country_code": "CN",
+        "identifiers": {
+          "other": [
+            "sanechips-technology"
+          ]
+        },
+        "known_names": [
+          "Sanechips Technology"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.FABLESS"
+        ],
+        "segment_codes": [
+          "SEG.DESIGN_SOFTWARE"
+        ],
+        "taxonomy_seed_id": "sanechips-technology"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Kokusai Electric",
+      "node_id": "company:4ec1a13a-a4df-51c6-9937-9959ed87b377",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Kokusai Electric",
+        "chip_codes": [],
+        "company_id": "4ec1a13a-a4df-51c6-9937-9959ed87b377",
+        "hq_country_code": "JP",
+        "identifiers": {
+          "other": [
+            "kokusai-electric"
+          ]
+        },
+        "known_names": [
+          "Kokusai Electric"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.EQUIPMENT_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MANUFACTURING_EQUIPMENT"
+        ],
+        "taxonomy_seed_id": "kokusai-electric"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Resonac Holdings",
+      "node_id": "company:5013155d-f90b-531c-bc50-1afce1fb29d1",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Resonac Holdings",
+        "chip_codes": [],
+        "company_id": "5013155d-f90b-531c-bc50-1afce1fb29d1",
+        "hq_country_code": "JP",
+        "identifiers": {
+          "other": [
+            "resonac-holdings"
+          ]
+        },
+        "known_names": [
+          "Resonac Holdings"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.CHEMICALS_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MATERIALS"
+        ],
+        "taxonomy_seed_id": "resonac-holdings"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Silicon Motion",
+      "node_id": "company:509f8d0f-a859-5939-bda2-06412e1e3f05",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Silicon Motion",
+        "chip_codes": [],
+        "company_id": "509f8d0f-a859-5939-bda2-06412e1e3f05",
+        "hq_country_code": "TW",
+        "identifiers": {
+          "other": [
+            "silicon-motion"
+          ]
+        },
+        "known_names": [
+          "Silicon Motion"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.FABLESS"
+        ],
+        "segment_codes": [
+          "SEG.DESIGN_SOFTWARE"
+        ],
+        "taxonomy_seed_id": "silicon-motion"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "onsemi",
+      "node_id": "company:52ddd9ad-18ec-5632-ae69-9393ce9681fc",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "onsemi",
+        "chip_codes": [],
+        "company_id": "52ddd9ad-18ec-5632-ae69-9393ce9681fc",
+        "hq_country_code": "US",
+        "identifiers": {
+          "other": [
+            "onsemi"
+          ]
+        },
+        "known_names": [
+          "onsemi"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.IDM"
+        ],
+        "segment_codes": [
+          "SEG.FRONTEND_MANUFACTURING"
+        ],
+        "taxonomy_seed_id": "onsemi"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Hua Hong Semiconductor",
+      "node_id": "company:53807272-37c1-538b-85f5-01c6592d90e9",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Hua Hong Semiconductor",
+        "chip_codes": [],
+        "company_id": "53807272-37c1-538b-85f5-01c6592d90e9",
+        "hq_country_code": "CN",
+        "identifiers": {
+          "other": [
+            "hua-hong-semiconductor"
+          ]
+        },
+        "known_names": [
+          "Hua Hong Semiconductor"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.FOUNDRY"
+        ],
+        "segment_codes": [
+          "SEG.FRONTEND_MANUFACTURING"
+        ],
+        "taxonomy_seed_id": "hua-hong-semiconductor"
+      }
+    },
+    {
+      "degree": 5,
+      "display_name": "Unisem",
+      "node_id": "company:54192773-68c9-562f-837b-23f29270f18b",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Unisem",
+        "chip_codes": [],
+        "company_id": "54192773-68c9-562f-837b-23f29270f18b",
+        "hq_country_code": "MY",
+        "identifiers": {
+          "other": [
+            "unisem"
+          ]
+        },
+        "known_names": [
+          "Unisem"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.OSAT",
+          "ROLE.PACKAGING_SPECIALIST",
+          "ROLE.TEST_SERVICE"
+        ],
+        "segment_codes": [
+          "SEG.BACKEND_MANUFACTURING"
+        ],
+        "taxonomy_seed_id": "unisem"
+      }
+    },
+    {
+      "degree": 5,
+      "display_name": "LB Semicon",
+      "node_id": "company:5564d02f-920c-522a-8035-d0437b80b7a9",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "LB Semicon",
+        "chip_codes": [],
+        "company_id": "5564d02f-920c-522a-8035-d0437b80b7a9",
+        "hq_country_code": "KR",
+        "identifiers": {
+          "other": [
+            "lb-semicon"
+          ]
+        },
+        "known_names": [
+          "LB Semicon"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.OSAT",
+          "ROLE.PACKAGING_SPECIALIST",
+          "ROLE.TEST_SERVICE"
+        ],
+        "segment_codes": [
+          "SEG.BACKEND_MANUFACTURING"
+        ],
+        "taxonomy_seed_id": "lb-semicon"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Lasertec",
+      "node_id": "company:55761791-d2f1-5457-89a7-faab2f9d3f76",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Lasertec",
+        "chip_codes": [],
+        "company_id": "55761791-d2f1-5457-89a7-faab2f9d3f76",
+        "hq_country_code": "JP",
+        "identifiers": {
+          "other": [
+            "lasertec"
+          ]
+        },
+        "known_names": [
+          "Lasertec"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.EQUIPMENT_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MANUFACTURING_EQUIPMENT"
+        ],
+        "taxonomy_seed_id": "lasertec"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Astera Labs",
+      "node_id": "company:567512d2-76da-5862-8804-439d12d9c653",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Astera Labs",
+        "chip_codes": [],
+        "company_id": "567512d2-76da-5862-8804-439d12d9c653",
+        "hq_country_code": "US",
+        "identifiers": {
+          "other": [
+            "astera-labs"
+          ]
+        },
+        "known_names": [
+          "Astera Labs"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.FABLESS"
+        ],
+        "segment_codes": [
+          "SEG.DESIGN_SOFTWARE"
+        ],
+        "taxonomy_seed_id": "astera-labs"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "VeriSilicon",
+      "node_id": "company:5726151c-0cd2-5b54-b49c-d81e55aa9cf2",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "VeriSilicon",
+        "chip_codes": [],
+        "company_id": "5726151c-0cd2-5b54-b49c-d81e55aa9cf2",
+        "hq_country_code": "CN",
+        "identifiers": {
+          "other": [
+            "verisilicon"
+          ]
+        },
+        "known_names": [
+          "VeriSilicon"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.IP_VENDOR"
+        ],
+        "segment_codes": [
+          "SEG.DESIGN_SOFTWARE"
+        ],
+        "taxonomy_seed_id": "verisilicon"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "AMD",
+      "node_id": "company:577d839e-b1d8-5b04-b689-d8421f0b2291",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "AMD",
+        "chip_codes": [],
+        "company_id": "577d839e-b1d8-5b04-b689-d8421f0b2291",
+        "hq_country_code": "US",
+        "identifiers": {
+          "other": [
+            "amd"
+          ]
+        },
+        "known_names": [
+          "AMD"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.FABLESS"
+        ],
+        "segment_codes": [
+          "SEG.DESIGN_SOFTWARE"
+        ],
+        "taxonomy_seed_id": "amd"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Elan Microelectronics",
+      "node_id": "company:5f5fd606-041f-512c-b43a-6c3758994263",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Elan Microelectronics",
+        "chip_codes": [],
+        "company_id": "5f5fd606-041f-512c-b43a-6c3758994263",
+        "hq_country_code": "TW",
+        "identifiers": {
+          "other": [
+            "elan-microelectronics"
+          ]
+        },
+        "known_names": [
+          "Elan Microelectronics"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.FABLESS"
+        ],
+        "segment_codes": [
+          "SEG.DESIGN_SOFTWARE"
+        ],
+        "taxonomy_seed_id": "elan-microelectronics"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Advantest",
+      "node_id": "company:5f8684ab-3a82-557d-bd24-27b3acc25143",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Advantest",
+        "chip_codes": [],
+        "company_id": "5f8684ab-3a82-557d-bd24-27b3acc25143",
+        "hq_country_code": "JP",
+        "identifiers": {
+          "other": [
+            "advantest"
+          ]
+        },
+        "known_names": [
+          "Advantest"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.EQUIPMENT_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MANUFACTURING_EQUIPMENT"
+        ],
+        "taxonomy_seed_id": "advantest"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Teradyne",
+      "node_id": "company:61dc96ec-fb53-5bf7-bbbd-6e2ee3b98d39",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Teradyne",
+        "chip_codes": [],
+        "company_id": "61dc96ec-fb53-5bf7-bbbd-6e2ee3b98d39",
+        "hq_country_code": "US",
+        "identifiers": {
+          "other": [
+            "teradyne"
+          ]
+        },
+        "known_names": [
+          "Teradyne"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.EQUIPMENT_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MANUFACTURING_EQUIPMENT"
+        ],
+        "taxonomy_seed_id": "teradyne"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Sanan Semiconductor",
+      "node_id": "company:61e17284-db4f-5d0a-8a79-c70b1def37a4",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Sanan Semiconductor",
+        "chip_codes": [],
+        "company_id": "61e17284-db4f-5d0a-8a79-c70b1def37a4",
+        "hq_country_code": "CN",
+        "identifiers": {
+          "other": [
+            "sanan-semiconductor"
+          ]
+        },
+        "known_names": [
+          "Sanan Semiconductor"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.FOUNDRY"
+        ],
+        "segment_codes": [
+          "SEG.FRONTEND_MANUFACTURING"
+        ],
+        "taxonomy_seed_id": "sanan-semiconductor"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Soitec",
+      "node_id": "company:63bdfe81-ae5c-5329-9bad-2d2430b8117e",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Soitec",
+        "chip_codes": [],
+        "company_id": "63bdfe81-ae5c-5329-9bad-2d2430b8117e",
+        "hq_country_code": "FR",
+        "identifiers": {
+          "other": [
+            "soitec"
+          ]
+        },
+        "known_names": [
+          "Soitec"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.WAFER_MANUFACTURER"
+        ],
+        "segment_codes": [
+          "SEG.WAFERS_SUBSTRATES"
+        ],
+        "taxonomy_seed_id": "soitec"
+      }
+    },
+    {
+      "degree": 5,
+      "display_name": "UTAC Holdings",
+      "node_id": "company:6527e7f0-2463-5f4f-a019-cdd4df1fedd0",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "UTAC Holdings",
+        "chip_codes": [],
+        "company_id": "6527e7f0-2463-5f4f-a019-cdd4df1fedd0",
+        "hq_country_code": "SG",
+        "identifiers": {
+          "other": [
+            "utac-holdings"
+          ]
+        },
+        "known_names": [
+          "UTAC Holdings"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.OSAT",
+          "ROLE.PACKAGING_SPECIALIST",
+          "ROLE.TEST_SERVICE"
+        ],
+        "segment_codes": [
+          "SEG.BACKEND_MANUFACTURING"
+        ],
+        "taxonomy_seed_id": "utac-holdings"
+      }
+    },
+    {
+      "degree": 4,
+      "display_name": "Samsung Electronics Co., Ltd.",
+      "node_id": "company:658b525f-9618-5b7e-bf00-9be7dbb3bacf",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Samsung Electronics Co., Ltd.",
+        "chip_codes": [
+          "CHIP.LOGIC",
+          "CHIP.MEMORY"
+        ],
+        "company_id": "658b525f-9618-5b7e-bf00-9be7dbb3bacf",
+        "hq_country_code": "KR",
+        "identifiers": {
+          "other": [
+            "samsung-electronics"
+          ]
+        },
+        "known_names": [
+          "Samsung Electronics Co., Ltd.",
+          "Samsung Electronics"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.IDM",
+          "ROLE.MEMORY_MANUFACTURER"
+        ],
+        "segment_codes": [
+          "SEG.FRONTEND_MANUFACTURING"
+        ],
+        "taxonomy_seed_id": "samsung-electronics"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Rambus",
+      "node_id": "company:65a59194-f99a-540e-9d49-97d85fefe323",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Rambus",
+        "chip_codes": [],
+        "company_id": "65a59194-f99a-540e-9d49-97d85fefe323",
+        "hq_country_code": "US",
+        "identifiers": {
+          "other": [
+            "rambus"
+          ]
+        },
+        "known_names": [
+          "Rambus"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.IP_VENDOR"
+        ],
+        "segment_codes": [
+          "SEG.DESIGN_SOFTWARE"
+        ],
+        "taxonomy_seed_id": "rambus"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Nanya Technology",
+      "node_id": "company:68040404-f162-5bed-ba31-252b2318e6a1",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Nanya Technology",
+        "chip_codes": [],
+        "company_id": "68040404-f162-5bed-ba31-252b2318e6a1",
+        "hq_country_code": "TW",
+        "identifiers": {
+          "other": [
+            "nanya-technology"
+          ]
+        },
+        "known_names": [
+          "Nanya Technology"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.IDM"
+        ],
+        "segment_codes": [
+          "SEG.FRONTEND_MANUFACTURING"
+        ],
+        "taxonomy_seed_id": "nanya-technology"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Daeduck Electronics",
+      "node_id": "company:6a03a1d6-97be-5424-b92c-2f8b9c7fae9a",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Daeduck Electronics",
+        "chip_codes": [],
+        "company_id": "6a03a1d6-97be-5424-b92c-2f8b9c7fae9a",
+        "hq_country_code": "KR",
+        "identifiers": {
+          "other": [
+            "daeduck-electronics"
+          ]
+        },
+        "known_names": [
+          "Daeduck Electronics"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.SUBSTRATE_MANUFACTURER"
+        ],
+        "segment_codes": [
+          "SEG.WAFERS_SUBSTRATES"
+        ],
+        "taxonomy_seed_id": "daeduck-electronics"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "M31 Technology",
+      "node_id": "company:6c1d014f-f81f-529c-b480-35781fd8420a",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "M31 Technology",
+        "chip_codes": [],
+        "company_id": "6c1d014f-f81f-529c-b480-35781fd8420a",
+        "hq_country_code": "TW",
+        "identifiers": {
+          "other": [
+            "m31-technology"
+          ]
+        },
+        "known_names": [
+          "M31 Technology"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.IP_VENDOR"
+        ],
+        "segment_codes": [
+          "SEG.DESIGN_SOFTWARE"
+        ],
+        "taxonomy_seed_id": "m31-technology"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Dongwoo Fine-Chem",
+      "node_id": "company:6d7ff317-e100-5b63-86b1-660f39962d3a",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Dongwoo Fine-Chem",
+        "chip_codes": [],
+        "company_id": "6d7ff317-e100-5b63-86b1-660f39962d3a",
+        "hq_country_code": "KR",
+        "identifiers": {
+          "other": [
+            "dongwoo-fine-chem"
+          ]
+        },
+        "known_names": [
+          "Dongwoo Fine-Chem"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.CHEMICALS_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MATERIALS"
+        ],
+        "taxonomy_seed_id": "dongwoo-fine-chem"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Advanced Micro-Fabrication Equipment China",
+      "node_id": "company:6f084523-2ffb-5a0c-8a1f-908578788d07",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Advanced Micro-Fabrication Equipment China",
+        "chip_codes": [],
+        "company_id": "6f084523-2ffb-5a0c-8a1f-908578788d07",
+        "hq_country_code": "CN",
+        "identifiers": {
+          "other": [
+            "advanced-micro-fabrication-equipment-china"
+          ]
+        },
+        "known_names": [
+          "Advanced Micro-Fabrication Equipment China"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.EQUIPMENT_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MANUFACTURING_EQUIPMENT"
+        ],
+        "taxonomy_seed_id": "advanced-micro-fabrication-equipment-china"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Vishay Intertechnology",
+      "node_id": "company:6f89262a-c4d1-5489-9258-880d69ba00ce",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Vishay Intertechnology",
+        "chip_codes": [],
+        "company_id": "6f89262a-c4d1-5489-9258-880d69ba00ce",
+        "hq_country_code": "US",
+        "identifiers": {
+          "other": [
+            "vishay-intertechnology"
+          ]
+        },
+        "known_names": [
+          "Vishay Intertechnology"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.IDM"
+        ],
+        "segment_codes": [
+          "SEG.FRONTEND_MANUFACTURING"
+        ],
+        "taxonomy_seed_id": "vishay-intertechnology"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Toppan",
+      "node_id": "company:70c6f91a-7b80-53e0-8206-ccce7112ff2d",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Toppan",
+        "chip_codes": [],
+        "company_id": "70c6f91a-7b80-53e0-8206-ccce7112ff2d",
+        "hq_country_code": "JP",
+        "identifiers": {
+          "other": [
+            "toppan"
+          ]
+        },
+        "known_names": [
+          "Toppan"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.PHOTOMASK_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MASKS_RETICLES"
+        ],
+        "taxonomy_seed_id": "toppan"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Arm Holdings plc",
+      "node_id": "company:7225d89c-2a0c-5314-aa24-a7df7f67481d",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Arm Holdings plc",
+        "chip_codes": [
+          "CHIP.LOGIC"
+        ],
+        "company_id": "7225d89c-2a0c-5314-aa24-a7df7f67481d",
+        "hq_country_code": "GB",
+        "identifiers": {
+          "other": [
+            "arm-holdings"
+          ]
+        },
+        "known_names": [
+          "Arm Holdings plc",
+          "Arm Holdings",
+          "Arm Limited",
+          "ARM"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.IP_VENDOR"
+        ],
+        "segment_codes": [
+          "SEG.DESIGN_SOFTWARE"
+        ],
+        "taxonomy_seed_id": "arm-holdings"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "NXP Semiconductors",
+      "node_id": "company:725c610d-e041-553c-9e12-0d15d36305e7",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "NXP Semiconductors",
+        "chip_codes": [],
+        "company_id": "725c610d-e041-553c-9e12-0d15d36305e7",
+        "hq_country_code": "NL",
+        "identifiers": {
+          "other": [
+            "nxp-semiconductors"
+          ]
+        },
+        "known_names": [
+          "NXP Semiconductors"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.IDM"
+        ],
+        "segment_codes": [
+          "SEG.FRONTEND_MANUFACTURING"
+        ],
+        "taxonomy_seed_id": "nxp-semiconductors"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "FocalTech Systems",
+      "node_id": "company:770eb411-ccdf-522b-a6d4-bd4ec87383c1",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "FocalTech Systems",
+        "chip_codes": [],
+        "company_id": "770eb411-ccdf-522b-a6d4-bd4ec87383c1",
+        "hq_country_code": "CN",
+        "identifiers": {
+          "other": [
+            "focaltech-systems"
+          ]
+        },
+        "known_names": [
+          "FocalTech Systems"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.FABLESS"
+        ],
+        "segment_codes": [
+          "SEG.DESIGN_SOFTWARE"
+        ],
+        "taxonomy_seed_id": "focaltech-systems"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Veeco Instruments",
+      "node_id": "company:7832808e-8191-55ab-ba62-eb4e7983c3f4",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Veeco Instruments",
+        "chip_codes": [],
+        "company_id": "7832808e-8191-55ab-ba62-eb4e7983c3f4",
+        "hq_country_code": "US",
+        "identifiers": {
+          "other": [
+            "veeco-instruments"
+          ]
+        },
+        "known_names": [
+          "Veeco Instruments"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.EQUIPMENT_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MANUFACTURING_EQUIPMENT"
+        ],
+        "taxonomy_seed_id": "veeco-instruments"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Kulicke and Soffa Industries",
+      "node_id": "company:7a5ffa5d-8986-5869-8bfe-25655c5964f5",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Kulicke and Soffa Industries",
+        "chip_codes": [],
+        "company_id": "7a5ffa5d-8986-5869-8bfe-25655c5964f5",
+        "hq_country_code": "SG",
+        "identifiers": {
+          "other": [
+            "kulicke-and-soffa-industries"
+          ]
+        },
+        "known_names": [
+          "Kulicke and Soffa Industries"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.EQUIPMENT_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MANUFACTURING_EQUIPMENT"
+        ],
+        "taxonomy_seed_id": "kulicke-and-soffa-industries"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "UBE Corporation",
+      "node_id": "company:7aa1b456-2935-5acc-b135-ba72b6f9ddc9",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "UBE Corporation",
+        "chip_codes": [],
+        "company_id": "7aa1b456-2935-5acc-b135-ba72b6f9ddc9",
+        "hq_country_code": "JP",
+        "identifiers": {
+          "other": [
+            "ube-corporation"
+          ]
+        },
+        "known_names": [
+          "UBE Corporation"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.CHEMICALS_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MATERIALS"
+        ],
+        "taxonomy_seed_id": "ube-corporation"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Espressif Systems",
+      "node_id": "company:7c04a735-d428-5df2-a9dd-dc1460257c30",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Espressif Systems",
+        "chip_codes": [],
+        "company_id": "7c04a735-d428-5df2-a9dd-dc1460257c30",
+        "hq_country_code": "CN",
+        "identifiers": {
+          "other": [
+            "espressif-systems"
+          ]
+        },
+        "known_names": [
+          "Espressif Systems"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.FABLESS"
+        ],
+        "segment_codes": [
+          "SEG.DESIGN_SOFTWARE"
+        ],
+        "taxonomy_seed_id": "espressif-systems"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Faraday Technology",
+      "node_id": "company:7cc578d3-c5ba-57dd-951e-15c0fd8a92bc",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Faraday Technology",
+        "chip_codes": [],
+        "company_id": "7cc578d3-c5ba-57dd-951e-15c0fd8a92bc",
+        "hq_country_code": "TW",
+        "identifiers": {
+          "other": [
+            "faraday-technology"
+          ]
+        },
+        "known_names": [
+          "Faraday Technology"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.IP_VENDOR"
+        ],
+        "segment_codes": [
+          "SEG.DESIGN_SOFTWARE"
+        ],
+        "taxonomy_seed_id": "faraday-technology"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Mitsubishi Chemical Group",
+      "node_id": "company:8205fc3b-a6d5-54d3-824b-c883457879d8",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Mitsubishi Chemical Group",
+        "chip_codes": [],
+        "company_id": "8205fc3b-a6d5-54d3-824b-c883457879d8",
+        "hq_country_code": "JP",
+        "identifiers": {
+          "other": [
+            "mitsubishi-chemical-group"
+          ]
+        },
+        "known_names": [
+          "Mitsubishi Chemical Group"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.CHEMICALS_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MATERIALS"
+        ],
+        "taxonomy_seed_id": "mitsubishi-chemical-group"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Realtek Semiconductor",
+      "node_id": "company:823a08d9-ded3-5602-8aaf-d37230332d4c",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Realtek Semiconductor",
+        "chip_codes": [],
+        "company_id": "823a08d9-ded3-5602-8aaf-d37230332d4c",
+        "hq_country_code": "TW",
+        "identifiers": {
+          "other": [
+            "realtek-semiconductor"
+          ]
+        },
+        "known_names": [
+          "Realtek Semiconductor"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.FABLESS"
+        ],
+        "segment_codes": [
+          "SEG.DESIGN_SOFTWARE"
+        ],
+        "taxonomy_seed_id": "realtek-semiconductor"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Microchip Technology",
+      "node_id": "company:852692f6-d2d6-521c-90a5-f5086408d2bd",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Microchip Technology",
+        "chip_codes": [],
+        "company_id": "852692f6-d2d6-521c-90a5-f5086408d2bd",
+        "hq_country_code": "US",
+        "identifiers": {
+          "other": [
+            "microchip-technology"
+          ]
+        },
+        "known_names": [
+          "Microchip Technology"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.IDM"
+        ],
+        "segment_codes": [
+          "SEG.FRONTEND_MANUFACTURING"
+        ],
+        "taxonomy_seed_id": "microchip-technology"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "KLA",
+      "node_id": "company:853c6562-5ac7-524a-9f03-396342c9938c",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "KLA",
+        "chip_codes": [],
+        "company_id": "853c6562-5ac7-524a-9f03-396342c9938c",
+        "hq_country_code": "US",
+        "identifiers": {
+          "other": [
+            "kla"
+          ]
+        },
+        "known_names": [
+          "KLA"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.EQUIPMENT_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MANUFACTURING_EQUIPMENT"
+        ],
+        "taxonomy_seed_id": "kla"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Cirrus Logic",
+      "node_id": "company:86ae69ad-d33b-5451-8af3-ed56ac1babe3",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Cirrus Logic",
+        "chip_codes": [],
+        "company_id": "86ae69ad-d33b-5451-8af3-ed56ac1babe3",
+        "hq_country_code": "US",
+        "identifiers": {
+          "other": [
+            "cirrus-logic"
+          ]
+        },
+        "known_names": [
+          "Cirrus Logic"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.FABLESS"
+        ],
+        "segment_codes": [
+          "SEG.DESIGN_SOFTWARE"
+        ],
+        "taxonomy_seed_id": "cirrus-logic"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Kinsus Interconnect Technology",
+      "node_id": "company:8746323b-4a13-54e9-88f3-0ee95beb9bc4",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Kinsus Interconnect Technology",
+        "chip_codes": [],
+        "company_id": "8746323b-4a13-54e9-88f3-0ee95beb9bc4",
+        "hq_country_code": "TW",
+        "identifiers": {
+          "other": [
+            "kinsus-interconnect-technology"
+          ]
+        },
+        "known_names": [
+          "Kinsus Interconnect Technology"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.SUBSTRATE_MANUFACTURER"
+        ],
+        "segment_codes": [
+          "SEG.WAFERS_SUBSTRATES"
+        ],
+        "taxonomy_seed_id": "kinsus-interconnect-technology"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Airoha Technology",
+      "node_id": "company:8794e04b-601c-501a-a1a2-33cce950686d",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Airoha Technology",
+        "chip_codes": [],
+        "company_id": "8794e04b-601c-501a-a1a2-33cce950686d",
+        "hq_country_code": "TW",
+        "identifiers": {
+          "other": [
+            "airoha-technology"
+          ]
+        },
+        "known_names": [
+          "Airoha Technology"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.FABLESS"
+        ],
+        "segment_codes": [
+          "SEG.DESIGN_SOFTWARE"
+        ],
+        "taxonomy_seed_id": "airoha-technology"
+      }
+    },
+    {
+      "degree": 4,
+      "display_name": "Micron Technology, Inc.",
+      "node_id": "company:882649fd-2075-5454-8a74-f74b2434ebd7",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Micron Technology, Inc.",
+        "chip_codes": [],
+        "company_id": "882649fd-2075-5454-8a74-f74b2434ebd7",
+        "hq_country_code": "US",
+        "identifiers": {
+          "other": [
+            "micron-technology"
+          ],
+          "registry_number": [
+            "EPA-OP-0001"
+          ]
+        },
+        "known_names": [
+          "Micron Technology, Inc.",
+          "Micron Technology"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.IDM"
+        ],
+        "segment_codes": [
+          "SEG.FRONTEND_MANUFACTURING"
+        ],
+        "taxonomy_seed_id": "micron-technology"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "SEMES",
+      "node_id": "company:8872d220-0359-58ff-95c4-e5e4540fdb51",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "SEMES",
+        "chip_codes": [],
+        "company_id": "8872d220-0359-58ff-95c4-e5e4540fdb51",
+        "hq_country_code": "KR",
+        "identifiers": {
+          "other": [
+            "semes"
+          ]
+        },
+        "known_names": [
+          "SEMES"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.EQUIPMENT_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MANUFACTURING_EQUIPMENT"
+        ],
+        "taxonomy_seed_id": "semes"
+      }
+    },
+    {
+      "degree": 4,
+      "display_name": "SK Materials",
+      "node_id": "company:88ee1862-10a6-5f3e-ae8d-f9ffa2f94a93",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "SK Materials",
+        "chip_codes": [],
+        "company_id": "88ee1862-10a6-5f3e-ae8d-f9ffa2f94a93",
+        "hq_country_code": "KR",
+        "identifiers": {
+          "other": [
+            "sk-materials"
+          ]
+        },
+        "known_names": [
+          "SK Materials"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.CHEMICALS_SUPPLIER",
+          "ROLE.SPECIALTY_GASES_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MATERIALS"
+        ],
+        "taxonomy_seed_id": "sk-materials"
+      }
+    },
+    {
+      "degree": 5,
+      "display_name": "ASE Technology Holding Co., Ltd.",
+      "node_id": "company:89e313df-6322-5537-82ca-40573d40afe7",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "ASE Technology Holding Co., Ltd.",
+        "chip_codes": [],
+        "company_id": "89e313df-6322-5537-82ca-40573d40afe7",
+        "hq_country_code": "TW",
+        "identifiers": {
+          "other": [
+            "ase-technology-holding"
+          ]
+        },
+        "known_names": [
+          "ASE Technology Holding Co., Ltd.",
+          "ASE Technology Holding",
+          "ASE"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.OSAT",
+          "ROLE.PACKAGING_SPECIALIST",
+          "ROLE.TEST_SERVICE"
+        ],
+        "segment_codes": [
+          "SEG.BACKEND_MANUFACTURING"
+        ],
+        "taxonomy_seed_id": "ase-technology-holding"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Hoya",
+      "node_id": "company:8b0df095-06b9-5cd7-8dc0-d2461f5b76bf",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Hoya",
+        "chip_codes": [],
+        "company_id": "8b0df095-06b9-5cd7-8dc0-d2461f5b76bf",
+        "hq_country_code": "JP",
+        "identifiers": {
+          "other": [
+            "hoya"
+          ]
+        },
+        "known_names": [
+          "Hoya"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.PHOTOMASK_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MASKS_RETICLES"
+        ],
+        "taxonomy_seed_id": "hoya"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Simmtech",
+      "node_id": "company:8dc89ca9-b072-584c-a12e-c238b5e00bf5",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Simmtech",
+        "chip_codes": [],
+        "company_id": "8dc89ca9-b072-584c-a12e-c238b5e00bf5",
+        "hq_country_code": "KR",
+        "identifiers": {
+          "other": [
+            "simmtech"
+          ]
+        },
+        "known_names": [
+          "Simmtech"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.SUBSTRATE_MANUFACTURER"
+        ],
+        "segment_codes": [
+          "SEG.WAFERS_SUBSTRATES"
+        ],
+        "taxonomy_seed_id": "simmtech"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Cadence Design Systems, Inc.",
+      "node_id": "company:8de3a6cb-9e81-5eb2-af26-699140e58870",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Cadence Design Systems, Inc.",
+        "chip_codes": [],
+        "company_id": "8de3a6cb-9e81-5eb2-af26-699140e58870",
+        "hq_country_code": "US",
+        "identifiers": {
+          "other": [
+            "cadence-design-systems"
+          ]
+        },
+        "known_names": [
+          "Cadence Design Systems, Inc.",
+          "Cadence Design Systems",
+          "Cadence"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.EDA_VENDOR"
+        ],
+        "segment_codes": [
+          "SEG.DESIGN_SOFTWARE"
+        ],
+        "taxonomy_seed_id": "cadence-design-systems"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Yangtze Memory Technologies",
+      "node_id": "company:8f7a9171-5dd3-5dcf-a953-6836c2dff068",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Yangtze Memory Technologies",
+        "chip_codes": [],
+        "company_id": "8f7a9171-5dd3-5dcf-a953-6836c2dff068",
+        "hq_country_code": "CN",
+        "identifiers": {
+          "other": [
+            "yangtze-memory-technologies"
+          ]
+        },
+        "known_names": [
+          "Yangtze Memory Technologies"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.IDM"
+        ],
+        "segment_codes": [
+          "SEG.FRONTEND_MANUFACTURING"
+        ],
+        "taxonomy_seed_id": "yangtze-memory-technologies"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Raydium Semiconductor",
+      "node_id": "company:8fc5e3c4-d461-5f16-b700-9b9784b70c14",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Raydium Semiconductor",
+        "chip_codes": [],
+        "company_id": "8fc5e3c4-d461-5f16-b700-9b9784b70c14",
+        "hq_country_code": "TW",
+        "identifiers": {
+          "other": [
+            "raydium-semiconductor"
+          ]
+        },
+        "known_names": [
+          "Raydium Semiconductor"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.FABLESS"
+        ],
+        "segment_codes": [
+          "SEG.DESIGN_SOFTWARE"
+        ],
+        "taxonomy_seed_id": "raydium-semiconductor"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Tokyo Electron Limited",
+      "node_id": "company:90679d65-9be3-51c7-85e0-58d6746e2f7c",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Tokyo Electron Limited",
+        "chip_codes": [],
+        "company_id": "90679d65-9be3-51c7-85e0-58d6746e2f7c",
+        "hq_country_code": "JP",
+        "identifiers": {
+          "other": [
+            "tokyo-electron"
+          ]
+        },
+        "known_names": [
+          "Tokyo Electron Limited",
+          "Tokyo Electron"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.EQUIPMENT_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MANUFACTURING_EQUIPMENT"
+        ],
+        "taxonomy_seed_id": "tokyo-electron"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Soulbrain",
+      "node_id": "company:906eb4de-4eb2-5cc8-ab75-ebb77a1744c5",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Soulbrain",
+        "chip_codes": [],
+        "company_id": "906eb4de-4eb2-5cc8-ab75-ebb77a1744c5",
+        "hq_country_code": "KR",
+        "identifiers": {
+          "other": [
+            "soulbrain"
+          ]
+        },
+        "known_names": [
+          "Soulbrain"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.CHEMICALS_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MATERIALS"
+        ],
+        "taxonomy_seed_id": "soulbrain"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Ferrotec Holdings",
+      "node_id": "company:909bfe30-c42d-56c9-af75-3415541792a1",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Ferrotec Holdings",
+        "chip_codes": [],
+        "company_id": "909bfe30-c42d-56c9-af75-3415541792a1",
+        "hq_country_code": "JP",
+        "identifiers": {
+          "other": [
+            "ferrotec-holdings"
+          ]
+        },
+        "known_names": [
+          "Ferrotec Holdings"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.CHEMICALS_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MATERIALS"
+        ],
+        "taxonomy_seed_id": "ferrotec-holdings"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "TTM Technologies",
+      "node_id": "company:926da4e0-01d8-57c1-8667-aeba7555c755",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "TTM Technologies",
+        "chip_codes": [],
+        "company_id": "926da4e0-01d8-57c1-8667-aeba7555c755",
+        "hq_country_code": "US",
+        "identifiers": {
+          "other": [
+            "ttm-technologies"
+          ]
+        },
+        "known_names": [
+          "TTM Technologies"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.SUBSTRATE_MANUFACTURER"
+        ],
+        "segment_codes": [
+          "SEG.WAFERS_SUBSTRATES"
+        ],
+        "taxonomy_seed_id": "ttm-technologies"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Shibaura Mechatronics",
+      "node_id": "company:93085617-9c64-59e7-85c7-c15ec20e8eb9",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Shibaura Mechatronics",
+        "chip_codes": [],
+        "company_id": "93085617-9c64-59e7-85c7-c15ec20e8eb9",
+        "hq_country_code": "JP",
+        "identifiers": {
+          "other": [
+            "shibaura-mechatronics"
+          ]
+        },
+        "known_names": [
+          "Shibaura Mechatronics"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.EQUIPMENT_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MANUFACTURING_EQUIPMENT"
+        ],
+        "taxonomy_seed_id": "shibaura-mechatronics"
+      }
+    },
+    {
+      "degree": 5,
+      "display_name": "Walton Advanced Engineering",
+      "node_id": "company:9319c36a-e19f-5837-92f5-e2372fd8dbc3",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Walton Advanced Engineering",
+        "chip_codes": [],
+        "company_id": "9319c36a-e19f-5837-92f5-e2372fd8dbc3",
+        "hq_country_code": "TW",
+        "identifiers": {
+          "other": [
+            "walton-advanced-engineering"
+          ]
+        },
+        "known_names": [
+          "Walton Advanced Engineering"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.OSAT",
+          "ROLE.PACKAGING_SPECIALIST",
+          "ROLE.TEST_SERVICE"
+        ],
+        "segment_codes": [
+          "SEG.BACKEND_MANUFACTURING"
+        ],
+        "taxonomy_seed_id": "walton-advanced-engineering"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Wonik IPS",
+      "node_id": "company:941a1181-ac94-5581-b07b-5b7f03951759",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Wonik IPS",
+        "chip_codes": [],
+        "company_id": "941a1181-ac94-5581-b07b-5b7f03951759",
+        "hq_country_code": "KR",
+        "identifiers": {
+          "other": [
+            "wonik-ips"
+          ]
+        },
+        "known_names": [
+          "Wonik IPS"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.EQUIPMENT_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MANUFACTURING_EQUIPMENT"
+        ],
+        "taxonomy_seed_id": "wonik-ips"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Mentor Graphics Corporation",
+      "node_id": "company:94fdefa3-4198-5379-8d22-4d9c0f5746af",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Mentor Graphics Corporation",
+        "chip_codes": [],
+        "company_id": "94fdefa3-4198-5379-8d22-4d9c0f5746af",
+        "hq_country_code": "US",
+        "identifiers": {
+          "other": [
+            "siemens-eda"
+          ]
+        },
+        "known_names": [
+          "Mentor Graphics Corporation",
+          "Siemens EDA",
+          "Mentor Graphics"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.EDA_VENDOR"
+        ],
+        "segment_codes": [
+          "SEG.DESIGN_SOFTWARE"
+        ],
+        "taxonomy_seed_id": "siemens-eda"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Credo Technology Group",
+      "node_id": "company:98c07def-0244-52f2-b0c6-c35e2896b513",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Credo Technology Group",
+        "chip_codes": [],
+        "company_id": "98c07def-0244-52f2-b0c6-c35e2896b513",
+        "hq_country_code": "US",
+        "identifiers": {
+          "other": [
+            "credo-technology-group"
+          ]
+        },
+        "known_names": [
+          "Credo Technology Group"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.FABLESS"
+        ],
+        "segment_codes": [
+          "SEG.DESIGN_SOFTWARE"
+        ],
+        "taxonomy_seed_id": "credo-technology-group"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "CEVA",
+      "node_id": "company:996f7bbc-fb28-50c9-b82a-8abf2e32a06f",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "CEVA",
+        "chip_codes": [],
+        "company_id": "996f7bbc-fb28-50c9-b82a-8abf2e32a06f",
+        "hq_country_code": "US",
+        "identifiers": {
+          "other": [
+            "ceva"
+          ]
+        },
+        "known_names": [
+          "CEVA"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.IP_VENDOR"
+        ],
+        "segment_codes": [
+          "SEG.DESIGN_SOFTWARE"
+        ],
+        "taxonomy_seed_id": "ceva"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "MKS Instruments",
+      "node_id": "company:9aaac545-fe4d-503e-a143-5d75ad96b43d",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "MKS Instruments",
+        "chip_codes": [],
+        "company_id": "9aaac545-fe4d-503e-a143-5d75ad96b43d",
+        "hq_country_code": "US",
+        "identifiers": {
+          "other": [
+            "mks-instruments"
+          ]
+        },
+        "known_names": [
+          "MKS Instruments"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.EQUIPMENT_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MANUFACTURING_EQUIPMENT"
+        ],
+        "taxonomy_seed_id": "mks-instruments"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Canon",
+      "node_id": "company:9d481faa-8582-55d5-8e67-c6faa9be68ab",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Canon",
+        "chip_codes": [],
+        "company_id": "9d481faa-8582-55d5-8e67-c6faa9be68ab",
+        "hq_country_code": "JP",
+        "identifiers": {
+          "other": [
+            "canon"
+          ]
+        },
+        "known_names": [
+          "Canon"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.EQUIPMENT_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MANUFACTURING_EQUIPMENT"
+        ],
+        "taxonomy_seed_id": "canon"
+      }
+    },
+    {
+      "degree": 5,
+      "display_name": "Formosa Advanced Technologies",
+      "node_id": "company:9e1fb522-b8e0-562c-9cb7-9ff820f687bd",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Formosa Advanced Technologies",
+        "chip_codes": [],
+        "company_id": "9e1fb522-b8e0-562c-9cb7-9ff820f687bd",
+        "hq_country_code": "TW",
+        "identifiers": {
+          "other": [
+            "formosa-advanced-technologies"
+          ]
+        },
+        "known_names": [
+          "Formosa Advanced Technologies"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.OSAT",
+          "ROLE.PACKAGING_SPECIALIST",
+          "ROLE.TEST_SERVICE"
+        ],
+        "segment_codes": [
+          "SEG.BACKEND_MANUFACTURING"
+        ],
+        "taxonomy_seed_id": "formosa-advanced-technologies"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Macronix International",
+      "node_id": "company:9f84c84c-b8db-5033-ae6b-2225fe062981",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Macronix International",
+        "chip_codes": [],
+        "company_id": "9f84c84c-b8db-5033-ae6b-2225fe062981",
+        "hq_country_code": "TW",
+        "identifiers": {
+          "other": [
+            "macronix-international"
+          ]
+        },
+        "known_names": [
+          "Macronix International"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.IDM"
+        ],
+        "segment_codes": [
+          "SEG.FRONTEND_MANUFACTURING"
+        ],
+        "taxonomy_seed_id": "macronix-international"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "GlobalFoundries",
+      "node_id": "company:a05c37c9-a1ee-5d2d-9582-ce0e8828219c",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "GlobalFoundries",
+        "chip_codes": [],
+        "company_id": "a05c37c9-a1ee-5d2d-9582-ce0e8828219c",
+        "hq_country_code": "US",
+        "identifiers": {
+          "other": [
+            "globalfoundries"
+          ]
+        },
+        "known_names": [
+          "GlobalFoundries"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.FOUNDRY"
+        ],
+        "segment_codes": [
+          "SEG.FRONTEND_MANUFACTURING"
+        ],
+        "taxonomy_seed_id": "globalfoundries"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "SUSS MicroTec",
+      "node_id": "company:a1b4985c-05ad-532b-9f55-18e538f7c70a",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "SUSS MicroTec",
+        "chip_codes": [],
+        "company_id": "a1b4985c-05ad-532b-9f55-18e538f7c70a",
+        "hq_country_code": "DE",
+        "identifiers": {
+          "other": [
+            "suss-microtec"
+          ]
+        },
+        "known_names": [
+          "SUSS MicroTec"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.EQUIPMENT_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MANUFACTURING_EQUIPMENT"
+        ],
+        "taxonomy_seed_id": "suss-microtec"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Camtek",
+      "node_id": "company:a339a383-fafc-5a42-b6e9-02a98f790099",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Camtek",
+        "chip_codes": [],
+        "company_id": "a339a383-fafc-5a42-b6e9-02a98f790099",
+        "hq_country_code": "IL",
+        "identifiers": {
+          "other": [
+            "camtek"
+          ]
+        },
+        "known_names": [
+          "Camtek"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.EQUIPMENT_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MANUFACTURING_EQUIPMENT"
+        ],
+        "taxonomy_seed_id": "camtek"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Kanto Chemical",
+      "node_id": "company:a38ac7a5-c80f-58d6-9604-54a912762efd",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Kanto Chemical",
+        "chip_codes": [],
+        "company_id": "a38ac7a5-c80f-58d6-9604-54a912762efd",
+        "hq_country_code": "JP",
+        "identifiers": {
+          "other": [
+            "kanto-chemical"
+          ]
+        },
+        "known_names": [
+          "Kanto Chemical"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.CHEMICALS_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MATERIALS"
+        ],
+        "taxonomy_seed_id": "kanto-chemical"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "GigaDevice Semiconductor",
+      "node_id": "company:a39faba3-d4e4-5880-bd27-a145ea42abac",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "GigaDevice Semiconductor",
+        "chip_codes": [],
+        "company_id": "a39faba3-d4e4-5880-bd27-a145ea42abac",
+        "hq_country_code": "CN",
+        "identifiers": {
+          "other": [
+            "gigadevice-semiconductor"
+          ]
+        },
+        "known_names": [
+          "GigaDevice Semiconductor"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.FABLESS"
+        ],
+        "segment_codes": [
+          "SEG.DESIGN_SOFTWARE"
+        ],
+        "taxonomy_seed_id": "gigadevice-semiconductor"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Shin-Etsu Chemical Co., Ltd.",
+      "node_id": "company:a4048d10-1467-5d5d-9aad-3645d23c3ddf",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Shin-Etsu Chemical Co., Ltd.",
+        "chip_codes": [],
+        "company_id": "a4048d10-1467-5d5d-9aad-3645d23c3ddf",
+        "hq_country_code": "JP",
+        "identifiers": {
+          "other": [
+            "shin-etsu-chemical"
+          ]
+        },
+        "known_names": [
+          "Shin-Etsu Chemical Co., Ltd.",
+          "Shin-Etsu Chemical"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.WAFER_MANUFACTURER"
+        ],
+        "segment_codes": [
+          "SEG.WAFERS_SUBSTRATES"
+        ],
+        "taxonomy_seed_id": "shin-etsu-chemical"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Ibiden",
+      "node_id": "company:a6dd9801-c278-5866-8c76-9181547fbf9c",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Ibiden",
+        "chip_codes": [],
+        "company_id": "a6dd9801-c278-5866-8c76-9181547fbf9c",
+        "hq_country_code": "JP",
+        "identifiers": {
+          "other": [
+            "ibiden"
+          ]
+        },
+        "known_names": [
+          "Ibiden"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.SUBSTRATE_MANUFACTURER"
+        ],
+        "segment_codes": [
+          "SEG.WAFERS_SUBSTRATES"
+        ],
+        "taxonomy_seed_id": "ibiden"
+      }
+    },
+    {
+      "degree": 5,
+      "display_name": "Amkor Technology, Inc.",
+      "node_id": "company:a703f724-f5ec-50ee-85fb-a6e5697f27dd",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Amkor Technology, Inc.",
+        "chip_codes": [],
+        "company_id": "a703f724-f5ec-50ee-85fb-a6e5697f27dd",
+        "hq_country_code": "US",
+        "identifiers": {
+          "other": [
+            "amkor-technology"
+          ]
+        },
+        "known_names": [
+          "Amkor Technology, Inc.",
+          "Amkor Technology"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.OSAT",
+          "ROLE.PACKAGING_SPECIALIST",
+          "ROLE.TEST_SERVICE"
+        ],
+        "segment_codes": [
+          "SEG.BACKEND_MANUFACTURING"
+        ],
+        "taxonomy_seed_id": "amkor-technology"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Silvaco Group",
+      "node_id": "company:a74c7d0d-513d-52c9-8dac-ec98df7051e9",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Silvaco Group",
+        "chip_codes": [],
+        "company_id": "a74c7d0d-513d-52c9-8dac-ec98df7051e9",
+        "hq_country_code": "US",
+        "identifiers": {
+          "other": [
+            "silvaco-group"
+          ]
+        },
+        "known_names": [
+          "Silvaco Group"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.EDA_VENDOR"
+        ],
+        "segment_codes": [
+          "SEG.DESIGN_SOFTWARE"
+        ],
+        "taxonomy_seed_id": "silvaco-group"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "MaxLinear",
+      "node_id": "company:a78989bc-8bb0-5121-ab68-827b2885d82a",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "MaxLinear",
+        "chip_codes": [],
+        "company_id": "a78989bc-8bb0-5121-ab68-827b2885d82a",
+        "hq_country_code": "US",
+        "identifiers": {
+          "other": [
+            "maxlinear"
+          ]
+        },
+        "known_names": [
+          "MaxLinear"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.FABLESS"
+        ],
+        "segment_codes": [
+          "SEG.DESIGN_SOFTWARE"
+        ],
+        "taxonomy_seed_id": "maxlinear"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "DuPont",
+      "node_id": "company:a8d98cfa-2f20-5a69-85d8-7f6329e36785",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "DuPont",
+        "chip_codes": [],
+        "company_id": "a8d98cfa-2f20-5a69-85d8-7f6329e36785",
+        "hq_country_code": "US",
+        "identifiers": {
+          "other": [
+            "dupont"
+          ]
+        },
+        "known_names": [
+          "DuPont"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.CHEMICALS_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MATERIALS"
+        ],
+        "taxonomy_seed_id": "dupont"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "EV Group",
+      "node_id": "company:a9da4cd3-9203-5807-9f4f-b8427c9d4946",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "EV Group",
+        "chip_codes": [],
+        "company_id": "a9da4cd3-9203-5807-9f4f-b8427c9d4946",
+        "hq_country_code": "AT",
+        "identifiers": {
+          "other": [
+            "ev-group"
+          ]
+        },
+        "known_names": [
+          "EV Group"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.EQUIPMENT_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MANUFACTURING_EQUIPMENT"
+        ],
+        "taxonomy_seed_id": "ev-group"
+      }
+    },
+    {
+      "degree": 5,
+      "display_name": "JCET Group",
+      "node_id": "company:ad3642a9-d3e2-55bb-9db2-03fbbe499cfb",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "JCET Group",
+        "chip_codes": [],
+        "company_id": "ad3642a9-d3e2-55bb-9db2-03fbbe499cfb",
+        "hq_country_code": "CN",
+        "identifiers": {
+          "other": [
+            "jcet-group"
+          ]
+        },
+        "known_names": [
+          "JCET Group"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.OSAT",
+          "ROLE.PACKAGING_SPECIALIST",
+          "ROLE.TEST_SERVICE"
+        ],
+        "segment_codes": [
+          "SEG.BACKEND_MANUFACTURING"
+        ],
+        "taxonomy_seed_id": "jcet-group"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Disco",
+      "node_id": "company:ad575f8f-09c0-5e26-b0ad-acc299efb886",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Disco",
+        "chip_codes": [],
+        "company_id": "ad575f8f-09c0-5e26-b0ad-acc299efb886",
+        "hq_country_code": "JP",
+        "identifiers": {
+          "other": [
+            "disco"
+          ]
+        },
+        "known_names": [
+          "Disco"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.EQUIPMENT_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MANUFACTURING_EQUIPMENT"
+        ],
+        "taxonomy_seed_id": "disco"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "X-FAB Silicon Foundries",
+      "node_id": "company:ae972f92-1e07-51ce-b4a5-a3b7acc1d90e",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "X-FAB Silicon Foundries",
+        "chip_codes": [],
+        "company_id": "ae972f92-1e07-51ce-b4a5-a3b7acc1d90e",
+        "hq_country_code": "LU",
+        "identifiers": {
+          "other": [
+            "x-fab-silicon-foundries"
+          ]
+        },
+        "known_names": [
+          "X-FAB Silicon Foundries"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.FOUNDRY"
+        ],
+        "segment_codes": [
+          "SEG.FRONTEND_MANUFACTURING"
+        ],
+        "taxonomy_seed_id": "x-fab-silicon-foundries"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "ACM Research",
+      "node_id": "company:aeb3a987-0c2b-5633-8b06-5696dae8172d",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "ACM Research",
+        "chip_codes": [],
+        "company_id": "aeb3a987-0c2b-5633-8b06-5696dae8172d",
+        "hq_country_code": "US",
+        "identifiers": {
+          "other": [
+            "acm-research"
+          ]
+        },
+        "known_names": [
+          "ACM Research"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.EQUIPMENT_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MANUFACTURING_EQUIPMENT"
+        ],
+        "taxonomy_seed_id": "acm-research"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Lam Research Corporation",
+      "node_id": "company:af3abd85-0149-5b11-a8aa-5615f32c379d",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Lam Research Corporation",
+        "chip_codes": [],
+        "company_id": "af3abd85-0149-5b11-a8aa-5615f32c379d",
+        "hq_country_code": "US",
+        "identifiers": {
+          "other": [
+            "lam-research"
+          ]
+        },
+        "known_names": [
+          "Lam Research Corporation",
+          "Lam Research"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.EQUIPMENT_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MANUFACTURING_EQUIPMENT"
+        ],
+        "taxonomy_seed_id": "lam-research"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Nan Ya Printed Circuit Board",
+      "node_id": "company:b24d45c8-c565-5069-b847-95f80494dea4",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Nan Ya Printed Circuit Board",
+        "chip_codes": [],
+        "company_id": "b24d45c8-c565-5069-b847-95f80494dea4",
+        "hq_country_code": "TW",
+        "identifiers": {
+          "other": [
+            "nan-ya-printed-circuit-board"
+          ]
+        },
+        "known_names": [
+          "Nan Ya Printed Circuit Board"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.SUBSTRATE_MANUFACTURER"
+        ],
+        "segment_codes": [
+          "SEG.WAFERS_SUBSTRATES"
+        ],
+        "taxonomy_seed_id": "nan-ya-printed-circuit-board"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "NVIDIA",
+      "node_id": "company:b29ec5f0-e740-525a-a1aa-b6aeb2f7c916",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "NVIDIA",
+        "chip_codes": [],
+        "company_id": "b29ec5f0-e740-525a-a1aa-b6aeb2f7c916",
+        "hq_country_code": "US",
+        "identifiers": {
+          "other": [
+            "nvidia"
+          ]
+        },
+        "known_names": [
+          "NVIDIA"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.FABLESS"
+        ],
+        "segment_codes": [
+          "SEG.DESIGN_SOFTWARE"
+        ],
+        "taxonomy_seed_id": "nvidia"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "ASML Holding N.V.",
+      "node_id": "company:b2e5e76f-7beb-561c-a53d-038d7427d3de",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "ASML Holding N.V.",
+        "chip_codes": [],
+        "company_id": "b2e5e76f-7beb-561c-a53d-038d7427d3de",
+        "hq_country_code": "NL",
+        "identifiers": {
+          "other": [
+            "asml"
+          ]
+        },
+        "known_names": [
+          "ASML Holding N.V.",
+          "ASML"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.EQUIPMENT_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MANUFACTURING_EQUIPMENT"
+        ],
+        "taxonomy_seed_id": "asml"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "JSR",
+      "node_id": "company:b43d2ce7-3a6a-5f2f-886b-f999d4dd693b",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "JSR",
+        "chip_codes": [],
+        "company_id": "b43d2ce7-3a6a-5f2f-886b-f999d4dd693b",
+        "hq_country_code": "JP",
+        "identifiers": {
+          "other": [
+            "jsr"
+          ]
+        },
+        "known_names": [
+          "JSR"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.CHEMICALS_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MATERIALS"
+        ],
+        "taxonomy_seed_id": "jsr"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Fuji Electric",
+      "node_id": "company:b50e37e1-429a-5697-858c-29f68e787014",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Fuji Electric",
+        "chip_codes": [],
+        "company_id": "b50e37e1-429a-5697-858c-29f68e787014",
+        "hq_country_code": "JP",
+        "identifiers": {
+          "other": [
+            "fuji-electric"
+          ]
+        },
+        "known_names": [
+          "Fuji Electric"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.IDM"
+        ],
+        "segment_codes": [
+          "SEG.FRONTEND_MANUFACTURING"
+        ],
+        "taxonomy_seed_id": "fuji-electric"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Parade Technologies",
+      "node_id": "company:b985896c-c00d-53a7-a5fe-74728a6e594e",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Parade Technologies",
+        "chip_codes": [],
+        "company_id": "b985896c-c00d-53a7-a5fe-74728a6e594e",
+        "hq_country_code": "US",
+        "identifiers": {
+          "other": [
+            "parade-technologies"
+          ]
+        },
+        "known_names": [
+          "Parade Technologies"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.FABLESS"
+        ],
+        "segment_codes": [
+          "SEG.DESIGN_SOFTWARE"
+        ],
+        "taxonomy_seed_id": "parade-technologies"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Winbond Electronics",
+      "node_id": "company:bac20fc9-f452-5eef-8ec1-47d0671006a6",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Winbond Electronics",
+        "chip_codes": [],
+        "company_id": "bac20fc9-f452-5eef-8ec1-47d0671006a6",
+        "hq_country_code": "TW",
+        "identifiers": {
+          "other": [
+            "winbond-electronics"
+          ]
+        },
+        "known_names": [
+          "Winbond Electronics"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.IDM"
+        ],
+        "segment_codes": [
+          "SEG.FRONTEND_MANUFACTURING"
+        ],
+        "taxonomy_seed_id": "winbond-electronics"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Tokyo Ohka Kogyo",
+      "node_id": "company:bd33fc07-b814-5900-9fad-8b3da80bd663",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Tokyo Ohka Kogyo",
+        "chip_codes": [],
+        "company_id": "bd33fc07-b814-5900-9fad-8b3da80bd663",
+        "hq_country_code": "JP",
+        "identifiers": {
+          "other": [
+            "tokyo-ohka-kogyo"
+          ]
+        },
+        "known_names": [
+          "Tokyo Ohka Kogyo"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.CHEMICALS_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MATERIALS"
+        ],
+        "taxonomy_seed_id": "tokyo-ohka-kogyo"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Mitsubishi Electric",
+      "node_id": "company:bda400a1-c296-5c8c-a272-9c91d3c10381",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Mitsubishi Electric",
+        "chip_codes": [],
+        "company_id": "bda400a1-c296-5c8c-a272-9c91d3c10381",
+        "hq_country_code": "JP",
+        "identifiers": {
+          "other": [
+            "mitsubishi-electric"
+          ]
+        },
+        "known_names": [
+          "Mitsubishi Electric"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.IDM"
+        ],
+        "segment_codes": [
+          "SEG.FRONTEND_MANUFACTURING"
+        ],
+        "taxonomy_seed_id": "mitsubishi-electric"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "BE Semiconductor Industries",
+      "node_id": "company:be1d6bcd-a4df-5123-b6fb-689025134a9b",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "BE Semiconductor Industries",
+        "chip_codes": [],
+        "company_id": "be1d6bcd-a4df-5123-b6fb-689025134a9b",
+        "hq_country_code": "NL",
+        "identifiers": {
+          "other": [
+            "be-semiconductor-industries"
+          ]
+        },
+        "known_names": [
+          "BE Semiconductor Industries"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.EQUIPMENT_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MANUFACTURING_EQUIPMENT"
+        ],
+        "taxonomy_seed_id": "be-semiconductor-industries"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Texas Instruments",
+      "node_id": "company:bf1442d2-1407-5a95-8f9a-74f5a875bc39",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Texas Instruments",
+        "chip_codes": [],
+        "company_id": "bf1442d2-1407-5a95-8f9a-74f5a875bc39",
+        "hq_country_code": "US",
+        "identifiers": {
+          "other": [
+            "texas-instruments"
+          ]
+        },
+        "known_names": [
+          "Texas Instruments"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.IDM"
+        ],
+        "segment_codes": [
+          "SEG.FRONTEND_MANUFACTURING"
+        ],
+        "taxonomy_seed_id": "texas-instruments"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Screen Holdings",
+      "node_id": "company:c5115bca-a75d-500d-bf5f-a0c9000bcc44",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Screen Holdings",
+        "chip_codes": [],
+        "company_id": "c5115bca-a75d-500d-bf5f-a0c9000bcc44",
+        "hq_country_code": "JP",
+        "identifiers": {
+          "other": [
+            "screen-holdings"
+          ]
+        },
+        "known_names": [
+          "Screen Holdings"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.EQUIPMENT_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MANUFACTURING_EQUIPMENT"
+        ],
+        "taxonomy_seed_id": "screen-holdings"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Jusung Engineering",
+      "node_id": "company:c58d3bbf-a097-5f8d-bbfe-9860135b87cb",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Jusung Engineering",
+        "chip_codes": [],
+        "company_id": "c58d3bbf-a097-5f8d-bbfe-9860135b87cb",
+        "hq_country_code": "KR",
+        "identifiers": {
+          "other": [
+            "jusung-engineering"
+          ]
+        },
+        "known_names": [
+          "Jusung Engineering"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.EQUIPMENT_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MANUFACTURING_EQUIPMENT"
+        ],
+        "taxonomy_seed_id": "jusung-engineering"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Monolithic Power Systems",
+      "node_id": "company:c86faabb-1482-5d0d-a6f3-660f17955473",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Monolithic Power Systems",
+        "chip_codes": [],
+        "company_id": "c86faabb-1482-5d0d-a6f3-660f17955473",
+        "hq_country_code": "US",
+        "identifiers": {
+          "other": [
+            "monolithic-power-systems"
+          ]
+        },
+        "known_names": [
+          "Monolithic Power Systems"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.FABLESS"
+        ],
+        "segment_codes": [
+          "SEG.DESIGN_SOFTWARE"
+        ],
+        "taxonomy_seed_id": "monolithic-power-systems"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Semiconductor Manufacturing International Corporation",
+      "node_id": "company:cb4e8c7f-c184-5ff2-ae3a-631494e550bf",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Semiconductor Manufacturing International Corporation",
+        "chip_codes": [],
+        "company_id": "cb4e8c7f-c184-5ff2-ae3a-631494e550bf",
+        "hq_country_code": "CN",
+        "identifiers": {
+          "other": [
+            "semiconductor-manufacturing-international-corporation"
+          ]
+        },
+        "known_names": [
+          "Semiconductor Manufacturing International Corporation"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.FOUNDRY"
+        ],
+        "segment_codes": [
+          "SEG.FRONTEND_MANUFACTURING"
+        ],
+        "taxonomy_seed_id": "semiconductor-manufacturing-international-corporation"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Compeq Manufacturing",
+      "node_id": "company:cd1f2f23-fd53-5e61-b8fe-5836fd5bb2f7",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Compeq Manufacturing",
+        "chip_codes": [],
+        "company_id": "cd1f2f23-fd53-5e61-b8fe-5836fd5bb2f7",
+        "hq_country_code": "TW",
+        "identifiers": {
+          "other": [
+            "compeq-manufacturing"
+          ]
+        },
+        "known_names": [
+          "Compeq Manufacturing"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.SUBSTRATE_MANUFACTURER"
+        ],
+        "segment_codes": [
+          "SEG.WAFERS_SUBSTRATES"
+        ],
+        "taxonomy_seed_id": "compeq-manufacturing"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Nordson",
+      "node_id": "company:cde245a7-4e7b-5635-bb07-b377055e39d7",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Nordson",
+        "chip_codes": [],
+        "company_id": "cde245a7-4e7b-5635-bb07-b377055e39d7",
+        "hq_country_code": "US",
+        "identifiers": {
+          "other": [
+            "nordson"
+          ]
+        },
+        "known_names": [
+          "Nordson"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.EQUIPMENT_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MANUFACTURING_EQUIPMENT"
+        ],
+        "taxonomy_seed_id": "nordson"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Unimicron Technology",
+      "node_id": "company:ce2890f3-4887-5ef6-996f-081f132aa89c",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Unimicron Technology",
+        "chip_codes": [],
+        "company_id": "ce2890f3-4887-5ef6-996f-081f132aa89c",
+        "hq_country_code": "TW",
+        "identifiers": {
+          "other": [
+            "unimicron-technology"
+          ]
+        },
+        "known_names": [
+          "Unimicron Technology"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.SUBSTRATE_MANUFACTURER"
+        ],
+        "segment_codes": [
+          "SEG.WAFERS_SUBSTRATES"
+        ],
+        "taxonomy_seed_id": "unimicron-technology"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Novatek Microelectronics",
+      "node_id": "company:ce37fb1f-4900-57ab-84f6-e8c96c6ac3bb",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Novatek Microelectronics",
+        "chip_codes": [],
+        "company_id": "ce37fb1f-4900-57ab-84f6-e8c96c6ac3bb",
+        "hq_country_code": "TW",
+        "identifiers": {
+          "other": [
+            "novatek-microelectronics"
+          ]
+        },
+        "known_names": [
+          "Novatek Microelectronics"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.FABLESS"
+        ],
+        "segment_codes": [
+          "SEG.DESIGN_SOFTWARE"
+        ],
+        "taxonomy_seed_id": "novatek-microelectronics"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Bosch",
+      "node_id": "company:ce6f9e20-80d8-540d-a230-c618c475724b",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Bosch",
+        "chip_codes": [],
+        "company_id": "ce6f9e20-80d8-540d-a230-c618c475724b",
+        "hq_country_code": "DE",
+        "identifiers": {
+          "other": [
+            "bosch"
+          ]
+        },
+        "known_names": [
+          "Bosch"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.IDM"
+        ],
+        "segment_codes": [
+          "SEG.FRONTEND_MANUFACTURING"
+        ],
+        "taxonomy_seed_id": "bosch"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Taiwan Mask Corporation",
+      "node_id": "company:cec410e3-8846-5d94-a819-9fe681ef7a59",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Taiwan Mask Corporation",
+        "chip_codes": [],
+        "company_id": "cec410e3-8846-5d94-a819-9fe681ef7a59",
+        "hq_country_code": "TW",
+        "identifiers": {
+          "other": [
+            "taiwan-mask-corporation"
+          ]
+        },
+        "known_names": [
+          "Taiwan Mask Corporation"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.PHOTOMASK_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MASKS_RETICLES"
+        ],
+        "taxonomy_seed_id": "taiwan-mask-corporation"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Air Products and Chemicals",
+      "node_id": "company:ced546bb-1b9a-59f7-8bf4-fdb30a2cab36",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Air Products and Chemicals",
+        "chip_codes": [],
+        "company_id": "ced546bb-1b9a-59f7-8bf4-fdb30a2cab36",
+        "hq_country_code": "US",
+        "identifiers": {
+          "other": [
+            "air-products-and-chemicals"
+          ]
+        },
+        "known_names": [
+          "Air Products and Chemicals"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.SPECIALTY_GASES_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MATERIALS"
+        ],
+        "taxonomy_seed_id": "air-products-and-chemicals"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "OCI Holdings",
+      "node_id": "company:cf2f688f-271a-5d91-a5fd-b7165bc2f6f0",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "OCI Holdings",
+        "chip_codes": [],
+        "company_id": "cf2f688f-271a-5d91-a5fd-b7165bc2f6f0",
+        "hq_country_code": "KR",
+        "identifiers": {
+          "other": [
+            "oci-holdings"
+          ]
+        },
+        "known_names": [
+          "OCI Holdings"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.CHEMICALS_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MATERIALS"
+        ],
+        "taxonomy_seed_id": "oci-holdings"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Kioxia Holdings",
+      "node_id": "company:d28259a4-8ab6-5f3f-be26-aa7e7dc569a7",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Kioxia Holdings",
+        "chip_codes": [],
+        "company_id": "d28259a4-8ab6-5f3f-be26-aa7e7dc569a7",
+        "hq_country_code": "JP",
+        "identifiers": {
+          "other": [
+            "kioxia-holdings"
+          ]
+        },
+        "known_names": [
+          "Kioxia Holdings"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.IDM"
+        ],
+        "segment_codes": [
+          "SEG.FRONTEND_MANUFACTURING"
+        ],
+        "taxonomy_seed_id": "kioxia-holdings"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Goodix Technology",
+      "node_id": "company:d55dea36-3e45-54ab-b1ea-20e5376bb4b4",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Goodix Technology",
+        "chip_codes": [],
+        "company_id": "d55dea36-3e45-54ab-b1ea-20e5376bb4b4",
+        "hq_country_code": "CN",
+        "identifiers": {
+          "other": [
+            "goodix-technology"
+          ]
+        },
+        "known_names": [
+          "Goodix Technology"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.FABLESS"
+        ],
+        "segment_codes": [
+          "SEG.DESIGN_SOFTWARE"
+        ],
+        "taxonomy_seed_id": "goodix-technology"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "FormFactor",
+      "node_id": "company:d5c16117-f347-5097-b7ee-cebf292f8887",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "FormFactor",
+        "chip_codes": [],
+        "company_id": "d5c16117-f347-5097-b7ee-cebf292f8887",
+        "hq_country_code": "US",
+        "identifiers": {
+          "other": [
+            "formfactor"
+          ]
+        },
+        "known_names": [
+          "FormFactor"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.EQUIPMENT_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MANUFACTURING_EQUIPMENT"
+        ],
+        "taxonomy_seed_id": "formfactor"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Piotech",
+      "node_id": "company:d6839de6-3aaf-53e6-a97a-b7ab8f189e3f",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Piotech",
+        "chip_codes": [],
+        "company_id": "d6839de6-3aaf-53e6-a97a-b7ab8f189e3f",
+        "hq_country_code": "CN",
+        "identifiers": {
+          "other": [
+            "piotech"
+          ]
+        },
+        "known_names": [
+          "Piotech"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.EQUIPMENT_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MANUFACTURING_EQUIPMENT"
+        ],
+        "taxonomy_seed_id": "piotech"
+      }
+    },
+    {
+      "degree": 5,
+      "display_name": "Chipbond Technology",
+      "node_id": "company:d7172387-e463-5849-976f-d003174ac601",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Chipbond Technology",
+        "chip_codes": [],
+        "company_id": "d7172387-e463-5849-976f-d003174ac601",
+        "hq_country_code": "TW",
+        "identifiers": {
+          "other": [
+            "chipbond-technology"
+          ]
+        },
+        "known_names": [
+          "Chipbond Technology"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.OSAT",
+          "ROLE.PACKAGING_SPECIALIST",
+          "ROLE.TEST_SERVICE"
+        ],
+        "segment_codes": [
+          "SEG.BACKEND_MANUFACTURING"
+        ],
+        "taxonomy_seed_id": "chipbond-technology"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Tower Semiconductor",
+      "node_id": "company:d8127e81-e6bf-579e-8fac-80525b5e7269",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Tower Semiconductor",
+        "chip_codes": [],
+        "company_id": "d8127e81-e6bf-579e-8fac-80525b5e7269",
+        "hq_country_code": "IL",
+        "identifiers": {
+          "other": [
+            "tower-semiconductor"
+          ]
+        },
+        "known_names": [
+          "Tower Semiconductor"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.FOUNDRY"
+        ],
+        "segment_codes": [
+          "SEG.FRONTEND_MANUFACTURING"
+        ],
+        "taxonomy_seed_id": "tower-semiconductor"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Shinko Electric Industries",
+      "node_id": "company:d89c614d-2ce2-5797-8237-1f2753b7dd0e",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Shinko Electric Industries",
+        "chip_codes": [],
+        "company_id": "d89c614d-2ce2-5797-8237-1f2753b7dd0e",
+        "hq_country_code": "JP",
+        "identifiers": {
+          "other": [
+            "shinko-electric-industries"
+          ]
+        },
+        "known_names": [
+          "Shinko Electric Industries"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.SUBSTRATE_MANUFACTURER"
+        ],
+        "segment_codes": [
+          "SEG.WAFERS_SUBSTRATES"
+        ],
+        "taxonomy_seed_id": "shinko-electric-industries"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "DB HiTek",
+      "node_id": "company:d9891bf1-b276-53f7-9066-e2045fc6970c",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "DB HiTek",
+        "chip_codes": [],
+        "company_id": "d9891bf1-b276-53f7-9066-e2045fc6970c",
+        "hq_country_code": "KR",
+        "identifiers": {
+          "other": [
+            "db-hitek"
+          ]
+        },
+        "known_names": [
+          "DB HiTek"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.FOUNDRY"
+        ],
+        "segment_codes": [
+          "SEG.FRONTEND_MANUFACTURING"
+        ],
+        "taxonomy_seed_id": "db-hitek"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "UNISOC",
+      "node_id": "company:de0a8d48-7c73-58e8-83f1-fd37e049dc30",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "UNISOC",
+        "chip_codes": [],
+        "company_id": "de0a8d48-7c73-58e8-83f1-fd37e049dc30",
+        "hq_country_code": "CN",
+        "identifiers": {
+          "other": [
+            "unisoc"
+          ]
+        },
+        "known_names": [
+          "UNISOC"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.FABLESS"
+        ],
+        "segment_codes": [
+          "SEG.DESIGN_SOFTWARE"
+        ],
+        "taxonomy_seed_id": "unisoc"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "VAT Group",
+      "node_id": "company:de69a354-3e12-5b97-980d-d6de1b9240a9",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "VAT Group",
+        "chip_codes": [],
+        "company_id": "de69a354-3e12-5b97-980d-d6de1b9240a9",
+        "hq_country_code": "CH",
+        "identifiers": {
+          "other": [
+            "vat-group"
+          ]
+        },
+        "known_names": [
+          "VAT Group"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.EQUIPMENT_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MANUFACTURING_EQUIPMENT"
+        ],
+        "taxonomy_seed_id": "vat-group"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Dongjin Semichem",
+      "node_id": "company:df38c337-855a-5d89-8d1f-5593990a3316",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Dongjin Semichem",
+        "chip_codes": [],
+        "company_id": "df38c337-855a-5d89-8d1f-5593990a3316",
+        "hq_country_code": "KR",
+        "identifiers": {
+          "other": [
+            "dongjin-semichem"
+          ]
+        },
+        "known_names": [
+          "Dongjin Semichem"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.CHEMICALS_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MATERIALS"
+        ],
+        "taxonomy_seed_id": "dongjin-semichem"
+      }
+    },
+    {
+      "degree": 5,
+      "display_name": "Powertech Technology",
+      "node_id": "company:e35eca47-acc1-54e6-bd8e-c9c1529d8568",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Powertech Technology",
+        "chip_codes": [],
+        "company_id": "e35eca47-acc1-54e6-bd8e-c9c1529d8568",
+        "hq_country_code": "TW",
+        "identifiers": {
+          "other": [
+            "powertech-technology"
+          ]
+        },
+        "known_names": [
+          "Powertech Technology"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.OSAT",
+          "ROLE.PACKAGING_SPECIALIST",
+          "ROLE.TEST_SERVICE"
+        ],
+        "segment_codes": [
+          "SEG.BACKEND_MANUFACTURING"
+        ],
+        "taxonomy_seed_id": "powertech-technology"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Stella Chemifa",
+      "node_id": "company:e42d1c7e-b370-5cce-92da-29054fabfd82",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Stella Chemifa",
+        "chip_codes": [],
+        "company_id": "e42d1c7e-b370-5cce-92da-29054fabfd82",
+        "hq_country_code": "JP",
+        "identifiers": {
+          "other": [
+            "stella-chemifa"
+          ]
+        },
+        "known_names": [
+          "Stella Chemifa"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.CHEMICALS_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MATERIALS"
+        ],
+        "taxonomy_seed_id": "stella-chemifa"
+      }
+    },
+    {
+      "degree": 5,
+      "display_name": "Wuxi Chipown Micro-electronics",
+      "node_id": "company:e8093cfa-91ae-5592-80c1-56de23185b00",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Wuxi Chipown Micro-electronics",
+        "chip_codes": [],
+        "company_id": "e8093cfa-91ae-5592-80c1-56de23185b00",
+        "hq_country_code": "CN",
+        "identifiers": {
+          "other": [
+            "wuxi-chipown-micro-electronics"
+          ]
+        },
+        "known_names": [
+          "Wuxi Chipown Micro-electronics"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.OSAT",
+          "ROLE.PACKAGING_SPECIALIST",
+          "ROLE.TEST_SERVICE"
+        ],
+        "segment_codes": [
+          "SEG.BACKEND_MANUFACTURING"
+        ],
+        "taxonomy_seed_id": "wuxi-chipown-micro-electronics"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Powerchip Semiconductor Manufacturing Corporation",
+      "node_id": "company:e857aaf6-5560-5d3a-931e-947ec3775713",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Powerchip Semiconductor Manufacturing Corporation",
+        "chip_codes": [],
+        "company_id": "e857aaf6-5560-5d3a-931e-947ec3775713",
+        "hq_country_code": "TW",
+        "identifiers": {
+          "other": [
+            "powerchip-semiconductor-manufacturing-corporation"
+          ]
+        },
+        "known_names": [
+          "Powerchip Semiconductor Manufacturing Corporation"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.FOUNDRY"
+        ],
+        "segment_codes": [
+          "SEG.FRONTEND_MANUFACTURING"
+        ],
+        "taxonomy_seed_id": "powerchip-semiconductor-manufacturing-corporation"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "AT&S",
+      "node_id": "company:ea966ea8-74a6-5a46-a2fe-01240bff5134",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "AT&S",
+        "chip_codes": [],
+        "company_id": "ea966ea8-74a6-5a46-a2fe-01240bff5134",
+        "hq_country_code": "AT",
+        "identifiers": {
+          "other": [
+            "at-and-s"
+          ]
+        },
+        "known_names": [
+          "AT&S"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.SUBSTRATE_MANUFACTURER"
+        ],
+        "segment_codes": [
+          "SEG.WAFERS_SUBSTRATES"
+        ],
+        "taxonomy_seed_id": "at-and-s"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Merck KGaA",
+      "node_id": "company:eb4effdf-d07b-5643-8f45-d2f2873ac07d",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Merck KGaA",
+        "chip_codes": [],
+        "company_id": "eb4effdf-d07b-5643-8f45-d2f2873ac07d",
+        "hq_country_code": "DE",
+        "identifiers": {
+          "other": [
+            "merck-kgaa"
+          ]
+        },
+        "known_names": [
+          "Merck KGaA"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.CHEMICALS_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MATERIALS"
+        ],
+        "taxonomy_seed_id": "merck-kgaa"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Renesas Electronics",
+      "node_id": "company:ebf9863c-c3c1-5b64-8225-0fe26b9f2de9",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Renesas Electronics",
+        "chip_codes": [],
+        "company_id": "ebf9863c-c3c1-5b64-8225-0fe26b9f2de9",
+        "hq_country_code": "JP",
+        "identifiers": {
+          "other": [
+            "renesas-electronics"
+          ]
+        },
+        "known_names": [
+          "Renesas Electronics"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.IDM"
+        ],
+        "segment_codes": [
+          "SEG.FRONTEND_MANUFACTURING"
+        ],
+        "taxonomy_seed_id": "renesas-electronics"
+      }
+    },
+    {
+      "degree": 5,
+      "display_name": "King Yuan Electronics",
+      "node_id": "company:ec03edf0-693b-58a7-84f4-6a65d898d9be",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "King Yuan Electronics",
+        "chip_codes": [],
+        "company_id": "ec03edf0-693b-58a7-84f4-6a65d898d9be",
+        "hq_country_code": "TW",
+        "identifiers": {
+          "other": [
+            "king-yuan-electronics"
+          ]
+        },
+        "known_names": [
+          "King Yuan Electronics"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.OSAT",
+          "ROLE.PACKAGING_SPECIALIST",
+          "ROLE.TEST_SERVICE"
+        ],
+        "segment_codes": [
+          "SEG.BACKEND_MANUFACTURING"
+        ],
+        "taxonomy_seed_id": "king-yuan-electronics"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Phison Electronics",
+      "node_id": "company:ec070821-134b-5659-9778-93647adadc2d",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Phison Electronics",
+        "chip_codes": [],
+        "company_id": "ec070821-134b-5659-9778-93647adadc2d",
+        "hq_country_code": "TW",
+        "identifiers": {
+          "other": [
+            "phison-electronics"
+          ]
+        },
+        "known_names": [
+          "Phison Electronics"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.FABLESS"
+        ],
+        "segment_codes": [
+          "SEG.DESIGN_SOFTWARE"
+        ],
+        "taxonomy_seed_id": "phison-electronics"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Empyrean Technology",
+      "node_id": "company:ed4cc4c8-2f11-5e7b-adb3-4c5a94258bd5",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Empyrean Technology",
+        "chip_codes": [],
+        "company_id": "ed4cc4c8-2f11-5e7b-adb3-4c5a94258bd5",
+        "hq_country_code": "CN",
+        "identifiers": {
+          "other": [
+            "empyrean-technology"
+          ]
+        },
+        "known_names": [
+          "Empyrean Technology"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.EDA_VENDOR"
+        ],
+        "segment_codes": [
+          "SEG.DESIGN_SOFTWARE"
+        ],
+        "taxonomy_seed_id": "empyrean-technology"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Mitsui Chemicals",
+      "node_id": "company:ee97dc10-6710-583a-93ba-e791be5fa7f4",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Mitsui Chemicals",
+        "chip_codes": [],
+        "company_id": "ee97dc10-6710-583a-93ba-e791be5fa7f4",
+        "hq_country_code": "JP",
+        "identifiers": {
+          "other": [
+            "mitsui-chemicals"
+          ]
+        },
+        "known_names": [
+          "Mitsui Chemicals"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.CHEMICALS_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MATERIALS"
+        ],
+        "taxonomy_seed_id": "mitsui-chemicals"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Nikon",
+      "node_id": "company:ee99be8f-51b7-5337-9596-e7954e4d1d35",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Nikon",
+        "chip_codes": [],
+        "company_id": "ee99be8f-51b7-5337-9596-e7954e4d1d35",
+        "hq_country_code": "JP",
+        "identifiers": {
+          "other": [
+            "nikon"
+          ]
+        },
+        "known_names": [
+          "Nikon"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.EQUIPMENT_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MANUFACTURING_EQUIPMENT"
+        ],
+        "taxonomy_seed_id": "nikon"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Entegris",
+      "node_id": "company:ef63e820-1662-5a61-a28c-771ed21f2ef0",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Entegris",
+        "chip_codes": [],
+        "company_id": "ef63e820-1662-5a61-a28c-771ed21f2ef0",
+        "hq_country_code": "US",
+        "identifiers": {
+          "other": [
+            "entegris"
+          ]
+        },
+        "known_names": [
+          "Entegris"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.CHEMICALS_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MATERIALS"
+        ],
+        "taxonomy_seed_id": "entegris"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "ASM International",
+      "node_id": "company:ef9f0e61-7d1a-53e6-979c-8b0e5b80d9e3",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "ASM International",
+        "chip_codes": [],
+        "company_id": "ef9f0e61-7d1a-53e6-979c-8b0e5b80d9e3",
+        "hq_country_code": "NL",
+        "identifiers": {
+          "other": [
+            "asm-international"
+          ]
+        },
+        "known_names": [
+          "ASM International"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.EQUIPMENT_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MANUFACTURING_EQUIPMENT"
+        ],
+        "taxonomy_seed_id": "asm-international"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Arteris",
+      "node_id": "company:f0021b9e-f394-52f8-844e-23e846286466",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Arteris",
+        "chip_codes": [],
+        "company_id": "f0021b9e-f394-52f8-844e-23e846286466",
+        "hq_country_code": "US",
+        "identifiers": {
+          "other": [
+            "arteris"
+          ]
+        },
+        "known_names": [
+          "Arteris"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.IP_VENDOR"
+        ],
+        "segment_codes": [
+          "SEG.DESIGN_SOFTWARE"
+        ],
+        "taxonomy_seed_id": "arteris"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Linde",
+      "node_id": "company:f1ed4413-e152-52f9-82e5-163f23d09967",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Linde",
+        "chip_codes": [],
+        "company_id": "f1ed4413-e152-52f9-82e5-163f23d09967",
+        "hq_country_code": "IE",
+        "identifiers": {
+          "other": [
+            "linde"
+          ]
+        },
+        "known_names": [
+          "Linde"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.SPECIALTY_GASES_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MATERIALS"
+        ],
+        "taxonomy_seed_id": "linde"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Intel",
+      "node_id": "company:f52df2db-cd5e-552e-84d9-8b6e111516ce",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Intel",
+        "chip_codes": [],
+        "company_id": "f52df2db-cd5e-552e-84d9-8b6e111516ce",
+        "hq_country_code": "US",
+        "identifiers": {
+          "other": [
+            "intel"
+          ]
+        },
+        "known_names": [
+          "Intel"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.IDM"
+        ],
+        "segment_codes": [
+          "SEG.FRONTEND_MANUFACTURING"
+        ],
+        "taxonomy_seed_id": "intel"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Broadcom",
+      "node_id": "company:f6816e46-6aea-5949-8625-0003f67956e1",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Broadcom",
+        "chip_codes": [],
+        "company_id": "f6816e46-6aea-5949-8625-0003f67956e1",
+        "hq_country_code": "US",
+        "identifiers": {
+          "other": [
+            "broadcom"
+          ]
+        },
+        "known_names": [
+          "Broadcom"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.FABLESS"
+        ],
+        "segment_codes": [
+          "SEG.DESIGN_SOFTWARE"
+        ],
+        "taxonomy_seed_id": "broadcom"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Onto Innovation",
+      "node_id": "company:f6fd0491-0b9a-5dd3-98fb-4125b6169962",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Onto Innovation",
+        "chip_codes": [],
+        "company_id": "f6fd0491-0b9a-5dd3-98fb-4125b6169962",
+        "hq_country_code": "US",
+        "identifiers": {
+          "other": [
+            "onto-innovation"
+          ]
+        },
+        "known_names": [
+          "Onto Innovation"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.EQUIPMENT_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MANUFACTURING_EQUIPMENT"
+        ],
+        "taxonomy_seed_id": "onto-innovation"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Vanguard International Semiconductor",
+      "node_id": "company:f7835267-88fa-52c6-8f29-109ae5ed7c36",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Vanguard International Semiconductor",
+        "chip_codes": [],
+        "company_id": "f7835267-88fa-52c6-8f29-109ae5ed7c36",
+        "hq_country_code": "TW",
+        "identifiers": {
+          "other": [
+            "vanguard-international-semiconductor"
+          ]
+        },
+        "known_names": [
+          "Vanguard International Semiconductor"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.FOUNDRY"
+        ],
+        "segment_codes": [
+          "SEG.FRONTEND_MANUFACTURING"
+        ],
+        "taxonomy_seed_id": "vanguard-international-semiconductor"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "SK-Electronics",
+      "node_id": "company:f80b98d8-ebab-5bcb-b12c-bbd495d40768",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "SK-Electronics",
+        "chip_codes": [],
+        "company_id": "f80b98d8-ebab-5bcb-b12c-bbd495d40768",
+        "hq_country_code": "JP",
+        "identifiers": {
+          "other": [
+            "sk-electronics"
+          ]
+        },
+        "known_names": [
+          "SK-Electronics"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.PHOTOMASK_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MASKS_RETICLES"
+        ],
+        "taxonomy_seed_id": "sk-electronics"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Nova Ltd.",
+      "node_id": "company:faf1bb6d-d09c-5929-ac04-6cc4b374205e",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Nova Ltd.",
+        "chip_codes": [],
+        "company_id": "faf1bb6d-d09c-5929-ac04-6cc4b374205e",
+        "hq_country_code": "IL",
+        "identifiers": {
+          "other": [
+            "nova-ltd"
+          ]
+        },
+        "known_names": [
+          "Nova Ltd."
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.EQUIPMENT_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MANUFACTURING_EQUIPMENT"
+        ],
+        "taxonomy_seed_id": "nova-ltd"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "Photronics",
+      "node_id": "company:fb1a0d2f-79e2-5555-8121-1d12a1480960",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "Photronics",
+        "chip_codes": [],
+        "company_id": "fb1a0d2f-79e2-5555-8121-1d12a1480960",
+        "hq_country_code": "US",
+        "identifiers": {
+          "other": [
+            "photronics"
+          ]
+        },
+        "known_names": [
+          "Photronics"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.PHOTOMASK_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MASKS_RETICLES"
+        ],
+        "taxonomy_seed_id": "photronics"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "UP Chemical",
+      "node_id": "company:ff763e49-8b64-549b-b30b-bf676d8dd312",
+      "node_type": "Company",
+      "properties": {
+        "canonical_name": "UP Chemical",
+        "chip_codes": [],
+        "company_id": "ff763e49-8b64-549b-b30b-bf676d8dd312",
+        "hq_country_code": "KR",
+        "identifiers": {
+          "other": [
+            "up-chemical"
+          ]
+        },
+        "known_names": [
+          "UP Chemical"
+        ],
+        "record_status": "active",
+        "role_codes": [
+          "ROLE.CHEMICALS_SUPPLIER"
+        ],
+        "segment_codes": [
+          "SEG.MATERIALS"
+        ],
+        "taxonomy_seed_id": "up-chemical"
+      }
+    },
+    {
+      "degree": 2,
+      "display_name": "Icheon Campus",
+      "node_id": "facility:3705fc12-2bf5-50ad-ab4f-33ae703a0605",
+      "node_type": "Facility",
+      "properties": {
+        "address_text": "2091 Gyeongchung-daero, Bubal-eup, Icheon-si, Gyeonggi-do",
+        "country_code": "KR",
+        "facility_id": "3705fc12-2bf5-50ad-ab4f-33ae703a0605",
+        "facility_name": "Icheon Campus",
+        "facility_status": "operating",
+        "facility_type_code": "FAC.FAB",
+        "identifiers": {
+          "prtr_id": [
+            "PRTR-ICHEON-001"
+          ]
+        },
+        "jurisdiction_code": "KR-41",
+        "latitude": 37.2936,
+        "longitude": 127.4425,
+        "operator_company_id": "ffe7863c-f420-57c8-878f-87f443ff5a22",
+        "owner_company_id": null,
+        "record_status": "active",
+        "stage_codes": [
+          "STAGE.WAFER_FAB"
+        ]
+      }
+    },
+    {
+      "degree": 23,
+      "display_name": "KR",
+      "node_id": "country:KR",
+      "node_type": "Country",
+      "properties": {
+        "country_code": "KR"
+      }
+    },
+    {
+      "degree": 2,
+      "display_name": "Manassas Fab",
+      "node_id": "facility:cfbcdbbd-70c8-5738-b2b2-d33f2b74f4f2",
+      "node_type": "Facility",
+      "properties": {
+        "address_text": "9600 Godwin Drive, Manassas, VA",
+        "country_code": "US",
+        "facility_id": "cfbcdbbd-70c8-5738-b2b2-d33f2b74f4f2",
+        "facility_name": "Manassas Fab",
+        "facility_status": "operating",
+        "facility_type_code": "FAC.FAB",
+        "identifiers": {
+          "epa_echo_id": [
+            "VA0001234567"
+          ],
+          "epa_frs_id": [
+            "110000000001"
+          ]
+        },
+        "jurisdiction_code": "US-VA",
+        "latitude": 38.7598,
+        "longitude": -77.4753,
+        "operator_company_id": "08e705ca-b10a-5051-9886-f4342736eff1",
+        "owner_company_id": null,
+        "record_status": "active",
+        "stage_codes": [
+          "STAGE.WAFER_FAB"
+        ]
+      }
+    },
+    {
+      "degree": 51,
+      "display_name": "US",
+      "node_id": "country:US",
+      "node_type": "Country",
+      "properties": {
+        "country_code": "US"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "GB",
+      "node_id": "country:GB",
+      "node_type": "Country",
+      "properties": {
+        "country_code": "GB"
+      }
+    },
+    {
+      "degree": 22,
+      "display_name": "CN",
+      "node_id": "country:CN",
+      "node_type": "Country",
+      "properties": {
+        "country_code": "CN"
+      }
+    },
+    {
+      "degree": 36,
+      "display_name": "TW",
+      "node_id": "country:TW",
+      "node_type": "Country",
+      "properties": {
+        "country_code": "TW"
+      }
+    },
+    {
+      "degree": 5,
+      "display_name": "DE",
+      "node_id": "country:DE",
+      "node_type": "Country",
+      "properties": {
+        "country_code": "DE"
+      }
+    },
+    {
+      "degree": 2,
+      "display_name": "CH",
+      "node_id": "country:CH",
+      "node_type": "Country",
+      "properties": {
+        "country_code": "CH"
+      }
+    },
+    {
+      "degree": 4,
+      "display_name": "NL",
+      "node_id": "country:NL",
+      "node_type": "Country",
+      "properties": {
+        "country_code": "NL"
+      }
+    },
+    {
+      "degree": 41,
+      "display_name": "JP",
+      "node_id": "country:JP",
+      "node_type": "Country",
+      "properties": {
+        "country_code": "JP"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "IL",
+      "node_id": "country:IL",
+      "node_type": "Country",
+      "properties": {
+        "country_code": "IL"
+      }
+    },
+    {
+      "degree": 1,
+      "display_name": "LU",
+      "node_id": "country:LU",
+      "node_type": "Country",
+      "properties": {
+        "country_code": "LU"
+      }
+    },
+    {
+      "degree": 3,
+      "display_name": "MY",
+      "node_id": "country:MY",
+      "node_type": "Country",
+      "properties": {
+        "country_code": "MY"
+      }
+    },
+    {
+      "degree": 2,
+      "display_name": "SG",
+      "node_id": "country:SG",
+      "node_type": "Country",
+      "properties": {
+        "country_code": "SG"
+      }
+    },
+    {
+      "degree": 1,
+      "display_name": "HK",
+      "node_id": "country:HK",
+      "node_type": "Country",
+      "properties": {
+        "country_code": "HK"
+      }
+    },
+    {
+      "degree": 2,
+      "display_name": "AT",
+      "node_id": "country:AT",
+      "node_type": "Country",
+      "properties": {
+        "country_code": "AT"
+      }
+    },
+    {
+      "degree": 2,
+      "display_name": "FR",
+      "node_id": "country:FR",
+      "node_type": "Country",
+      "properties": {
+        "country_code": "FR"
+      }
+    },
+    {
+      "degree": 1,
+      "display_name": "IE",
+      "node_id": "country:IE",
+      "node_type": "Country",
+      "properties": {
+        "country_code": "IE"
+      }
+    }
+  ],
+  "pipeline_key": "p0",
+  "run_id": "a54e6d77-e151-4396-91f7-f169ab8134e7",
+  "source_keys": [
+    "curated_seed",
+    "epa_frs",
+    "korea_prtr"
+  ],
+  "summary": {
+    "canonical_company_count": 200,
+    "claim_count": 600,
+    "company_count": 200,
+    "country_count": 17,
+    "edge_count": 647,
+    "facility_count": 2,
+    "node_count": 241,
+    "role_count": 15,
+    "segment_count": 7,
+    "source_count": 3
+  }
+};

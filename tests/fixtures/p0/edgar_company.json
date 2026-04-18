@@ -1,0 +1,129 @@
+{
+  "data": [
+    {
+      "cik": 320193,
+      "name": "APPLE, INC.",
+      "tickers": [
+        "AAPL"
+      ],
+      "formerNames": [
+        {
+          "name": "Apple Computer, Inc."
+        }
+      ],
+      "addresses": {
+        "business": {
+          "stateOrCountry": "CA",
+          "stateOrCountryDescription": "CALIFORNIA"
+        }
+      },
+      "filings": {
+        "recent": {
+          "filingDate": [
+            "2026-02-01"
+          ]
+        }
+      }
+    },
+    {
+      "cik": 1047122,
+      "name": "Amkor Technology, Inc.",
+      "tickers": [
+        "AMKR"
+      ],
+      "addresses": {
+        "business": {
+          "stateOrCountry": "AZ",
+          "stateOrCountryDescription": "ARIZONA"
+        }
+      },
+      "filings": {
+        "recent": {
+          "filingDate": [
+            "2026-01-20"
+          ]
+        }
+      }
+    },
+    {
+      "cik": 883241,
+      "name": "Synopsys, Inc.",
+      "tickers": [
+        "SNPS"
+      ],
+      "addresses": {
+        "business": {
+          "stateOrCountry": "CA",
+          "stateOrCountryDescription": "CALIFORNIA"
+        }
+      },
+      "filings": {
+        "recent": {
+          "filingDate": [
+            "2026-01-18"
+          ]
+        }
+      }
+    },
+    {
+      "cik": 813672,
+      "name": "Cadence Design Systems, Inc.",
+      "tickers": [
+        "CDNS"
+      ],
+      "addresses": {
+        "business": {
+          "stateOrCountry": "CA",
+          "stateOrCountryDescription": "CALIFORNIA"
+        }
+      },
+      "filings": {
+        "recent": {
+          "filingDate": [
+            "2026-01-15"
+          ]
+        }
+      }
+    },
+    {
+      "cik": 6951,
+      "name": "Applied Materials, Inc.",
+      "tickers": [
+        "AMAT"
+      ],
+      "addresses": {
+        "business": {
+          "stateOrCountry": "CA",
+          "stateOrCountryDescription": "CALIFORNIA"
+        }
+      },
+      "filings": {
+        "recent": {
+          "filingDate": [
+            "2026-01-12"
+          ]
+        }
+      }
+    },
+    {
+      "cik": 707549,
+      "name": "Lam Research Corporation",
+      "tickers": [
+        "LRCX"
+      ],
+      "addresses": {
+        "business": {
+          "stateOrCountry": "CA",
+          "stateOrCountryDescription": "CALIFORNIA"
+        }
+      },
+      "filings": {
+        "recent": {
+          "filingDate": [
+            "2026-01-10"
+          ]
+        }
+      }
+    }
+  ]
+}

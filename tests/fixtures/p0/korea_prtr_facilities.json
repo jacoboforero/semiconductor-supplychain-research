@@ -1,0 +1,17 @@
+{
+  "data": [
+    {
+      "prtr_facility_id": "PRTR-ICHEON-001",
+      "facility_name": "Icheon Campus",
+      "facility_type_code": "FAC.FAB",
+      "facility_status": "operating",
+      "operator_name": "SK hynix Inc.",
+      "operator_registry_number": "KR-OP-0001",
+      "address_text": "2091 Gyeongchung-daero, Bubal-eup, Icheon-si, Gyeonggi-do",
+      "jurisdiction_code": "KR-41",
+      "latitude": 37.2936,
+      "longitude": 127.4425,
+      "stage_codes": ["STAGE.WAFER_FAB"]
+    }
+  ]
+}
