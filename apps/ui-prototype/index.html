@@ -25,13 +25,21 @@
       </header>
 
       <main class="product-shell">
-        <nav class="shell-nav" aria-label="Primary views">
-          <button id="view-overview-button" class="shell-tab active" type="button" data-view="overview">Overview</button>
-          <button id="view-stage-button" class="shell-tab" type="button" data-view="stage" hidden>Stage</button>
-          <button id="view-profile-button" class="shell-tab" type="button" data-view="profile" hidden>Profile</button>
-          <button id="view-network-button" class="shell-tab" type="button" data-view="network">Network</button>
-          <button id="view-scenarios-button" class="shell-tab" type="button" data-view="scenarios">Scenarios</button>
-        </nav>
+        <div class="shell-controls">
+          <div class="shell-nav-group">
+            <p class="shell-nav-label">Views</p>
+            <nav class="shell-nav" aria-label="Primary views">
+              <button id="view-overview-button" class="shell-tab active" type="button" data-view="overview">Overview</button>
+              <button id="view-stage-button" class="shell-tab" type="button" data-view="stage" hidden>Stage</button>
+              <button id="view-profile-button" class="shell-tab" type="button" data-view="profile" hidden>Profile</button>
+              <button id="view-network-button" class="shell-tab" type="button" data-view="network">Network</button>
+              <button id="view-scenarios-button" class="shell-tab" type="button" data-view="scenarios">Scenarios</button>
+            </nav>
+          </div>
+          <p class="shell-nav-note">
+            Overview gives the system story. Network is for local path inspection. Scenarios is for pressure-point reads.
+          </p>
+        </div>
 
         <section id="overview-view" class="product-view overview-view">
           <section class="panel overview-hero">
@@ -42,12 +50,21 @@
                 This product should explain how parallel supply streams feed a few critical manufacturing junctions.
                 Start here to understand where design, materials, equipment, wafers, and packaging fit together.
               </p>
+              <div class="overview-flow" aria-label="Recommended reading sequence">
+                <span class="overview-flow-step">1. Read the system shape</span>
+                <span class="overview-flow-step">2. Pick a stage or company</span>
+                <span class="overview-flow-step">3. Use network for local detail</span>
+              </div>
+              <div class="overview-actions overview-hero-actions">
+                <button id="overview-open-network" class="solid-button" type="button">Inspect Local Paths</button>
+                <button id="overview-open-scenarios" class="ghost-button" type="button">Browse Scenario Reads</button>
+              </div>
             </div>
             <div id="overview-metrics" class="metrics-grid overview-metrics"></div>
           </section>
 
           <section class="overview-grid">
-            <article class="panel overview-panel overview-convergence">
+            <article class="panel overview-panel overview-main-panel overview-convergence">
               <div class="panel-header">
                 <span class="panel-kicker">System Shape</span>
                 <h2>How the supply chain converges</h2>
@@ -59,15 +76,15 @@
               <div id="convergence-map" class="convergence-map"></div>
             </article>
 
-            <article class="panel overview-panel overview-guides">
+            <article class="panel overview-panel overview-rail-panel overview-guides">
               <div class="panel-header">
                 <span class="panel-kicker">Start Here</span>
-                <h2>Guided entry points</h2>
+                <h2>Start with these paths</h2>
               </div>
               <div id="overview-guides" class="guide-list"></div>
             </article>
 
-            <article class="panel overview-panel overview-stage-panel">
+            <article class="panel overview-panel overview-main-panel overview-stage-panel">
               <div class="panel-header">
                 <span class="panel-kicker">Explore By Stage</span>
                 <h2>Where the system gets specialized</h2>
@@ -75,7 +92,7 @@
               <div id="overview-stage-grid" class="overview-stage-grid"></div>
             </article>
 
-            <article class="panel overview-panel overview-watch-panel">
+            <article class="panel overview-panel overview-rail-panel overview-watch-panel">
               <div class="panel-header">
                 <span class="panel-kicker">Watch Areas</span>
                 <h2>What stands out in this snapshot</h2>
@@ -83,7 +100,7 @@
               <div id="overview-watchlist" class="overview-watchlist"></div>
             </article>
 
-            <article class="panel overview-panel overview-geo-panel">
+            <article class="panel overview-panel overview-rail-panel overview-geo-panel">
               <div class="panel-header">
                 <span class="panel-kicker">Geography</span>
                 <h2>Countries that shape this snapshot</h2>
@@ -91,18 +108,24 @@
               <div id="overview-geography" class="overview-geography"></div>
             </article>
 
-            <article class="panel overview-panel overview-network-panel">
+            <article class="panel overview-panel overview-rail-panel overview-network-panel">
               <div class="panel-header">
-                <span class="panel-kicker">Network Lens</span>
-                <h2>Use the graph when you need local paths</h2>
+                <span class="panel-kicker">Navigation</span>
+                <h2>What each view is for</h2>
               </div>
-              <p class="panel-intro">
-                The network view is still valuable, but it works best after you already know which stage, company,
-                facility, or geography you want to inspect.
-              </p>
-              <div class="overview-actions">
-                <button id="overview-open-network" class="solid-button" type="button">Open Network View</button>
-                <button id="overview-open-scenarios" class="ghost-button" type="button">See Scenario Entry Points</button>
+              <div class="view-guide-list">
+                <div class="view-guide-item">
+                  <strong>Overview</strong>
+                  <span>Understand the structure first, then enter through stages, companies, and geography.</span>
+                </div>
+                <div class="view-guide-item">
+                  <strong>Network</strong>
+                  <span>Inspect local paths once you already know what node, stage, or relationship you care about.</span>
+                </div>
+                <div class="view-guide-item">
+                  <strong>Scenarios</strong>
+                  <span>Use curated disruption reads when you want a chokepoint or blast-radius framing.</span>
+                </div>
               </div>
             </article>
           </section>
