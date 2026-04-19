@@ -1,0 +1,575 @@
+.v2-shell {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 12% 8%, rgba(236, 159, 109, 0.18), transparent 18%),
+    radial-gradient(circle at 84% 14%, rgba(124, 197, 200, 0.1), transparent 20%),
+    radial-gradient(circle at 50% 100%, rgba(114, 82, 140, 0.22), transparent 36%),
+    linear-gradient(180deg, #131c26 0%, #0c131b 50%, #080d13 100%);
+  color: #eef3f8;
+}
+
+.v2-stage {
+  position: relative;
+  min-height: 100vh;
+  padding: 14px;
+  overflow: hidden;
+}
+
+.v2-topbar,
+.v2-lens-dock,
+.v2-ambient-bar,
+.v2-utility-rail,
+.v2-drawer {
+  position: absolute;
+  z-index: 3;
+}
+
+.v2-brand-card,
+.v2-status-card,
+.v2-focus-pill,
+.v2-search-results,
+.v2-command-button,
+.v2-lens-dock,
+.v2-ambient-bar,
+.v2-drawer-inner,
+.v2-loading-card {
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(9, 14, 20, 0.76);
+  box-shadow: 0 24px 70px rgba(2, 8, 14, 0.34);
+  backdrop-filter: blur(18px);
+}
+
+.v2-hero-kicker,
+.v2-drawer-kicker {
+  color: #f0b282;
+  font-size: 0.72rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.v2-topbar {
+  top: 14px;
+  left: 14px;
+  right: 14px;
+  display: grid;
+  grid-template-columns: minmax(210px, 232px) minmax(320px, 1fr) minmax(154px, 184px);
+  gap: 12px;
+  align-items: start;
+}
+
+.v2-brand-card,
+.v2-status-card {
+  display: grid;
+  gap: 6px;
+  padding: 12px 14px;
+  border-radius: 22px;
+}
+
+.v2-brand-card h1,
+.v2-loading-card h1,
+.v2-drawer h2,
+.v2-drawer h3 {
+  margin: 0;
+  font-family: "Iowan Old Style", Georgia, serif;
+}
+
+.v2-brand-card h1 {
+  font-size: clamp(1.55rem, 2.4vw, 2.85rem);
+  line-height: 0.94;
+}
+
+.v2-brand-card p,
+.v2-status-card,
+.v2-ambient-copy span,
+.v2-drawer p,
+.v2-search-result span,
+.v2-drawer-link span,
+.v2-dock-button span {
+  color: #a7b6c5;
+}
+
+.v2-status-card {
+  justify-items: start;
+}
+
+.v2-status-footnote {
+  font-size: 0.82rem;
+  color: #8fa1b4;
+}
+
+.v2-metric-row {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.v2-metric-row span,
+.v2-legend-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 7px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.v2-search-overlay {
+  position: relative;
+  z-index: 5;
+  width: min(100%, 760px);
+  justify-self: center;
+}
+
+.v2-search-input {
+  width: 100%;
+  padding: 16px 46px 16px 18px;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(9, 14, 20, 0.82);
+  color: #eef3f8;
+  font-size: 1rem;
+}
+
+.v2-chip,
+.v2-command-button,
+.v2-graph-control,
+.v2-search-clear {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  color: #eef3f8;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.v2-search-clear {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 32px;
+  height: 32px;
+  border: 0;
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.v2-search-results {
+  display: grid;
+  gap: 8px;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 18px;
+}
+
+.v2-search-result,
+.v2-drawer-link,
+.v2-dock-button {
+  display: grid;
+  gap: 4px;
+  width: 100%;
+  padding: 11px 12px;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  background: rgba(255, 255, 255, 0.03);
+  color: #eef3f8;
+  text-align: left;
+  cursor: pointer;
+}
+
+.v2-canvas-shell {
+  position: absolute;
+  inset: 10px;
+  border-radius: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.018), rgba(255, 255, 255, 0.004)),
+    radial-gradient(circle at top left, rgba(124, 197, 200, 0.08), transparent 26%),
+    radial-gradient(circle at 82% 16%, rgba(201, 149, 216, 0.08), transparent 20%),
+    rgba(6, 10, 15, 0.94);
+  overflow: hidden;
+}
+
+.v2-graph-canvas {
+  width: 100%;
+  height: 100%;
+}
+
+.v2-canvas-chrome {
+  position: absolute;
+  top: 104px;
+  left: 16px;
+  right: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.v2-focus-pill,
+.v2-zoom-pill {
+  pointer-events: auto;
+}
+
+.v2-focus-pill {
+  display: grid;
+  gap: 2px;
+  max-width: 272px;
+  padding: 11px 14px;
+  border-radius: 18px;
+}
+
+.v2-focus-pill span,
+.v2-zoom-pill {
+  color: #a7b6c5;
+  font-size: 0.82rem;
+}
+
+.v2-zoom-pill {
+  padding: 8px 10px;
+  border-radius: 999px;
+  background: rgba(7, 11, 16, 0.76);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.v2-stage-overlay {
+  position: absolute;
+  inset: 96px 34px 84px 34px;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.v2-stage-marker {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  transform: translateX(-50%);
+  border-left: 1px solid rgba(255, 255, 255, 0.08);
+  background: linear-gradient(180deg, color-mix(in srgb, var(--stage-color) 12%, transparent), transparent 76%);
+  opacity: 0.8;
+}
+
+.v2-stage-marker::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, color-mix(in srgb, var(--stage-color) 16%, transparent), transparent 84%);
+  filter: blur(34px);
+  opacity: 0.9;
+}
+
+.v2-stage-marker span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(9, 14, 20, 0.9);
+  color: #a7b6c5;
+  font-size: 0.78rem;
+  white-space: nowrap;
+}
+
+.v2-canvas-controls {
+  position: absolute;
+  right: 20px;
+  bottom: 18px;
+  display: grid;
+  gap: 8px;
+  z-index: 1;
+}
+
+.v2-command-button,
+.v2-graph-control {
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(9, 14, 20, 0.8);
+}
+
+.v2-command-button {
+  padding: 8px 12px;
+}
+
+.v2-graph-control {
+  width: 44px;
+  height: 44px;
+}
+
+.v2-graph-control-wide {
+  width: 68px;
+}
+
+.v2-lens-dock {
+  left: 22px;
+  bottom: 106px;
+  display: grid;
+  gap: 14px;
+  width: min(258px, calc(100vw - 48px));
+  max-height: calc(100vh - 272px);
+  padding: 13px;
+  border-radius: 24px;
+  overflow: auto;
+}
+
+.v2-dock-section,
+.v2-drawer-header,
+.v2-drawer-section,
+.v2-drawer-list,
+.v2-drawer-grid,
+.v2-drawer-toolbar,
+.v2-ambient-copy {
+  display: grid;
+  gap: 8px;
+}
+
+.v2-drawer-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.v2-dock-button.active {
+  border-color: rgba(240, 178, 130, 0.32);
+  background: rgba(240, 178, 130, 0.12);
+}
+
+.v2-ambient-bar {
+  left: 294px;
+  right: 382px;
+  bottom: 22px;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 18px;
+  padding: 14px 16px;
+  border-radius: 22px;
+}
+
+.v2-ambient-copy {
+  min-width: 0;
+}
+
+.v2-ambient-copy strong {
+  font-size: 1rem;
+}
+
+.v2-legend-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.v2-legend-chip i {
+  display: inline-flex;
+  width: 8px;
+  height: 8px;
+  border-radius: 999px;
+}
+
+.v2-utility-rail {
+  right: 18px;
+  bottom: 116px;
+  display: grid;
+  gap: 6px;
+}
+
+.v2-drawer {
+  top: 102px;
+  right: 18px;
+  bottom: 74px;
+  width: min(336px, calc(100vw - 48px));
+  transition:
+    transform 220ms ease,
+    opacity 220ms ease;
+}
+
+.v2-drawer.is-closed {
+  opacity: 0;
+  pointer-events: none;
+  transform: translateX(calc(100% + 20px));
+}
+
+.v2-drawer.is-open {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.v2-drawer-inner {
+  display: grid;
+  gap: 14px;
+  height: 100%;
+  padding: 16px;
+  border-radius: 24px;
+  overflow: auto;
+}
+
+.v2-drawer-toolbar {
+  grid-template-columns: 1fr auto;
+  align-items: center;
+}
+
+.v2-drawer-card {
+  display: grid;
+  gap: 6px;
+  padding: 12px;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.v2-drawer-card span,
+.v2-text-button {
+  color: #a7b6c5;
+}
+
+.v2-badge-row {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.v2-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 7px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.v2-text-button {
+  justify-self: start;
+  border: 0;
+  padding: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.v2-loading {
+  display: grid;
+  place-items: center;
+}
+
+.v2-loading-card {
+  display: grid;
+  gap: 8px;
+  max-width: 420px;
+  padding: 28px;
+  border-radius: 24px;
+}
+
+@media (max-width: 1260px) {
+  .v2-topbar {
+    grid-template-columns: minmax(198px, 220px) minmax(280px, 1fr) minmax(154px, 180px);
+  }
+
+  .v2-ambient-bar {
+    left: 22px;
+    right: 350px;
+  }
+
+  .v2-drawer {
+    width: min(320px, calc(100vw - 48px));
+  }
+}
+
+@media (max-width: 1040px) {
+  .v2-stage {
+    padding: 12px;
+  }
+
+  .v2-topbar {
+    top: 12px;
+    left: 12px;
+    right: 12px;
+    grid-template-columns: 1fr;
+  }
+
+  .v2-search-overlay {
+    width: 100%;
+  }
+
+  .v2-canvas-shell {
+    inset: 12px;
+  }
+
+  .v2-canvas-chrome {
+    top: 210px;
+  }
+
+  .v2-lens-dock {
+    left: 20px;
+    width: min(260px, calc(100vw - 120px));
+  }
+
+  .v2-ambient-bar {
+    left: 20px;
+    right: 332px;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .v2-utility-rail {
+    bottom: 110px;
+  }
+}
+
+@media (max-width: 780px) {
+  .v2-stage {
+    overflow: visible;
+  }
+
+  .v2-topbar,
+  .v2-lens-dock,
+  .v2-ambient-bar,
+  .v2-utility-rail,
+  .v2-drawer {
+    position: static;
+  }
+
+  .v2-stage {
+    display: grid;
+    gap: 12px;
+  }
+
+  .v2-canvas-shell {
+    position: relative;
+    inset: auto;
+    order: 2;
+    height: 64vh;
+    min-height: 520px;
+  }
+
+  .v2-canvas-chrome {
+    top: 18px;
+  }
+
+  .v2-stage-overlay {
+    inset: 58px 10px 72px 10px;
+  }
+
+  .v2-lens-dock,
+  .v2-ambient-bar,
+  .v2-drawer,
+  .v2-utility-rail {
+    width: auto;
+  }
+
+  .v2-utility-rail {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .v2-drawer {
+    bottom: auto;
+  }
+
+  .v2-drawer.is-closed {
+    display: none;
+  }
+
+  .v2-drawer-inner {
+    height: auto;
+  }
+}

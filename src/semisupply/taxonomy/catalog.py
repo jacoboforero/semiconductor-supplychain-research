@@ -246,6 +246,13 @@ DEFAULT_TAXONOMY = TaxonomyCatalog(
         _entry("GOOD.BT_SUBSTRATE", kind=TaxonomyKind.GOOD, label="BT Substrate", description="BT package substrate input.", parent_code="ITEM.PHYSICAL_GOOD"),
         _entry("GOOD.LEADFRAME", kind=TaxonomyKind.GOOD, label="Leadframe", description="Leadframe packaging input.", parent_code="ITEM.PHYSICAL_GOOD"),
         _entry("GOOD.INTERPOSER", kind=TaxonomyKind.GOOD, label="Interposer", description="Interposer packaging input.", parent_code="ITEM.PHYSICAL_GOOD"),
+        _entry(
+            "GOOD.PATTERNED_WAFER",
+            kind=TaxonomyKind.GOOD,
+            label="Patterned Wafer",
+            description="Fabricated wafer handed into downstream packaging or test flow.",
+            parent_code="ITEM.PHYSICAL_GOOD",
+        ),
         _entry("TOOL.LITHOGRAPHY", kind=TaxonomyKind.TOOL, label="Lithography Tool", description="Lithography equipment.", parent_code="ITEM.PHYSICAL_GOOD"),
         _entry("TOOL.ETCH", kind=TaxonomyKind.TOOL, label="Etch Tool", description="Etch equipment.", parent_code="ITEM.PHYSICAL_GOOD"),
         _entry("TOOL.DEPOSITION", kind=TaxonomyKind.TOOL, label="Deposition Tool", description="Deposition equipment.", parent_code="ITEM.PHYSICAL_GOOD"),
@@ -327,6 +334,7 @@ DEFAULT_TAXONOMY = TaxonomyCatalog(
         _entry("LICENSES_IP_TO", kind=TaxonomyKind.PREDICATE, label="Licenses IP To", description="Explicit IP licensing relationship."),
         _entry("PROVIDES_PDK_TO", kind=TaxonomyKind.PREDICATE, label="Provides PDK To", description="Explicit PDK relationship."),
         _entry("USES_EQUIPMENT_FROM", kind=TaxonomyKind.PREDICATE, label="Uses Equipment From", description="Tool usage relationship."),
+        _entry("SUPPLIES_TO", kind=TaxonomyKind.PREDICATE, label="Supplies To", description="Generic supplier-to-customer relationship."),
         _entry("DEPENDS_ON", kind=TaxonomyKind.PREDICATE, label="Depends On", description="General dependency relationship."),
         _entry(
             "HAS_SINGLE_SOURCE_RISK_FROM",

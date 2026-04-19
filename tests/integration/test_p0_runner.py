@@ -12,6 +12,7 @@ from uuid import uuid4
 from semisupply.runs import P0PipelineRunner, RunStatus
 from semisupply.sources.p0 import (
     CuratedCompanySeedAdapter,
+    CuratedDependencySeedAdapter,
     EdgarIssuerAdapter,
     EpaFacilityAdapter,
     GleifCompanyAdapter,
@@ -159,11 +160,15 @@ class P0RunnerIntegrationTests(unittest.TestCase):
     def test_runner_supports_curated_200_company_seed_fixture(self) -> None:
         repo_root = Path(__file__).resolve().parents[2]
         fixture_dir = repo_root / "tests" / "fixtures" / "p0"
+        contract_dir = repo_root / "contracts" / "v1"
 
         runner = P0PipelineRunner(
             adapters=(
                 CuratedCompanySeedAdapter(
                     payload_loader=lambda context: (fixture_dir / "company_universe_seed.json").read_text(encoding="utf-8")
+                ),
+                CuratedDependencySeedAdapter(
+                    payload_loader=lambda context: (contract_dir / "company_dependency_edges.v1.json").read_text(encoding="utf-8")
                 ),
                 EpaFacilityAdapter(
                     payload_loader=lambda context: (fixture_dir / "epa_facilities.json").read_text(encoding="utf-8")
@@ -182,14 +187,14 @@ class P0RunnerIntegrationTests(unittest.TestCase):
             )
 
             self.assertEqual(result.manifest.status, RunStatus.SUCCEEDED)
-            self.assertEqual(result.manifest.snapshot_count, 3)
+            self.assertEqual(result.manifest.snapshot_count, 4)
             self.assertEqual(result.manifest.source_company_record_count, 202)
             self.assertEqual(result.manifest.source_facility_record_count, 2)
             self.assertEqual(result.manifest.canonical_company_count, 200)
             self.assertEqual(result.manifest.canonical_facility_count, 2)
             self.assertEqual(result.manifest.facility_crosswalk_count, 2)
             self.assertGreater(result.manifest.graph_node_count, 220)
-            self.assertGreater(result.manifest.graph_edge_count, 450)
+            self.assertGreater(result.manifest.graph_edge_count, 470)
 
             taxonomy_payload = json.loads(result.artifact_paths["taxonomy_mappings"].read_text(encoding="utf-8"))
             self.assertEqual(len(taxonomy_payload), 200)
@@ -201,10 +206,12 @@ class P0RunnerIntegrationTests(unittest.TestCase):
             self.assertIn("ROLE.SUBSTRATE_MANUFACTURER", mapped_roles)
 
             ui_bundle_payload = json.loads(result.artifact_paths["ui_bundle"].read_text(encoding="utf-8"))
-            self.assertEqual(ui_bundle_payload["summary"]["source_count"], 3)
+            self.assertEqual(ui_bundle_payload["summary"]["source_count"], 4)
             self.assertEqual(ui_bundle_payload["summary"]["company_count"], 200)
             self.assertEqual(ui_bundle_payload["summary"]["facility_count"], 2)
             self.assertGreaterEqual(ui_bundle_payload["summary"]["country_count"], 12)
+            dependency_edges = [edge for edge in ui_bundle_payload["edges"] if edge["edge_type"] == "SUPPLIES_TO"]
+            self.assertGreaterEqual(len(dependency_edges), 15)
 
 
 if __name__ == "__main__":

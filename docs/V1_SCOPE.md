@@ -17,6 +17,7 @@ V1 is a semiconductor supply-chain risk graph for 200 curated companies that can
 - a lightweight facility layer for high-value assets such as major fabs, OSAT sites, wafer plants, and critical upstream sites
 - evidence-backed dependency relationships where public support exists
 - a relationship model that can represent more than generic supply links when evidence exists
+- a default visual graph that shows companies as the primary visible nodes and dependency flow as the primary visible relationship
 - a small set of analytics workflows focused on risk and concentration
 - a prototype visual interface for graph exploration, filtering, and demoability
 
@@ -44,6 +45,7 @@ The exact working role and predicate vocabulary for v1 now lives in [V1_TAXONOMY
 - a credible company universe for the first build
 - enough structure to surface concentration by role and geography
 - a graph that can support disruption and blast-radius exploration
+- a graph view where upstream-to-downstream company convergence is visually legible
 - a demo-worthy artifact that is also useful for personal research
 - a graph exploration experience that feels like a neat prototype rather than only a backend dataset
 
@@ -51,6 +53,7 @@ The exact working role and predicate vocabulary for v1 now lives in [V1_TAXONOMY
 
 - A company can occupy multiple roles in the supply chain.
 - A company can occupy multiple roles globally, and individual facilities may need their own role context.
+- The default product graph should render companies as the visible nodes, with stage, role, geography, and facility data exposed through layout, filters, overlays, and inspection rather than as peer node classes.
 - The graph should support richer dependency structure than a single generic supply edge.
 - Where public evidence exists, relationships should be able to capture what is supplied and optional operational detail such as form, route, or quantity.
 - Supply and dependency claims should be typed with explicit predicates and, where relevant, item codes.
@@ -83,5 +86,6 @@ V1 is successful if it can support credible analysis of questions like:
 
 - lock the working role, facility, item, and predicate vocabulary
 - build the first 200-company entity registry
+- seed the first evidence-backed company-to-company dependency relationships
 - choose the first recurring source spine for the United States, Europe, and Asia
 - draft the first graph model around the v1 entities and claims

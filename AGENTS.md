@@ -17,11 +17,16 @@ Use these files in this order:
 
 1. `docs/README.md`
 2. `docs/V1_PRODUCT_BRIEF.md`
-3. `docs/ARCHITECTURAL_DRIVERS.md`
-4. `docs/ARCHITECTURE_NOTES.md`
-5. `docs/REPO_STRUCTURE_PLAN.md`
-6. `docs/P0_DATA_CONTRACTS.md`
-7. `docs/tasks/INDEX.md`
+3. `docs/V2_PRODUCT_SPEC.md`
+4. `docs/V3_PRODUCT_SPEC.md`
+5. `docs/ARCHITECTURAL_DRIVERS.md`
+6. `docs/V1_UI_ARCHITECTURE.md`
+7. `docs/V2_FRONTEND_ARCHITECTURE.md`
+8. `docs/V3_FRONTEND_ARCHITECTURE.md`
+9. `docs/ARCHITECTURE_NOTES.md`
+10. `docs/REPO_STRUCTURE_PLAN.md`
+11. `docs/P0_DATA_CONTRACTS.md`
+12. `docs/tasks/INDEX.md`
 
 For source and modeling work, also read:
 

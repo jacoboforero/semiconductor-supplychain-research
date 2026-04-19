@@ -74,13 +74,14 @@ def _validate_predicate(value: str) -> str:
     return normalized
 
 
-def _validate_optional_code(value: str | None, *, field_name: str, prefix: str) -> str | None:
+def _validate_optional_code(value: str | None, *, field_name: str, prefixes: tuple[str, ...]) -> str | None:
     normalized = _strip_optional(value)
     if normalized is None:
         return None
     uppercased = normalized.upper()
-    if not uppercased.startswith(prefix):
-        raise ValueError(f"{field_name} must start with '{prefix}'")
+    if not any(uppercased.startswith(prefix) for prefix in prefixes):
+        expected = ", ".join(f"'{prefix}'" for prefix in prefixes)
+        raise ValueError(f"{field_name} must start with one of {expected}")
     return uppercased
 
 
@@ -141,12 +142,16 @@ class ClaimRecord:
         object.__setattr__(
             self,
             "item_code",
-            _validate_optional_code(self.item_code, field_name="item_code", prefix="ITEM."),
+            _validate_optional_code(
+                self.item_code,
+                field_name="item_code",
+                prefixes=("ITEM.", "SERVICE.", "GOOD.", "TOOL.", "SW.", "IP."),
+            ),
         )
         object.__setattr__(
             self,
             "stage_code",
-            _validate_optional_code(self.stage_code, field_name="stage_code", prefix="STAGE."),
+            _validate_optional_code(self.stage_code, field_name="stage_code", prefixes=("STAGE.",)),
         )
         object.__setattr__(self, "review_notes", _strip_optional(self.review_notes))
 

@@ -6,6 +6,7 @@ Current contents:
 
 - `company_universe.v1.json`: the first repo-managed 200-company universe for V1
 - `company_taxonomy.v1.json`: bucket defaults and explicit taxonomy overrides for the curated universe
+- `company_dependency_edges.v1.json`: the first curated company-to-company dependency slice for the graph-first product workspace
 
 Working rules:
 

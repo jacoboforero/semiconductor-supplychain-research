@@ -5,6 +5,7 @@ from __future__ import annotations
 from collections import defaultdict
 from dataclasses import dataclass
 from datetime import datetime
+import json
 from typing import TYPE_CHECKING
 from uuid import UUID
 
@@ -199,13 +200,34 @@ class UiBundleBuilder:
                     claim_ids=claim_ids,
                     claim_count=len(raw_edges),
                     confidence=max(confidences) if confidences else None,
-                    properties={
-                        "supporting_edge_count": len(raw_edges),
-                        "raw_edge_count": len(raw_edges),
-                    },
+                    properties=self._merge_edge_properties(raw_edges),
                 )
             )
         return tuple(collapsed)
+
+    def _merge_edge_properties(self, raw_edges: list[GraphEdge]) -> dict[str, JsonValue]:
+        merged: dict[str, JsonValue] = {
+            "supporting_edge_count": len(raw_edges),
+            "raw_edge_count": len(raw_edges),
+        }
+        keys = sorted({key for edge in raw_edges for key in edge.properties})
+        for key in keys:
+            values = [edge.properties[key] for edge in raw_edges if key in edge.properties]
+            if not values:
+                continue
+            if all(value == values[0] for value in values[1:]):
+                merged[key] = values[0]
+                continue
+            deduped: list[JsonValue] = []
+            seen: set[str] = set()
+            for value in values:
+                token = json.dumps(value, sort_keys=True, separators=(",", ":"))
+                if token in seen:
+                    continue
+                seen.add(token)
+                deduped.append(value)
+            merged[key] = deduped if len(deduped) > 1 else deduped[0]
+        return merged
 
     def _node_degrees(self, edges: tuple[UiGraphEdge, ...]) -> dict[str, int]:
         degrees: dict[str, int] = defaultdict(int)

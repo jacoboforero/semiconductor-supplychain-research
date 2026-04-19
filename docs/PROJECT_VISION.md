@@ -32,6 +32,20 @@ A graph can connect those pieces:
 - policies and restrictions to affected parts of the chain
 - evidence to every important claim
 
+## Product Graph Contract
+
+The default product graph should prioritize company-to-company dependency structure.
+
+That means:
+
+- the main visible nodes are companies or organizations
+- the main visible edges are evidence-backed dependency relationships
+- stage, role, geography, and facility data primarily shape layout, filtering, and inspection context rather than the main visible node set
+
+An ontology-style graph can still exist as a secondary or internal analytical view.
+
+It is not the main product object.
+
 ## What A Strong Version Of This Project Could Become
 
 In repo form, this can become a serious research asset:

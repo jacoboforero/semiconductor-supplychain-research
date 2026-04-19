@@ -41,6 +41,33 @@ def _structured_identifier(observation: Observation) -> dict[str, str]:
     }
 
 
+def _dependency_value(observation: Observation) -> dict[str, JsonValue]:
+    raw_value = observation.normalized_value if observation.normalized_value is not None else observation.observed_value
+    if not isinstance(raw_value, dict):
+        raise ValueError("dependency observations must resolve to a structured object")
+
+    predicate = raw_value.get("predicate")
+    if not isinstance(predicate, str):
+        raise ValueError("dependency observations must include a predicate")
+
+    payload: dict[str, JsonValue] = {
+        "relationship_id": raw_value.get("relationship_id"),
+        "notes": raw_value.get("notes"),
+        "sources": raw_value.get("sources", []),
+    }
+    return {
+        "predicate": _string_value(predicate, field_name="predicate").upper(),
+        "item_code": _string_value(raw_value["item_code"], field_name="item_code").upper()
+        if raw_value.get("item_code") is not None
+        else None,
+        "stage_code": _string_value(raw_value["stage_code"], field_name="stage_code").upper()
+        if raw_value.get("stage_code") is not None
+        else None,
+        "confidence": raw_value.get("confidence"),
+        "claim_value": payload,
+    }
+
+
 @dataclass(frozen=True, slots=True)
 class DirectObservationClaimBuilder:
     """Build direct claims from deterministic source observations."""
@@ -102,6 +129,20 @@ class DirectObservationClaimBuilder:
                     object_type=RecordSubjectType.COUNTRY,
                     object_id=_string_value(country_value, field_name="country_value").upper(),
                 )
+            case "company_dependency_observed":
+                if observation.object_type != RecordSubjectType.COMPANY or observation.object_id is None:
+                    raise ValueError("company dependency observations must include a company object")
+                dependency = _dependency_value(observation)
+                return self._build_object_claim(
+                    observation=observation,
+                    predicate=str(dependency["predicate"]),
+                    object_type=RecordSubjectType.COMPANY,
+                    object_id=observation.object_id,
+                    item_code=str(dependency["item_code"]) if dependency["item_code"] is not None else None,
+                    stage_code=str(dependency["stage_code"]) if dependency["stage_code"] is not None else None,
+                    confidence=float(dependency["confidence"]) if dependency["confidence"] is not None else None,
+                    claim_value=dependency["claim_value"],
+                )
             case _:
                 return None
 
@@ -155,13 +196,17 @@ class DirectObservationClaimBuilder:
         predicate: str,
         object_type: RecordSubjectType,
         object_id: str,
+        item_code: str | None = None,
+        stage_code: str | None = None,
+        confidence: float | None = None,
+        claim_value: JsonValue | None = None,
     ) -> ClaimRecord:
         claim_id = self._claim_id(
             observation=observation,
             predicate=predicate,
             object_type=object_type,
             object_id=object_id,
-            claim_value=None,
+            claim_value=claim_value,
         )
         return ClaimRecord(
             claim_id=claim_id,
@@ -169,11 +214,14 @@ class DirectObservationClaimBuilder:
             subject_type=observation.subject_type,
             subject_id=observation.subject_id,
             predicate=predicate,
-            confidence=self.default_confidence,
+            confidence=self.default_confidence if confidence is None else confidence,
             claim_status=self.claim_status,
             supporting_observation_ids=(observation.observation_id,),
             object_type=object_type,
             object_id=object_id,
+            claim_value=claim_value,
+            item_code=item_code,
+            stage_code=stage_code,
             valid_from=observation.observed_at,
             review_status=self.review_status,
         )

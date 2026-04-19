@@ -7,17 +7,28 @@ This is the current PM-facing task board for the repository.
 | ID | Title | Status | Priority | Owner | Notes |
 |---|---|---|---|---|---|
 
+No task is currently marked `in_progress`; the next recommended steps are [TASK-043](backlog/TASK-043-expand-curated-dependency-corridors-for-v2.md) for broader evidence-backed flow coverage, [TASK-042](backlog/TASK-042-expand-v2-graph-native-workflows-and-semantic-zoom.md) for deeper interaction patterns that may later fold back into V3, and [TASK-025](backlog/TASK-025-baseline-concentration-and-chokepoint-analytics.md) for turning the stronger graph into an analytically useful product layer.
+
+
 ## Backlog
 
 | ID | Title | Status | Priority | Owner | Notes |
 |---|---|---|---|---|---|
-| [TASK-023](backlog/TASK-023-seed-first-dependency-relationships.md) | Seed first dependency relationships and typed predicates | `backlog` | `P0` | Codex | Move the graph from structural orientation into first-pass dependency reasoning |
 | [TASK-024](backlog/TASK-024-policy-overlay-adapters-and-graphing.md) | Add policy overlays and restricted-entity graphing | `backlog` | `P0` | Codex | Bring BIS and OFAC overlays into the graph surface |
+| [TASK-042](backlog/TASK-042-expand-v2-graph-native-workflows-and-semantic-zoom.md) | Expand V2 graph-native workflows and semantic zoom | `backlog` | `P1` | Codex | Grow the validated V2 slice into a fuller graph-native workspace |
+| [TASK-043](backlog/TASK-043-expand-curated-dependency-corridors-for-v2.md) | Expand curated dependency corridors for V2 | `backlog` | `P1` | Codex | Broaden the evidence-backed flow slice so V2 has stronger corridors and convergence demos |
 | [TASK-025](backlog/TASK-025-baseline-concentration-and-chokepoint-analytics.md) | Add baseline concentration and chokepoint analytics | `backlog` | `P1` | Codex | Turn the expanded graph into something analytically useful |
 ## Completed
 
 | ID | Title | Status | Priority | Owner | Notes |
 |---|---|---|---|---|---|
+| [TASK-047](completed/TASK-047-expand-v3-representative-company-coverage.md) | Expand V3 representative-company coverage | `done` | `P1` | Codex | V3 now ships with a broader 44-edge / 35-company connected slice and browser-validated company-view spacing |
+| [TASK-044](completed/TASK-044-expand-v2-stage-model-and-demo-corridors.md) | Expand V2 stage model and demo corridors | `done` | `P1` | Codex | V2 now shows explicit upstream stages and the built-in demo ships with a broader 33-edge / 26-company connected slice |
+| [TASK-045](completed/TASK-045-build-v3-system-map-and-representative-company-view.md) | Build V3 system map and representative-company view | `done` | `P0` | Codex | V3 is now the default local prototype surface, with a systems map, representative-company view, and browser-validated layout geometry |
+| [TASK-040](completed/TASK-040-establish-v2-frontend-boundary-and-renderer-adapter.md) | Establish V2 frontend boundary and renderer adapter | `done` | `P0` | Codex | V2 now has an isolated shell, state layer, and renderer adapter boundary |
+| [TASK-041](completed/TASK-041-build-v2-full-canvas-vertical-slice.md) | Build V2 full-canvas vertical slice | `done` | `P0` | Codex | The first immersive graph-native slice is live at `/?ui=v2` and browser-validated |
+| [TASK-023](completed/TASK-023-seed-first-dependency-relationships.md) | Seed first dependency relationships and typed predicates | `done` | `P0` | Codex | First evidence-backed dependency contract and typed projection layer completed |
+| [TASK-039](completed/TASK-039-refactor-ui-to-company-dependency-graph.md) | Refactor UI to company-only dependency graph | `done` | `P0` | Codex | Prototype now centers the canvas on company-only dependency flow with browser-validated flow lenses |
 | [TASK-001](completed/TASK-001-registry-primitives.md) | Implement registry primitives | `done` | `P0` | Codex | Registry models and unit tests completed |
 | [TASK-002](completed/TASK-002-evidence-observation-models.md) | Implement evidence and observation models | `done` | `P0` | Codex | Source snapshots, evidence records, and observation models completed |
 | [TASK-003](completed/TASK-003-source-adapter-interfaces.md) | Define source adapter interfaces | `done` | `P0` | Codex | Shared adapter boundaries for capture, parse, and extract flows completed |
@@ -52,3 +63,4 @@ This is the current PM-facing task board for the repository.
 | [TASK-035](completed/TASK-035-semantic-zoom-and-metanodes.md) | Add semantic zoom and metanode aggregation to the network | `done` | `P1` | Codex | Broad network slices now open as grouped views and reveal more node detail as the user zooms in |
 | [TASK-036](completed/TASK-036-firefox-ui-polish-pass.md) | Run a Firefox-driven UI polish pass across the main prototype views | `done` | `P1` | Codex | Firefox screenshot validation drove a cleaner shell, stronger graph framing, and better laptop breakpoint behavior |
 | [TASK-037](completed/TASK-037-horizontal-firefox-layout-pass.md) | Rework the Firefox desktop layout to use horizontal space more effectively | `done` | `P1` | Codex | Firefox desktop layouts now keep more panels side by side and use card grids more horizontally |
+| [TASK-038](completed/TASK-038-graph-first-frontend-rebuild.md) | Graph-first frontend rebuild | `done` | `P0` | Codex | The prototype is now a graph-first Cytoscape workspace validated through direct browser use |

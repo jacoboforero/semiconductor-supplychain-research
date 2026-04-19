@@ -6,7 +6,12 @@ import argparse
 from pathlib import Path
 
 from semisupply.runs import P0PipelineRunner
-from semisupply.sources.p0 import CuratedCompanySeedAdapter, EpaFacilityAdapter, KoreaPrtrFacilityAdapter
+from semisupply.sources.p0 import (
+    CuratedCompanySeedAdapter,
+    CuratedDependencySeedAdapter,
+    EpaFacilityAdapter,
+    KoreaPrtrFacilityAdapter,
+)
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -14,6 +19,7 @@ def build_parser() -> argparse.ArgumentParser:
 
     repo_root = Path(__file__).resolve().parents[1]
     default_fixture_dir = repo_root / "tests" / "fixtures" / "p0"
+    default_contract_dir = repo_root / "contracts" / "v1"
 
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
@@ -40,6 +46,12 @@ def build_parser() -> argparse.ArgumentParser:
         default=default_fixture_dir / "korea_prtr_facilities.json",
         help="Path to the Korea PRTR facility fixture.",
     )
+    parser.add_argument(
+        "--dependency-contract",
+        type=Path,
+        default=default_contract_dir / "company_dependency_edges.v1.json",
+        help="Path to the curated dependency edge contract.",
+    )
     return parser
 
 
@@ -52,6 +64,9 @@ def main() -> int:
         adapters=(
             CuratedCompanySeedAdapter(
                 payload_loader=lambda context: args.company_fixture.read_text(encoding="utf-8")
+            ),
+            CuratedDependencySeedAdapter(
+                payload_loader=lambda context: args.dependency_contract.read_text(encoding="utf-8")
             ),
             EpaFacilityAdapter(
                 payload_loader=lambda context: args.epa_fixture.read_text(encoding="utf-8")

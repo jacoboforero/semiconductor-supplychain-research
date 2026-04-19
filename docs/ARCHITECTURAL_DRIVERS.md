@@ -56,6 +56,28 @@ Current working decision:
 - V1 should produce a queryable graph, analysis notebooks or query packs, and a prototype UI or dashboard that makes the graph visually compelling for demos.
 - The UI does not need production-grade product depth, but it should feel like a coherent prototype with graph exploration and filtering.
 
+## 2A. Default Visual Graph Contract
+
+Question:
+
+- Should the default product graph be an ontology map of multiple entity types, or a company-only dependency graph?
+
+Why it matters:
+
+- This changes the bundle shape the UI needs, the graph layout, the role of metadata entities, and which data slices are truly on the critical path.
+
+Recommended v1 assumption:
+
+- The default product graph should be a company-only dependency graph.
+
+Current working decision:
+
+- Accepted.
+- The main product graph should render companies or organizations as the visible nodes.
+- The main visible edges should be evidence-backed dependency relationships.
+- Stage, role, geography, and facility data should remain in the model, but should primarily guide layout, filtering, and detail inspection rather than appear as peer node classes in the default canvas.
+- A typed ontology or systems-map view can still exist as a secondary analytical surface, but it is not the main product object.
+
 ## 3. System Of Record
 
 Question:

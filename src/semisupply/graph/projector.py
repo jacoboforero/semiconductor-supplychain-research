@@ -14,6 +14,55 @@ from semisupply.taxonomy import DEFAULT_TAXONOMY, CompanyTaxonomyMapping, Taxono
 from .models import GraphEdge, GraphEdgeType, GraphNode, GraphNodeType, GraphProjection
 
 _GRAPH_EDGE_NAMESPACE = uuid5(NAMESPACE_URL, "semisupply.graph.edge")
+_COMPANY_DEPENDENCY_PREDICATES = {
+    "SUPPLIES_TO",
+    "PROVIDES_SERVICE_TO",
+    "FABRICATES_FOR",
+    "PACKAGES_FOR",
+    "TESTS_FOR",
+    "LICENSES_IP_TO",
+    "PROVIDES_PDK_TO",
+}
+
+_FLOW_LANE_BY_ROLE: tuple[tuple[set[str], tuple[str, str]], ...] = (
+    (
+        {"ROLE.EDA_VENDOR", "ROLE.IP_VENDOR"},
+        ("design_enablement", "Design Enablement"),
+    ),
+    (
+        {
+            "ROLE.EQUIPMENT_SUPPLIER",
+            "ROLE.CHEMICALS_SUPPLIER",
+            "ROLE.SPECIALTY_GASES_SUPPLIER",
+            "ROLE.WAFER_MANUFACTURER",
+            "ROLE.SUBSTRATE_MANUFACTURER",
+            "ROLE.PHOTOMASK_SUPPLIER",
+        },
+        ("manufacturing_inputs", "Manufacturing Inputs"),
+    ),
+    (
+        {"ROLE.FOUNDRY"},
+        ("wafer_fabrication", "Wafer Fabrication"),
+    ),
+    (
+        {"ROLE.OSAT", "ROLE.PACKAGING_SPECIALIST", "ROLE.TEST_SERVICE"},
+        ("packaging_and_test", "Packaging and Test"),
+    ),
+    (
+        {"ROLE.FABLESS", "ROLE.IDM", "ROLE.MEMORY_MANUFACTURER", "ROLE.ANALOG_POWER_MANUFACTURER"},
+        ("output_companies", "Output Companies"),
+    ),
+)
+
+_FLOW_LANE_BY_SEGMENT = {
+    "SEG.DESIGN_SOFTWARE": ("design_enablement", "Design Enablement"),
+    "SEG.MANUFACTURING_EQUIPMENT": ("manufacturing_inputs", "Manufacturing Inputs"),
+    "SEG.MATERIALS": ("manufacturing_inputs", "Manufacturing Inputs"),
+    "SEG.WAFERS_SUBSTRATES": ("manufacturing_inputs", "Manufacturing Inputs"),
+    "SEG.MASKS_RETICLES": ("manufacturing_inputs", "Manufacturing Inputs"),
+    "SEG.FRONTEND_MANUFACTURING": ("wafer_fabrication", "Wafer Fabrication"),
+    "SEG.BACKEND_MANUFACTURING": ("packaging_and_test", "Packaging and Test"),
+}
 
 
 class InitialGraphProjector:
@@ -103,6 +152,22 @@ class InitialGraphProjector:
                 continue
 
             company_node_id = self._company_node_id(canonical_company_id)
+            if claim.object_type == RecordSubjectType.COMPANY and claim.object_id and claim.predicate in _COMPANY_DEPENDENCY_PREDICATES:
+                canonical_target_company_id = self._canonical_company_id(
+                    claim_subject_id=claim.object_id,
+                    canonical_company_ids=canonical_company_ids,
+                    crosswalk_index=crosswalk_index,
+                )
+                if canonical_target_company_id is None:
+                    continue
+                edge = self._company_dependency_edge(
+                    source_company_node_id=company_node_id,
+                    target_company_node_id=self._company_node_id(canonical_target_company_id),
+                    claim=claim,
+                )
+                edges_by_id[edge.edge_id] = edge
+                continue
+
             if claim.predicate == "HEADQUARTERED_IN" and claim.object_type == RecordSubjectType.COUNTRY and claim.object_id:
                 country_node = self._country_node(claim.object_id)
                 nodes_by_id[country_node.node_id] = country_node
@@ -130,6 +195,9 @@ class InitialGraphProjector:
         return crosswalk_index.get(claim_subject_id)
 
     def _company_node(self, company: CompanyRecord, *, mapping: CompanyTaxonomyMapping | None) -> GraphNode:
+        role_codes = list(mapping.role_codes) if mapping is not None else []
+        segment_codes = list(mapping.segment_codes) if mapping is not None else []
+        flow_lane, flow_lane_label = self._flow_lane(mapping)
         return GraphNode(
             node_id=self._company_node_id(company.company_id),
             node_type=GraphNodeType.COMPANY,
@@ -141,10 +209,14 @@ class InitialGraphProjector:
                 "record_status": company.record_status.value,
                 "identifiers": self._identifier_properties(company),
                 "known_names": list(company.all_known_names),
-                "role_codes": list(mapping.role_codes) if mapping is not None else [],
-                "segment_codes": list(mapping.segment_codes) if mapping is not None else [],
+                "role_codes": role_codes,
+                "role_labels": [self.taxonomy.require(role_code).label for role_code in role_codes],
+                "segment_codes": segment_codes,
+                "segment_labels": [self.taxonomy.require(segment_code).label for segment_code in segment_codes],
                 "chip_codes": list(mapping.chip_codes) if mapping is not None else [],
                 "taxonomy_seed_id": mapping.matched_seed_id if mapping is not None else None,
+                "flow_lane": flow_lane,
+                "flow_lane_label": flow_lane_label,
             },
         )
 
@@ -252,6 +324,43 @@ class InitialGraphProjector:
             },
         )
 
+    def _company_dependency_edge(
+        self,
+        *,
+        source_company_node_id: str,
+        target_company_node_id: str,
+        claim: ClaimRecord,
+    ) -> GraphEdge:
+        claim_value = claim.claim_value if isinstance(claim.claim_value, dict) else {}
+        predicate_entry = self.taxonomy.get(claim.predicate)
+        item_entry = self.taxonomy.get(claim.item_code) if claim.item_code else None
+        stage_entry = self.taxonomy.get(claim.stage_code) if claim.stage_code else None
+        sources = claim_value.get("sources", []) if isinstance(claim_value.get("sources"), list) else []
+        notes = claim_value.get("notes") if isinstance(claim_value.get("notes"), str) else None
+        relationship_id = claim_value.get("relationship_id") if isinstance(claim_value.get("relationship_id"), str) else None
+        return GraphEdge(
+            edge_id=uuid5(_GRAPH_EDGE_NAMESPACE, f"{claim.claim_id}:{GraphEdgeType.SUPPLIES_TO.value}"),
+            edge_type=GraphEdgeType.SUPPLIES_TO,
+            source_node_id=source_company_node_id,
+            target_node_id=target_company_node_id,
+            claim_id=claim.claim_id,
+            confidence=claim.confidence,
+            valid_from=claim.valid_from,
+            valid_to=claim.valid_to,
+            properties={
+                "predicate": claim.predicate,
+                "predicate_label": predicate_entry.label if predicate_entry is not None else claim.predicate.replace("_", " ").title(),
+                "item_code": claim.item_code,
+                "item_label": item_entry.label if item_entry is not None else None,
+                "stage_code": claim.stage_code,
+                "stage_label": stage_entry.label if stage_entry is not None else None,
+                "relationship_id": relationship_id,
+                "notes": notes,
+                "sources": sources,
+                "supporting_observation_count": len(claim.supporting_observation_ids),
+            },
+        )
+
     def _facility_located_in_edge(self, *, facility_node_id: str, country_node_id: str) -> GraphEdge:
         return GraphEdge(
             edge_id=uuid5(_GRAPH_EDGE_NAMESPACE, f"{facility_node_id}:{GraphEdgeType.LOCATED_IN.value}:{country_node_id}"),
@@ -269,6 +378,22 @@ class InitialGraphProjector:
             target_node_id=facility_node_id,
             properties={"predicate": "OPERATES_FACILITY", "source": "facility_registry_record"},
         )
+
+    def _flow_lane(self, mapping: CompanyTaxonomyMapping | None) -> tuple[str | None, str | None]:
+        if mapping is None:
+            return None, None
+
+        role_codes = set(mapping.role_codes)
+        for expected_roles, lane in _FLOW_LANE_BY_ROLE:
+            if role_codes & expected_roles:
+                return lane
+
+        for segment_code in mapping.segment_codes:
+            lane = _FLOW_LANE_BY_SEGMENT.get(segment_code)
+            if lane is not None:
+                return lane
+
+        return None, None
 
     def _identifier_properties(self, company: CompanyRecord) -> dict[str, list[str]]:
         grouped: dict[str, list[str]] = defaultdict(list)

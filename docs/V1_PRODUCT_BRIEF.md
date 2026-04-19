@@ -4,6 +4,11 @@ This document captures the current product decisions for v1 in plain language.
 
 It is intentionally closer to a PM brief than a technical design doc.
 
+Status note:
+
+- V1 remains the semantic and data-contract baseline.
+- The next product-shell rebuild is now defined separately in [V2_PRODUCT_SPEC.md](V2_PRODUCT_SPEC.md) and [V2_FRONTEND_ARCHITECTURE.md](V2_FRONTEND_ARCHITECTURE.md).
+
 The goal is to keep the project aligned on what the first version must do, what quality bar it needs to meet, and where speed is acceptable versus where durability matters.
 
 ## V1 Product Position
@@ -24,7 +29,7 @@ It is trying to become:
 
 V1 should help a user:
 
-- understand the semiconductor supply chain through clear categorization and navigation
+- understand the semiconductor supply chain through visible company-to-company dependency flow and convergence
 - see chokepoints across the chain
 - see concentration by company, facility, and geography
 - explore likely blast radius from disruption of important nodes
@@ -36,6 +41,21 @@ It needs:
 - a coherent taxonomy
 - intelligible relationship modeling
 - a graphical experience that makes the structure understandable rather than merely visible
+
+## Primary Visual Graph Requirement
+
+The default product graph is not an ontology map of every entity type.
+
+It should be a company-only dependency graph.
+
+That means:
+
+- visible graph nodes should be companies or organizations
+- visible graph edges should primarily be evidence-backed dependency relationships
+- stage should guide layout and convergence structure rather than appear as a competing visible node layer
+- geography, role, company type, and facility information should appear as filters, badges, or detail-panel context after selection
+
+The product goal is for a user to visually trace how upstream suppliers feed downstream manufacturing and where flows converge.
 
 ## Coverage Goal
 
@@ -112,6 +132,10 @@ It should be:
 It does not need to be architected as a long-term production frontend.
 
 It can be rebuilt later if the product direction hardens.
+
+The current aesthetic direction can be preserved even if the graph semantics and visible hierarchy change.
+
+The next major UI step should be treated as a parallel V2 rebuild rather than a long sequence of incremental V1 shell tweaks.
 
 ## Product Success Bar
 

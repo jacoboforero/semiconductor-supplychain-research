@@ -1,10 +1,10 @@
 # TASK-023 Seed first dependency relationships and typed predicates
 
-Status: `backlog`
+Status: `done`
 Priority: `P0`
 Owner: `Codex`
 Created: `2026-04-17`
-Updated: `2026-04-17`
+Updated: `2026-04-18`
 
 ## Goal
 
@@ -13,6 +13,8 @@ Add the first evidence-backed dependency relationships so the graph can move bey
 ## Why It Matters
 
 The 200-company universe now explains who is in the chain. V1 still needs typed links that explain who depends on whom and in what way.
+
+This is now on the critical path for the main product graph, because the default UI is expected to visualize company-to-company dependency flow rather than a typed ontology map.
 
 ## Scope
 
@@ -28,7 +30,8 @@ The 200-company universe now explains who is in the chain. V1 still needs typed 
 
 ## Dependencies
 
-- [TASK-022](completed/TASK-022-rebuild-v1-scale-graph-and-ui-artifacts.md)
+- [TASK-022](TASK-022-rebuild-v1-scale-graph-and-ui-artifacts.md)
+- [docs/decisions/2026-04-18-company-only-dependency-graph.md](../../decisions/2026-04-18-company-only-dependency-graph.md)
 
 ## Definition Of Done
 
@@ -45,4 +48,4 @@ The 200-company universe now explains who is in the chain. V1 still needs typed 
 
 ## Notes
 
-Stay narrow and evidence-backed. A small number of strong edges is better than broad weak inference.
+Completed with a repo-managed `company_dependency_edges.v1.json` contract, typed dependency projection in the durable graph layer, and seeded evidence-backed relationships exposed in the prototype without raw schema leakage.

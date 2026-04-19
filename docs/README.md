@@ -12,7 +12,11 @@ This directory is the active planning surface for the project.
 - [SOURCE_STRATEGY.md](SOURCE_STRATEGY.md): source priorities, operability tiers, and productization framing
 - [V1_TAXONOMY.md](V1_TAXONOMY.md): the current working vocabulary for roles, facilities, items, and predicates
 - [V1_PRODUCT_BRIEF.md](V1_PRODUCT_BRIEF.md): product-facing summary of what v1 must do and where durability matters versus where speed is acceptable
-- [V1_UI_ARCHITECTURE.md](V1_UI_ARCHITECTURE.md): product-side UI architecture for moving from the current graph-first prototype to a convergence-oriented product shell
+- [V1_UI_ARCHITECTURE.md](V1_UI_ARCHITECTURE.md): product-side UI architecture for the company-only dependency graph workspace and supporting interaction model
+- [V2_PRODUCT_SPEC.md](V2_PRODUCT_SPEC.md): next-step product definition for the graph-native full-canvas workspace rebuild
+- [V2_FRONTEND_ARCHITECTURE.md](V2_FRONTEND_ARCHITECTURE.md): frontend architecture strategy for building V2 without accumulating more UI debt
+- [V3_PRODUCT_SPEC.md](V3_PRODUCT_SPEC.md): systems-map-first product definition that separates the high-level map from the representative-company view
+- [V3_FRONTEND_ARCHITECTURE.md](V3_FRONTEND_ARCHITECTURE.md): frontend architecture for the composed DOM/SVG V3 map surface
 - [P0_DATA_CONTRACTS.md](P0_DATA_CONTRACTS.md): first contract and graph-model draft for the initial implementation slice
 - [REPO_STRUCTURE_PLAN.md](REPO_STRUCTURE_PLAN.md): how the repository should be organized as it moves from docs-first planning into implementation
 - [ROADMAP.md](ROADMAP.md): phased view of how the project can mature
@@ -35,6 +39,8 @@ This directory is the active planning surface for the project.
 - Use `SOURCE_STRATEGY.md` and `V1_TAXONOMY.md` as the current planning inputs for future data-pipeline design.
 - Read `V1_PRODUCT_BRIEF.md` for the current PM-level definition of the product and quality bar.
 - Read `V1_UI_ARCHITECTURE.md` for the current product-shell and screen-architecture direction.
+- Read `V2_PRODUCT_SPEC.md` and `V2_FRONTEND_ARCHITECTURE.md` before starting any substantial frontend rebuild beyond V1.
+- Read `V3_PRODUCT_SPEC.md` and `V3_FRONTEND_ARCHITECTURE.md` before changing the new default systems-map surface.
 - Read `P0_DATA_CONTRACTS.md` before encoding schemas or drafting graph loaders.
 - Read `REPO_STRUCTURE_PLAN.md` before changing repo layout or introducing new top-level directories.
 - Read `tasks/INDEX.md` to understand the current execution queue.

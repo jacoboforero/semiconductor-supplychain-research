@@ -120,6 +120,83 @@ class UiBundleBuilderTests(unittest.TestCase):
         self.assertEqual(bundle.countries[0].facility_count, 0)
         self.assertEqual(bundle.nodes[0].degree + bundle.nodes[1].degree, 2)
 
+    def test_bundle_builder_preserves_dependency_edge_properties(self) -> None:
+        supplier = GraphNode(
+            node_id="company:supplier",
+            node_type=GraphNodeType.COMPANY,
+            display_name="TSMC",
+            properties={"company_id": "supplier"},
+        )
+        customer = GraphNode(
+            node_id="company:customer",
+            node_type=GraphNodeType.COMPANY,
+            display_name="Apple",
+            properties={"company_id": "customer"},
+        )
+        projection = GraphProjection(
+            nodes=(supplier, customer),
+            edges=(
+                GraphEdge(
+                    edge_id=uuid4(),
+                    edge_type=GraphEdgeType.SUPPLIES_TO,
+                    source_node_id=supplier.node_id,
+                    target_node_id=customer.node_id,
+                    claim_id=uuid4(),
+                    confidence=0.96,
+                    properties={
+                        "predicate": "FABRICATES_FOR",
+                        "predicate_label": "Fabricates For",
+                        "item_code": "SERVICE.FOUNDRY_WAFER_FAB",
+                        "item_label": "Foundry Wafer Fab",
+                        "stage_code": "STAGE.WAFER_FAB",
+                        "stage_label": "Wafer Fab",
+                        "sources": [{"source_id": "demo", "label": "Demo source"}],
+                    },
+                ),
+            ),
+        )
+        manifest = P0RunManifest(
+            run_id=uuid4(),
+            pipeline_key="p0",
+            requested_at=aware_datetime(),
+            completed_at=aware_datetime(hour=12, minute=5),
+            status=RunStatus.SUCCEEDED,
+            source_runs=(
+                SourceRunSummary(
+                    source_key="dependency_seed",
+                    snapshot_count=1,
+                    company_record_count=0,
+                    facility_record_count=0,
+                    evidence_record_count=1,
+                    observation_count=1,
+                    claim_count=1,
+                ),
+            ),
+            artifacts=(),
+            snapshot_count=1,
+            source_company_record_count=0,
+            source_facility_record_count=0,
+            evidence_record_count=1,
+            observation_count=1,
+            claim_count=1,
+            canonical_company_count=2,
+            canonical_facility_count=0,
+            crosswalk_count=0,
+            resolution_decision_count=0,
+            facility_crosswalk_count=0,
+            facility_resolution_decision_count=0,
+            graph_node_count=2,
+            graph_edge_count=1,
+        )
+
+        bundle = UiBundleBuilder().build(manifest=manifest, projection=projection)
+
+        self.assertEqual(bundle.summary.edge_count, 1)
+        self.assertEqual(bundle.edges[0].edge_type, GraphEdgeType.SUPPLIES_TO)
+        self.assertEqual(bundle.edges[0].properties["predicate"], "FABRICATES_FOR")
+        self.assertEqual(bundle.edges[0].properties["item_label"], "Foundry Wafer Fab")
+        self.assertEqual(bundle.edges[0].properties["sources"][0]["source_id"], "demo")
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -23,6 +23,7 @@
 - ingest company, country, role, and selected facility data
 - stand up the first recurring adapters for high-operability sources
 - add initial dependency and policy-risk relationships
+- build the first company-to-company dependency projection that can power the default product graph
 
 ## Phase 3: Baseline Analytics
 
@@ -34,6 +35,9 @@
 ## Phase 4: Research Experience
 
 - improve the usability of the graph for interactive exploration
+- refactor the default UI graph into a company-only dependency view where convergence is visually obvious
+- freeze the current V1 shell as a semantic proof and build the next immersive graph-native workspace as a separate V2 slice
+- move from dashboard-like layout chrome toward a full-canvas graph with floating controls and on-demand detail
 - create notebooks, dashboards, or query packs that surface insights clearly
 - tighten the presentation so the project is demo-ready
 

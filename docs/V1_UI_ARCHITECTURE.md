@@ -1,480 +1,363 @@
 # V1 UI Architecture
 
-This document defines the product-side UI architecture for v1.
+This document defines the current product-side UI architecture for v1.
 
-It is intentionally not a frontend implementation spec. It is meant to answer:
+Status note:
 
-- what the user should experience first
-- how the product should help them understand the supply chain
-- what role the graph should play inside the product
-- what should be reused from the current prototype versus rebuilt
+- this remains the source of truth for the current V1 workspace
+- the next immersive graph-native rebuild is defined in [V2_PRODUCT_SPEC.md](V2_PRODUCT_SPEC.md) and [V2_FRONTEND_ARCHITECTURE.md](V2_FRONTEND_ARCHITECTURE.md)
 
-## Why A New UI Architecture Is Needed
+The main requirement is now explicit:
 
-The current prototype is proving useful things:
+- the default product graph is a company-only dependency graph
+- the main visible relationship is evidence-backed dependency flow
+- stage, role, geography, and facility data should support the canvas without becoming the dominant visible node structure
 
-- the graph bundle can render at meaningful scale
-- the product can support graph navigation
-- non-technical explanation panels help
-- the current taxonomy is already useful for orientation
+## Why This Matters
 
-But the current UI still has the wrong default mental model.
+The earlier graph-first rebuild improved the shell, interactions, and visual quality, but it still encoded the wrong product object.
 
-It is still fundamentally a graph-first atlas.
+It visualized the system more like an ontology map than a supply dependency graph.
 
-That is a problem because the semiconductor supply chain is not best understood as:
+That is not the intended user experience.
 
-- one linear chain
-- one network of equally important nodes
-- one screen where everything should be visible at once
+The user should be able to:
 
-The product should instead help users understand:
+- see how upstream suppliers feed downstream manufacturing
+- see where flows converge into fabs, packaging, and test bottlenecks
+- understand chokepoints through visible company-to-company structure
+- click into metadata only when they want detail
 
-- multiple upstream streams
-- convergence into critical manufacturing junctions
-- where concentration and chokepoints appear
-- what matters, not just what exists
+## Primary User
 
-So the next UI should not be a polish pass on the current atlas. It should be a new product shell that uses the graph as one view inside a broader explanatory experience.
+The primary user for this phase is:
 
-## Core Mental Model
+- a business or supply-chain student
+- an independent or policy researcher
+- an analyst or strategist trying to understand concentration and chokepoints quickly
 
-The native product model should be:
+This user wants:
 
-- `parallel supply streams`
-- `convergence nodes`
-- `transformation stages`
-- `outputs and exposure`
+- a strong immediate visual
+- a clear sense of where to start
+- fast search and focus
+- confidence about what is grounded in data
+- a way to move from system view to company detail without losing context
 
-The key idea is that the semiconductor supply chain is a converging dependency system.
+This user does not want:
 
-Examples:
+- a tour of tabs
+- a wall of orientation copy
+- a graph dominated by internal data-model categories
 
-- design, masks, tools, wafers, chemicals, and gases all converge into wafer fabrication
-- fabricated wafers, substrates, packaging materials, packaging equipment, and test services converge into packaging and final test
+## Product Thesis
 
-This means the UI should not imply that the supply chain is a single left-to-right pipeline.
+The UI should behave like a graph-native dependency workspace.
 
-It should imply that multiple streams feed critical junctions where disruption can propagate widely.
+The product should feel simple at first glance:
 
-## Product Principles
+- one main canvas
+- one obvious search entry
+- a small number of filters and scenario starts
+- one detail drawer
 
-### 1. Explanation First
+The product should then reveal depth through interaction:
 
-The product should explain the structure before asking the user to interpret a graph.
+- select a company
+- trace a dependency path
+- isolate a stage or geography
+- switch into a scenario
+- inspect evidence and metadata without leaving the graph
 
-Every major screen should answer:
+## Core Principles
+
+### 1. Company-Only Default Graph
+
+The main visible graph nodes are companies or organizations.
+
+The main visible edges are dependency relationships.
+
+Non-company entities remain in the model, but they should not dominate the primary canvas.
+
+### 2. Context Without Detours
+
+Detail should appear in drawers, sheets, and overlays instead of sending the user through a sequence of separate pages.
+
+### 3. Minimal Copy, Maximum Signal
+
+Favor:
+
+- labels
+- chips
+- short summaries
+- ranked metrics
+- tight legends
+
+Avoid long explanatory paragraphs unless the user explicitly opens deeper context.
+
+### 4. Strong Default Workflows
+
+The first interaction options should be obvious:
+
+- search for a company
+- filter by stage, role, country, or facility metadata
+- start from a predefined scenario
+- click a lens that isolates a flow or bottleneck
+
+### 5. Trust Is Visible
+
+Evidence and source footing should always be accessible from the current context, but should not dominate the main canvas.
+
+### 6. Aesthetics Matter
+
+The product is a research tool and a demo artifact.
+
+It should look deliberate, premium, and visually memorable.
+
+## Workspace Model
+
+The desktop product should be one persistent workspace with five structural zones.
+
+### 1. Top Command Bar
+
+Contains:
+
+- product identity
+- omnibox search
+- snapshot controls
+- layout reset and fit actions
+
+The top bar should be compact and always visible.
+
+### 2. Primary Graph Canvas
+
+This is the center of the product.
+
+Requirements:
+
+- always visible in the desktop flow
+- pan and zoom as first-class interactions
+- companies as the primary visible node class
+- dependency edges as the primary visible edge class
+- graceful behavior at the current graph scale
+- stage-guided left-to-right structure so convergence is visually legible
+- support for scenarios, path highlighting, and focus states
+
+### 3. Left Workflow Rail
+
+Used for:
+
+- guided starts
+- stage lenses
+- geography lenses
+- scenario entry points
+- evidence-coverage cues
+
+This rail should feel like a command launcher, not a documentation sidebar.
+
+### 4. Right Detail Drawer
+
+Opens on selection and becomes the main inspection surface.
+
+For a selected company or edge, it should answer:
 
 - what this is
 - why it matters
-- what is concentrated here
-- what depends on it
-
-### 2. Progressive Disclosure
-
-The product should move from broad structure to specific evidence.
-
-Recommended information order:
-
-- stage
-- role
-- company
-- facility
-- relationship
-- evidence
-
-### 3. Ranked Importance
-
-Not every node should feel equal.
-
-The UI should emphasize:
-
-- critical junctions
-- concentrated roles
-- dominant geographies
-- hard-to-replace suppliers
-
-### 4. Multiple Representations
-
-The graph should not carry the entire burden of understanding.
-
-The product should use:
-
-- structured overview maps
-- cards and rankings
-- geography views
-- scenario flows
-- node profile pages
-- graph/network views
-- evidence drawers
-
-### 5. Graph As A Lens, Not The Home Screen
-
-The graph should be a reusable analysis view inside the product.
-
-It should not be the default product structure.
-
-## The New Default Product Structure
-
-The new UI should have five top-level surfaces.
-
-### 1. Overview
-
-Purpose:
-
-- give the user a mental model of the whole system
-- explain how parallel streams converge
-- highlight what is strategically important
-
-This should be the default landing experience.
-
-The screen should include:
-
-- a `convergence map` of major supply streams
-- a `top chokepoints` panel
-- a `most concentrated stages` panel
-- a `critical geographies` panel
-- a small number of guided scenario entry points
-
-The overview should feel like a structured briefing, not a raw map dump.
-
-### 2. Stage Explorer
-
-Purpose:
-
-- help the user understand one part of the chain in context
-
-Each stage page should explain:
-
-- what the stage does
-- what inputs feed it
-- what outputs it creates
-- what major roles exist inside it
-- which companies dominate it
-- which countries and facilities matter most
-- what chokepoints exist inside it
-
-This is where stage differentiation should become strongest visually.
-
-### 3. Node Profile
-
-Purpose:
-
-- turn companies and facilities into understandable research objects
-
-Each profile should answer:
-
-- what this entity does
 - where it sits in the chain
-- what it depends on
-- what depends on it
-- where it operates
-- why it might be important or hard to replace
-- what evidence supports the current view
+- what it depends on and what depends on it
+- what sources or identifiers anchor it
 
-The profile should feel like a briefing page, not an inspector panel.
+### 5. Compact Insight Strip Or Overlay State
 
-### 4. Scenario Analysis
+Used for:
 
-Purpose:
+- current selection summary
+- active filters
+- scenario state
+- quick metrics
 
-- make disruption analysis explicit
+This should stay compact and secondary.
 
-Default scenarios can include:
+## Graph Requirements
 
-- Taiwan foundry disruption
-- upstream specialty gas or chemical chokepoint
-- advanced packaging or OSAT bottleneck
+### Default Visual Contract
 
-Each scenario should show:
+The default product graph should render only companies or organizations as visible nodes.
 
-- what is disrupted
-- which stages are exposed
-- which companies or facilities matter most
-- what the likely blast radius is
-- which evidence supports the scenario framing
+The graph should not render stages, roles, countries, and facilities as peer node classes in the main product view.
 
-### 5. Network View
+Those entities should instead appear through:
 
-Purpose:
+- layout guidance
+- filtering and lensing
+- badges and metadata
+- the detail drawer
+- optional overlays or secondary analytical views
 
-- allow graph-native exploration after the user has context
+### Node Semantics
 
-The graph remains valuable, but it should now be one lens among several:
+Companies should carry enough visual variation to communicate importance without changing the node ontology.
 
-- `System`
-- `Geography`
-- `Network`
-- `Evidence`
+Recommended differentiation:
 
-## Recommended Landing Experience
+- compact company pills or capsules as the base node form
+- stronger emphasis for major hubs, chokepoints, or selected nodes
+- labels that expand with focus and zoom
+- subtle metadata accents rather than extra visible node classes
 
-The home screen should not open directly into the current node-and-edge atlas.
+### Layout Strategy
 
-It should open into a structured `System Overview`.
+The default layout should be disciplined and legible, not purely organic.
 
-Recommended default layout:
+The graph should behave like a dependency flow map rather than a generic network hairball.
 
-### Hero Strip
+The default view should emphasize:
 
-Small, concise, and product-focused:
+- upstream-to-downstream flow
+- convergence into critical manufacturing nodes
+- visible chokepoints and hubs
+- stage ordering as spatial guidance rather than visible node clutter
 
-- title
-- one-sentence explanation of what the system view represents
-- quick entry points for `Overview`, `Scenarios`, and `Search`
+### Semantic Zoom
 
-### Convergence Map
+At broad zoom levels:
 
-The central object on the page.
+- the flow shape should be obvious
+- dense company clusters can simplify
+- labels should stay selective
 
-This should show:
+At closer zoom levels:
 
-- upstream streams as distinct bands
-- key convergence points such as wafer fabrication and packaging
-- outputs as downstream categories
+- more company labels should appear
+- local dependency neighborhoods should become inspectable
+- edge evidence or predicate detail can become available in the drawer
 
-This should look more like a dependency system or transit interchange than a generic graph.
+### Focus Behavior
 
-### Priority Panels
+When a user selects a company, the graph should:
 
-Immediately below or beside the convergence map:
+- visually isolate the relevant neighborhood
+- maintain spatial continuity where possible
+- make next actions obvious from the drawer
 
-- top chokepoints
-- highest concentration roles
-- critical countries
-- notable facilities
+### Search Behavior
 
-### Guided Starts
+Search should:
 
-The product should always provide starting points such as:
+- accept company names first and foremost, while also allowing metadata-based filtering
+- bring the graph to the result immediately
+- open the drawer with a usable summary
+- allow quick clearing back to the full graph
 
-- “Start with wafer fabrication”
-- “See how packaging bottlenecks work”
-- “Trace materials into the fab”
+### Scenario Behavior
 
-## Primary Screen Hierarchy
+Scenarios should not become separate pages by default.
 
-Recommended hierarchy:
+They should act as graph overlays that:
 
-1. `Overview`
-2. `Stages`
-3. `Companies`
-4. `Facilities`
-5. `Scenarios`
-6. `Network`
-7. `Evidence`
+- set a dependency lens
+- highlight relevant companies, paths, stages, and geographies
+- identify representative companies
+- explain the scenario in a short briefing card
 
-This hierarchy matters because it makes the system legible before exposing full graph complexity.
+## Information Hierarchy
 
-## How Stages Should Be Modeled In The UI
+The product should prioritize information in this order:
 
-Stages should remain visually differentiated, but not as one simple chain.
+1. company dependency structure
+2. selected company or scenario
+3. immediate upstream and downstream connections
+4. trusted anchors and evidence
+5. deeper supporting detail
 
-The UI should show:
+The graph should always hold position one.
 
-- `parallel inputs`
-- `merge points`
-- `transformation steps`
-- `branching outputs`
+## Visual Direction
 
-An example conceptual structure:
+The UI should feel closer to:
 
-- Design and software
-- Masks and reticles
-- Wafers and substrates
-- Materials, chemicals, and gases
-- Manufacturing equipment
-- Front-end manufacturing
-- Back-end manufacturing
-- Outputs and exposure
+- a command center
+- a live atlas
+- a premium research interface
 
-Not every stage is “before” or “after” every other stage. Some exist in parallel and only matter once they converge into manufacturing or packaging.
+It should feel less like:
 
-That should be visible in the product itself.
+- a static explainer page
+- a dashboard grid
+- a generated admin panel
 
-## What The Graph Should Still Do
+Recommended visual characteristics:
 
-The graph still matters, but its job becomes narrower and clearer.
+- atmospheric background rather than flat white
+- restrained but high-contrast color system
+- strong typography
+- soft depth and panel glassing around the canvas
+- subtle motion on focus, reveal, and panel transitions
 
-The graph should be best at:
+## What To Preserve From The Current Prototype
 
-- exploring connected context around a node
-- showing local dependency neighborhoods
-- tracing relationship paths
-- switching between company, facility, and geography views
+- the `ui_bundle.json` contract
+- the underlying stage, role, country, company, and facility modeling
+- the scenario seed content
+- local snapshot loading
+- the replaceable nature of the frontend layer
+- the current atmospheric visual direction and premium demo feel
 
-The graph should not be solely responsible for:
+## What To Replace
 
-- teaching the user the whole supply chain
-- ranking what matters most
-- explaining chokepoints in plain language
+- the visible ontology-map treatment of stage, role, country, and facility nodes in the main graph
+- the assumption that the current graph can lead with every entity type equally
+- the amount of instructional copy on the default path
 
-## What Should Be Reused From The Current Prototype
+## Technical Implications
 
-These parts remain useful:
+The new frontend should:
 
-- graph bundle and bundle-loading pattern
-- current graph rendering work as a reusable `Network` surface
-- taxonomy-driven labels and segment structures
-- node explanation patterns
-- search, focus, and drill-down interaction patterns
-- lightweight prototype posture
+- remain isolated under `apps/ui-prototype/`
+- preserve the durable pipeline boundary
+- use a mature graph interaction library
+- keep the current visual vibe while changing the graph semantics underneath it
 
-These are not wasted work. They are supporting components for the new product shell.
+The new graph projection should:
 
-## What Should Be Rebuilt
+- prefer company-to-company dependency edges in the default canvas
+- keep non-company entities available as metadata, filters, and secondary overlays
+- avoid inventing fake dependency paths where evidence does not yet exist
 
-These parts likely need a meaningful redesign:
+## Recommended Implementation Slices
 
-- the default landing screen
-- the page-level information architecture
-- the relationship between the graph and the rest of the product
-- the current “all-purpose atlas” screen as the main chassis
-- the way stage structure is communicated visually
+### Slice 1: Dependency Data Slice
 
-This is a UI re-architecture, not a restart of the project.
+- define the first dependency seed contract
+- project typed company-to-company dependency edges
+- expose those edges cleanly in the UI bundle
 
-## Screen-Level Recommendations
+### Slice 2: Workspace Shell
 
-### Overview Screen
+- preserve the current top command bar, left rail, right drawer, and premium visual tone
+- keep the graph canvas as the default home
 
-Needs:
+### Slice 3: Graph Interaction Model
 
-- convergence map
-- stage cards
-- top chokepoints
-- concentration summaries
-- geography summaries
+- company-only nodes
+- stage-guided dependency layout
+- metadata filters and focus behavior
+- path and neighborhood inspection
 
-Avoid:
+### Slice 4: Scenario Overlays
 
-- leading with dense node labels
-- forcing the user into graph interpretation immediately
+- scenario launcher
+- short scenario briefing
+- highlighted companies, paths, and relevant geographies
+- drawer-driven drill-ins
 
-### Stage Screen
+### Slice 5: Visual Polish And Validation
 
-Needs:
-
-- stage purpose
-- key inputs
-- key outputs
-- dominant roles
-- top companies
-- important facilities
-- network tab
-
-Avoid:
-
-- generic “list of nodes in this segment” behavior
-
-### Company Screen
-
-Needs:
-
-- role summary
-- where it fits
-- what it provides
-- what it depends on
-- geography and facilities
-- related evidence
-
-Avoid:
-
-- schema-heavy inspector copy
-
-### Facility Screen
-
-Needs:
-
-- facility type
-- operator
-- geography
-- process relevance
-- strategic importance
-
-Avoid:
-
-- treating facilities as only small children of company pages
-
-### Scenario Screen
-
-Needs:
-
-- disruption entry point
-- affected stages
-- exposed companies and facilities
-- likely blast radius
-- evidence panel
-
-Avoid:
-
-- making scenario analysis feel like ad hoc graph clicking
-
-## Recommended Prototype Sequence
-
-The next UI work should not jump directly to a full new frontend.
-
-A better sequence:
-
-### Slice 1: System Overview Prototype
-
-Goal:
-
-- replace the raw graph home screen with a convergence-oriented overview
-
-Deliver:
-
-- stage and stream overview
-- top chokepoints panel
-- geography and concentration callouts
-- entry points into stage pages and network view
-
-### Slice 2: Stage And Node Profiles
-
-Goal:
-
-- make stages, companies, and facilities understandable as pages
-
-Deliver:
-
-- one reusable stage template
-- one reusable company template
-- one reusable facility template
-
-### Slice 3: Scenario Mode
-
-Goal:
-
-- show that the product can analyze disruption, not just organize entities
-
-Deliver:
-
-- 2-3 scenario walkthroughs using existing graph and evidence data
-
-Only after that should the prototype invest further in graph polish.
-
-## Mapping To The Current Data Foundation
-
-The good news is that this UI direction still fits the current durable foundation.
-
-It aligns with:
-
-- the evidence-first model
-- the controlled taxonomy
-- the company and facility registry
-- the graph-as-projection architecture
-
-So this document changes the product shell, not the underlying system thesis.
+- spacing and scaling refinement
+- typography and color polish
+- laptop-width validation
+- direct browser walkthroughs
 
 ## Decision Summary
 
-The current atlas should not be treated as the final UI chassis.
-
-The project should move to:
-
-- a structured overview-first product
-- a convergence-oriented system map
-- explicit stage, node, and scenario views
-- a graph that acts as one analysis surface inside the product
-
-That is the most credible path from prototype to a real V1 product experience.
+The v1 UI should open into a graph-first workspace where the user immediately sees company dependency flow, convergence, and chokepoints in a calm but powerful visual environment.

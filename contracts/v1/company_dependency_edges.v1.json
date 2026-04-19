@@ -1,0 +1,691 @@
+{
+  "contract_version": "v1alpha1",
+  "created_at": "2026-04-18T00:00:00Z",
+  "notes": [
+    "This contract captures a narrow, manually curated set of public company-to-company dependency relationships for the v1 demo graph.",
+    "Rows are intentionally sparse and high-signal. They are meant to support a truthful company-only dependency graph, not exhaustive supplier-customer coverage."
+  ],
+  "sources": [
+    {
+      "source_id": "synopsys-tsmc-oip",
+      "label": "Synopsys and TSMC partnership page",
+      "url": "https://www.synopsys.com/partners/tsmc.html"
+    },
+    {
+      "source_id": "cadence-tsmc-advanced-node",
+      "label": "Cadence and TSMC advanced-node collaboration release",
+      "url": "https://www.cadence.com/en_US/home/company/newsroom/press-releases/pr/2024/tsmc-and-cadence-collaborate-to-deliver-ai-driven-advanced-node.html"
+    },
+    {
+      "source_id": "arm-qualcomm-license",
+      "label": "Arm statement on Qualcomm licensing dispute",
+      "url": "https://newsroom.arm.com/news/arm-files-lawsuit-against-qualcomm-and-nuvia-for-breach-of-license-agreements-and-trademark-infringement"
+    },
+    {
+      "source_id": "arm-mediatek-partnership",
+      "label": "Arm and MediaTek partnership release",
+      "url": "https://www.arm.com/company/news/2013/10/mediatek-extends-partnership-with-arm-to-drive-next-generation-mobile-and-consumer-technology"
+    },
+    {
+      "source_id": "asml-tsmc-co-investment",
+      "label": "ASML and TSMC lithography co-investment announcement",
+      "url": "https://www.asml.com/en/news/press-releases/2012/tsmc-joins-asmls-customer-co-investment-program-for-innovation"
+    },
+    {
+      "source_id": "intel-high-na-asml",
+      "label": "Intel High-NA EUV press kit",
+      "url": "https://newsroom.intel.com/press-kit/intel-high-na-euv"
+    },
+    {
+      "source_id": "applied-tsmc-gate-stack",
+      "label": "Applied Materials gate stack qualification at TSMC",
+      "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/tsmc-qualifies-applied-materials-gate-stack-system-its-leading/"
+    },
+    {
+      "source_id": "tel-tsmc-award",
+      "label": "Tokyo Electron receives TSMC performance award",
+      "url": "https://www.tel.com/news/topics/2023/20231227_001.html"
+    },
+    {
+      "source_id": "tel-intel-award",
+      "label": "Tokyo Electron receives Intel EPIC supplier award",
+      "url": "https://www.tel.com/news/topics/2023/20230623_001.html"
+    },
+    {
+      "source_id": "tsmc-us-expansion-customers",
+      "label": "TSMC U.S. expansion announcement naming key customers",
+      "url": "https://pr.tsmc.com/system/files/newspdf/attachment/1f3cfb45dd5b56cf948833fb01a6c5c5c240a63f/TSMC%20Intends%20to%20Expand%20Its%20Investment%20in%20the%20United%20States%20to%20US%24165%20Billion%20to%20Power%20the%20Future%20of%20AI_FINAL_%28E%29_wmn.pdf"
+    },
+    {
+      "source_id": "tsmc-mediatek-3nm",
+      "label": "MediaTek and TSMC 3nm announcement",
+      "url": "https://pr.tsmc.com/system/files/newspdf/attachment/169cd485e250f7a1ca3ee00bf125264fb2925ed7/0907%20MTK-TSMC%20Dimensity%203nm%20%28E%29_final_wmn.pdf"
+    },
+    {
+      "source_id": "amkor-apple-arizona",
+      "label": "Amkor Arizona advanced packaging announcement",
+      "url": "https://ir.amkor.com/news-releases/news-release-details/amkor-announces-us-advanced-packaging-and-test-facility"
+    },
+    {
+      "source_id": "amkor-intel-emib",
+      "label": "Amkor and Intel EMIB packaging partnership",
+      "url": "https://amkor.com/blog/amkor-intel-partnership-expands-us-emib-packaging-capacity/"
+    },
+    {
+      "source_id": "tsmc-amkor-arizona",
+      "label": "TSMC and Amkor Arizona packaging collaboration",
+      "url": "https://pr.tsmc.com/system/files/newspdf/attachment/05a6c129ad9700cbd020c4d465bfd700674d8f71/Amkor-TSMC%20%28E%29%20final_wmn.pdf"
+    },
+    {
+      "source_id": "ase-nvidia-spil",
+      "label": "SPIL and NVIDIA advanced packaging site visit",
+      "url": "https://www.aseglobal.com/press-room/spil-hosts-nvidia-founder-and-ceo-at-new-factory-site/"
+    },
+    {
+      "source_id": "ase-analog-devices",
+      "label": "ASE and Analog Devices strategic collaboration",
+      "url": "https://www.aseglobal.com/press-room/ase-and-analog-devices-announce-strategic-collaboration/"
+    },
+    {
+      "source_id": "ase-tsmc-alliance",
+      "label": "ASE filing describing strategic relationship with TSMC",
+      "url": "https://ase.aseglobal.com/wp-content/themes/ase/pdf/201501211241574_en.pdf"
+    },
+    {
+      "source_id": "sumco-vision-awards",
+      "label": "SUMCO vision page listing TSMC and Samsung supplier awards",
+      "url": "https://www.sumcosi.com/english/csr/vision.html"
+    },
+    {
+      "source_id": "tok-tsmc-novel-tech-award",
+      "label": "Tokyo Ohka Kogyo TSMC supplier award release",
+      "url": "https://www.tok.co.jp/news/2024/20241205"
+    },
+    {
+      "source_id": "tok-ti-supplier-award",
+      "label": "Tokyo Ohka Kogyo Texas Instruments supplier award release",
+      "url": "https://www.tok.co.jp/eng/news/2023/20230502"
+    },
+    {
+      "source_id": "entegris-intel-pqs",
+      "label": "Entegris Intel preferred quality supplier release",
+      "url": "https://www.entegris.com/en/home/about-us/news/news030515.html"
+    },
+    {
+      "source_id": "entegris-ti-supplier-award",
+      "label": "Entegris Texas Instruments supplier award release",
+      "url": "https://www.entegris.com/en/home/about-us/news/entegris-receives-2020-supplier-excellence-award-from-texas-instruments.html"
+    },
+    {
+      "source_id": "lam-tsmc-tech-award",
+      "label": "Lam Research TSMC technology development award release",
+      "url": "https://newsroom.lamresearch.com/2011-12-05-Lam-Research-Honored-With-TSMCs-Top-Technology-Development-Award"
+    },
+    {
+      "source_id": "lam-intel-epic",
+      "label": "Lam Research Intel EPIC supplier award release",
+      "url": "https://newsroom.lamresearch.com/lam-research-earns-intels-2022-epic-outstanding-supplier-award-with-supplier-diversity-distinction?blog=true"
+    },
+    {
+      "source_id": "screen-tsmc-production-support",
+      "label": "SCREEN TSMC production support award release",
+      "url": "https://www.screen.co.jp/spe/en/information/spe201210"
+    },
+    {
+      "source_id": "toppan-ti-supplier-award",
+      "label": "Toppan Photomasks Texas Instruments supplier award release",
+      "url": "https://www.holdings.toppan.com/en/news/2021/04/newsrelease210408e.html"
+    },
+    {
+      "source_id": "applied-intel-epic",
+      "label": "Applied Materials Intel EPIC supplier award release",
+      "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-earns-intels-2023-epic-outstanding-supplier/"
+    },
+    {
+      "source_id": "kla-intel-pqs",
+      "label": "KLA Intel preferred quality supplier release",
+      "url": "https://ir.kla.com/news-events/press-releases/detail/56/kla-receives-intels-preferred-quality-supplier-award"
+    },
+    {
+      "source_id": "siltronic-intel-pqs-wafer",
+      "label": "Siltronic Intel PQS wafer supplier release",
+      "url": "https://www.siltronic.com/en/press/press-releases/siltronic-receives-intels-preferred-quality-supplier-award-for-the-6th-time-in-a-row.html"
+    },
+    {
+      "source_id": "gf-qualcomm-lta",
+      "label": "GlobalFoundries and Qualcomm long-term agreement release",
+      "url": "https://gf.com/gf-press-release/globalfoundries-and-qualcomm-announce-extension-of-long-term-agreement-to-secure-u-s-supply-through-2028/"
+    },
+    {
+      "source_id": "gf-apple-partnership",
+      "label": "GlobalFoundries and Apple partnership release",
+      "url": "https://gf.com/gf-press-release/globalfoundries-expands-partnership-with-apple-to-advance-wireless-connectivity-and-power-management-reinforcing-u-s-chip-manufacturing-leadership/"
+    },
+    {
+      "source_id": "marvell-tsmc-2nm",
+      "label": "Marvell and TSMC 2nm platform release",
+      "url": "https://investor.marvell.com/news-events/press-releases/detail/153/marvell-announces-industrys-first-2nm-platform-for-accelerated-infrastructure-silicon"
+    },
+    {
+      "source_id": "nxp-gf-22fdx",
+      "label": "GlobalFoundries and NXP 22FDX collaboration release",
+      "url": "https://www.nxp.com/company/about-nxp/newsroom/NW-GLOBALFOUNDRIES-AND-NXP-TO-DELIVER"
+    },
+    {
+      "source_id": "synopsys-intel-18a",
+      "label": "Synopsys and Intel Foundry 18A collaboration release",
+      "url": "https://news.synopsys.com/2024-02-21-Synopsys-and-Intel-Foundry-Accelerate-Advanced-Chip-Designs-with-Synopsys-IP-and-Certified-EDA-Flows-for-Intel-18A-Process"
+    },
+    {
+      "source_id": "siemens-intel-foundry-2025",
+      "label": "Siemens and Intel Foundry collaboration release",
+      "url": "https://news.siemens.com/en-us/siemens-intel-foundry-2025/"
+    },
+    {
+      "source_id": "toppan-gf-photomask-supply",
+      "label": "Toppan and GlobalFoundries photomask supply agreement",
+      "url": "https://www.holdings.toppan.com/en/news/2019/08/newsrelease190813e.html"
+    },
+    {
+      "source_id": "intel-dnp-photomask",
+      "label": "Intel and Dai Nippon Printing photomask collaboration release",
+      "url": "https://www.intel.com/pressroom/archive/releases/2000/aw011700.htm"
+    },
+    {
+      "source_id": "soitec-gf-rf-soi",
+      "label": "Soitec and GlobalFoundries RF-SOI collaboration release",
+      "url": "https://www.soitec.com/home/group/newsroom/press-releases/2024/12/04/soitec-and-globalfoundries-collaborate-in-the-production-of-high-performance-rf-soi-semiconductors"
+    },
+    {
+      "source_id": "pti-micron-packaging",
+      "label": "Powertech and Micron packaging services release",
+      "url": "https://investors.micron.com/news-releases/news-release-details/powertech-technology-announces-agreement-micron-technology"
+    }
+  ],
+  "relationships": [
+    {
+      "relationship_id": "synopsys-tsmc-eda",
+      "supplier_company_slug": "synopsys",
+      "customer_company_slug": "taiwan-semiconductor-manufacturing-company",
+      "predicate": "SUPPLIES_TO",
+      "item_code": "SW.EDA",
+      "stage_code": "STAGE.DESIGN",
+      "source_ids": ["synopsys-tsmc-oip"],
+      "confidence": 0.93,
+      "notes": "Synopsys and TSMC publicly describe a long-running certified design-flow collaboration for advanced process and packaging nodes."
+    },
+    {
+      "relationship_id": "cadence-tsmc-eda",
+      "supplier_company_slug": "cadence-design-systems",
+      "customer_company_slug": "taiwan-semiconductor-manufacturing-company",
+      "predicate": "SUPPLIES_TO",
+      "item_code": "SW.EDA",
+      "stage_code": "STAGE.DESIGN",
+      "source_ids": ["cadence-tsmc-advanced-node"],
+      "confidence": 0.93,
+      "notes": "Cadence and TSMC publicly describe AI-driven EDA, IP, and 3D-IC enablement on advanced TSMC nodes."
+    },
+    {
+      "relationship_id": "arm-qualcomm-cpu-ip",
+      "supplier_company_slug": "arm-holdings",
+      "customer_company_slug": "qualcomm",
+      "predicate": "LICENSES_IP_TO",
+      "item_code": "IP.CPU_CORE",
+      "stage_code": "STAGE.DESIGN",
+      "source_ids": ["arm-qualcomm-license"],
+      "confidence": 0.95,
+      "notes": "Arm's own filing asserts an active licensing relationship with Qualcomm and Nuvia-derived designs."
+    },
+    {
+      "relationship_id": "arm-mediatek-cpu-ip",
+      "supplier_company_slug": "arm-holdings",
+      "customer_company_slug": "mediatek",
+      "predicate": "LICENSES_IP_TO",
+      "item_code": "IP.CPU_CORE",
+      "stage_code": "STAGE.DESIGN",
+      "source_ids": ["arm-mediatek-partnership"],
+      "confidence": 0.92,
+      "notes": "Arm and MediaTek publicly describe a next-generation mobile and consumer technology partnership built on Arm technology."
+    },
+    {
+      "relationship_id": "asml-tsmc-lithography",
+      "supplier_company_slug": "asml",
+      "customer_company_slug": "taiwan-semiconductor-manufacturing-company",
+      "predicate": "SUPPLIES_TO",
+      "item_code": "TOOL.LITHOGRAPHY",
+      "stage_code": "STAGE.WAFER_FAB",
+      "source_ids": ["asml-tsmc-co-investment"],
+      "confidence": 0.95,
+      "notes": "ASML and TSMC publicly described joint investment and lithography roadmap acceleration for EUV and future wafer tooling."
+    },
+    {
+      "relationship_id": "asml-intel-lithography",
+      "supplier_company_slug": "asml",
+      "customer_company_slug": "intel",
+      "predicate": "SUPPLIES_TO",
+      "item_code": "TOOL.LITHOGRAPHY",
+      "stage_code": "STAGE.WAFER_FAB",
+      "source_ids": ["intel-high-na-asml"],
+      "confidence": 0.95,
+      "notes": "Intel's High-NA EUV press materials explicitly identify ASML as the builder of the production lithography system."
+    },
+    {
+      "relationship_id": "applied-tsmc-deposition",
+      "supplier_company_slug": "applied-materials",
+      "customer_company_slug": "taiwan-semiconductor-manufacturing-company",
+      "predicate": "SUPPLIES_TO",
+      "item_code": "TOOL.DEPOSITION",
+      "stage_code": "STAGE.WAFER_FAB",
+      "source_ids": ["applied-tsmc-gate-stack"],
+      "confidence": 0.91,
+      "notes": "Applied Materials publicly described TSMC qualification and production use of its gate stack tooling."
+    },
+    {
+      "relationship_id": "tel-tsmc-production-equipment",
+      "supplier_company_slug": "tokyo-electron",
+      "customer_company_slug": "taiwan-semiconductor-manufacturing-company",
+      "predicate": "SUPPLIES_TO",
+      "item_code": "TOOL.DEPOSITION",
+      "stage_code": "STAGE.WAFER_FAB",
+      "source_ids": ["tel-tsmc-award"],
+      "confidence": 0.9,
+      "notes": "Tokyo Electron publicly describes repeated TSMC recognition for technology collaboration and contributions to fab operations."
+    },
+    {
+      "relationship_id": "tel-intel-production-equipment",
+      "supplier_company_slug": "tokyo-electron",
+      "customer_company_slug": "intel",
+      "predicate": "SUPPLIES_TO",
+      "item_code": "TOOL.DEPOSITION",
+      "stage_code": "STAGE.WAFER_FAB",
+      "source_ids": ["tel-intel-award"],
+      "confidence": 0.89,
+      "notes": "Tokyo Electron publicly identifies Intel as a top supplier-program customer relationship through Intel's EPIC award."
+    },
+    {
+      "relationship_id": "tsmc-apple-foundry",
+      "supplier_company_slug": "taiwan-semiconductor-manufacturing-company",
+      "customer_company_slug": "apple",
+      "predicate": "FABRICATES_FOR",
+      "item_code": "SERVICE.FOUNDRY_WAFER_FAB",
+      "stage_code": "STAGE.WAFER_FAB",
+      "source_ids": ["tsmc-us-expansion-customers"],
+      "confidence": 0.96,
+      "notes": "TSMC's U.S. expansion announcement identifies Apple as one of the leading technology companies it supports."
+    },
+    {
+      "relationship_id": "tsmc-nvidia-foundry",
+      "supplier_company_slug": "taiwan-semiconductor-manufacturing-company",
+      "customer_company_slug": "nvidia",
+      "predicate": "FABRICATES_FOR",
+      "item_code": "SERVICE.FOUNDRY_WAFER_FAB",
+      "stage_code": "STAGE.WAFER_FAB",
+      "source_ids": ["tsmc-us-expansion-customers"],
+      "confidence": 0.96,
+      "notes": "TSMC's U.S. expansion announcement identifies NVIDIA among the AI and technology innovation companies it supports."
+    },
+    {
+      "relationship_id": "tsmc-amd-foundry",
+      "supplier_company_slug": "taiwan-semiconductor-manufacturing-company",
+      "customer_company_slug": "amd",
+      "predicate": "FABRICATES_FOR",
+      "item_code": "SERVICE.FOUNDRY_WAFER_FAB",
+      "stage_code": "STAGE.WAFER_FAB",
+      "source_ids": ["tsmc-us-expansion-customers"],
+      "confidence": 0.96,
+      "notes": "TSMC's U.S. expansion announcement identifies AMD among the technology companies it supports."
+    },
+    {
+      "relationship_id": "tsmc-broadcom-foundry",
+      "supplier_company_slug": "taiwan-semiconductor-manufacturing-company",
+      "customer_company_slug": "broadcom",
+      "predicate": "FABRICATES_FOR",
+      "item_code": "SERVICE.FOUNDRY_WAFER_FAB",
+      "stage_code": "STAGE.WAFER_FAB",
+      "source_ids": ["tsmc-us-expansion-customers"],
+      "confidence": 0.95,
+      "notes": "TSMC's U.S. expansion announcement identifies Broadcom among the companies it supports."
+    },
+    {
+      "relationship_id": "tsmc-qualcomm-foundry",
+      "supplier_company_slug": "taiwan-semiconductor-manufacturing-company",
+      "customer_company_slug": "qualcomm",
+      "predicate": "FABRICATES_FOR",
+      "item_code": "SERVICE.FOUNDRY_WAFER_FAB",
+      "stage_code": "STAGE.WAFER_FAB",
+      "source_ids": ["tsmc-us-expansion-customers"],
+      "confidence": 0.96,
+      "notes": "TSMC's U.S. expansion announcement identifies Qualcomm among the technology companies it supports."
+    },
+    {
+      "relationship_id": "tsmc-mediatek-foundry",
+      "supplier_company_slug": "taiwan-semiconductor-manufacturing-company",
+      "customer_company_slug": "mediatek",
+      "predicate": "FABRICATES_FOR",
+      "item_code": "SERVICE.FOUNDRY_WAFER_FAB",
+      "stage_code": "STAGE.WAFER_FAB",
+      "source_ids": ["tsmc-mediatek-3nm"],
+      "confidence": 0.97,
+      "notes": "TSMC and MediaTek jointly announced MediaTek's first chip using TSMC's 3nm process."
+    },
+    {
+      "relationship_id": "tsmc-amkor-patterned-wafer",
+      "supplier_company_slug": "taiwan-semiconductor-manufacturing-company",
+      "customer_company_slug": "amkor-technology",
+      "predicate": "SUPPLIES_TO",
+      "item_code": "GOOD.PATTERNED_WAFER",
+      "stage_code": "STAGE.PACKAGE_ASSEMBLY",
+      "source_ids": ["tsmc-amkor-arizona", "amkor-apple-arizona"],
+      "confidence": 0.88,
+      "notes": "TSMC and Amkor publicly describe a coordinated Arizona front-end and back-end flow where chips from the nearby TSMC fab are packaged and tested by Amkor."
+    },
+    {
+      "relationship_id": "tsmc-ase-patterned-wafer",
+      "supplier_company_slug": "taiwan-semiconductor-manufacturing-company",
+      "customer_company_slug": "ase-technology-holding",
+      "predicate": "SUPPLIES_TO",
+      "item_code": "GOOD.PATTERNED_WAFER",
+      "stage_code": "STAGE.PACKAGE_ASSEMBLY",
+      "source_ids": ["ase-tsmc-alliance"],
+      "confidence": 0.84,
+      "notes": "ASE's own filings describe a strategic relationship with TSMC around packaging, testing, and direct shipment services."
+    },
+    {
+      "relationship_id": "amkor-apple-packaging",
+      "supplier_company_slug": "amkor-technology",
+      "customer_company_slug": "apple",
+      "predicate": "PACKAGES_FOR",
+      "item_code": "SERVICE.ADVANCED_PACKAGING",
+      "stage_code": "STAGE.PACKAGE_ASSEMBLY",
+      "source_ids": ["amkor-apple-arizona"],
+      "confidence": 0.97,
+      "notes": "Amkor states Apple will be the first and largest customer of its Arizona advanced packaging and test facility."
+    },
+    {
+      "relationship_id": "amkor-intel-packaging",
+      "supplier_company_slug": "amkor-technology",
+      "customer_company_slug": "intel",
+      "predicate": "PACKAGES_FOR",
+      "item_code": "SERVICE.ADVANCED_PACKAGING",
+      "stage_code": "STAGE.PACKAGE_ASSEMBLY",
+      "source_ids": ["amkor-intel-emib"],
+      "confidence": 0.95,
+      "notes": "Amkor and Intel publicly describe a strategic EMIB assembly partnership for advanced packaging capacity."
+    },
+    {
+      "relationship_id": "ase-nvidia-packaging",
+      "supplier_company_slug": "ase-technology-holding",
+      "customer_company_slug": "nvidia",
+      "predicate": "PACKAGES_FOR",
+      "item_code": "SERVICE.ADVANCED_PACKAGING",
+      "stage_code": "STAGE.PACKAGE_ASSEMBLY",
+      "source_ids": ["ase-nvidia-spil"],
+      "confidence": 0.94,
+      "notes": "ASE subsidiary SPIL publicly highlighted close collaboration with NVIDIA around accelerated assembly and test services."
+    },
+    {
+      "relationship_id": "ase-analog-devices-packaging",
+      "supplier_company_slug": "ase-technology-holding",
+      "customer_company_slug": "analog-devices",
+      "predicate": "PACKAGES_FOR",
+      "item_code": "SERVICE.PACKAGING_ASSEMBLY",
+      "stage_code": "STAGE.PACKAGE_ASSEMBLY",
+      "source_ids": ["ase-analog-devices"],
+      "confidence": 0.93,
+      "notes": "ASE and Analog Devices publicly announced a strategic collaboration centered on IC packaging and testing solutions."
+    },
+    {
+      "relationship_id": "sumco-tsmc-silicon-wafer",
+      "supplier_company_slug": "sumco",
+      "customer_company_slug": "taiwan-semiconductor-manufacturing-company",
+      "predicate": "SUPPLIES_TO",
+      "item_code": "GOOD.SILICON_WAFER",
+      "stage_code": "STAGE.WAFER_FAB",
+      "source_ids": ["sumco-vision-awards"],
+      "confidence": 0.9,
+      "notes": "SUMCO publicly states TSMC recognized it for excellent production support in silicon wafer supply, supporting a direct wafer dependency into TSMC's fab flow."
+    },
+    {
+      "relationship_id": "sumco-samsung-silicon-wafer",
+      "supplier_company_slug": "sumco",
+      "customer_company_slug": "samsung-electronics",
+      "predicate": "SUPPLIES_TO",
+      "item_code": "GOOD.SILICON_WAFER",
+      "stage_code": "STAGE.WAFER_FAB",
+      "source_ids": ["sumco-vision-awards"],
+      "confidence": 0.88,
+      "notes": "SUMCO publicly states Samsung recognized it with a Best in Value award, and SUMCO's core silicon-wafer business is modeled here as a wafer dependency supporting Samsung semiconductor production."
+    },
+    {
+      "relationship_id": "tok-tsmc-photoresist",
+      "supplier_company_slug": "tokyo-ohka-kogyo",
+      "customer_company_slug": "taiwan-semiconductor-manufacturing-company",
+      "predicate": "SUPPLIES_TO",
+      "item_code": "GOOD.PHOTORESIST",
+      "stage_code": "STAGE.WAFER_FAB",
+      "source_ids": ["tok-tsmc-novel-tech-award"],
+      "confidence": 0.84,
+      "notes": "TOK states TSMC recognized its novel technology collaboration; given TOK's mapped role as a semiconductor materials supplier, this edge is modeled as a photoresist dependency into wafer fabrication."
+    },
+    {
+      "relationship_id": "tok-ti-photoresist",
+      "supplier_company_slug": "tokyo-ohka-kogyo",
+      "customer_company_slug": "texas-instruments",
+      "predicate": "SUPPLIES_TO",
+      "item_code": "GOOD.PHOTORESIST",
+      "stage_code": "STAGE.WAFER_FAB",
+      "source_ids": ["tok-ti-supplier-award"],
+      "confidence": 0.88,
+      "notes": "TOK states TI recognized its stable supply of high-quality materials. Given TOK's mapped role in the seed, this edge is modeled as a photoresist/material dependency into TI wafer fabrication."
+    },
+    {
+      "relationship_id": "entegris-intel-process-materials",
+      "supplier_company_slug": "entegris",
+      "customer_company_slug": "intel",
+      "predicate": "SUPPLIES_TO",
+      "item_code": "GOOD.WET_CHEMICAL",
+      "stage_code": "STAGE.WAFER_FAB",
+      "source_ids": ["entegris-intel-pqs"],
+      "confidence": 0.83,
+      "notes": "Entegris states Intel recognized its contamination control and advanced process materials support. This edge models that support as a process-material dependency into Intel wafer fabrication."
+    },
+    {
+      "relationship_id": "entegris-ti-process-materials",
+      "supplier_company_slug": "entegris",
+      "customer_company_slug": "texas-instruments",
+      "predicate": "SUPPLIES_TO",
+      "item_code": "GOOD.WET_CHEMICAL",
+      "stage_code": "STAGE.WAFER_FAB",
+      "source_ids": ["entegris-ti-supplier-award"],
+      "confidence": 0.87,
+      "notes": "Entegris states TI recognized its advanced chemistries and stable support for production, which is modeled here as a process-material dependency into TI wafer fabrication."
+    },
+    {
+      "relationship_id": "lam-tsmc-etch",
+      "supplier_company_slug": "lam-research",
+      "customer_company_slug": "taiwan-semiconductor-manufacturing-company",
+      "predicate": "SUPPLIES_TO",
+      "item_code": "TOOL.ETCH",
+      "stage_code": "STAGE.WAFER_FAB",
+      "source_ids": ["lam-tsmc-tech-award"],
+      "confidence": 0.84,
+      "notes": "Lam states TSMC recognized it with a technology development award. This edge maps Lam's contribution into the etch-tool family that supports wafer fabrication."
+    },
+    {
+      "relationship_id": "lam-intel-etch",
+      "supplier_company_slug": "lam-research",
+      "customer_company_slug": "intel",
+      "predicate": "SUPPLIES_TO",
+      "item_code": "TOOL.ETCH",
+      "stage_code": "STAGE.WAFER_FAB",
+      "source_ids": ["lam-intel-epic"],
+      "confidence": 0.86,
+      "notes": "Lam states Intel granted it an EPIC Outstanding Supplier Award. This edge models Lam's contribution within the etch-tool family used across Intel's wafer-fab operations."
+    },
+    {
+      "relationship_id": "screen-tsmc-clean",
+      "supplier_company_slug": "screen-holdings",
+      "customer_company_slug": "taiwan-semiconductor-manufacturing-company",
+      "predicate": "SUPPLIES_TO",
+      "item_code": "TOOL.CLEAN",
+      "stage_code": "STAGE.WAFER_FAB",
+      "source_ids": ["screen-tsmc-production-support"],
+      "confidence": 0.92,
+      "notes": "SCREEN states TSMC recognized the reliability of its cleaning systems that were essential to semiconductor device manufacturing and capacity ramp-up."
+    },
+    {
+      "relationship_id": "toppan-ti-photomask",
+      "supplier_company_slug": "toppan",
+      "customer_company_slug": "texas-instruments",
+      "predicate": "SUPPLIES_TO",
+      "item_code": "GOOD.PHOTOMASK",
+      "stage_code": "STAGE.MASKS",
+      "source_ids": ["toppan-ti-supplier-award"],
+      "confidence": 0.91,
+      "notes": "Toppan Photomasks states TI recognized it with a Supplier Excellence Award, supporting a photomask dependency into TI's semiconductor manufacturing flow."
+    },
+    {
+      "relationship_id": "applied-intel-deposition",
+      "supplier_company_slug": "applied-materials",
+      "customer_company_slug": "intel",
+      "predicate": "SUPPLIES_TO",
+      "item_code": "TOOL.DEPOSITION",
+      "stage_code": "STAGE.WAFER_FAB",
+      "source_ids": ["applied-intel-epic"],
+      "confidence": 0.85,
+      "notes": "Applied states Intel recognized it as an EPIC Outstanding Supplier. This edge maps the relationship into Applied's deposition-tool family used in wafer fabrication."
+    },
+    {
+      "relationship_id": "kla-intel-metrology",
+      "supplier_company_slug": "kla",
+      "customer_company_slug": "intel",
+      "predicate": "SUPPLIES_TO",
+      "item_code": "TOOL.METROLOGY_INSPECTION",
+      "stage_code": "STAGE.WAFER_FAB",
+      "source_ids": ["kla-intel-pqs"],
+      "confidence": 0.9,
+      "notes": "KLA states Intel recognized its process-control capital equipment and services, supporting a metrology and inspection dependency into Intel's wafer-fab operations."
+    },
+    {
+      "relationship_id": "siltronic-intel-silicon-wafer",
+      "supplier_company_slug": "siltronic",
+      "customer_company_slug": "intel",
+      "predicate": "SUPPLIES_TO",
+      "item_code": "GOOD.SILICON_WAFER",
+      "stage_code": "STAGE.WAFER_FAB",
+      "source_ids": ["siltronic-intel-pqs-wafer"],
+      "confidence": 0.94,
+      "notes": "Siltronic states Intel recognized it for supplying polished and epitaxial silicon wafers that were essential to Intel's success."
+    },
+    {
+      "relationship_id": "soitec-globalfoundries-rf-soi",
+      "supplier_company_slug": "soitec",
+      "customer_company_slug": "globalfoundries",
+      "predicate": "SUPPLIES_TO",
+      "item_code": "GOOD.SILICON_WAFER",
+      "stage_code": "STAGE.WAFER_FAB",
+      "source_ids": ["soitec-gf-rf-soi"],
+      "confidence": 0.93,
+      "notes": "Soitec states it will deliver 300mm RF-SOI substrates to GlobalFoundries for production on GF's RF-SOI technology platforms."
+    },
+    {
+      "relationship_id": "dnp-intel-photomask",
+      "supplier_company_slug": "dai-nippon-printing",
+      "customer_company_slug": "intel",
+      "predicate": "SUPPLIES_TO",
+      "item_code": "GOOD.PHOTOMASK",
+      "stage_code": "STAGE.MASKS",
+      "source_ids": ["intel-dnp-photomask"],
+      "confidence": 0.89,
+      "notes": "Intel and Dai Nippon Printing publicly described joint development of advanced photomask technology for Intel microprocessor production, supporting a direct photomask dependency."
+    },
+    {
+      "relationship_id": "toppan-globalfoundries-photomask",
+      "supplier_company_slug": "toppan",
+      "customer_company_slug": "globalfoundries",
+      "predicate": "SUPPLIES_TO",
+      "item_code": "GOOD.PHOTOMASK",
+      "stage_code": "STAGE.MASKS",
+      "source_ids": ["toppan-gf-photomask-supply"],
+      "confidence": 0.94,
+      "notes": "Toppan and GlobalFoundries state that Toppan will provide GF with photomasks and related services under a multi-year supply agreement."
+    },
+    {
+      "relationship_id": "synopsys-intel-eda",
+      "supplier_company_slug": "synopsys",
+      "customer_company_slug": "intel",
+      "predicate": "SUPPLIES_TO",
+      "item_code": "SW.EDA",
+      "stage_code": "STAGE.DESIGN",
+      "source_ids": ["synopsys-intel-18a"],
+      "confidence": 0.94,
+      "notes": "Synopsys states its digital and analog design flows are certified by Intel Foundry for Intel 18A and that its IP and multi-die flows support Intel Foundry customers."
+    },
+    {
+      "relationship_id": "siemens-intel-eda",
+      "supplier_company_slug": "siemens-eda",
+      "customer_company_slug": "intel",
+      "predicate": "SUPPLIES_TO",
+      "item_code": "SW.EDA",
+      "stage_code": "STAGE.DESIGN",
+      "source_ids": ["siemens-intel-foundry-2025"],
+      "confidence": 0.93,
+      "notes": "Siemens states its Calibre and Solido tools are certified and enabled for Intel Foundry's latest 18A and advanced packaging flows."
+    },
+    {
+      "relationship_id": "globalfoundries-qualcomm-foundry",
+      "supplier_company_slug": "globalfoundries",
+      "customer_company_slug": "qualcomm",
+      "predicate": "FABRICATES_FOR",
+      "item_code": "SERVICE.FOUNDRY_WAFER_FAB",
+      "stage_code": "STAGE.WAFER_FAB",
+      "source_ids": ["gf-qualcomm-lta"],
+      "confidence": 0.95,
+      "notes": "GlobalFoundries states it has been manufacturing Qualcomm chips for many years and extended the agreement through 2028 across multiple technologies and sites."
+    },
+    {
+      "relationship_id": "globalfoundries-apple-foundry",
+      "supplier_company_slug": "globalfoundries",
+      "customer_company_slug": "apple",
+      "predicate": "FABRICATES_FOR",
+      "item_code": "SERVICE.FOUNDRY_WAFER_FAB",
+      "stage_code": "STAGE.WAFER_FAB",
+      "source_ids": ["gf-apple-partnership"],
+      "confidence": 0.96,
+      "notes": "GlobalFoundries states it has a decade-long partnership with Apple to manufacture wireless connectivity and power management chips."
+    },
+    {
+      "relationship_id": "globalfoundries-nxp-foundry",
+      "supplier_company_slug": "globalfoundries",
+      "customer_company_slug": "nxp-semiconductors",
+      "predicate": "FABRICATES_FOR",
+      "item_code": "SERVICE.FOUNDRY_WAFER_FAB",
+      "stage_code": "STAGE.WAFER_FAB",
+      "source_ids": ["nxp-gf-22fdx"],
+      "confidence": 0.94,
+      "notes": "GlobalFoundries and NXP state that GF will manufacture NXP's 22FDX solutions in Dresden and Malta as part of a next-generation process collaboration."
+    },
+    {
+      "relationship_id": "tsmc-marvell-foundry",
+      "supplier_company_slug": "taiwan-semiconductor-manufacturing-company",
+      "customer_company_slug": "marvell-technology",
+      "predicate": "FABRICATES_FOR",
+      "item_code": "SERVICE.FOUNDRY_WAFER_FAB",
+      "stage_code": "STAGE.WAFER_FAB",
+      "source_ids": ["marvell-tsmc-2nm"],
+      "confidence": 0.95,
+      "notes": "Marvell states it is extending its collaboration with TSMC to develop a 2nm technology platform for Marvell silicon."
+    },
+    {
+      "relationship_id": "powertech-micron-packaging",
+      "supplier_company_slug": "powertech-technology",
+      "customer_company_slug": "micron-technology",
+      "predicate": "PACKAGES_FOR",
+      "item_code": "SERVICE.PACKAGING_ASSEMBLY",
+      "stage_code": "STAGE.PACKAGE_ASSEMBLY",
+      "source_ids": ["pti-micron-packaging"],
+      "confidence": 0.95,
+      "notes": "Micron and Powertech state PTI will provide Micron with assembly and packaging services under a long-term strategic relationship in Xi'an."
+    }
+  ]
+}

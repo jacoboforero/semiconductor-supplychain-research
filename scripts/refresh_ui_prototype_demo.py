@@ -9,7 +9,7 @@ from pathlib import Path
 
 def build_parser() -> argparse.ArgumentParser:
     repo_root = Path(__file__).resolve().parents[1]
-    demo_dir = repo_root / "apps" / "ui-prototype" / "demo"
+    demo_dir = repo_root / "apps" / "ui-prototype" / "public" / "demo"
 
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
@@ -33,10 +33,6 @@ def main() -> int:
 
     args.demo_dir.mkdir(parents=True, exist_ok=True)
     (args.demo_dir / "ui_bundle.json").write_text(serialized + "\n", encoding="utf-8")
-    (args.demo_dir / "demo-bundle.js").write_text(
-        f"window.__SEMISUPPLY_DEMO_BUNDLE__ = {serialized};\n",
-        encoding="utf-8",
-    )
     print(args.demo_dir)
     return 0
 

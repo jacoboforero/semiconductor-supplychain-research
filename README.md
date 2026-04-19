@@ -1,84 +1,81 @@
-# Semiconductor Supply Chain Graph
+# Semisupply Flow
 
-Documentation-first reboot of an old project idea: build an evidence-backed graph database for semiconductor supply-chain research.
+Semisupply Flow is a product for understanding the semiconductor supply chain as a system.
 
-The long-term goal is to model the semiconductor ecosystem well enough to surface meaningful insights about concentration, chokepoints, policy exposure, and disruption risk. The near-term goal is narrower and more practical: produce a credible v1 that is useful for research and strong enough to demo.
+The goal is simple: make it possible to see how design capability, materials, tooling, wafer fabrication, packaging, and downstream demand fit together, where those flows converge, and which companies or geographies matter most when something breaks.
 
-## Current Direction
+Most supply-chain material is either too vague to teach the structure or too detailed to be legible. This project is trying to sit in the useful middle. The top-level view should make the industry understandable in minutes. Underneath that, the data model should be strong enough to support real research, scenario analysis, and richer graph views over time.
 
-This project is now scoped around a first useful version:
+## What The Product Is Meant To Show
 
-- a curated set of 200 companies selected across all major supply-chain stages
-- a clean entity registry and role taxonomy
-- a versioned working taxonomy for roles, facilities, items, and predicates
-- support for companies that play multiple roles in the supply chain
-- a lightweight facility and geography layer
-- evidence-backed dependency relationships
-- source selection biased toward stable, high-operability recurring feeds
-- a demoable prototype UI for graph exploration and filtering
-- enough graph structure to analyze centralized points of failure and other systemic risks
+- the high-level shape of the semiconductor supply chain
+- where parallel upstream branches converge into manufacturing
+- which firms sit in critical positions across the chain
+- how dependency links connect representative companies across stages
+- where future work can support chokepoint, disruption, and policy analysis
 
-The implementation architecture is intentionally not locked yet. This repository is being set up first as the project source of truth for product framing, research goals, and technical planning.
+## Current Prototype
 
-The repository is also now being shaped explicitly for coding-agent legibility: short root instructions, `docs/` as the durable knowledge base, and scoped guidance for different tools instead of a single giant instruction file.
+The current prototype opens with a systems map rather than a raw company graph.
 
-## Repository Status
+It has two core views:
 
-The repository is now centered on planning and project definition.
+- `Structure`: a simplified map of the supply chain that emphasizes branching and convergence
+- `Companies`: the same structure populated with representative firms and evidence-backed links
+
+The checked-in demo snapshot currently includes:
+
+- a curated `200`-company universe across major semiconductor stages
+- `44` evidence-backed relationships
+- `35` connected companies in the built-in demo slice
+- a graph-first UI designed for teaching, demos, and rapid iteration
+
+This is not a finished production application yet. The important thing at this stage is getting the product model, the visual model, and the underlying relationship data right.
+
+## Who It Is For
+
+Semisupply Flow is being built for:
+
+- supply-chain and business students trying to understand how the industry fits together
+- researchers mapping dependency structure and concentration
+- analysts exploring chokepoints, strategic exposure, and disruption scenarios
+- anyone who wants a more intuitive way to look at the semiconductor ecosystem than a spreadsheet or slide deck
+
+## Repository Layout
+
+- [apps/ui-prototype](apps/ui-prototype): the current demo frontend
+- [src/semisupply](src/semisupply): the durable pipeline, modeling, and graph projection code
+- [contracts](contracts): versioned contracts and data artifacts
+- [docs](docs): product, architecture, source, and execution planning
+
+## Run The Prototype
+
+```bash
+cd apps/ui-prototype
+npm install
+npm run dev
+```
+
+Then open the local URL printed by Vite.
+
+For a production-style build:
+
+```bash
+cd apps/ui-prototype
+npm run build
+npm run preview
+```
+
+## Refresh The Demo Snapshot
+
+```bash
+PYTHONPATH=src python3 scripts/run_v1_seed_fixture.py --artifact-root tmp/ui-prototype-demo-source
+PYTHONPATH=src python3 scripts/refresh_ui_prototype_demo.py tmp/ui-prototype-demo-source/exports/p0/<run-id>/ui_bundle.json
+```
+
+## Read More
 
 - [docs/README.md](docs/README.md)
 - [docs/PROJECT_VISION.md](docs/PROJECT_VISION.md)
-- [docs/V1_SCOPE.md](docs/V1_SCOPE.md)
-- [docs/RESEARCH_QUESTIONS.md](docs/RESEARCH_QUESTIONS.md)
-- [docs/DATA_STRATEGY.md](docs/DATA_STRATEGY.md)
-- [docs/RESEARCH_SYNTHESIS.md](docs/RESEARCH_SYNTHESIS.md)
-- [docs/SOURCE_STRATEGY.md](docs/SOURCE_STRATEGY.md)
-- [docs/V1_TAXONOMY.md](docs/V1_TAXONOMY.md)
 - [docs/V1_PRODUCT_BRIEF.md](docs/V1_PRODUCT_BRIEF.md)
-- [docs/P0_DATA_CONTRACTS.md](docs/P0_DATA_CONTRACTS.md)
-- [docs/REPO_STRUCTURE_PLAN.md](docs/REPO_STRUCTURE_PLAN.md)
-- [docs/ROADMAP.md](docs/ROADMAP.md)
-- [docs/ARCHITECTURAL_DRIVERS.md](docs/ARCHITECTURAL_DRIVERS.md)
-- [docs/ARCHITECTURE_NOTES.md](docs/ARCHITECTURE_NOTES.md)
-- [AGENTS.md](AGENTS.md)
-
-## What This Project Is Trying To Become
-
-At its core, this project aims to answer questions like:
-
-- where are the most centralized and fragile parts of the semiconductor supply chain
-- which companies, countries, and facilities behave like chokepoints
-- how concentrated key upstream dependencies are
-- how policy, sanctions, and geography alter supply-chain risk
-
-Longer term, this could become more than an internal research repo:
-
-- a research tool for mapping dependency networks and evidence trails
-- a service for analysts tracking supply-chain risk and policy shifts
-- a platform for scenario analysis, alerts, and historical comparison
-
-## Working Principles
-
-- Evidence over speculation: important nodes and edges should be backed by sources.
-- Temporal thinking from the start: relationships change over time.
-- Facility awareness matters: company-level graphs alone are too coarse.
-- Public-data realism: v1 should be honest about what can and cannot be known from open sources.
-- No premature architecture: repo and code structure should follow the data model and workflows, not guess at them.
-
-## Next Planning Milestones
-
-1. Finalize the v1 taxonomy and 200-company segment allocation.
-2. Lock the first recurring source spine and critical facility approach.
-3. Draft the first real graph data model around the v1 scope.
-4. Choose the architecture only after the ingestion and analysis requirements are concrete enough to justify it.
-
-## Current Stage
-
-This repo has now moved into an implementation bootstrap stage.
-
-The planning docs still define the system, but the initial implementation scaffold now exists for:
-
-- the durable pipeline foundation under `src/semisupply/`
-- encoded contracts under `contracts/`
-- scripts and tests
-- a future replaceable UI prototype under `apps/ui-prototype/`
+- [docs/V3_PRODUCT_SPEC.md](docs/V3_PRODUCT_SPEC.md)

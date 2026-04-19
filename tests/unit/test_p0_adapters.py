@@ -12,11 +12,13 @@ from semisupply.registry import CompanyIdentifierType, FacilityIdentifierType
 from semisupply.sources import AdapterRunContext
 from semisupply.sources.p0 import (
     CuratedCompanySeedAdapter,
+    CuratedDependencySeedAdapter,
     EdgarIssuerAdapter,
     EpaFacilityAdapter,
     GleifCompanyAdapter,
     KoreaPrtrFacilityAdapter,
 )
+from semisupply.sources.p0.common import stable_company_id
 
 
 def aware_datetime(
@@ -63,6 +65,66 @@ class P0AdapterTests(unittest.TestCase):
             company.primary_identifier(CompanyIdentifierType.OTHER).value,
             "apple",
         )
+
+    def test_curated_dependency_seed_adapter_emits_company_to_company_observations(self) -> None:
+        payload = {
+            "sources": [
+                {
+                    "source_id": "demo-source",
+                    "label": "Demo source",
+                    "url": "https://example.com/demo",
+                }
+            ],
+            "relationships": [
+                {
+                    "relationship_id": "tsmc-apple-foundry",
+                    "supplier_company_slug": "taiwan-semiconductor-manufacturing-company",
+                    "customer_company_slug": "apple",
+                    "predicate": "FABRICATES_FOR",
+                    "item_code": "SERVICE.FOUNDRY_WAFER_FAB",
+                    "stage_code": "STAGE.WAFER_FAB",
+                    "source_ids": ["demo-source"],
+                    "confidence": 0.96,
+                    "notes": "Representative public relationship.",
+                }
+            ],
+        }
+        adapter = CuratedDependencySeedAdapter(payload_loader=lambda context: payload)
+        extracted = adapter.run(AdapterRunContext(run_id=uuid4(), requested_at=aware_datetime()))
+
+        self.assertEqual(len(extracted.company_records), 0)
+        self.assertEqual(len(extracted.facility_records), 0)
+        self.assertEqual(len(extracted.evidence_records), 1)
+        self.assertEqual(len(extracted.observations), 1)
+
+        observation = extracted.observations[0]
+        self.assertEqual(observation.observation_type, "company_dependency_observed")
+        self.assertEqual(observation.subject_type.value, "company")
+        self.assertEqual(observation.object_type.value, "company")
+        self.assertEqual(
+            observation.subject_id,
+            str(
+                stable_company_id(
+                    source_key="curated_seed",
+                    identifier_type="company_slug",
+                    identifier_value="taiwan-semiconductor-manufacturing-company",
+                )
+            ),
+        )
+        self.assertEqual(
+            observation.object_id,
+            str(
+                stable_company_id(
+                    source_key="curated_seed",
+                    identifier_type="company_slug",
+                    identifier_value="apple",
+                )
+            ),
+        )
+        self.assertEqual(observation.normalized_value["predicate"], "FABRICATES_FOR")
+        self.assertEqual(observation.normalized_value["item_code"], "SERVICE.FOUNDRY_WAFER_FAB")
+        self.assertEqual(observation.normalized_value["stage_code"], "STAGE.WAFER_FAB")
+        self.assertEqual(observation.normalized_value["sources"][0]["source_id"], "demo-source")
 
     def test_gleif_adapter_emits_company_evidence_and_observations(self) -> None:
         payload = {

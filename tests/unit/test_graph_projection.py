@@ -221,6 +221,112 @@ class GraphProjectionTests(unittest.TestCase):
         self.assertEqual(facility_node.display_name, "Manassas Fab")
         self.assertEqual(facility_node.properties["facility_type_code"], "FAC.FAB")
 
+    def test_projector_emits_company_dependency_edges(self) -> None:
+        resolver = CompanyResolver()
+        builder = DirectObservationClaimBuilder()
+        projector = InitialGraphProjector()
+        mapper = default_company_taxonomy_mapper()
+
+        supplier = CompanyRecord(
+            company_id=uuid4(),
+            canonical_name="Taiwan Semiconductor Manufacturing Company Limited",
+            entity_type=EntityType.COMPANY,
+            hq_country_code="TW",
+            record_status=RecordStatus.ACTIVE,
+            observed_at=aware_datetime(),
+            identifiers=(
+                CompanyIdentifier(
+                    identifier_type=CompanyIdentifierType.OTHER,
+                    value="tsmc-test-id",
+                    issuer="test",
+                    observed_at=aware_datetime(),
+                ),
+            ),
+        )
+        customer = CompanyRecord(
+            company_id=uuid4(),
+            canonical_name="Apple Inc.",
+            entity_type=EntityType.COMPANY,
+            hq_country_code="US",
+            record_status=RecordStatus.ACTIVE,
+            observed_at=aware_datetime(),
+            identifiers=(
+                CompanyIdentifier(
+                    identifier_type=CompanyIdentifierType.OTHER,
+                    value="apple-test-id",
+                    issuer="test",
+                    observed_at=aware_datetime(),
+                ),
+            ),
+        )
+        resolution = resolver.resolve(
+            (
+                SourceCompanyRecord(source_key="curated_seed", company_record=supplier),
+                SourceCompanyRecord(source_key="curated_seed", company_record=customer),
+            )
+        )
+        canonical_by_name = {company.canonical_name: company for company in resolution.canonical_company_records}
+        supplier_company = canonical_by_name["Taiwan Semiconductor Manufacturing Company Limited"]
+        customer_company = canonical_by_name["Apple Inc."]
+        claims = builder.build(
+            (
+                Observation(
+                    observation_id=uuid4(),
+                    subject_type=RecordSubjectType.COMPANY,
+                    subject_id=str(supplier_company.company_id),
+                    observation_type="company_dependency_observed",
+                    observed_value={
+                        "predicate": "FABRICATES_FOR",
+                        "item_code": "SERVICE.FOUNDRY_WAFER_FAB",
+                        "stage_code": "STAGE.WAFER_FAB",
+                        "confidence": 0.96,
+                        "notes": "Named customer relationship.",
+                        "sources": [{"source_id": "demo"}],
+                    },
+                    evidence_id=uuid4(),
+                    observed_at=aware_datetime(),
+                    object_type=RecordSubjectType.COMPANY,
+                    object_id=str(customer_company.company_id),
+                    normalized_value={
+                        "predicate": "FABRICATES_FOR",
+                        "item_code": "SERVICE.FOUNDRY_WAFER_FAB",
+                        "stage_code": "STAGE.WAFER_FAB",
+                        "confidence": 0.96,
+                        "notes": "Named customer relationship.",
+                        "sources": [{"source_id": "demo"}],
+                    },
+                ),
+            )
+        )
+        taxonomy_mappings = tuple(
+            mapping
+            for company in resolution.canonical_company_records
+            for mapping in [mapper.map_company(company)]
+            if mapping is not None
+        )
+
+        projection = projector.project(
+            canonical_company_records=resolution.canonical_company_records,
+            claims=claims,
+            crosswalks=resolution.crosswalks,
+            taxonomy_mappings=taxonomy_mappings,
+        )
+
+        company_nodes = [node for node in projection.nodes if node.node_type == GraphNodeType.COMPANY]
+        self.assertEqual(len(company_nodes), 2)
+        dependency_edges = [edge for edge in projection.edges if edge.edge_type == GraphEdgeType.SUPPLIES_TO]
+        self.assertEqual(len(dependency_edges), 1)
+        edge = dependency_edges[0]
+        self.assertEqual(edge.source_node_id, f"company:{supplier_company.company_id}")
+        self.assertEqual(edge.target_node_id, f"company:{customer_company.company_id}")
+        self.assertEqual(edge.properties["predicate"], "FABRICATES_FOR")
+        self.assertEqual(edge.properties["predicate_label"], "Fabricates For")
+        self.assertEqual(edge.properties["item_label"], "Foundry Wafer Fab")
+        self.assertEqual(edge.properties["stage_label"], "Wafer Fab")
+        tsmc_node = next(node for node in company_nodes if node.display_name == "Taiwan Semiconductor Manufacturing Company Limited")
+        self.assertEqual(tsmc_node.properties["flow_lane"], "wafer_fabrication")
+        self.assertIn("Foundry", tsmc_node.properties["role_labels"])
+
 
 if __name__ == "__main__":
     unittest.main()
